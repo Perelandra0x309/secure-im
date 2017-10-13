@@ -2,48 +2,96 @@
 My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
 For now just a list of my notes.  May cleanup later.<br>
 
-# P2P Open source<br>
-<a href="briarproject.org">Briar Project</a><br>
-Works over <a href="https://briarproject.org/how-it-works.html">wifi, bluetooth or Tor</a><br>
-Requires physical presence of contacts for initial verification (by design)<br>
-Platforms: Android (doesn't need play services) <a href="https://briarproject.org/fdroid/repo?fingerprint=1FB874BEE7276D28ECB2C9B06E8A122EC4BCB4008161436CE474C257CBF49BD6">F-Droid repo<a/><br>
-<a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a><br>
+<table>
+<tr><td colspan=4 align="center"><b>P2P Serverless Open source</b></td></tr>
+  <th>Application (notes)</th>
+  <th>Platforms</th>
+  <th>Communication types</th>
+  <th>Websites</th>
 
-<a href="ricochet.im">Ricochet</a><br>
-Works over Tor<br>
-Platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a><br>
-<a href="https://github.com/ricochet-im/ricochet">Source Code</a><br>
+<tr>
+  <td><a href="briarproject.org">Briar Project</a><br>
+    Works over <a href="https://briarproject.org/how-it-works.html">wifi, bluetooth or Tor</a><br>
+    Requires physical presence of contacts for initial verification (by design)</td>
+  <td>Android (doesn't need play services) <a href="https://briarproject.org/fdroid/repo?fingerprint=1FB874BEE7276D28ECB2C9B06E8A122EC4BCB4008161436CE474C257CBF49BD6">F-Droid repo<a/></td>
+  <td></td>
+  <td><a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a></td>
+</tr>
 
-<a href="ring.cx">Ring</a><br>
-Media: text, voice, video<br>
-Platforms: <a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a><br>
-<a href="https://github.com/savoirfairelinux/">Source Code</a><br>
+<tr>
+  <td><a href="ricochet.im">Ricochet</a><br>
+    Works over Tor</td>
+  <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
+  <td></td>
+  <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
+ </tr>
 
-<a href="tox.chat">Tox</a><br>
-Media: text, voice, video, screen sharing, file sharing<br>
-Platforms: <a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a><br>
+<tr>
+  <td><a href="ring.cx">Ring</a></td>>
+  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
+  <td>Media: text, voice, video</td>
+  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
+</tr>
 
+<tr>
+  <td><a href="tox.chat">Tox</a></td>
+  <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
+  <td>Media: text, voice, video, screen sharing, file sharing</td>
+  <td></td>
+</tr>
 
+<tr><td colspan=4 align="center"><b>Federated and Centralized Open Source</b></td></tr>
+  <th>Application (notes)</th>
+  <th>Platforms</th>
+  <th>Communication types</th>
+  <th>Websites</th>
 
-# Non-P2P open source<br>
-XMPP (with OTR or OMEMO)<br>
-Tor Messenger<br>
+<tr>
+  <td>XMPP (with OTR or OMEMO)</td>
+</tr>
 
-Kontalk (XMPP)<br>
+<tr>
+  <td>Tor Messenger</td>
+</tr>
 
-Signal<br>
+<tr>
+  <td>Kontalk (XMPP)</td>
+</tr>
 
-Keybase<br>
+<tr>
+  <td>Signal</td>
+</tr>
 
+<tr>
+  <td>Keybase</td>
+</tr>
 
-# P2P Closed source<br>
+<tr><td colspan=4 align="center"><b>P2P Serverless Closed Source</b></td></tr>
+  <th>Application (notes)</th>
+  <th>Platforms</th>
+  <th>Communication types</th>
+  <th>Websites</th>
 
+<tr><td colspan=4 align="center"><b>Federated or Centralized Closed Source</b></td></tr>
+  <th>Application (notes)</th>
+  <th>Platforms</th>
+  <th>Communication types</th>
+  <th>Websites</th>
 
+<tr>
+  <td>Wickr</td>
+</tr>
 
+<tr>
+  <td>Wire</td>
+</tr>
 
-# Non-P2P closed source<br>
+<tr>
+  <td>Threema</td>
+</tr>
 
-Wickr<br>
-Wire<br>
-Threema<br>
-Telegram (E2EE only in secret chats)<br>
+<tr>
+  <td>Telegram (E2EE only in secret chats)</td>
+</tr>
+</table>
+
