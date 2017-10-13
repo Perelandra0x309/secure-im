@@ -29,14 +29,14 @@ For now just a list of my notes.  May cleanup later.<br>
 <tr>
   <td><a href="ring.cx">Ring</a></td>>
   <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
-  <td>Media: text, voice, video</td>
+  <td>text, voice, video</td>
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
 </tr>
 
 <tr>
   <td><a href="tox.chat">Tox</a></td>
   <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
-  <td>Media: text, voice, video, screen sharing, file sharing</td>
+  <td>text, voice, video, screen sharing, file sharing</td>
   <td></td>
 </tr>
 
@@ -55,7 +55,17 @@ For now just a list of my notes.  May cleanup later.<br>
 </tr>
 
 <tr>
-  <td>Kontalk (XMPP)</td>
+  <td><a href="https://github.com/kontalk/androidclient/releases">Kontalk (XMPP)<a/><br>
+  <u>Pros:</u><br>
+    On F-Droid<br>
+    Not dependent on Google play services<br>
+  <u>Cons:</u><br>
+    Android only<br>
+    People have to know your phone#</td>
+  <td>Android (does not require Google Play), Java</td>
+  <td>text</td>
+  <td><a href="https://github.com/kontalk/desktopclient-java">Java Client</a>,<br>
+    <a href="https://github.com/kontalk/androidclient">Android client</a></td>
 </tr>
 
 <tr>
