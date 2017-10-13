@@ -55,17 +55,17 @@ For now just a list of my notes.  May cleanup later.<br>
 </tr>
 
 <tr>
-  <td><a href="https://github.com/kontalk/androidclient/releases">Kontalk (XMPP)<a/><br>
+  <td><a href="http://www.kontalk.org">Kontalk (XMPP)<a/><br>
   <u>Pros:</u><br>
     On F-Droid<br>
     Not dependent on Google play services<br>
   <u>Cons:</u><br>
     Android only<br>
     People have to know your phone#</td>
-  <td>Android (does not require Google Play), Java</td>
+  <td><a href="https://github.com/kontalk/androidclient/releases">Android</a> (does not require Google Play), <a href="https://github.com/kontalk/desktopclient-java/releases">Java</a></td>
   <td>text</td>
-  <td><a href="https://github.com/kontalk/desktopclient-java">Java Client</a>,<br>
-    <a href="https://github.com/kontalk/androidclient">Android client</a></td>
+  <td><a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>,<br>
+    <a href="https://github.com/kontalk/androidclient">Android client source</a></td>
 </tr>
 
 <tr>
