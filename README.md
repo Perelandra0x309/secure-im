@@ -21,7 +21,7 @@ For now just a list of my notes.  May cleanup later.<br>
     <li>Pro or Con:</li>
     Requires physical presence of contacts for initial verification (by design)
   </td>
-  <td>Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo<a/> or <a href="https://briarproject.org/apk.html">APK</a></td>
+  <td>Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a></td>
   <td>Text and forums</td>
   <td><a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a></td>
 </tr>
