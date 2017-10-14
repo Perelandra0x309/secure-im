@@ -10,34 +10,34 @@ For now just a list of my notes.  May cleanup later.<br>
   <th>Websites</th>
 
 <tr>
-  <td><a href="briarproject.org">Briar Project</a><br>
+  <td><a href="https://briarproject.org">Briar Project</a><br>
     Works over <a href="https://briarproject.org/how-it-works.html">wifi, bluetooth or Tor</a><br>
     Requires physical presence of contacts for initial verification (by design)</td>
-  <td>Android (doesn't need play services) <a href="https://briarproject.org/fdroid/repo?fingerprint=1FB874BEE7276D28ECB2C9B06E8A122EC4BCB4008161436CE474C257CBF49BD6">F-Droid repo<a/></td>
-  <td></td>
+  <td>Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo<a/> or <a href="https://briarproject.org/apk.html">APK</a></td>
+  <td>Text and forums</td>
   <td><a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a></td>
 </tr>
 
 <tr>
-  <td><a href="ricochet.im">Ricochet</a><br>
+  <td><a href="https://ricochet.im">Ricochet</a><br>
     Works over Tor</td>
   <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
-  <td></td>
+  <td>Text</td>
   <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
  </tr>
 
 <tr>
-  <td><a href="ring.cx">Ring</a></td>>
+  <td><a href="https://ring.cx">Ring</a></td>>
   <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
-  <td>text, voice, video</td>
+  <td>Text, voice, video</td>
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
 </tr>
 
 <tr>
-  <td><a href="tox.chat">Tox</a></td>
+  <td><a href="https://tox.chat">Tox</a></td>
   <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
-  <td>text, voice, video, screen sharing, file sharing</td>
-  <td></td>
+  <td>Text, voice, video, screen sharing, file sharing</td>
+  <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
 </tr>
 
 <tr><td colspan=4 align="center"><b>Federated and Centralized Open Source</b></td></tr>
