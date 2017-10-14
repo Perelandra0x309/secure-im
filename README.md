@@ -7,7 +7,7 @@ For now just a list of my notes.  May cleanup later.<br>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
-    <td><b>Websites</b></td></tr>
+  <td><b>Websites</b></td></tr>
 
 <tr>
   <td><a href="https://briarproject.org">Briar Project</a><br>
@@ -34,7 +34,7 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
   <td>Text</td>
   <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
- </tr>
+</tr>
 
 <tr>
   <td><a href="https://ring.cx">Ring</a><br>
@@ -74,7 +74,7 @@ For now just a list of my notes.  May cleanup later.<br>
 </tr>
 
 <tr>
-  <td><a href="http://www.kontalk.org">Kontalk (XMPP)<a/><br>
+  <td><a href="http://www.kontalk.org">Kontalk (XMPP)</a><br>
   <li>Pros:</li>
     On F-Droid<br>
     Not dependent on Google play services<br>
