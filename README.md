@@ -59,7 +59,7 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
 </tr>
 
-<tr><td colspan="4"><p align="center"><b>Federated and Centralized Open Source</p></b></td></tr>
+<tr><td colspan="4"><p align="center"><b>Federated and Centralized Open Source</b></p></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
