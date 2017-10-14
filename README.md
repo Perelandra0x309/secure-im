@@ -3,7 +3,7 @@ My list of secure messaging apps.  Below are applications that offer end to end 
 For now just a list of my notes.  May cleanup later.<br>
 
 <table>
-  <tr><td colspan=4 align="center"><b>P2P Serverless Open Source</b></td></tr>
+  <tr><td colspan="4" align="center"><b>P2P Serverless Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -59,7 +59,7 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
 </tr>
 
-<tr><td colspan=4 align="center"><b>Federated and Centralized Open Source</b></td></tr>
+<tr><td colspan="4" align="center"><b>Federated and Centralized Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -94,13 +94,13 @@ For now just a list of my notes.  May cleanup later.<br>
   <td>Keybase</td>
 </tr>
 
-<tr><td colspan=4 align="center"><b>P2P Serverless Closed Source</b></td></tr>
+<tr><td colspan="4" align="center"><b>P2P Serverless Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
   <td><b>Websites</b></td></tr>
 
-<tr><td colspan=4 align="center"><b>Federated or Centralized Closed Source</b></td></tr>
+<tr><td colspan="4" align="center"><b>Federated or Centralized Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
