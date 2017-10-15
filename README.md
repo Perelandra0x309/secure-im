@@ -59,6 +59,12 @@ For now just a list of my notes.  May cleanup later.<br>
   <td>Text, voice, video, screen sharing, file sharing</td>
   <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
 </tr>
+<tr><td colspan="4">
+  What is leaked to the world:[1]<br>
+- Your IP address and the time you are online is revealed to your contacts. When chatting to another contact, you are connecting directly to them.<br>
+- Tor activity for contact finding.<br>
+- Not sure what else? There may be more. Going to have to read the documentation.
+  </td></tr>
 
 <tr><td colspan="4"><p align="center"><b>Federated and Centralized Open Source</b></p></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -102,6 +108,16 @@ For now just a list of my notes.  May cleanup later.<br>
   <td></td>
   <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
 </tr>
+<tr><td colspan="4">
+  What the server sees:[1]<br>
+- The phone number used for your registration.<br>
+- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims to delete this as soon as it is no longer needed.
+  What Signal claims to keep:<br>
+- The day you first joined the service<br>
+- The last day you used it.<br>
+Disadvantages:<br>
+- People must know your phone number. It is possible to register a burner number or a VOIP number, but this is an advanced-use case.
+</td></tr>
 
 <tr>
   <td><a href="https://www.keybase.io">Keybase</a></td>
@@ -148,8 +164,8 @@ For now just a list of my notes.  May cleanup later.<br>
 <tr>
   <td>Telegram (E2EE only in secret chats)</td>
 </tr>
-<tr><td>
-  Metadata leakage:<br>
+<tr><td colspan="4">
+  Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is publicly viewable.<br>
 - Who you talk to, when, and the precise time you send a message, and how frequently is publicly viewable via commandline tools.<br>
 - If an attacker knows your phone number, the attacker will be able to silently log your Telegram activity without you knowing about it or being informed they have you as a contact.<br>
