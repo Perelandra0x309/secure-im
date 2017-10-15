@@ -192,4 +192,5 @@ http://cs.au.dk/~jakjak/master-thesis.pdf
 
 </table>
 
-[1]: Information provided by JR
+Sources:
+<pre>[1]: Information provided by JR</pre>
