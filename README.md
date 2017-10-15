@@ -70,7 +70,7 @@ For now just a list of my notes.  May cleanup later.<br>
 </tr>
 
 <tr>
-  <td>Tor Messenger</td>
+  <td><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></td>
 </tr>
 
 <tr>
@@ -87,11 +87,13 @@ For now just a list of my notes.  May cleanup later.<br>
 </tr>
 
 <tr>
-  <td>Signal</td>
+  <td><a href="https://www.signal.org">Signal</a></td>
+  <td></td>
+  <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
 </tr>
 
 <tr>
-  <td>Keybase</td>
+  <td><a href="https://www.keybase.io">Keybase</a></td>
 </tr>
 
 <tr><td colspan="4"><p align="center"><b>P2P Serverless Closed Source</b></p></td></tr>
