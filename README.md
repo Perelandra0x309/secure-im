@@ -191,6 +191,13 @@ Jakobsen, Jakob B. (Published September 2015)<br>
   </td></tr>
 
 </table>
+Other similar resources:<br>
+<a href="https://www.privacytools.io/#im">privacytools.io</a><br>
+<a href="https://prism-break.org">Prism Break</a><br>
+<a href="https://ssd.eff.org/en/module/communicating-others">EFF- Communication with Others</a><br>
+<a href="https://hackernoon.com/encrypted-instant-messaging-recommendations-january-2017-711c03af02cc">Marcel Ackermann's recommendations</a><br>
+<a href="https://yawnbox.com/2017/05/01/secure-messenger-scorecard-may-2017/">yawnbox's Secure Messagenger Scorecard</a><br>
+
 
 Sources:
 <pre>[1]: Information provided by JR</pre>
