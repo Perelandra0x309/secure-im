@@ -28,38 +28,40 @@ For now just a list of my notes.  May cleanup later.<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://ricochet.im">Ricochet</a><br>
-    Works over Tor<br>
-    Is this still in active development??
-  </td>
+  <td><a href="https://ricochet.im">Ricochet</a></td>
   <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
   <td>Text</td>
   <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
 </tr>
+<tr><td colspan="4">
+    Works over Tor<br>
+    Is this still in active development??
+</td></tr>
 
 <tr>
-  <td><a href="https://ring.cx">Ring</a><br>
+  <td><a href="https://ring.cx">Ring</a></td>
+  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
+  <td>Text, voice, video</td>
+  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
+</tr>
+<tr><td colspan="4">
     <li>Pros:</li>
     On F-Droid<br>
     Multiple platforms<br>
     Not dependent on a phone #<br>
     <li>Cons:</li>
     Android and Mac app still have usability issues, just out of beta
-  </td>
-  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
-  <td>Text, voice, video</td>
-  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
-</tr>
+</td></tr>
 
 <tr>
-  <td><a href="https://tox.chat">Tox</a><br>
-    toxcore was forked to continue development
-  </td>
+  <td><a href="https://tox.chat">Tox</a></td>
   <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
   <td>Text, voice, video, screen sharing, file sharing</td>
   <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
 </tr>
 <tr><td colspan="4">
+  toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
+  <br>
   What is leaked to the world:[1]<br>
 - Your IP address and the time you are online is revealed to your contacts. When chatting to another contact, you are connecting directly to them.<br>
 - Tor activity for contact finding.<br>
@@ -91,17 +93,19 @@ For now just a list of my notes.  May cleanup later.<br>
 </tr>
 
 <tr>
-  <td><a href="http://www.kontalk.org">Kontalk (XMPP)</a><br>
-  <li>Pros:</li>
-    On F-Droid<br>
-    Not dependent on Google play services<br>
-  <li>Cons:</li>
-    People have to know your phone#</td>
+  <td><a href="http://www.kontalk.org">Kontalk (XMPP)</a></td>
   <td><a href="https://github.com/kontalk/androidclient/releases">Android</a> (does not require Google Play), <a href="https://github.com/kontalk/desktopclient-java/releases">Java</a></td>
   <td>text</td>
   <td><a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>,<br>
     <a href="https://github.com/kontalk/androidclient">Android client source</a></td>
 </tr>
+<tr><td colspan="4">
+  <li>Pros:</li>
+    On F-Droid<br>
+    Not dependent on Google play services<br>
+  <li>Cons:</li>
+    People have to know your phone#
+ </td></tr>
 
 <tr>
   <td><a href="https://www.signal.org">Signal</a></td>
@@ -156,6 +160,11 @@ Disadvantages:<br>
 <tr>
   <td>Wire</td>
 </tr>
+<tr><td colspan="4">
+What the server sees and may save:[1]<br>
+- Your contact list is saved to the server in plaintext.<br>
+- Who you talk to, when, and for how long.  
+</td></tr>
 
 <tr>
   <td>Threema</td>
