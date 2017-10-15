@@ -179,15 +179,15 @@ What the server sees and may save:[1]<br>
 - Who you talk to, when, and the precise time you send a message, and how frequently is publicly viewable via commandline tools.<br>
 - If an attacker knows your phone number, the attacker will be able to silently log your Telegram activity without you knowing about it or being informed they have you as a contact.<br>
   Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015, December 16th)<br>
-https://oflisback.github.io/telegram-stalking/<br>
+<a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a><br>
 
 Contact Theft through Telegram, Paragraph 9 and 10.<br>
 "Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)<br>
-https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x<br>
+<a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a><br>
 
 A practical Analysis of the Telegram Messaging Protocol<br>
 Jakobsen, Jakob B. (Published September 2015)<br>
-http://cs.au.dk/~jakjak/master-thesis.pdf
+<a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
   </td></tr>
 
 </table>
