@@ -96,11 +96,25 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><a href="https://www.keybase.io">Keybase</a></td>
 </tr>
 
+<tr>
+  <td><a href="http://retroshare.net">RetroShare</a></td>
+  <td><a href="http://retroshare.net/downloads.html">Windows, Mac, Linux</a></td>
+  <td>Text, voice, video, email, file sharing</td>
+  <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
+</tr>
+
 <tr><td colspan="4"><p align="center"><b>P2P Serverless Closed Source</b></p></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
   <td><b>Websites</b></td></tr>
+
+<tr>
+  <td><a href="https://twin.me">TwinMe</a></td>
+  <td>Android, iOS</td>
+  <td>Text, voice, video</td>
+  <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
+</tr>
 
 <tr><td colspan="4"><p align="center"><b>Federated or Centralized Closed Source</b></p></td></tr>
   <tr><td><b>Application (notes)</b></td>
