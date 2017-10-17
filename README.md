@@ -85,7 +85,7 @@ For now just a list of my notes.  May cleanup later.<br>
 OMEMO Clients:<br>
 <li>Android- <a href="https://conversations.im/">Conversations</a>
 <li>iOS- <a href="https://chatsecure.org/">ChatSecure</a>
-<li>Linux and Windows- <a href="https://gajim.org/>Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a>
+<li>Linux and Windows- <a href="https://gajim.org/">Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a>
 <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a>
 <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a>
 
