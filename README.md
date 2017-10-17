@@ -75,12 +75,20 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td>XMPP (with OTR or OMEMO)</td>
+  <td>XMPP (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
+  <td>Linux, Windows, MacOS, Android, iOS</td>
   <td></td>
-  <td></td>
-  <td></td>
+  <td><a href="https://xmpp.org>xmpp.org</a></td>
 </tr>
 <tr><td colspan="4">
+<a href="https://otr.cypherpunks.ca/software.php">OTR clients</a><br>
+OMEMO Clients:<br>
+<li>Android- <a href="https://conversations.im/">Conversations</a>
+<li>iOS- <a href="https://chatsecure.org/">ChatSecure</a>
+<li>Linux and Windows- <a href="https://gajim.org/>Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a>
+<li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a>
+<li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a>
+
   What the server sees:[1]<br>
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
 - Your contact list is saved to the server in plaintext<br>
@@ -214,13 +222,11 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 </table>
 
 <p>Apps rejected because they are not E2EE:
-<ul>
 <li>Facebook Messenger
 <li>Google Hangouts
 <li>Riot (well E2EE still beta)
 <li>Skype
 <li>Trello
-</ul>
 
 <p>To investigate:
 <li>Mumble
