@@ -2,6 +2,21 @@
 My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
 For now just a list of my notes.  May cleanup later.<br>
 
+<p>Apps rejected because they are not E2EE:
+<li>Facebook Messenger
+<li>Google Hangouts
+<li>Riot (well E2EE still beta)
+<li>Skype
+<li>Trello
+<p>
+<p>To investigate:
+<li>Mumble
+<li>Jitsi
+<li>Slack
+<li>Semaphor (maybe?)
+<li>OnionShare
+<li>WhatsApp
+
 <table>
   <tr><td colspan="4"><p align="center"><b>P2P Serverless Open Source</b></p></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -88,7 +103,7 @@ OMEMO Clients:<br>
 <li>Linux and Windows- <a href="https://gajim.org/">Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a>
 <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a>
 <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a>
-
+<p>
 <p>  What the server sees:[1]<br>
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
 - Your contact list is saved to the server in plaintext<br>
@@ -220,21 +235,6 @@ Jakobsen, Jakob B. (Published September 2015)<br>
   </td></tr>
 
 </table>
-
-<p>Apps rejected because they are not E2EE:
-<li>Facebook Messenger
-<li>Google Hangouts
-<li>Riot (well E2EE still beta)
-<li>Skype
-<li>Trello
-<p>
-<p>To investigate:
-<li>Mumble
-<li>Jitsi
-<li>Slack
-<li>Semaphor (maybe?)
-<li>OnionShare
-<li>WhatsApp
 
 <p>
 <p>Other similar resources:<br>
