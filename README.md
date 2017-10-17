@@ -78,7 +78,7 @@ For now just a list of my notes.  May cleanup later.<br>
   <td>XMPP (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
   <td>Linux, Windows, MacOS, Android, iOS</td>
   <td></td>
-  <td><a href="https://xmpp.org>xmpp.org</a></td>
+  <td><a href="https://xmpp.org">xmpp.org</a></td>
 </tr>
 <tr><td colspan="4">
 <a href="https://otr.cypherpunks.ca/software.php">OTR clients</a><br>
@@ -89,7 +89,7 @@ OMEMO Clients:<br>
 <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a>
 <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a>
 
-  What the server sees:[1]<br>
+<p>  What the server sees:[1]<br>
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
 - Your contact list is saved to the server in plaintext<br>
 - Precise time you logged in or out<br>
@@ -227,7 +227,7 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 <li>Riot (well E2EE still beta)
 <li>Skype
 <li>Trello
-
+<p>
 <p>To investigate:
 <li>Mumble
 <li>Jitsi
@@ -236,7 +236,7 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 <li>OnionShare
 <li>WhatsApp
 
-
+<p>
 <p>Other similar resources:<br>
 <a href="https://www.privacytools.io/#im">privacytools.io</a><br>
 <a href="https://prism-break.org">Prism Break</a><br>
