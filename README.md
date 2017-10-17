@@ -76,6 +76,9 @@ For now just a list of my notes.  May cleanup later.<br>
 
 <tr>
   <td>XMPP (with OTR or OMEMO)</td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 <tr><td colspan="4">
   What the server sees:[1]<br>
@@ -90,6 +93,9 @@ For now just a list of my notes.  May cleanup later.<br>
 
 <tr>
   <td><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 
 <tr>
@@ -125,6 +131,9 @@ Disadvantages:<br>
 
 <tr>
   <td><a href="https://www.keybase.io">Keybase</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 
 <tr>
@@ -154,11 +163,17 @@ Disadvantages:<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td>Wickr</td>
+  <td><a href="https://www.wickr.com">Wickr</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 
 <tr>
-  <td>Wire</td>
+  <td><a href="https://wire.com">Wire</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 <tr><td colspan="4">
 What the server sees and may save:[1]<br>
@@ -167,11 +182,17 @@ What the server sees and may save:[1]<br>
 </td></tr>
 
 <tr>
-  <td>Threema</td>
+  <td><a href="https://threema.ch">Threema</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 
 <tr>
-  <td>Telegram (E2EE only in secret chats)</td>
+  <td><a href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 <tr><td colspan="4">
   Metadata leakage:[1]<br>
@@ -191,13 +212,32 @@ Jakobsen, Jakob B. (Published September 2015)<br>
   </td></tr>
 
 </table>
-Other similar resources:<br>
+
+<p>Apps rejected because they are not E2EE:
+<ul>
+<li>Facebook Messenger
+<li>Google Hangouts
+<li>Riot (well E2EE still beta)
+<li>Skype
+<li>Trello
+</ul>
+
+<p>To investigate:
+<li>Mumble
+<li>Jitsi
+<li>Slack
+<li>Semaphor (maybe?)
+<li>OnionShare
+<li>WhatsApp
+
+
+<p>Other similar resources:<br>
 <a href="https://www.privacytools.io/#im">privacytools.io</a><br>
 <a href="https://prism-break.org">Prism Break</a><br>
 <a href="https://ssd.eff.org/en/module/communicating-others">EFF- Communication with Others</a><br>
 <a href="https://hackernoon.com/encrypted-instant-messaging-recommendations-january-2017-711c03af02cc">Marcel Ackermann's recommendations</a><br>
 <a href="https://yawnbox.com/2017/05/01/secure-messenger-scorecard-may-2017/">yawnbox's Secure Messagenger Scorecard</a><br>
 
-
+<br>
 Sources:
 <pre>[1]: Information provided by JR</pre>
