@@ -103,11 +103,11 @@ For now just a list of my notes.  May cleanup later.<br>
 <a href="https://otr.cypherpunks.ca/software.php">OTR clients</a><br>
 OMEMO Clients:<br>
 <ul>
-<li>Android- <a href="https://conversations.im/">Conversations</a>
-<li>iOS- <a href="https://chatsecure.org/">ChatSecure</a>
-<li>Linux and Windows- <a href="https://gajim.org/">Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a>
-<li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a>
-<li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a>
+  <li>Android- <a href="https://conversations.im/">Conversations</a></li>
+  <li>iOS- <a href="https://chatsecure.org/">ChatSecure</a></li>
+  <li>Linux and Windows- <a href="https://gajim.org/">Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a></li>
+  <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a></li>
+  <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a></li>
 </ul>
 <br>
   What the server sees:[1]<br>
@@ -117,8 +117,8 @@ OMEMO Clients:<br>
 - Precise time you sent any messages to a contact and what messages they send you.<br>
 - Whether you are online or not, and your status.<br>
 - Who you contacted, when, and how frequently.<br>
-- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
-  </td></tr>
+- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.<br>
+</td></tr>
 
 <tr>
   <td><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></td>
@@ -186,7 +186,7 @@ Disadvantages:<br>
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
 </tr>
 
-<tr><td colspan="4"><p align="center"><b>Federated or Centralized Closed Source</b></p></td></tr>
+<tr><td colspan="4"><b>Federated or Centralized Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
