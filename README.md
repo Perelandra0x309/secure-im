@@ -22,7 +22,7 @@ To investigate:<br>
 </ul>
 
 <table>
-  <tr><td colspan="4"><b>P2P Serverless Open Source</b></td></tr>
+  <tr><td colspan="4" style="text-align:center"><b>P2P Serverless Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -87,7 +87,7 @@ To investigate:<br>
 - Not sure what else? There may be more. Going to have to read the documentation.
   </td></tr>
 
-<tr><td colspan="4"><b>Federated and Centralized Open Source</b></td></tr>
+<tr><td colspan="4" style="text-align:center"><b>Federated and Centralized Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -173,7 +173,7 @@ Disadvantages:<br>
   <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
 </tr>
 
-<tr><td colspan="4"><b>P2P Serverless Closed Source</b></td></tr>
+<tr><td colspan="4" style="text-align:center"><b>P2P Serverless Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -186,7 +186,7 @@ Disadvantages:<br>
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
 </tr>
 
-<tr><td colspan="4"><b>Federated or Centralized Closed Source</b></td></tr>
+<tr><td colspan="4" style="text-align:center"><b>Federated or Centralized Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
