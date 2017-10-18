@@ -22,7 +22,7 @@ For now just a list of my notes.  May cleanup later.<br>
 </ul>
 
 <table>
-  <tr><td colspan="4"><p align="center"><b>P2P Serverless Open Source</b></p></td></tr>
+  <tr><td colspan="4"><b>P2P Serverless Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -35,14 +35,14 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a></td>
 </tr>
 <tr><td colspan="4">
-    <li>Pros:</li>
+    Pros:<br>
     Secure P2P encryption<br>
     On F-Droid<br>
     Does not require Google Play services<br>
     Works over <a href="https://briarproject.org/how-it-works.html">wifi, bluetooth or Tor</a><br>
-    <li>Cons:</li>
+    Cons:<br>
     Android only<br>
-    <li>Pro or Con:</li>
+    Pro or Con:<br>
     Requires physical presence of contacts for initial verification (by design)  
 </td></tr>
 
@@ -64,11 +64,11 @@ For now just a list of my notes.  May cleanup later.<br>
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
 </tr>
 <tr><td colspan="4">
-    <li>Pros:</li>
+    Pros:<br>
     On F-Droid<br>
     Multiple platforms<br>
     Not dependent on a phone #<br>
-    <li>Cons:</li>
+    Cons:<br>
     Android and Mac app still have usability issues, just out of beta
 </td></tr>
 
@@ -87,7 +87,7 @@ For now just a list of my notes.  May cleanup later.<br>
 - Not sure what else? There may be more. Going to have to read the documentation.
   </td></tr>
 
-<tr><td colspan="4"><p align="center"><b>Federated and Centralized Open Source</b></p></td></tr>
+<tr><td colspan="4"><b>Federated and Centralized Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -102,13 +102,15 @@ For now just a list of my notes.  May cleanup later.<br>
 <tr><td colspan="4">
 <a href="https://otr.cypherpunks.ca/software.php">OTR clients</a><br>
 OMEMO Clients:<br>
+<ul>
 <li>Android- <a href="https://conversations.im/">Conversations</a>
 <li>iOS- <a href="https://chatsecure.org/">ChatSecure</a>
 <li>Linux and Windows- <a href="https://gajim.org/">Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a>
 <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a>
 <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a>
-<p>
-<p>  What the server sees:[1]<br>
+</ul>
+<br>
+  What the server sees:[1]<br>
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
 - Your contact list is saved to the server in plaintext<br>
 - Precise time you logged in or out<br>
@@ -133,10 +135,10 @@ OMEMO Clients:<br>
     <a href="https://github.com/kontalk/androidclient">Android client source</a></td>
 </tr>
 <tr><td colspan="4">
-  <li>Pros:</li>
+  Pros:<br>
     On F-Droid<br>
     Not dependent on Google play services<br>
-  <li>Cons:</li>
+  Cons:<br>
     People have to know your phone#
  </td></tr>
 
@@ -171,7 +173,7 @@ Disadvantages:<br>
   <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
 </tr>
 
-<tr><td colspan="4"><p align="center"><b>P2P Serverless Closed Source</b></p></td></tr>
+<tr><td colspan="4"><b>P2P Serverless Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -241,8 +243,9 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 
 </table>
 
-<p>
-<p>Other similar resources:<br>
+<br>
+<br>
+Other similar resources:<br>
 <a href="https://www.privacytools.io/#im">privacytools.io</a><br>
 <a href="https://prism-break.org">Prism Break</a><br>
 <a href="https://ssd.eff.org/en/module/communicating-others">EFF- Communication with Others</a><br>
