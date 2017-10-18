@@ -65,7 +65,8 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
   toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
   <br>
 <pre>  What is leaked to the world:[1]<br>
-- Your IP address and the time you are online is revealed to your contacts. When chatting to another contact, you are connecting directly to them.<br>
+- Your IP address and the time you are online is revealed to your contacts. When chatting to another contact,
+  you are connecting directly to them.<br>
 - Tor activity for contact finding.<br>
 - Not sure what else? There may be more. Going to have to read the documentation.</pre>
   </td></tr>
@@ -134,12 +135,14 @@ OMEMO Clients:<br>
 <tr><td colspan="4">
 <pre>  What the server sees:[1]<br>
 - The phone number used for your registration.<br>
-- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims to delete this as soon as it is no longer needed.
+- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims to delete this as soon as it
+  is no longer needed.
   What Signal claims to keep:<br>
 - The day you first joined the service<br>
 - The last day you used it.<br>
 Disadvantages:<br>
-- People must know your phone number. It is possible to register a burner number or a VOIP number, but this is an advanced-use case.</pre>
+- People must know your phone number. It is possible to register a burner number or a VOIP number, but this is an
+  advanced-use case.</pre>
 </td></tr>
 
 <tr>
@@ -224,8 +227,10 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
 <tr><td colspan="4">
 <pre>  Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is publicly viewable.<br>
-- Who you talk to, when, and the precise time you send a message, and how frequently is publicly viewable via commandline tools.<br>
-- If an attacker knows your phone number, the attacker will be able to silently log your Telegram activity without you knowing about it or being informed they have you as a contact.<br>
+- Who you talk to, when, and the precise time you send a message, and how frequently is publicly viewable via
+  commandline tools.<br>
+- If an attacker knows your phone number, the attacker will be able to silently log your Telegram activity without
+  you knowing about it or being informed they have you as a contact.<br>
   Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015, December 16th)<br>
 <a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a><br>
 
