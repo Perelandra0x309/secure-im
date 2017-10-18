@@ -217,9 +217,9 @@ What the server sees and may save:[1]<br>
 
 <tr>
   <td><a href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td><a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a></td>
+  <td>Text, voice, file sharing</td>
+  <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
 </tr>
 <tr><td colspan="4">
   Metadata leakage:[1]<br>
