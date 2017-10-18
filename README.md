@@ -2,25 +2,6 @@
 My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
 For now just a list of my notes.  May cleanup later.<br>
 
-<p>Apps rejected because they are not E2EE:</p>
-<ul>
-<li>Facebook Messenger</li>
-<li>Google Hangouts</li>
-<li>Riot (well E2EE still beta)</li>
-<li>Skype</li>
-<li>Trello</li>
-</ul>
-<br>
-To investigate:<br>
-<ul>
-<li>Mumble</li>
-<li>Jitsi</li>
-<li>Slack</li>
-<li>Semaphor (maybe?)</li>
-<li>OnionShare</li>
-<li>WhatsApp</li>
-</ul>
-
 <table>
   <tr><td colspan="4" style="text-align:center"><b>P2P Serverless Open Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -173,6 +154,16 @@ Disadvantages:<br>
   <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
 </tr>
 
+<tr>
+  <td><a href="https://about.riot.im">Riot/Matrix</a></td>
+  <td><a href="https://about.riot.im/downloads/">Android, iOS, Linux, Mac, Windows, Web</a></td>
+  <td>Text, voide, video, file sharing</td>
+  <td><a href="https://github.com/vector-im">Source code</a></td>
+</tr>
+<tr><td colspan="4">
+<a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
+</td></tr>
+
 <tr><td colspan="4" style="text-align:center"><b>P2P Serverless Closed Source</b></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
@@ -243,6 +234,23 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 
 </table>
 
+<p>Apps rejected because they are not E2EE:</p>
+<ul>
+<li>Facebook Messenger</li>
+<li>Google Hangouts</li>
+<li>Skype</li>
+<li>Trello</li>
+</ul>
+<br>
+To investigate:<br>
+<ul>
+<li>Mumble</li>
+<li>Jitsi</li>
+<li>Slack</li>
+<li>Semaphor (maybe?)</li>
+<li>OnionShare</li>
+<li>WhatsApp</li>
+</ul>
 <br>
 <br>
 Other similar resources:<br>
