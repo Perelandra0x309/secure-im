@@ -138,8 +138,9 @@ OMEMO Clients:<br>
 
 <tr>
   <td><a href="https://www.signal.org">Signal</a></td>
-  <td></td>
   <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
+  <td></td>
+  <td></td>
 </tr>
 <tr><td colspan="4">
   What the server sees:[1]<br>
