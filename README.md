@@ -141,7 +141,7 @@ Disadvantages:<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://www.keybase.io">Keybase</a></td>
+  <td><a href="https://www.keybase.io">Keybase.io</a></td>
   <td></td>
   <td></td>
   <td></td>
@@ -161,7 +161,8 @@ Disadvantages:<br>
   <td><a href="https://github.com/vector-im">Source code</a></td>
 </tr>
 <tr><td colspan="4">
-<a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
+Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)<br>
+  The web app can be used over Tor (thanks lwinch2006)
 </td></tr>
 
 <tr><td colspan="4" style="text-align:center"><b>P2P Serverless Closed Source</b></td></tr>
@@ -236,27 +237,38 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 
 <p>Apps rejected because they are not E2EE:</p>
 <ul>
-<li>Facebook Messenger</li>
-<li>Google Hangouts</li>
-<li>Skype</li>
-<li>Trello</li>
+  <li>Facebook Messenger</li>
+  <li>Google Hangouts</li>
+  <li>Yahoo Messenger, AIM, ICQ</li>
+  <li>Skype</li>
+  <li>Trello</li>
 </ul>
 <br>
-To investigate:<br>
+<p>Apps rejected for other reasons:</p>
 <ul>
+  <li>WhatsApp- <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">EFF's concerns</a>:<br>
+    -Unencrypted backups at rest<br>
+    -Data sharing with Facebook
+  </li>
+</ul>
+<br>
+<p>To investigate:</p>
+<ul>
+  <li>Facetime, iMessage</li>
+  <li>Surespot</li>
 <li>Mumble</li>
 <li>Jitsi</li>
 <li>Slack</li>
 <li>Semaphor (maybe?)</li>
 <li>OnionShare</li>
-<li>WhatsApp</li>
 </ul>
 <br>
 <br>
 Other similar resources:<br>
 <a href="https://www.privacytools.io/#im">privacytools.io</a><br>
 <a href="https://prism-break.org">Prism Break</a><br>
-<a href="https://ssd.eff.org/en/module/communicating-others">EFF- Communication with Others</a><br>
+<a href="https://ssd.eff.org/en/module/communicating-others">EFF- Communication with Others</a> (Also <a href="https://www.eff.org/secure-messaging-scorecard">EFF messaging scorecard</a> is out of date but still useful)<br>
+<a href="https://ssd.eff.org">EFF Surveillence Self-Defense</a><br>
 <a href="https://hackernoon.com/encrypted-instant-messaging-recommendations-january-2017-711c03af02cc">Marcel Ackermann's recommendations</a><br>
 <a href="https://yawnbox.com/2017/05/01/secure-messenger-scorecard-may-2017/">yawnbox's Secure Messagenger Scorecard</a><br>
 
