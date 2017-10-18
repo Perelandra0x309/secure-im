@@ -3,19 +3,23 @@ My list of secure messaging apps.  Below are applications that offer end to end 
 For now just a list of my notes.  May cleanup later.<br>
 
 <p>Apps rejected because they are not E2EE:
-<li>Facebook Messenger
-<li>Google Hangouts
-<li>Riot (well E2EE still beta)
-<li>Skype
-<li>Trello
+<ul>
+<li>Facebook Messenger</li>
+<li>Google Hangouts</li>
+<li>Riot (well E2EE still beta)</li>
+<li>Skype</li>
+<li>Trello</li>
+</ul>
 <p>
 <p>To investigate:
-<li>Mumble
-<li>Jitsi
-<li>Slack
-<li>Semaphor (maybe?)
-<li>OnionShare
-<li>WhatsApp
+<ul>
+<li>Mumble</li>
+<li>Jitsi</li>
+<li>Slack</li>
+<li>Semaphor (maybe?)</li>
+<li>OnionShare</li>
+<li>WhatsApp</li>
+</ul>
 
 <table>
   <tr><td colspan="4"><p align="center"><b>P2P Serverless Open Source</b></p></td></tr>
