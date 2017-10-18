@@ -2,7 +2,7 @@
 My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
 For now just a list of my notes.  May cleanup later.<br>
 
-<p>Apps rejected because they are not E2EE:
+<p>Apps rejected because they are not E2EE:</p>
 <ul>
 <li>Facebook Messenger</li>
 <li>Google Hangouts</li>
@@ -10,8 +10,8 @@ For now just a list of my notes.  May cleanup later.<br>
 <li>Skype</li>
 <li>Trello</li>
 </ul>
-<p>
-<p>To investigate:
+<br>
+To investigate:<br>
 <ul>
 <li>Mumble</li>
 <li>Jitsi</li>
