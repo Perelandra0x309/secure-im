@@ -2,7 +2,7 @@
 My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
 For now just a list of my notes.  May cleanup later.<br>
 In the table I break up the apps into four groups, split by whether they are open source or not, and whether they are strict Peer-to-Peer or require some type of federated or centralized infrastructure.  This may help to narrow down your search if you are only looking for open source, or only Peer-to-Peer for example.<br>
-Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the github project page linked to at the top of the page.<br>
+Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
 <table>
   <tr><td colspan="4" style="text-align:center"><b>P2P Serverless Open Source</b></td></tr>
@@ -144,10 +144,13 @@ Disadvantages:<br>
 
 <tr>
   <td><a href="https://www.keybase.io">Keybase.io</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td><a href="https://keybase.io/download">Android, iOS, MacOS, Windows, Linux</a></td>
+  <td>Text, file sharing</td>
+  <td><a href="https://github.com/keybase">Source code</a></td>
 </tr>
+<tr><td colspan="4">
+  You can also verify other website identities, GPG keys, domains, etc that you own.
+</td></tr>
 
 <tr>
   <td><a href="http://retroshare.net">RetroShare</a></td>
