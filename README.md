@@ -5,7 +5,7 @@ In the table I break up the apps into four groups, split by whether they are ope
 Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
 <table>
-  <tr><td colspan="4" style="text-align:center"><b>P2P Serverless Open Source</b></td></tr>
+  <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -64,13 +64,13 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
 <tr><td colspan="4">
   toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
   <br>
-  What is leaked to the world:[1]<br>
+<pre>  What is leaked to the world:[1]<br>
 - Your IP address and the time you are online is revealed to your contacts. When chatting to another contact, you are connecting directly to them.<br>
 - Tor activity for contact finding.<br>
-- Not sure what else? There may be more. Going to have to read the documentation.
+- Not sure what else? There may be more. Going to have to read the documentation.</pre>
   </td></tr>
 
-<tr><td colspan="4" style="text-align:center"><b>Federated and Centralized Open Source</b></td></tr>
+<tr><td colspan="4" style="text-align:center"><H2>Federated and Centralized Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -93,14 +93,14 @@ OMEMO Clients:<br>
   <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a></li>
 </ul>
 <br>
-  What the server sees:[1]<br>
+<pre>  What the server sees:[1]<br>
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
 - Your contact list is saved to the server in plaintext<br>
 - Precise time you logged in or out<br>
 - Precise time you sent any messages to a contact and what messages they send you.<br>
 - Whether you are online or not, and your status.<br>
 - Who you contacted, when, and how frequently.<br>
-- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.<br>
+- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.<br></pre>
 </td></tr>
 
 <tr>
@@ -132,14 +132,14 @@ OMEMO Clients:<br>
   <td></td>
 </tr>
 <tr><td colspan="4">
-  What the server sees:[1]<br>
+<pre>  What the server sees:[1]<br>
 - The phone number used for your registration.<br>
 - SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims to delete this as soon as it is no longer needed.
   What Signal claims to keep:<br>
 - The day you first joined the service<br>
 - The last day you used it.<br>
 Disadvantages:<br>
-- People must know your phone number. It is possible to register a burner number or a VOIP number, but this is an advanced-use case.
+- People must know your phone number. It is possible to register a burner number or a VOIP number, but this is an advanced-use case.</pre>
 </td></tr>
 
 <tr>
@@ -162,7 +162,7 @@ Disadvantages:<br>
 <tr>
   <td><a href="https://about.riot.im">Riot/Matrix</a></td>
   <td><a href="https://about.riot.im/downloads/">Android, iOS, Linux, Mac, Windows, Web</a></td>
-  <td>Text, voide, video, file sharing</td>
+  <td>Text, voice, video, file sharing</td>
   <td><a href="https://github.com/vector-im">Source code</a></td>
 </tr>
 <tr><td colspan="4">
@@ -170,7 +170,7 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   The web app can be used over Tor (thanks lwinch2006)
 </td></tr>
 
-<tr><td colspan="4" style="text-align:center"><b>P2P Serverless Closed Source</b></td></tr>
+<tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -183,7 +183,7 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
 </tr>
 
-<tr><td colspan="4" style="text-align:center"><b>Federated or Centralized Closed Source</b></td></tr>
+<tr><td colspan="4" style="text-align:center"><H2>Federated or Centralized Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -203,9 +203,9 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td></td>
 </tr>
 <tr><td colspan="4">
-What the server sees and may save:[1]<br>
+<pre>What the server sees and may save:[1]<br>
 - Your contact list is saved to the server in plaintext.<br>
-- Who you talk to, when, and for how long.  
+- Who you talk to, when, and for how long.</pre>
 </td></tr>
 
 <tr>
@@ -222,7 +222,7 @@ What the server sees and may save:[1]<br>
   <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
 </tr>
 <tr><td colspan="4">
-  Metadata leakage:[1]<br>
+<pre>  Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is publicly viewable.<br>
 - Who you talk to, when, and the precise time you send a message, and how frequently is publicly viewable via commandline tools.<br>
 - If an attacker knows your phone number, the attacker will be able to silently log your Telegram activity without you knowing about it or being informed they have you as a contact.<br>
@@ -235,7 +235,7 @@ Contact Theft through Telegram, Paragraph 9 and 10.<br>
 
 A practical Analysis of the Telegram Messaging Protocol<br>
 Jakobsen, Jakob B. (Published September 2015)<br>
-<a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
+<a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a></pre>
   </td></tr>
 
 </table>
