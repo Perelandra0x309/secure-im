@@ -5,17 +5,25 @@ In the table I break up the apps into four groups, split by whether they are ope
 Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
 <h3>My current top picks:</h3><br>
-P2P:<br>
-Ring, because it is multiple platform<br>
-Runners up:<br>
-Ricochet<br>
-Briar, when you can meet in person<br>
+<ul>
+  <li>P2P:</li>
+  <ul>
+    <li>Ring, because it is multiple platform</li>
+  </ul>
+  <li>Runners up:</li>
+  <ul>
+    <li>Ricochet</li>
+    <li>Briar, when you can meet in person</li>
+  </ul>
 <br>
-Federated or Centralized:<br>
-XMPP with OMEMO, because of encrypted group chats and multiple clients<br>
-Runners up:<br>
-Riot/Matrix<br>
-Keybase.io<br>
+  <li>Federated or Centralized:</li>>
+  <ul><li>XMPP with OMEMO, because of encrypted group chats and multiple clients</li></ul>
+  <li>Runners up:</li>
+  <ul>
+    <li>Riot/Matrix</li>
+    <li>Keybase.io</li>
+  </ul>
+</ul>
 
 
 <table>
@@ -126,7 +134,7 @@ OMEMO Clients:<br>
   <td></td>
 </tr>
 <tr><td colspan="4">
-Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)
+Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
 **Please note that Tor Messenger is still in beta.**
 </td></tr>
 
