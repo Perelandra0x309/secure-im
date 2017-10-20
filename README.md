@@ -4,6 +4,20 @@ For now just a list of my notes.  May cleanup later.<br>
 In the table I break up the apps into four groups, split by whether they are open source or not, and whether they are strict Peer-to-Peer or require some type of federated or centralized infrastructure.  This may help to narrow down your search if you are only looking for open source, or only Peer-to-Peer for example.<br>
 Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
+<h3>My current top picks:</h3><br>
+P2P:<br>
+Ring, because it is multiple platform<br>
+Runners up:<br>
+Ricochet<br>
+Briar, when you can meet in person<br>
+<br>
+Federated or Centralized:<br>
+XMPP with OMEMO, because of encrypted group chats and multiple clients<br>
+Runners up:<br>
+Riot/Matrix<br>
+Keybase.io<br>
+
+
 <table>
   <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -37,7 +51,8 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
 </tr>
 <tr><td colspan="4">
     Works over Tor<br>
-    Is this still in active development??
+    Is this still in active development??<br>
+    Creates a <a href="https://www.torproject.org/docs/hidden-services.html.en">hidden Tor service</a> to connect P2P.
 </td></tr>
 
 <tr>
@@ -106,10 +121,14 @@ OMEMO Clients:<br>
 
 <tr>
   <td><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></td>
-  <td></td>
-  <td></td>
+  <td>Linux, Windows, MacOS</td>
+  <td>Text</td>
   <td></td>
 </tr>
+<tr><td colspan="4">
+Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)
+**Please note that Tor Messenger is still in beta.**
+</td></tr>
 
 <tr>
   <td><a href="http://www.kontalk.org">Kontalk (XMPP)</a></td>
