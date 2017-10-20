@@ -9,17 +9,15 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
   <li>P2P:</li>
   <ul>
     <li>Ring, because it is multiple platform</li>
-  </ul>
-  <li>Runners up:</li>
-  <ul>
+    <li>Runners up:</li>
     <li>Ricochet</li>
     <li>Briar, when you can meet in person</li>
   </ul>
 <br>
-  <li>Federated or Centralized:</li>>
-  <ul><li>XMPP with OMEMO, because of encrypted group chats and multiple clients</li></ul>
-  <li>Runners up:</li>
+  <li>Federated or Centralized:</li>
   <ul>
+    <li>XMPP with OMEMO, because of encrypted group chats and multiple clients</li>
+    <li>Runners up:</li>
     <li>Riot/Matrix</li>
     <li>Keybase.io</li>
   </ul>
