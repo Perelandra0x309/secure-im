@@ -11,6 +11,7 @@ Criteria:
 <li>Open source</li>
 <li>Multiple platforms preferred</li>
 </ul>
+The list:
 <ul>
   <li>P2P:</li>
   <ul>
@@ -360,14 +361,15 @@ Metadata leakage:[1]
   is publicly viewable via commandline tools.
 - If an attacker knows your phone number, the attacker will be able to silently log
   your Telegram activity without you knowing about it or being informed they have you
-  as a contact.<br>
+  as a contact.
+
 Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015,
   December 16th)
-<a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a><br>
+<a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a>
 
 Contact Theft through Telegram, Paragraph 9 and 10.
 "Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)
-<a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a><br>
+<a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a>
 
 A practical Analysis of the Telegram Messaging Protocol
 Jakobsen, Jakob B. (Published September 2015)
