@@ -86,8 +86,8 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
   toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
   <br>
 <pre>  What is leaked to the world:[1]<br>
-- Your IP address and the time you are online is revealed to your contacts. When chatting to another contact,
-  you are connecting directly to them.<br>
+- Your IP address and the time you are online is revealed to your contacts. When chatting<br>
+  to another contact, you are connecting directly to them.<br>
 - Tor activity for contact finding.<br>
 - Not sure what else? There may be more. Going to have to read the documentation.</pre>
   </td></tr>
@@ -158,16 +158,18 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
   <td></td>
 </tr>
 <tr><td colspan="4">
-<pre>  What the server sees:[1]<br>
-- The phone number used for your registration.<br>
-- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims to delete this as soon as it
-  is no longer needed.
-  What Signal claims to keep:<br>
-- The day you first joined the service<br>
+<pre>
+What the server sees:[1]
+- The phone number used for your registration.
+- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims
+  to delete this as soon as it is no longer needed.<br>
+What Signal claims to keep:
+- The day you first joined the service
 - The last day you used it.<br>
-Disadvantages:<br>
-- People must know your phone number. It is possible to register a burner number or a VOIP number, but this is an
-  advanced-use case.</pre>
+Disadvantages:
+- People must know your phone number. It is possible to register a burner number or
+  a VOIP number, but this is an advanced-use case.
+</pre>
 </td></tr>
 
 <tr>
@@ -186,6 +188,16 @@ Disadvantages:<br>
   <td>Text, voice, video, email, file sharing</td>
   <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
 </tr>
+<tr><td colspan="4">
+<pre>
+What is leaked to the world when using the DHT.[1]
+- Your IP address.
+- The IP addresses that you are connecting to.
+Optionally, Retroshare may be configured to tunnel through I2P or Tor
+with friend finding turned off to function as a true darknet. This
+however, is slow, unreliable, high-latency, and very difficult to set up.
+</pre>
+</td></tr>
 
 <tr>
   <td><a href="https://about.riot.im">Riot/Matrix</a></td>
@@ -231,9 +243,11 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td></td>
 </tr>
 <tr><td colspan="4">
-<pre>What the server sees and may save:[1]<br>
-- Your contact list is saved to the server in plaintext.<br>
-- Who you talk to, when, and for how long.</pre>
+<pre>
+What the server sees and may save:[1]
+- Your contact list is saved to the server in plaintext.
+- Who you talk to, when, and for how long.
+</pre>
 </td></tr>
 
 <tr>
@@ -250,23 +264,28 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
 </tr>
 <tr><td colspan="4">
-<pre>  Metadata leakage:[1]<br>
-- When you are online or not or whether the application is running or not is publicly viewable.<br>
-- Who you talk to, when, and the precise time you send a message, and how frequently is publicly viewable via
-  commandline tools.<br>
-- If an attacker knows your phone number, the attacker will be able to silently log your Telegram activity without
-  you knowing about it or being informed they have you as a contact.<br>
-  Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015, December 16th)<br>
+<pre>
+Metadata leakage:[1]
+- When you are online or not or whether the application is running or not is
+  publicly viewable.
+- Who you talk to, when, and the precise time you send a message, and how frequently
+  is publicly viewable via commandline tools.
+- If an attacker knows your phone number, the attacker will be able to silently log
+  your Telegram activity without you knowing about it or being informed they have you
+  as a contact.<br>
+Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015,
+  December 16th)
 <a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a><br>
 
-Contact Theft through Telegram, Paragraph 9 and 10.<br>
-"Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)<br>
+Contact Theft through Telegram, Paragraph 9 and 10.
+"Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)
 <a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a><br>
 
-A practical Analysis of the Telegram Messaging Protocol<br>
-Jakobsen, Jakob B. (Published September 2015)<br>
-<a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a></pre>
-  </td></tr>
+A practical Analysis of the Telegram Messaging Protocol
+Jakobsen, Jakob B. (Published September 2015)
+<a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
+</pre>
+</td></tr>
 
 </table>
 
