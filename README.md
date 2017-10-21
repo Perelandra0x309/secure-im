@@ -5,6 +5,12 @@ In the table I break up the apps into four groups, split by whether they are ope
 Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
 <h3>My current top picks:</h3><br>
+Criteria:
+<ul>
+<li>This list is focused on instant messaging and chatting as the primary usage of the app</li>
+<li>Open source</li>
+<li>Multiple platforms preferred</li>
+</ul>
 <ul>
   <li>P2P:</li>
   <ul>
@@ -85,12 +91,14 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
 <tr><td colspan="4">
   toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
   <br>
-<pre>  What is leaked to the world:[1]<br>
-- Your IP address and the time you are online is revealed to your contacts. When chatting<br>
-  to another contact, you are connecting directly to them.<br>
-- Tor activity for contact finding.<br>
-- Not sure what else? There may be more. Going to have to read the documentation.</pre>
-  </td></tr>
+<pre>
+What is leaked to the world:[1]
+- Your IP address and the time you are online is revealed to your contacts. When chatting
+  to another contact, you are connecting directly to them.
+- Tor activity for contact finding.
+- Not sure what else? There may be more. Going to have to read the documentation.
+</pre>
+</td></tr>
 
 <tr><td colspan="4" style="text-align:center"><H2>Federated and Centralized Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -115,14 +123,16 @@ OMEMO Clients:<br>
   <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a></li>
 </ul>
 <br>
-<pre>  What the server sees:[1]<br>
-- Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
-- Your contact list is saved to the server in plaintext<br>
-- Precise time you logged in or out<br>
-- Precise time you sent any messages to a contact and what messages they send you.<br>
-- Whether you are online or not, and your status.<br>
-- Who you contacted, when, and how frequently.<br>
-- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.<br></pre>
+<pre>
+What the server sees:[1]
+- Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.
+- Your contact list is saved to the server in plaintext
+- Precise time you logged in or out
+- Precise time you sent any messages to a contact and what messages they send you.
+- Whether you are online or not, and your status.
+- Who you contacted, when, and how frequently.
+- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
+</pre>
 </td></tr>
 
 <tr>
