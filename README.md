@@ -306,13 +306,21 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td><a href="https://github.com/wireapp">Source code</a></td>
 </tr>
 <tr><td colspan="4">
-<a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a>
+<a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a><br>
 <pre>
 What the server sees and may save:[1]
 - Your contact list is saved to the server in plaintext.
 - Who you talk to, when, and for how long.
 </pre>
 </td></tr>
+
+<tr>
+  <td><a href="https://www.surespot.me">Surespot</a></td>
+  <td>Android, iOS</td>
+  <td>Text, voice, images</td>
+  <td><a href="https://github.com/surespot">Source code</a></td>
+</tr>
+  
 
 <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -398,16 +406,16 @@ Jakobsen, Jakob B. (Published September 2015)
     -Unencrypted backups at rest<br>
     -Data sharing with Facebook
   </li>
+  <li>Semaphor- targeted for business, monthly subscription</li>
+  <li>Mumble- voice, not text</li>
+  <li>Jitsi- video conferencing</li>
 </ul>
 <br>
 <p>To investigate:</p>
 <ul>
-  <li>Facetime, iMessage</li>
-  <li>Surespot</li>
-<li>Mumble</li>
-<li>Jitsi</li>
+<li>Facetime, iMessage</li>
 <li>Slack</li>
-<li>Semaphor (maybe?)</li>
+
 <li>OnionShare</li>
 </ul>
 <br>
