@@ -165,8 +165,8 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
 <tr>
   <td><a href="https://www.signal.org">Signal</a></td>
   <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
-  <td></td>
-  <td></td>
+  <td>Text, voice, video, files, images</td>
+  <td><a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a></td>
 </tr>
 <tr><td colspan="4">
 <pre>
@@ -299,6 +299,21 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   The web app can be used over Tor (thanks lwinch2006)
 </td></tr>
 
+<tr>
+  <td><a href="https://wire.com">Wire</a></td>
+  <td>Android, iOS, MacOS, Windows, Linux, Web</td>
+  <td>Text, voice, video</td>
+  <td><a href="https://github.com/wireapp">Source code</a></td>
+</tr>
+<tr><td colspan="4">
+<a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a>
+<pre>
+What the server sees and may save:[1]
+- Your contact list is saved to the server in plaintext.
+- Who you talk to, when, and for how long.
+</pre>
+</td></tr>
+
 <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
@@ -319,24 +334,13 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a href="https://www.wickr.com">Wickr</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-
-<tr>
-  <td><a href="https://wire.com">Wire</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td><a href="https://www.wickr.com/personal">Wickr Me</a></td>
+  <td><a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a></td>
+  <td>Text, video, files</td>
+  <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
 </tr>
 <tr><td colspan="4">
-<pre>
-What the server sees and may save:[1]
-- Your contact list is saved to the server in plaintext.
-- Who you talk to, when, and for how long.
-</pre>
+Partially open source (cypto protocol only)
 </td></tr>
 
 <tr>
