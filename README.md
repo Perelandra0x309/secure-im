@@ -352,12 +352,41 @@ Partially open source (cypto protocol only)
 </td></tr>
 
 <tr>
+  <td><a href="https://eleet.im">Eleet</a></td>
+  <td><a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a></td>
+  <td>Text, group chat, photos, videos, audio files</td>
+  <td></td>
+</tr>
+<tr><td colspan="4">
+Eleet is very easy to setup and there is no requirement for an email or phone number.  To add a contact 
+you need to acquire their Eleet ID or scan their QR code.  In chats you can see an indicator when someone is typing. 
+Encrypted group chats are very easy to create.  Group chats have the option to be anonymous (where 
+you will not see anyone's ID only their nickname), and/or temporary where the group chat will be deleted 
+from everyone's device at a specified time.<br>
+One very nice feature is the ability to create private IDs, which are in addition to your primary ID. 
+These private IDs are not linked in any way to your primary one.  Each private ID has a separate list 
+of contacts and chats, and they are all accessible without needing to log in and out.
+</td></tr>
+
+<tr>
   <td><a href="https://threema.ch">Threema</a></td>
   <td>iOS, Android, Windows Phone, Web</td>
-  <td>Text, voice, files</td>
+  <td>Text, group chat, voice, files</td>
   <td><a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a></td>
 </tr>
 <tr><td colspan="4">
+Threema is very easy to setup and use.  Linking to an email or phone number is totally optional. 
+To add contact you need to acquire their Threema ID via a separate channel, search your contacts list for a match 
+(hmm, no thanks), or scan their fingerprint QR code in person.  These three methods attach 3 levels of "verification" 
+to your contacts:
+<ul>
+<li>Red- Anonymous (added manually)</li>
+<li>Yellow- Matches a contact in your address book</li>
+<li>Green- QR code scanned in person</li>
+</ul>
+This is a nice feature so you can have and easily see different trust levels of your contacts.<br>
+It is also very easy to create encrypted group chats with multiple contacts.  All individual and 
+group chats wil show up in the same list.<br>
 Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
 From the <a href="https://threema.ch/en/faq">FAQ</a>:
 <pre>
