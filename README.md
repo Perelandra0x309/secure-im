@@ -15,10 +15,9 @@ The list:
 <ul>
   <li>P2P:</li>
   <ul>
-    <li>Ring, because it is multiple platform</li>
+    <li>Ring</li>
     <li>Runners up:</li>
     <li>Ricochet</li>
-    <li>Briar, when you can meet in person</li>
   </ul>
 <br>
   <li>Federated or Centralized:</li>
@@ -28,6 +27,11 @@ The list:
     <li>Riot/Matrix</li>
     <li>Keybase.io</li>
   </ul>
+</ul>
+If you're not so strict about being open source try:
+<ul>
+  <li>Eleet</li>
+  <li>Threema</li>
 </ul>
 
 <h3>Application Information:</h3>
@@ -71,7 +75,7 @@ The list:
 <tr>
   <td><a href="https://ring.cx">Ring</a></td>
   <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
-  <td>Text, voice, video</td>
+  <td>Text, group chat, voice, video</td>
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
 </tr>
 <tr><td colspan="4">
@@ -169,6 +173,7 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
   <td><a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a></td>
 </tr>
 <tr><td colspan="4">
+Requires a phone number to register
 <pre>
 What the server sees:[1]
 - The phone number used for your registration.
@@ -186,7 +191,7 @@ Disadvantages:
 <tr>
   <td><a href="https://www.keybase.io">Keybase.io</a></td>
   <td><a href="https://keybase.io/download">Android, iOS, MacOS, Windows, Linux</a></td>
-  <td>Text, file sharing</td>
+  <td>Text, group chat, file sharing</td>
   <td><a href="https://github.com/keybase">Source code</a></td>
 </tr>
 <tr><td colspan="4">
@@ -376,7 +381,7 @@ of contacts and chats, and they are all accessible without needing to log in and
 </tr>
 <tr><td colspan="4">
 Threema is very easy to setup and use.  Linking to an email or phone number is totally optional. 
-To add contact you need to acquire their Threema ID via a separate channel, search your contacts list for a match 
+To add a contact you need to acquire their Threema ID via a separate channel, search your contacts list for a match 
 (hmm, no thanks), or scan their fingerprint QR code in person.  These three methods attach 3 levels of "verification" 
 to your contacts:
 <ul>
@@ -386,7 +391,7 @@ to your contacts:
 </ul>
 This is a nice feature so you can have and easily see different trust levels of your contacts.<br>
 It is also very easy to create encrypted group chats with multiple contacts.  All individual and 
-group chats wil show up in the same list.<br>
+group chats will show up in the same list.<br>
 Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
 From the <a href="https://threema.ch/en/faq">FAQ</a>:
 <pre>
@@ -470,7 +475,7 @@ Jakobsen, Jakob B. (Published September 2015)
 <ul>
 <li>Facetime, iMessage</li>
 <li>Slack</li>
-
+<li>Hoccer https://hoccer.com/de/</li>
 <li>OnionShare</li>
 </ul>
 <br>
