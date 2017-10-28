@@ -454,7 +454,7 @@ Jakobsen, Jakob B. (Published September 2015)
 <p>Apps rejected because they are not E2EE:</p>
 <ul>
   <li>Facebook Messenger</li>
-  <li>Google Hangouts</li>
+  <li>Google Hangouts, Allo, Duo</li>
   <li>Yahoo Messenger, AIM, ICQ</li>
   <li>Skype</li>
   <li>Trello</li>
@@ -469,6 +469,11 @@ Jakobsen, Jakob B. (Published September 2015)
   <li>Semaphor- targeted for business, monthly subscription</li>
   <li>Mumble- voice, not text</li>
   <li>Jitsi- video conferencing</li>
+  <li>Bubcon- <a href="https://bubcon.com/datenschutz-app/?lang=en">Phone# required, collects your contacts info</a><br>
+   -Android only (Oct 2017), single device only<br>
+   -Messages stored decrypted at rest
+  </li>
+  
 </ul>
 <br>
 <p>To investigate:</p>
@@ -476,7 +481,20 @@ Jakobsen, Jakob B. (Published September 2015)
 <li>Facetime, iMessage</li>
 <li>Slack</li>
 <li>Hoccer https://hoccer.com/de/</li>
+<li>Disa- http://disa.im/index.html</li>
+<li>Line https://line.me/en-US</li>
+<li>Viber https://www.viber.com</li>
+<li>WeChat http://www.wechat.com</li>
+<li>FireChat https://www.opengarden.com/firechat.html</li>
+<li>StealthChat http://stealthchat.com</li>
+<li>Confide https://getconfide.com</li>
 <li>OnionShare</li>
+<li>SIMSme- https://www.sims.me</li>
+<li>Chiffry- https://www.chiffry.de</li>
+<li>GDATA Secure Chate- https://www.gdata.de/mobile</li>
+<li>Brabbler- https://www.brabbler.ag/index-de.html</li>
+<li>Kullo- https://www.kullo.net/de/#start</li>
+
 </ul>
 <br>
 <br>
