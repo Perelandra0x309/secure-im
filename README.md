@@ -340,6 +340,16 @@ What the server sees and may save:[1]
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
 </tr>
 
+<tr>
+  <td><a href="http://stealthchat.com">StealthChat</a></td>
+  <td>Android, iOS</td>
+  <td>Text, voice, pictures</td>
+  <td></td>
+</tr>
+<tr><td colspan="4">
+Self destruct messages
+</td></tr>
+
 <tr><td colspan="4" style="text-align:center"><H2>Federated or Centralized Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
@@ -458,6 +468,7 @@ Jakobsen, Jakob B. (Published September 2015)
   <li>Yahoo Messenger, AIM, ICQ</li>
   <li>Skype</li>
   <li>Trello</li>
+  <li>Viber (https://www.viber.com)</li>
 </ul>
 <br>
 <p>Apps rejected for other reasons:</p>
@@ -473,7 +484,8 @@ Jakobsen, Jakob B. (Published September 2015)
    -Android only (Oct 2017), single device only<br>
    -Messages stored decrypted at rest
   </li>
-  
+  <li>Line (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.<li>
+  <li>WeChat (http://www.wechat.com) No information about security on website, requires a phone number to register.</li>
 </ul>
 <br>
 <p>To investigate:</p>
@@ -482,11 +494,7 @@ Jakobsen, Jakob B. (Published September 2015)
 <li>Slack</li>
 <li>Hoccer https://hoccer.com/de/</li>
 <li>Disa- http://disa.im/index.html</li>
-<li>Line https://line.me/en-US</li>
-<li>Viber https://www.viber.com</li>
-<li>WeChat http://www.wechat.com</li>
 <li>FireChat https://www.opengarden.com/firechat.html</li>
-<li>StealthChat http://stealthchat.com</li>
 <li>Confide https://getconfide.com</li>
 <li>OnionShare</li>
 <li>SIMSme- https://www.sims.me</li>
