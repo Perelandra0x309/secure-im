@@ -484,7 +484,7 @@ Jakobsen, Jakob B. (Published September 2015)
    -Android only (Oct 2017), single device only<br>
    -Messages stored decrypted at rest
   </li>
-  <li>Line (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.<li>
+  <li>Line (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.</li>
   <li>WeChat (http://www.wechat.com) No information about security on website, requires a phone number to register.</li>
 </ul>
 <br>
