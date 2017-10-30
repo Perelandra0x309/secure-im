@@ -429,6 +429,27 @@ Threema doesn't log who is communicating with whom (which Threema IDs are commun
 </td></tr>
 
 <tr>
+  <td><a href="https://getconfide.com">Confide</a></td>
+  <td><a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a></td>
+  <td>Text, group messaging, voice and video messages, file sharing</td>
+  <td><a href="https://getconfide.com/faq">FAQ</a>,<br>
+  <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a></td>
+</tr>
+<tr><td colspan="4">
+Messages are destroyed after they are read
+</td></tr>
+
+<tr>
+  <td><a href="https://hoccer.com">Hoccer</a></td>
+  <td><a href="https://hoccer.com/#section-download">Android, iOS</a></td>
+  <td>Text, file sharing</td>
+  <td><a href="https://hoccer.com/faq/">FAQ</a></td>
+</tr>
+<tr><td colspan="4">
+Only works on a single device
+</td></tr>
+
+<tr>
   <td><a href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
   <td><a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a></td>
   <td>Text, voice, file sharing</td>
@@ -473,6 +494,7 @@ Jakobsen, Jakob B. (Published September 2015)
 <br>
 <p>Apps rejected for other reasons:</p>
 <ul>
+  <li>Facetime, iMessage- iOS only (walled Apple garden)</li>
   <li>WhatsApp- <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">EFF's concerns</a>:<br>
     -Unencrypted backups at rest<br>
     -Data sharing with Facebook
@@ -490,12 +512,9 @@ Jakobsen, Jakob B. (Published September 2015)
 <br>
 <p>To investigate:</p>
 <ul>
-<li>Facetime, iMessage</li>
 <li>Slack</li>
-<li>Hoccer https://hoccer.com/de/</li>
 <li>Disa- http://disa.im/index.html</li>
 <li>FireChat https://www.opengarden.com/firechat.html</li>
-<li>Confide https://getconfide.com</li>
 <li>OnionShare</li>
 <li>SIMSme- https://www.sims.me</li>
 <li>Chiffry- https://www.chiffry.de</li>
