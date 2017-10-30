@@ -15,22 +15,23 @@ The list:
 <ul>
   <li>P2P:</li>
   <ul>
-    <li>Ring</li>
-    <li>Runners up:</li>
-    <li>Ricochet</li>
+    <li>Ring (eagerly waiting for iOS client)</li>
+    <li>Also try:</li>
+    <li>Ricochet (desktop only)</li>
+    <li>Tox (I had some usability issues and crashing with some clients)</li>
   </ul>
 <br>
   <li>Federated or Centralized:</li>
   <ul>
-    <li>XMPP with OMEMO, because of encrypted group chats and multiple clients</li>
-    <li>Runners up:</li>
-    <li>Riot/Matrix</li>
+    <li>XMPP with OMEMO, because of encrypted group chats and multiple clients to pick from</li>
+    <li>Also try:</li>
+    <li>Riot/Matrix (E2EE still in beta)</li>
     <li>Keybase.io</li>
   </ul>
 </ul>
 If you're not so strict about being open source try:
 <ul>
-  <li>Eleet</li>
+  <li>Eleet- I am really liking this one</li>
   <li>Threema</li>
 </ul>
 
@@ -380,7 +381,8 @@ you will not see anyone's ID only their nickname), and/or temporary where the gr
 from everyone's device at a specified time.<br>
 One very nice feature is the ability to create private IDs, which are in addition to your primary ID. 
 These private IDs are not linked in any way to your primary one.  Each private ID has a separate list 
-of contacts and chats, and they are all accessible without needing to log in and out.
+of contacts and chats, and they are all accessible without needing to log in and out.<br>
+The desktop clients will sync up all messages so you can transition between devices and see all messages.
 </td></tr>
 
 <tr>
