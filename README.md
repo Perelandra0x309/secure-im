@@ -354,6 +354,7 @@ What the server sees and may save:[1]
 </tr>
 <tr><td colspan="4">
 Self destruct messages
+Requires a phone number to register, uses the phone numbers in your contacts list.
 </td></tr>
 
 <tr><td colspan="4" style="text-align:center"><H2>Federated or Centralized Closed Source</H2></td></tr>
@@ -444,6 +445,10 @@ Threema doesn't log who is communicating with whom (which Threema IDs are commun
 </tr>
 <tr><td colspan="4">
 Messages are destroyed after they are read
+<pre>
+Information provided by "C":
+<a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a>
+</pre>
 </td></tr>
 
 <tr>
@@ -489,12 +494,13 @@ Jakobsen, Jakob B. (Published September 2015)
 
 <tr>
   <td><a href="https://www.viber.com">Viber</a></td>
-  <td>Android, iOS, Mac, Windows, Linux</a></td>
+  <td>Android, iOS, Mac, Windows, Linux</td>
   <td>Text, group messaging, voice and video calls, photos</td>
   <td><a href="https://support.viber.com">Support</a>,<br>
   <a href="https://www.viber.com/security-overview">Security Overview</a></td>
 </tr>
 <tr><td colspan="4">
+Thanks to "C" for pointing out Viber really is E2EE.  They don't mention that specifically on their main page, you have to go to their support site to read about it.<br>
 Requires a phone number to register, add contacts using their phone number.<br>
 Custom protocol- from the security overview:
 <pre>
