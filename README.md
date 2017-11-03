@@ -312,7 +312,12 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
   <td><a href="https://github.com/wireapp">Source code</a></td>
 </tr>
 <tr><td colspan="4">
-<a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a><br>
+<a href="https://medium.com/@wireapp/open-sourcing-wire-server-code-ef7866a731d5">Server code open sourced</a><br>
+<a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a>:
+<ul>
+  <li>Wire client sends the unencrypted, unhashed password to the central server over TLS, the server hashes the plaintext password with scrypt, and the hash is compared to the hash stored by the server.		This process leaks the user's password to the central server; the server operators (or anyone who compromises the server) could log all of the plaintext passwords as users authenticate.</li>
+  <li>The desktop application is implemented as a packaged web application</li>
+</ul>
 <pre>
 What the server sees and may save:[1]
 - Your contact list is saved to the server in plaintext.
