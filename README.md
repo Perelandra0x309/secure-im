@@ -345,6 +345,14 @@ What the server sees and may save:[1]
   <td>Text, voice, video</td>
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
 </tr>
+<tr><td colspan="4">
+TwinMe is easy to setup and to connect with another TwinMe user you can either scan their QR code in person or send them an invite link.<br>
+The interface is professional looking, though the iOS version seems more consistant with the host OS than the Android version.  For example 
+the Android client does not have autocorrect so typing behaves differently than if you are used to autocorrect.<br>
+One cool feature is the ability to stream music from your device to your contact's device.<br>
+On Android Google Play Services are not required.  The Android version I first tried from the Amazon app store would not launch at all. 
+The version from the Google Play Store (downloaded via Yalp) did run.
+</td></tr>
 
 <tr>
   <td><a href="http://stealthchat.com">StealthChat</a></td>
