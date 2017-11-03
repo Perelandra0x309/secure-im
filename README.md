@@ -482,6 +482,23 @@ Jakobsen, Jakob B. (Published September 2015)
 </pre>
 </td></tr>
 
+<tr>
+  <td><a href="https://www.viber.com">Viber</a></td>
+  <td>Android, iOS, Mac, Windows, Linux</a></td>
+  <td>Text, group messaging, voice and video calls, photos</td>
+  <td><a href="https://support.viber.com">Support</a>,<br>
+  <a href="https://www.viber.com/security-overview">Security Overview</a></td>
+</tr>
+<tr><td colspan="4">
+Requires a phone number to register, add contacts using their phone number.<br>
+Custom protocol- from the security overview:
+<pre>
+Viber’s protocol uses the same concepts of the “double ratchet” protocol used in
+Open Whisper Systems Signal application, however, Viber’s implementation was
+developed from scratch and does not share Signal’s source code.
+</pre>
+</td></tr>
+
 </table>
 
 <p>Apps rejected because they are not E2EE:</p>
@@ -491,7 +508,6 @@ Jakobsen, Jakob B. (Published September 2015)
   <li>Yahoo Messenger, AIM, ICQ</li>
   <li>Skype</li>
   <li>Trello</li>
-  <li>Viber (https://www.viber.com)</li>
 </ul>
 <br>
 <p>Apps rejected for other reasons:</p>
