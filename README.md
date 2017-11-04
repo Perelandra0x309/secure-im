@@ -11,8 +11,12 @@ Criteria:
 <li>Open source</li>
 <li>Multiple platforms preferred</li>
 </ul>
-SMS: Use Signal<br>
+SMS:
+<ul>
+<li>Signal<br>
 OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are confortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
+</li>
+</ul>
 <br>
 Messaging apps to use without giving out your phone number:
 <ul>
