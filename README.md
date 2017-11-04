@@ -138,6 +138,30 @@ Tox has a lot of promise, the clients need more polishing but they are available
   <td><b>Websites</b></td></tr>
 
 <tr>
+  <td><a href="https://www.signal.org">Signal</a></td>
+  <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
+  <td>Text, voice, video, files, images</td>
+  <td><a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a></td>
+</tr>
+<tr><td colspan="4">
+Requires a phone number to register
+<pre>
+What the server sees:[1]
+- The phone number used for your registration.
+- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims
+  to delete this as soon as it is no longer needed.<br>
+What Signal claims to keep:
+- The day you first joined the service
+- The last day you used it.<br>
+Disadvantages:
+- People must know your phone number. It is possible to register a burner number or
+  a VOIP number, but this is an advanced-use case.
+</pre>
+My verdict: Best SMS replacement app<br>
+This app may be the easiest to convince other people to use. However it requires the use of your phone number as an identifier, so if you are not comfortable giving some people your phone number there are better options to communicate with them.
+</td></tr>
+
+<tr>
   <td>XMPP (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
   <td>Linux, Windows, MacOS, Android, iOS</td>
   <td></td>
@@ -164,6 +188,36 @@ What the server sees:[1]
 - Who you contacted, when, and how frequently.
 - SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
 </pre>
+My verdict: The best option for a wide base of users.<br>
+XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.
+</td></tr>
+
+<tr>
+  <td><a href="https://www.keybase.io">Keybase.io</a></td>
+  <td><a href="https://keybase.io/download">Android, iOS, MacOS, Windows, Linux</a></td>
+  <td>Text, group chat, file sharing</td>
+  <td><a href="https://github.com/keybase">Source code</a></td>
+</tr>
+<tr><td colspan="4">
+  You can also verify other website identities, GPG keys, domains, etc that you own.<br>
+  <br>
+  My verdict: Great for chat and other uses<br>
+  Keybase has several unique features, which now also includes secured personal and group file storage and sharing and encrypted git.  It is also very easy for someone new to PGP to create a new key for themselves.
+</td></tr>
+
+<tr>
+  <td><a href="https://about.riot.im">Riot/Matrix</a></td>
+  <td><a href="https://about.riot.im/downloads/">Android, iOS, Linux, Mac, Windows, Web</a></td>
+  <td>Text, voice, video, file sharing</td>
+  <td><a href="https://github.com/vector-im">Source code</a></td>
+</tr>
+<tr><td colspan="4">
+Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)<br>
+  The web app can be used over Tor (thanks lwinch2006)<br>
+  <br>
+  My verdict: Great social platform<br>
+  Riot/Matrix is a great way to meet new people, and with E2EE (in beta) for individual and group chats it offers a way to go dark for private conversations.<br>
+  E2EE is still in the works and takes a bit of manual effort to get setup in chats, but that should be improving with time.
 </td></tr>
 
 <tr>
@@ -191,38 +245,6 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
   Cons:<br>
     People have to know your phone#
  </td></tr>
-
-<tr>
-  <td><a href="https://www.signal.org">Signal</a></td>
-  <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
-  <td>Text, voice, video, files, images</td>
-  <td><a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a></td>
-</tr>
-<tr><td colspan="4">
-Requires a phone number to register
-<pre>
-What the server sees:[1]
-- The phone number used for your registration.
-- SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims
-  to delete this as soon as it is no longer needed.<br>
-What Signal claims to keep:
-- The day you first joined the service
-- The last day you used it.<br>
-Disadvantages:
-- People must know your phone number. It is possible to register a burner number or
-  a VOIP number, but this is an advanced-use case.
-</pre>
-</td></tr>
-
-<tr>
-  <td><a href="https://www.keybase.io">Keybase.io</a></td>
-  <td><a href="https://keybase.io/download">Android, iOS, MacOS, Windows, Linux</a></td>
-  <td>Text, group chat, file sharing</td>
-  <td><a href="https://github.com/keybase">Source code</a></td>
-</tr>
-<tr><td colspan="4">
-  You can also verify other website identities, GPG keys, domains, etc that you own.
-</td></tr>
 
 <tr>
   <td><a href="http://retroshare.net">RetroShare</a></td>
@@ -317,17 +339,6 @@ used as a retroshare server. I have never used it, so I cannot comment
 on it.
 
 </pre>
-</td></tr>
-
-<tr>
-  <td><a href="https://about.riot.im">Riot/Matrix</a></td>
-  <td><a href="https://about.riot.im/downloads/">Android, iOS, Linux, Mac, Windows, Web</a></td>
-  <td>Text, voice, video, file sharing</td>
-  <td><a href="https://github.com/vector-im">Source code</a></td>
-</tr>
-<tr><td colspan="4">
-Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)<br>
-  The web app can be used over Tor (thanks lwinch2006)
 </td></tr>
 
 <tr>
