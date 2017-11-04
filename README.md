@@ -11,7 +11,10 @@ Criteria:
 <li>Open source</li>
 <li>Multiple platforms preferred</li>
 </ul>
-The list:
+SMS: Use Signal<br>
+OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are confortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
+<br>
+Messaging apps to use without giving out your phone number:
 <ul>
   <li>P2P:</li>
   <ul>
@@ -331,7 +334,10 @@ What the server sees and may save:[1]
   <td>Text, voice, images</td>
   <td><a href="https://github.com/surespot">Source code</a></td>
 </tr>
-  
+<tr><td colspan="4">
+Development seems to have ceased in May 2017.<br>
+<a href="https://www.surespot.me/documents/threat.html">Data and threat analysis</a>
+</td></tr>
 
 <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -361,7 +367,7 @@ The version from the Google Play Store (downloaded via Yalp) did run.
   <td></td>
 </tr>
 <tr><td colspan="4">
-Self destruct messages
+Self destruct messages<br>
 Requires a phone number to register, uses the phone numbers in your contacts list.
 </td></tr>
 
