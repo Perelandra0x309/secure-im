@@ -14,7 +14,7 @@ Criteria:
 SMS:
 <ul>
 <li>Signal<br>
-OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are confortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
+OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are comfortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
 </li>
 </ul>
 <br>
@@ -23,17 +23,15 @@ Messaging apps to use without giving out your phone number:
   <li>P2P:</li>
   <ul>
     <li>Ring (eagerly waiting for iOS client)</li>
-    <li>Also try:</li>
     <li>Ricochet (desktop only)</li>
     <li>Tox (I had some usability issues and crashing with some clients)</li>
   </ul>
 <br>
   <li>Federated or Centralized:</li>
   <ul>
-    <li>XMPP with OMEMO, because of encrypted group chats and multiple clients to pick from</li>
-    <li>Also try:</li>
-    <li>Riot/Matrix (E2EE still in beta)</li>
+    <li>XMPP with OMEMO</li>
     <li>Keybase.io</li>
+    <li>Riot/Matrix (E2EE still in beta)</li>
   </ul>
 </ul>
 If you're not so strict about being open source try:
