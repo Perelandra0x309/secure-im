@@ -464,7 +464,12 @@ Messages are destroyed after they are read
 <pre>
 Information provided by "C":
 <a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a>
+Which links to: <a href="https://blog.quarkslab.com/make-confide-great-again-no-we-cannot.html">Make Confide great again? No, we cannot</a>
 </pre>
+My verdict: Stay Away!<br>
+It is very concerning that such lax security practices (weak password rules, no message authentication or integrity validation) were allowed to be a part of the design in the first place.<br>
+Also the desktop clients are written in JavaScript which is easily modified to bypass security checks.<br>
+Did they fix these issues?  Maybe but without open code to inspect we cannot know.  
 </td></tr>
 
 <tr>
@@ -539,13 +544,13 @@ developed from scratch and does not share Signal’s source code.
 <br>
 <p>Apps rejected for other reasons:</p>
 <ul>
-  <li>Facetime, iMessage- iOS only (walled Apple garden)</li>
+  <li>Facetime, iMessage- iOS only, closed source, data saved on Apple servers</li>
   <li>WhatsApp- <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">EFF's concerns</a>:<br>
     -Unencrypted backups at rest<br>
     -Data sharing with Facebook
   </li>
   <li>Semaphor- targeted for business, monthly subscription</li>
-  <li>Mumble- voice, not text</li>
+  <li>Mumble- Voice chat for gaming. You can send text and links but that is not its primary intent.</li>
   <li>Jitsi- video conferencing</li>
   <li>Bubcon- <a href="https://bubcon.com/datenschutz-app/?lang=en">Phone# required, collects your contacts info</a><br>
    -Android only (Oct 2017), single device only<br>
