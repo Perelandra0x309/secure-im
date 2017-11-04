@@ -49,6 +49,62 @@ If you're not so strict about being open source try:
   <td><b>Websites</b></td></tr>
 
 <tr>
+  <td><a href="https://ring.cx">Ring</a></td>
+  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
+  <td>Text, group chat, voice, video</td>
+  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
+</tr>
+<tr><td colspan="4">
+    Pros:<br>
+    On F-Droid<br>
+    Multiple platforms<br>
+    Not dependent on a phone #<br>
+    Cons:<br>
+    Android and Mac app still have some usability issues, just out of beta<br>
+    <br>
+    My verdict: Yes yes yes!<br>
+    This is being developed as a side project by Savoir-faire Linux so they know open source!  The clients have a unified experience and are available for most platforms (waiting for iOS).
+</td></tr>
+
+<tr>
+  <td><a href="https://ricochet.im">Ricochet</a></td>
+  <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
+  <td>Text</td>
+  <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
+</tr>
+<tr><td colspan="4">
+    Works over Tor<br>
+    Is this still in active development?- <a href="https://github.com/ricochet-im/ricochet/issues/555">Yes</a><br>
+    Creates a <a href="https://www.torproject.org/docs/hidden-services.html.en">hidden Tor service</a> to connect P2P.<br>
+    <br>
+    My verdict: Great option for desktops, mobiles coming soon?<br>
+    I love that it is based on Tor hidden services.  I hope that development continues to increase in pace and we see more updates soon.<br>
+    Note that this is sill considered an experimental project.
+</td></tr>
+
+<tr>
+  <td><a href="https://tox.chat">Tox</a></td>
+  <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
+  <td>Text, voice, video, screen sharing, file sharing</td>
+  <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
+</tr>
+<tr><td colspan="4">
+  toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
+  Several clients are available and are developed independently of the core.<br>
+  <br>
+<pre>
+What is leaked to the world:[1]
+- Your IP address and the time you are online is revealed to your contacts. When chatting
+  to another contact, you are connecting directly to them.
+- Tor activity for contact finding.
+- Not sure what else? There may be more. Going to have to read the documentation.
+</pre>
+<br>
+My verdict: Try it!<br>
+Tox has a lot of promise, the clients need more polishing but they are available for most platforms which will help adoptability.
+</td></tr>
+
+<tr>
   <td><a href="https://briarproject.org">Briar Project</a></td>
   <td>Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a></td>
   <td>Text and forums</td>
@@ -63,53 +119,17 @@ If you're not so strict about being open source try:
     Cons:<br>
     Android only<br>
     Pro or Con:<br>
-    Requires physical presence of contacts for initial verification (by design)  
+    Requires physical presence of contacts for initial verification (by design)<br>
+    <br>
+    My verdict: Good option for specific use case.<br>
+    By that I mean it is good if:
+    <ul>
+      <li>You can meet your contacts in person</li>
+      <li>You and your contacts all use Android</li>
+      <li>You want the option to be able to communicate outside the standard internet</li>
+    </ul>
 </td></tr>
 
-<tr>
-  <td><a href="https://ricochet.im">Ricochet</a></td>
-  <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
-  <td>Text</td>
-  <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
-</tr>
-<tr><td colspan="4">
-    Works over Tor<br>
-    Is this still in active development??<br>
-    Creates a <a href="https://www.torproject.org/docs/hidden-services.html.en">hidden Tor service</a> to connect P2P.
-</td></tr>
-
-<tr>
-  <td><a href="https://ring.cx">Ring</a></td>
-  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
-  <td>Text, group chat, voice, video</td>
-  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
-</tr>
-<tr><td colspan="4">
-    Pros:<br>
-    On F-Droid<br>
-    Multiple platforms<br>
-    Not dependent on a phone #<br>
-    Cons:<br>
-    Android and Mac app still have usability issues, just out of beta
-</td></tr>
-
-<tr>
-  <td><a href="https://tox.chat">Tox</a></td>
-  <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
-  <td>Text, voice, video, screen sharing, file sharing</td>
-  <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
-</tr>
-<tr><td colspan="4">
-  toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
-  <br>
-<pre>
-What is leaked to the world:[1]
-- Your IP address and the time you are online is revealed to your contacts. When chatting
-  to another contact, you are connecting directly to them.
-- Tor activity for contact finding.
-- Not sure what else? There may be more. Going to have to read the documentation.
-</pre>
-</td></tr>
 
 <tr><td colspan="4" style="text-align:center"><H2>Federated and Centralized Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -466,6 +486,7 @@ Information provided by "C":
 <a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a>
 Which links to: <a href="https://blog.quarkslab.com/make-confide-great-again-no-we-cannot.html">Make Confide great again? No, we cannot</a>
 </pre>
+<br>
 My verdict: Stay Away!<br>
 It is very concerning that such lax security practices (weak password rules, no message authentication or integrity validation) were allowed to be a part of the design in the first place.<br>
 Also the desktop clients are written in JavaScript which is easily modified to bypass security checks.<br>
