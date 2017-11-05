@@ -42,7 +42,7 @@ If you're not so strict about being open source try:
 
 <h3>Application Information:</h3>
 <table>
-  <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></td></tr>
+  <tr><th colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></th></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -484,27 +484,6 @@ Threema doesn't log who is communicating with whom (which Threema IDs are commun
 </td></tr>
 
 <tr>
-  <td><a href="https://getconfide.com">Confide</a></td>
-  <td><a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a></td>
-  <td>Text, group messaging, voice and video messages, file sharing</td>
-  <td><a href="https://getconfide.com/faq">FAQ</a>,<br>
-  <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a></td>
-</tr>
-<tr><td colspan="4">
-Messages are destroyed after they are read
-<pre>
-Information provided by "C":
-<a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a>
-Which links to: <a href="https://blog.quarkslab.com/make-confide-great-again-no-we-cannot.html">Make Confide great again? No, we cannot</a>
-</pre>
-<br>
-My verdict: Stay Away!<br>
-It is very concerning that such lax security practices (weak password rules, no message authentication or integrity validation) were allowed to be a part of the design in the first place.<br>
-Also the desktop clients are written in JavaScript which is easily modified to bypass security checks.<br>
-Did they fix these issues?  Maybe but without open code to inspect we cannot know.  
-</td></tr>
-
-<tr>
   <td><a href="https://hoccer.com">Hoccer</a></td>
   <td><a href="https://hoccer.com/#section-download">Android, iOS</a></td>
   <td>Text, file sharing</td>
@@ -512,6 +491,20 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 </tr>
 <tr><td colspan="4">
 Only works on a single device
+</td></tr>
+
+<tr>
+  <td><a href="https://www.sims.me">SIMSme</a></td>
+  <td><a href="https://www.sims.me/en#Download">Android, iOS</a></td>
+  <td>Text, group chat, images, videos, location, contacts</td>
+  <td><a href="https://www.sims.me/data-protection">Data Protection</a></td>
+</tr>
+<tr><td colspan="4">
+Developed by the Deutsche Post, servers are located in Germany<br>
+The SIMSme encryption key is tied to the phone and cannot be transfered to another.  Requires a phone number to register.<br>
+Invite contacts based on their phone number.  SIMSme checks your address book for existing registered users.<br>
+Three levels of contact trust- High, Medium and Low.<br>
+Self destructing messages.
 </td></tr>
 
 <tr>
@@ -563,9 +556,30 @@ developed from scratch and does not share Signal’s source code.
 </pre>
 </td></tr>
 
+<tr>
+  <td><a href="https://getconfide.com">Confide</a></td>
+  <td><a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a></td>
+  <td>Text, group messaging, voice and video messages, file sharing</td>
+  <td><a href="https://getconfide.com/faq">FAQ</a>,<br>
+  <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a></td>
+</tr>
+<tr><td colspan="4">
+Messages are destroyed after they are read
+<pre>
+Information provided by "C":
+<a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a>
+Which links to: <a href="https://blog.quarkslab.com/make-confide-great-again-no-we-cannot.html">Make Confide great again? No, we cannot</a>
+</pre>
+<br>
+My verdict: Stay Away!<br>
+It is very concerning that such lax security practices (weak password rules, no message authentication or integrity validation) were allowed to be a part of the design in the first place.<br>
+Also the desktop clients are written in JavaScript which is easily modified to bypass security checks.<br>
+Did they fix these issues?  Maybe but without open code to inspect we cannot know.  
+</td></tr>
+
 </table>
 
-<p>Apps rejected because they are not E2EE:</p>
+<p>Apps that are not E2EE:</p>
 <ul>
   <li>Facebook Messenger</li>
   <li>Google Hangouts, Allo, Duo</li>
@@ -574,7 +588,7 @@ developed from scratch and does not share Signal’s source code.
   <li>Trello</li>
 </ul>
 <br>
-<p>Apps rejected for other reasons:</p>
+<p>Apps not recommended for other reasons:</p>
 <ul>
   <li>Facetime, iMessage- iOS only, closed source, data saved on Apple servers</li>
   <li>WhatsApp- <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">EFF's concerns</a>:<br>
@@ -594,11 +608,12 @@ developed from scratch and does not share Signal’s source code.
 <br>
 <p>To investigate:</p>
 <ul>
+<li>https://bitchat.im- Windows and Ubuntu</li>
+<li>https://www.chatgrape.com/open-source - All platforms except Linux, monthly subscription</li>
 <li>Slack</li>
 <li>Disa- http://disa.im/index.html</li>
 <li>FireChat https://www.opengarden.com/firechat.html</li>
 <li>OnionShare</li>
-<li>SIMSme- https://www.sims.me</li>
 <li>Chiffry- https://www.chiffry.de</li>
 <li>GDATA Secure Chate- https://www.gdata.de/mobile</li>
 <li>Brabbler- https://www.brabbler.ag/index-de.html</li>
