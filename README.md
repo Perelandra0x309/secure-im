@@ -42,7 +42,7 @@ If you're not so strict about being open source try:
 
 <h3>Application Information:</h3>
 <table>
-  <tr><th colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></th></tr>
+  <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -63,7 +63,8 @@ If you're not so strict about being open source try:
     Android and Mac app still have some usability issues, just out of beta<br>
     <br>
     My verdict: Yes yes yes!<br>
-    This is being developed as a side project by Savoir-faire Linux so they know open source!  The clients have a unified experience and are available for most platforms (waiting for iOS).
+    This is being developed as a side project by Savoir-faire Linux so they know open source!  The clients have a unified experience and are available for most platforms (waiting for iOS).<br>
+    This was designed as a P2P app, so messages you send are not synced between your multiple clients.  However messages sent to you do appear on all your clients, making a somewhat confusing stream of conversation when using multiple clients.
 </td></tr>
 
 <tr>
@@ -417,7 +418,10 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
   <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
 </tr>
 <tr><td colspan="4">
-Partially open source (cypto protocol only)
+Partially open source (cypto protocol only)<br>
+WickrMe synchronizes your chats across all your devices.<br>
+There are no group chats and not many unique features, but as a basic chat client it works very well.<br>
+Conversations expire after a set time or can be set to erase once read.
 </td></tr>
 
 <tr>
@@ -504,7 +508,8 @@ Developed by the Deutsche Post, servers are located in Germany<br>
 The SIMSme encryption key is tied to the phone and cannot be transfered to another.  Requires a phone number to register.<br>
 Invite contacts based on their phone number.  SIMSme checks your address book for existing registered users.<br>
 Three levels of contact trust- High, Medium and Low.<br>
-Self destructing messages.
+Self destructing messages.<br>
+It gives an error on Android without Google Play Services that it won't run, but it seems to work.
 </td></tr>
 
 <tr>
