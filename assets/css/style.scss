@@ -2,12 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
+table {
+  width:100%;
+  border-collapse:collapse;
+}
 .wrapper {
-  width:960px;
+  width:60px;
   margin:0 auto;
 }
 section {
-  width:960px;
+  width:60px;
   float:center;
   padding-bottom:50px;
 }
