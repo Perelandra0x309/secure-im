@@ -93,13 +93,13 @@ If you're not so strict about being open source try:
   toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
   Several clients are available and are developed independently of the core.<br>
   <br>
-<pre>
-What is leaked to the world:[1]
+<blockquote>
+What is leaked to the world:[1]<br>
 - Your IP address and the time you are online is revealed to your contacts. When chatting
-  to another contact, you are connecting directly to them.
-- Tor activity for contact finding.
+  to another contact, you are connecting directly to them.<br>
+- Tor activity for contact finding.<br>
 - Not sure what else? There may be more. Going to have to read the documentation.
-</pre>
+</blockquote>
 <br>
 My verdict: Try it!<br>
 Tox has a lot of promise, the clients need more polishing but they are available for most platforms which will help adoptability.
@@ -146,18 +146,18 @@ Tox has a lot of promise, the clients need more polishing but they are available
 </tr>
 <tr><td colspan="4">
 Requires a phone number to register
-<pre>
-What the server sees:[1]
-- The phone number used for your registration.
+<blockquote>
+What the server sees:[1]<br>
+- The phone number used for your registration.<br>
 - SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims
   to delete this as soon as it is no longer needed.<br>
-What Signal claims to keep:
-- The day you first joined the service
+What Signal claims to keep:<br>
+- The day you first joined the service<br>
 - The last day you used it.<br>
-Disadvantages:
+Disadvantages:<br>
 - People must know your phone number. It is possible to register a burner number or
   a VOIP number, but this is an advanced-use case.
-</pre>
+</blockquote>
 My verdict: Best SMS replacement app<br>
 This app may be the easiest to convince other people to use. However it requires the use of your phone number as an identifier, so if you are not comfortable giving some people your phone number there are better options to communicate with them.
 </td></tr>
@@ -180,13 +180,13 @@ OMEMO Clients:<br>
 </ul>
 <br>
 <blockquote>
-What the server sees:[1]
-- Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.
-- Your contact list is saved to the server in plaintext
-- Precise time you logged in or out
-- Precise time you sent any messages to a contact and what messages they send you.
-- Whether you are online or not, and your status.
-- Who you contacted, when, and how frequently.
+What the server sees:[1]<br>
+- Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
+- Your contact list is saved to the server in plaintext<br>
+- Precise time you logged in or out<br>
+- Precise time you sent any messages to a contact and what messages they send you.<br>
+- Whether you are online or not, and your status.<br>
+- Who you contacted, when, and how frequently.<br>
 - SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
 </blockquote>
 My verdict: The best option for a wide base of users.<br>
@@ -256,47 +256,45 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
 </tr>
 <tr><td colspan="4">
 <blockquote>
-What is leaked to the world when using the DHT.[1]
-- Your IP address.
-- The IP addresses that you are connecting to.
+What is leaked to the world when using the DHT.[1]<br>
+- Your IP address.<br>
+- The IP addresses that you are connecting to.<br>
 Optionally, Retroshare may be configured to tunnel through I2P or Tor
 with friend finding turned off to function as a true darknet. This
-however, is slow, unreliable, high-latency, and very difficult to set up.
-
-
-
+however, is slow, unreliable, high-latency, and very difficult to set up.<br>
+<br>
 - Retroshare may appear to use PGP, but what actually seems to be
 happening under the hood is that it's using the RSA keys to sign
 ephemeral keys which are then used to establish connections to your
 friends via perfect forward secrecy. The PGP parts of it look like they
 are used only for certifying and authentication, and are not used to
-encrypt the data.
-
+encrypt the data.<br>
+<br>
 - Certificate authorities are not used, the networks are fully
 friend-to-friend. This is markedly different from peer-to-peer because
 it is expected in a friend-to-friend network, you already know, and
 already trust the people you will be connecting and routing for. This is
 a VERY important distinction in the differences between peer-to-peer and
-friend to friend.
-
+friend to friend.<br>
+<br>
 - Key signing or setting up a PGP web of trust model is in some cases
-mandatory.
-
+mandatory.<br>
+<br>
 - Retroshare is difficult to set up for the average user. Every user on
 the Retroshare network MUST know how to port forward or the friend
-lookup will not function.
-
+lookup will not function.<br>
+<br>
 - Because it is assumed you already trust the people that you will be
 using retroshare to connect to, Retroshare makes no effort to disguise
 or hide your IP address from them. In fact, if your IP address changes,
-they will get a warning message.
+they will get a warning message.<br>
 
 - When operating through the regular Internet, it looks like Retroshare
 uses a Distributed Hash Table for IP address lookups and friend finding.
 If this is correct this may present a source of metadata leakage. I will
 need to look into this some more and find out how it works, because I
-don't want to spread F-U-D.
-
+don't want to spread F-U-D.<br>
+<br>
 - Retroshare *can be made to* go over I2P, but doing so is very slow and
 requires configuration of the I2P Router. You will need to set up your
 own tunnels. The documentation for this is a little bit sparse and some
@@ -304,20 +302,20 @@ of it is in Spanish. You may need to do a bit of experimentation before
 it works. During this time on I2P, friend finding and the DHT can be
 turned off, and in this case, Retroshare will function as a true Darknet
 which will allow for TLS-secured traffic to be wrapped up within I2P's
-native encryption functions. But this is extremely slow and difficult.
-
+native encryption functions. But this is extremely slow and difficult.<br>
+<br>
 - Retroshare is loaded with features and probably hands down has the
 most features of any instant messaging bundle. It is VERY good at
-distributing large files among friends who trust each other.
-
+distributing large files among friends who trust each other.<br>
+<br>
 - Retroshare's trust model is transitory. Friends-of-friends have a
 certain amount of privilege in some areas. For the rest, a lot of it
-uses the PGP web of trust.
-
+uses the PGP web of trust.<br>
+<br>
 - The code base has not recently been audited (if ever?). This is the
 same situation with I2P, where the weak link might be the client
-software and not the protocol.
-
+software and not the protocol.<br>
+<br>
 - If your Retroshare private key is stolen, although technically you
 have perfect forward secrecy with TLS, the problem with Retroshare tends
 to be that much of the content on the network is distributed among your
@@ -330,16 +328,15 @@ and re-synchronize her 'copy' of the messageboard with theirs and see
 all of their would-be private communications. If Alice sent movie.mov to
 Charlie, and Charlie sent it to Bob, even if Charlie moved movie.mov
 out of his share, Mallory can use Alice's private key to impersonate
-Alice and re-download movie.mov from Bob instead.
-
+Alice and re-download movie.mov from Bob instead.<br>
+<br>
 - The more friends you have on your Retroshare network, the more routing
 your computer must do and the more bandwidth and processing power the
-program will need to function comfortably.
-
+program will need to function comfortably.<br>
+<br>
 - There is a commandline version of Retroshare that is intended to be
 used as a retroshare server. I have never used it, so I cannot comment
 on it.
-
 </blockquote>
 </td></tr>
 
@@ -520,28 +517,28 @@ It gives an error on Android without Google Play Services that it won't run, but
   <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
 </tr>
 <tr><td colspan="4">
-<pre>
-Metadata leakage:[1]
+<blockquote>
+Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is
-  publicly viewable.
+  publicly viewable.<br>
 - Who you talk to, when, and the precise time you send a message, and how frequently
-  is publicly viewable via commandline tools.
+  is publicly viewable via commandline tools.<br>
 - If an attacker knows your phone number, the attacker will be able to silently log
   your Telegram activity without you knowing about it or being informed they have you
-  as a contact.
-
+  as a contact.<br>
+<br>
 Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015,
-  December 16th)
-<a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a>
-
-Contact Theft through Telegram, Paragraph 9 and 10.
-"Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)
-<a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a>
-
-A practical Analysis of the Telegram Messaging Protocol
-Jakobsen, Jakob B. (Published September 2015)
+  December 16th)<br>
+<a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a><br>
+<br>
+Contact Theft through Telegram, Paragraph 9 and 10.<br>
+"Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)<br>
+<a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a><br>
+<br>
+A practical Analysis of the Telegram Messaging Protocol<br>
+Jakobsen, Jakob B. (Published September 2015)<br>
 <a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
-</pre>
+</blockquote>
 </td></tr>
 
 <tr>
@@ -555,11 +552,11 @@ Jakobsen, Jakob B. (Published September 2015)
 Thanks to "C" for pointing out Viber really is E2EE.  They don't mention that specifically on their main page, you have to go to their support site to read about it.<br>
 Requires a phone number to register, add contacts using their phone number.<br>
 Custom protocol- from the security overview:
-<pre>
+<blockquote>
 Viber’s protocol uses the same concepts of the “double ratchet” protocol used in
 Open Whisper Systems Signal application, however, Viber’s implementation was
 developed from scratch and does not share Signal’s source code.
-</pre>
+</blockquote>
 </td></tr>
 
 <tr>
@@ -571,11 +568,11 @@ developed from scratch and does not share Signal’s source code.
 </tr>
 <tr><td colspan="4">
 Messages are destroyed after they are read
-<pre>
-Information provided by "C":
-<a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a>
+<blockquote>
+Information provided by "C":<br>
+<a href="https://www.wired.com/2017/03/confide-security-holes/">That Encrypted Chat App the White House Liked? Full of Holes</a><br>
 Which links to: <a href="https://blog.quarkslab.com/make-confide-great-again-no-we-cannot.html">Make Confide great again? No, we cannot</a>
-</pre>
+</blockquote>
 <br>
 My verdict: Stay Away!<br>
 It is very concerning that such lax security practices (weak password rules, no message authentication or integrity validation) were allowed to be a part of the design in the first place.<br>
