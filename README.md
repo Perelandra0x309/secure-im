@@ -151,22 +151,25 @@ What the server sees:[1]<br>
 - The phone number used for your registration.<br>
 - SHA-2 Hashes of your contacts' telephone numbers to check for a match. OWS claims
   to delete this as soon as it is no longer needed.<br>
+<br>
 What Signal claims to keep:<br>
 - The day you first joined the service<br>
 - The last day you used it.<br>
+<br>
 Disadvantages:<br>
 - People must know your phone number. It is possible to register a burner number or
   a VOIP number, but this is an advanced-use case.
 </blockquote>
+<br>
 My verdict: Best SMS replacement app<br>
 This app may be the easiest to convince other people to use. However it requires the use of your phone number as an identifier, so if you are not comfortable giving some people your phone number there are better options to communicate with them.
 </td></tr>
 
 <tr>
-  <td>XMPP (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
+  <td><a href="https://xmpp.org">XMPP</a> (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
   <td>Linux, Windows, MacOS, Android, iOS</td>
-  <td></td>
-  <td><a href="https://xmpp.org">xmpp.org</a></td>
+  <td>Text, group chat</td>
+  <td><a href="https://xmpp.org/getting-started/">Getting Started</a></td>
 </tr>
 <tr><td colspan="4">
 <a href="https://otr.cypherpunks.ca/software.php">OTR clients</a><br>
@@ -178,7 +181,6 @@ OMEMO Clients:<br>
   <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a></li>
   <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a></li>
 </ul>
-<br>
 <blockquote>
 What the server sees:[1]<br>
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
@@ -189,6 +191,7 @@ What the server sees:[1]<br>
 - Who you contacted, when, and how frequently.<br>
 - SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
 </blockquote>
+<br>
 My verdict: The best option for a wide base of users.<br>
 XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.<br>
 One drawback is the clients are all different so there is a lack of consistency in experience and features across platforms.
@@ -462,25 +465,25 @@ group chats will show up in the same list.<br>
 Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
 From the <a href="https://threema.ch/en/faq">FAQ</a>:
 <blockquote cite="https://threema.ch/en/faq">
-Which data gets stored at Threema?
-
+Which data gets stored at Threema?<br>
+<br>
 Using Threema ought to generate as little data on servers as possible – this is part of the concept.
 For that reason, data like e.g. contacts or group chats are stored in a decentralized way on user
 devices, instead of on a Threema server. Our servers assume the role of a switch; messages and data
 get forwarded, but not permanently stored. Where there is no data, there is nothing to be accessed
 or misused. However: without some kind of (temporary) data storage, there cannot be any asynchronous
 communication. In the following we will explain what kind of data we store, how we store it and for
-how long.
-
+how long.<br>
+<br>
 Messages and group chats: As soon as a message has been successfully delivered to the recipient, it
 is immediately deleted from the server. All messages and media are transmitted end-to-end encrypted
 in Threema. This means: even if someone intercepted your message, it would be completely useless.
-Only the intended recipient is able to decrypt and read a message.
+Only the intended recipient is able to decrypt and read a message.<br>
 No contact lists are stored when synchronizing contacts: The email addresses and phone numbers from
 your address book get anonymized (hashed) before they reach the server. Once the comparison is
-finished, they are immediately deleted from the server.
+finished, they are immediately deleted from the server.<br>
 Key pairs are generated in a decentralized way on your device. Your private key is never known to
-us, and therefore we cannot decrypt any message contents.
+us, and therefore we cannot decrypt any message contents.<br>
 Threema doesn't log who is communicating with whom (which Threema IDs are communicating).
 </blockquote>
 </td></tr>
