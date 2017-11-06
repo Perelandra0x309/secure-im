@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+table {
+  width:98%;
+  border-collapse:collapse;
+}
+.wrapper {
+  width:95%;
+  max-width:95%;
+  margin:0 auto;
+}
+section {
+  width:100%;
+  max-width:100%;
+  float:center;
+  padding-bottom:50px;
+}
+.inner {
+  max-width:95%;
+}
