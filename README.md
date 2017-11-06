@@ -190,7 +190,8 @@ What the server sees:[1]
 - SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
 </pre>
 My verdict: The best option for a wide base of users.<br>
-XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.
+XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.<br>
+One drawback is the clients are all different so there is a lack of consistency in experience and features across platforms.
 </td></tr>
 
 <tr>
@@ -463,7 +464,7 @@ It is also very easy to create encrypted group chats with multiple contacts.  Al
 group chats will show up in the same list.<br>
 Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
 From the <a href="https://threema.ch/en/faq">FAQ</a>:
-<pre>
+<blockquote>
 Which data gets stored at Threema?
 
 Using Threema ought to generate as little data on servers as possible – this is part of the concept.
@@ -484,7 +485,7 @@ finished, they are immediately deleted from the server.
 Key pairs are generated in a decentralized way on your device. Your private key is never known to
 us, and therefore we cannot decrypt any message contents.
 Threema doesn't log who is communicating with whom (which Threema IDs are communicating).
-</pre>
+</blockquote>
 </td></tr>
 
 <tr>
@@ -620,7 +621,7 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 <li>FireChat https://www.opengarden.com/firechat.html</li>
 <li>OnionShare</li>
 <li>Chiffry- https://www.chiffry.de</li>
-<li>GDATA Secure Chate- https://www.gdata.de/mobile</li>
+<li>GDATA Secure Chat- https://www.gdata.de/mobile</li>
 <li>Brabbler- https://www.brabbler.ag/index-de.html</li>
 <li>Kullo- https://www.kullo.net/de/#start</li>
 
