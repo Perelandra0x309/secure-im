@@ -179,7 +179,7 @@ OMEMO Clients:<br>
   <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a></li>
 </ul>
 <br>
-<pre>
+<blockquote>
 What the server sees:[1]
 - Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.
 - Your contact list is saved to the server in plaintext
@@ -188,7 +188,7 @@ What the server sees:[1]
 - Whether you are online or not, and your status.
 - Who you contacted, when, and how frequently.
 - SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
-</pre>
+</blockquote>
 My verdict: The best option for a wide base of users.<br>
 XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.<br>
 One drawback is the clients are all different so there is a lack of consistency in experience and features across platforms.
@@ -255,7 +255,7 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
   <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
 </tr>
 <tr><td colspan="4">
-<pre>
+<blockquote>
 What is leaked to the world when using the DHT.[1]
 - Your IP address.
 - The IP addresses that you are connecting to.
@@ -340,7 +340,7 @@ program will need to function comfortably.
 used as a retroshare server. I have never used it, so I cannot comment
 on it.
 
-</pre>
+</blockquote>
 </td></tr>
 
 <tr>
@@ -356,11 +356,11 @@ on it.
   <li>Wire client sends the unencrypted, unhashed password to the central server over TLS, the server hashes the plaintext password with scrypt, and the hash is compared to the hash stored by the server.		This process leaks the user's password to the central server; the server operators (or anyone who compromises the server) could log all of the plaintext passwords as users authenticate.</li>
   <li>The desktop application is implemented as a packaged web application</li>
 </ul>
-<pre>
-What the server sees and may save:[1]
-- Your contact list is saved to the server in plaintext.
+<blockquote>
+What the server sees and may save:[1]<br>
+- Your contact list is saved to the server in plaintext.<br>
 - Who you talk to, when, and for how long.
-</pre>
+</blockquote>
 </td></tr>
 
 <tr>
@@ -464,7 +464,7 @@ It is also very easy to create encrypted group chats with multiple contacts.  Al
 group chats will show up in the same list.<br>
 Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
 From the <a href="https://threema.ch/en/faq">FAQ</a>:
-<blockquote>
+<blockquote cite="https://threema.ch/en/faq">
 Which data gets stored at Threema?
 
 Using Threema ought to generate as little data on servers as possible – this is part of the concept.
