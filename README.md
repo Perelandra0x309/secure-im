@@ -55,6 +55,7 @@ If you're not so strict about being open source try:
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: Canada<br>
     Pros:<br>
     On F-Droid<br>
     Multiple platforms<br>
@@ -387,6 +388,7 @@ Development seems to have ceased in May 2017.<br>
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: France?<br>
 TwinMe is easy to setup and to connect with another TwinMe user you can either scan their QR code in person or send them an invite link.<br>
 The interface is professional looking, though the iOS version seems more consistant with the host OS than the Android version.  For example 
 the Android client does not have autocorrect so typing behaves differently than if you are used to autocorrect.<br>
@@ -402,6 +404,7 @@ The version from the Google Play Store (downloaded via Yalp) did run.
   <td></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: USA<br>
 Self destruct messages<br>
 Requires a phone number to register, uses the phone numbers in your contacts list.
 </td></tr>
@@ -419,6 +422,7 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
   <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: USA<br>
 Partially open source (cypto protocol only)<br>
 WickrMe synchronizes your chats across all your devices.<br>
 There are no group chats and not many unique features, but as a basic chat client it works very well.<br>
@@ -432,6 +436,7 @@ Conversations expire after a set time or can be set to erase once read.
   <td></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: Scotland, UK<br>
 Eleet is very easy to setup and there is no requirement for an email or phone number.  To add a contact 
 you need to acquire their Eleet ID or scan their QR code.  In chats you can see an indicator when someone is typing. 
 Encrypted group chats are very easy to create.  Group chats have the option to be anonymous (where 
@@ -450,9 +455,10 @@ The desktop clients will sync up all messages so you can transition between devi
   <td><a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: Switzerland<br>
 Threema is very easy to setup and use.  Linking to an email or phone number is totally optional. 
-To add a contact you need to acquire their Threema ID via a separate channel, search your contacts list for a match 
-(hmm, no thanks), or scan their fingerprint QR code in person.  These three methods attach 3 levels of "verification" 
+To add a contact you need to acquire their Threema ID via a separate channel, search your contacts list for a match,
+ or scan their fingerprint QR code in person.  These three methods attach 3 levels of "verification" 
 to your contacts:
 <ul>
 <li>Red- Anonymous (added manually)</li>
@@ -495,6 +501,7 @@ Threema doesn't log who is communicating with whom (which Threema IDs are commun
   <td><a href="https://hoccer.com/faq/">FAQ</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: Germany<br>
 Only works on a single device
 </td></tr>
 
@@ -505,6 +512,7 @@ Only works on a single device
   <td><a href="https://www.sims.me/data-protection">Data Protection</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: Germany<br>
 Developed by the Deutsche Post, servers are located in Germany<br>
 The SIMSme encryption key is tied to the phone and cannot be transfered to another.  Requires a phone number to register.<br>
 Invite contacts based on their phone number.  SIMSme checks your address book for existing registered users.<br>
@@ -520,6 +528,7 @@ It gives an error on Android without Google Play Services that it won't run, but
   <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
 </tr>
 <tr><td colspan="4">
+Country of origin: Russia, now Dubai<br>
 <blockquote>
 Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is
