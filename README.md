@@ -44,8 +44,8 @@ Scoring messaging apps used across multiple platforms:<br>
   <th width="11%">Messages sync to all devices</th>
   <th width="11%">Open source</th>
   <th width="11%">Perfect forward secrecy</th>
-  <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a> +.5<br>
-    Based outside the 14 eyes +.5</th>
+  <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
+    Based outside the 14 eyes: +.5</th>
   <th width="11%">Total score:</th>
 </tr>
 <tr>
@@ -54,15 +54,15 @@ Scoring messaging apps used across multiple platforms:<br>
 </tr>
 <tr>
   <td>Keybase.io</td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>0</td><td>4</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>0 (USA)</td><td>4</td>
 </tr>
 <tr>
   <td>Eleet.im</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>0</td><td>4</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>0 (UK)</td><td>4</td>
 </tr>
 <tr>
   <td>WickrMe</td>
-  <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0</td><td>3.5</td>
+  <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
 </tr>
 <tr>
   <td>XMPP with OMEMO</td>
@@ -70,7 +70,7 @@ Scoring messaging apps used across multiple platforms:<br>
 </tr>
 <tr>
   <td>Ring.cx</td>
-  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>?</td><td>0</td><td>2</td>
+  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>?</td><td>0 (Canada)</td><td>2</td>
 </tr>
 
 </table>
