@@ -44,8 +44,8 @@ Scoring messaging apps used across multiple platforms:<br>
   <th width="11%">Messages sync to all devices</th>
   <th width="11%">Open source</th>
   <th width="11%">Perfect forward secrecy</th>
-  <th width="11%">Based outside the 5 eyes (USA, UK, Canada, Australia, NZ) +.5<br>
-    Based outside the 14 eyes (also Denmark, France, Netherlands, Norway, Belgium, Germany, Italy, Spain, Sweden) +.5</th>
+  <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a> +.5<br>
+    Based outside the 14 eyes +.5</th>
   <th width="11%">Total score:</th>
 </tr>
 <tr>
