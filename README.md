@@ -34,6 +34,25 @@ Messaging apps to use without giving out your phone number:
     <li>Riot/Matrix (E2EE still in beta)</li>
   </ul>
 </ul>
+Scoring messaging apps used across multiple platforms:<br>
+<table>
+<tr>
+  <th>Application</th>
+  <th>Additional sharing features- files, photos, etc</th>
+  <th>Group chats</th>
+  <th>Unified UI across platforms</th>
+  <th>Messages sync to all devices</th>
+  <th>Open source</th>
+  <th>Perfect forward secrecy</th>
+  <th>Total score:</th>
+</tr>
+<tr>
+  <td>Riot.im</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td><td></td>
+</tr>
+
+</table>
+
 If you're not so strict about being open source try:
 <ul>
   <li>Eleet- I am really liking this one</li>
