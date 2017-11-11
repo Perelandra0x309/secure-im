@@ -48,7 +48,27 @@ Scoring messaging apps used across multiple platforms:<br>
 </tr>
 <tr>
   <td>Riot.im</td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td><td></td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>4</td>
+</tr>
+<tr>
+  <td>Keybase.io</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>4</td>
+</tr>
+<tr>
+  <td>Eleet.im</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>4</td>
+</tr>
+<tr>
+  <td>WickrMe</td>
+  <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>3.5</td>
+</tr>
+<tr>
+  <td>XMPP</td>
+  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>?</td><td>2.5</td>
+</tr>
+<tr>
+  <td>Ring.cx</td>
+  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td>?<td></td><td>2</td>
 </tr>
 
 </table>
