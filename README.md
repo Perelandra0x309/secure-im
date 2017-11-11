@@ -38,13 +38,13 @@ Scoring messaging apps used across multiple platforms:<br>
 <table>
 <tr>
   <th>Application</th>
-  <th>Additional sharing features- files, photos, etc</th>
-  <th>Group chats</th>
-  <th>Unified UI across platforms</th>
-  <th>Messages sync to all devices</th>
-  <th>Open source</th>
-  <th>Perfect forward secrecy</th>
-  <th>Total score:</th>
+  <th width="12%">Additional sharing features- files, photos, etc</th>
+  <th width="12%">Group chats</th>
+  <th width="12%">Unified UI across platforms</th>
+  <th width="12%">Messages sync to all devices</th>
+  <th width="12%">Open source</th>
+  <th width="12%">Perfect forward secrecy</th>
+  <th width="12%">Total score:</th>
 </tr>
 <tr>
   <td>Riot.im</td>
@@ -68,7 +68,7 @@ Scoring messaging apps used across multiple platforms:<br>
 </tr>
 <tr>
   <td>Ring.cx</td>
-  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td>?<td></td><td>2</td>
+  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>?</td><td>2</td>
 </tr>
 
 </table>
