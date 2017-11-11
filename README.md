@@ -38,37 +38,39 @@ Scoring messaging apps used across multiple platforms:<br>
 <table>
 <tr>
   <th>Application</th>
-  <th width="12%">Additional sharing features- files, photos, etc</th>
-  <th width="12%">Group chats</th>
-  <th width="12%">Unified UI across platforms</th>
-  <th width="12%">Messages sync to all devices</th>
-  <th width="12%">Open source</th>
-  <th width="12%">Perfect forward secrecy</th>
-  <th width="12%">Total score:</th>
+  <th width="11%">Additional sharing features- files, photos, etc</th>
+  <th width="11%">Group chats</th>
+  <th width="11%">Unified UI across platforms</th>
+  <th width="11%">Messages sync to all devices</th>
+  <th width="11%">Open source</th>
+  <th width="11%">Perfect forward secrecy</th>
+  <th width="11%">Based outside the 5 eyes (USA, UK, Canada, Australia, NZ) +.5<br>
+    Based outside the 14 eyes (also Denmark, France, Netherlands, Norway, Belgium, Germany, Italy, Spain, Sweden) +.5</th>
+  <th width="11%">Total score:</th>
 </tr>
 <tr>
   <td>Riot.im</td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>4</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>?</td><td>4</td>
 </tr>
 <tr>
   <td>Keybase.io</td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>4</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>0</td><td>4</td>
 </tr>
 <tr>
   <td>Eleet.im</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>4</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>0</td><td>4</td>
 </tr>
 <tr>
   <td>WickrMe</td>
-  <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>3.5</td>
+  <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0</td><td>3.5</td>
 </tr>
 <tr>
-  <td>XMPP</td>
-  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>?</td><td>2.5</td>
+  <td>XMPP with OMEMO</td>
+  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>?</td><td>1 (if you choose the right server)</td><td>3.5</td>
 </tr>
 <tr>
   <td>Ring.cx</td>
-  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>?</td><td>2</td>
+  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>?</td><td>0</td><td>2</td>
 </tr>
 
 </table>
