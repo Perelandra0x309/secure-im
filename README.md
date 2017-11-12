@@ -53,19 +53,19 @@ The following scoring table includes messaging apps that can be used across mult
   <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
 </tr>
 <tr>
-  <td>XMPP with OMEMO</td>
+  <td><a href="#xmpp">XMPP with OMEMO</a></td>
   <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
 </tr>
 <tr>
-  <td>WickrMe</td>
+  <td><a href="#wickrme">WickrMe</a></td>
   <td>0</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>4.5</td>
 </tr>
 <tr>
-  <td>Keybase.io</td>
+  <td><a href="#keybase">Keybase.io</a></td>
   <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>4</td>
 </tr>
 <tr>
-  <td>Eleet.im</td>
+  <td><a href="#eleet">Eleet.im</a></td>
   <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>0 (UK)</td><td>4</td>
 </tr>
 
@@ -204,7 +204,7 @@ This app may be the easiest to convince other people to use. However it requires
 </td></tr>
 
 <tr>
-  <td><a href="https://xmpp.org">XMPP</a> (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
+  <td><a name="xmpp" href="https://xmpp.org">XMPP</a> (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
   <td>Linux, Windows, MacOS, Android, iOS</td>
   <td>Text, group chat</td>
   <td><a href="https://xmpp.org/getting-started/">Getting Started</a></td>
@@ -236,7 +236,7 @@ One drawback is the clients are all different so there is a lack of consistency 
 </td></tr>
 
 <tr>
-  <td><a href="https://www.keybase.io">Keybase.io</a></td>
+  <td><a name="keybase" href="https://www.keybase.io">Keybase.io</a></td>
   <td><a href="https://keybase.io/download">Android, iOS, MacOS, Windows, Linux</a></td>
   <td>Text, group chat, file sharing</td>
   <td><a href="https://github.com/keybase">Source code</a></td>
@@ -453,7 +453,7 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a href="https://www.wickr.com/personal">Wickr Me</a></td>
+  <td><a name="wickrme" href="https://www.wickr.com/personal">Wickr Me</a></td>
   <td><a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a></td>
   <td>Text, video, files</td>
   <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
@@ -467,7 +467,7 @@ Conversations expire after a set time or can be set to erase once read.
 </td></tr>
 
 <tr>
-  <td><a href="https://eleet.im">Eleet</a></td>
+  <td><a name="eleet" href="https://eleet.im">Eleet</a></td>
   <td><a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a></td>
   <td>Text, group chat, photos, videos, audio files</td>
   <td></td>
