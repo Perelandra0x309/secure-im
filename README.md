@@ -57,16 +57,16 @@ The following scoring table includes messaging apps that can be used across mult
   <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
 </tr>
 <tr>
+  <td>WickrMe</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>4.5</td>
+</tr>
+<tr>
   <td>Keybase.io</td>
   <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>4</td>
 </tr>
 <tr>
   <td>Eleet.im</td>
   <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>0 (UK)</td><td>4</td>
-</tr>
-<tr>
-  <td>WickrMe</td>
-  <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
 </tr>
 
 </table>
