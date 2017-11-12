@@ -49,7 +49,7 @@ The following scoring table includes messaging apps that can be used across mult
   <th width="11%">Total score:</th>
 </tr>
 <tr>
-  <td>Riot.im</td>
+  <td><a href="#riot">Riot.im</a></td>
   <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
 </tr>
 <tr>
@@ -249,7 +249,7 @@ One drawback is the clients are all different so there is a lack of consistency 
 </td></tr>
 
 <tr>
-  <td><a href="https://about.riot.im">Riot/Matrix</a></td>
+  <td><a name="riot" href="https://about.riot.im">Riot/Matrix</a></td>
   <td><a href="https://about.riot.im/downloads/">Android, iOS, Linux, Mac, Windows, Web</a></td>
   <td>Text, voice, video, file sharing</td>
   <td><a href="https://github.com/vector-im">Source code</a></td>
