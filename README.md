@@ -34,7 +34,7 @@ Messaging apps to use without giving out your phone number:
     <li>Riot/Matrix (E2EE still in beta)</li>
   </ul>
 </ul>
-Scoring messaging apps used across multiple platforms:<br>
+The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
 <table>
 <tr>
   <th>Application</th>
@@ -50,11 +50,15 @@ Scoring messaging apps used across multiple platforms:<br>
 </tr>
 <tr>
   <td>Riot.im</td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>?</td><td>4</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
+</tr>
+<tr>
+  <td>XMPP with OMEMO</td>
+  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
 </tr>
 <tr>
   <td>Keybase.io</td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>?</td><td>0 (USA)</td><td>4</td>
+  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>4</td>
 </tr>
 <tr>
   <td>Eleet.im</td>
@@ -63,14 +67,6 @@ Scoring messaging apps used across multiple platforms:<br>
 <tr>
   <td>WickrMe</td>
   <td>0</td><td>0</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
-</tr>
-<tr>
-  <td>XMPP with OMEMO</td>
-  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>?</td><td>1 (if you choose the right server)</td><td>3.5</td>
-</tr>
-<tr>
-  <td>Ring.cx</td>
-  <td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>?</td><td>0 (Canada)</td><td>2</td>
 </tr>
 
 </table>
@@ -674,6 +670,7 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 <li>GDATA Secure Chat- https://www.gdata.de/mobile</li>
 <li>Brabbler- https://www.brabbler.ag/index-de.html</li>
 <li>Kullo- https://www.kullo.net/de/#start</li>
+<li>https://safeswiss.com P2P (message saved on server before delivery?), closed source, Switzerland</li>
 
 </ul>
 <br>
