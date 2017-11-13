@@ -53,20 +53,20 @@ The following scoring table includes messaging apps that can be used across mult
   <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
 </tr>
 <tr>
-  <td><a href="#xmpp">XMPP with OMEMO</a></td>
-  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
-</tr>
-<tr>
   <td><a href="#wickrme">WickrMe</a></td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>4.5</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>5.5</td>
 </tr>
 <tr>
   <td><a href="#keybase">Keybase.io</a></td>
-  <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>4</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>5</td>
 </tr>
 <tr>
   <td><a href="#eleet">Eleet.im</a></td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>0 (UK)</td><td>4</td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
+</tr>
+<tr>
+  <td><a href="#xmpp">XMPP with OMEMO</a></td>
+  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
 </tr>
 
 </table>
@@ -435,6 +435,19 @@ The version from the Google Play Store (downloaded via Yalp) did run.
 </td></tr>
 
 <tr>
+  <td><a href="https://safeswiss.com">SafeSwiss</a></td>
+  <td>Android, iOS, Windows</td>
+  <td>Text, group chat, voice, pictures, video</td>
+  <td><a href="https://safeswiss.com/encryption">Encryption</a></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Switzerland (<a href="https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695">Company Register</a>)<br>
+Registering your email or phone number is optional.<br>
+Messages are saved (encrypted) on the server if the recipient is not online, delivered and erased once they are online.<br>
+Self destruct messages, perfect forward secrecy
+</td></tr>
+
+<tr>
   <td><a href="http://stealthchat.com">StealthChat</a></td>
   <td>Android, iOS</td>
   <td>Text, voice, pictures</td>
@@ -455,7 +468,7 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
 <tr>
   <td><a name="wickrme" href="https://www.wickr.com/personal">Wickr Me</a></td>
   <td><a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a></td>
-  <td>Text, video, files</td>
+  <td>Text, group chat, video, files</td>
   <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
 </tr>
 <tr><td colspan="4">
@@ -505,6 +518,7 @@ to your contacts:
 This is a nice feature so you can have and easily see different trust levels of your contacts.<br>
 It is also very easy to create encrypted group chats with multiple contacts.  All individual and 
 group chats will show up in the same list.<br>
+Search feature in individual and group chats.<br>
 Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
 From the <a href="https://threema.ch/en/faq">FAQ</a>:
 <blockquote cite="https://threema.ch/en/faq">
@@ -556,6 +570,17 @@ Invite contacts based on their phone number.  SIMSme checks your address book fo
 Three levels of contact trust- High, Medium and Low.<br>
 Self destructing messages.<br>
 It gives an error on Android without Google Play Services that it won't run, but it seems to work.
+</td></tr>
+
+<tr>
+  <td><a href="https://www.gdata.de/mobile">GDATA Secure Chat</a></td>
+  <td>Android</td>
+  <td>Text, voice, photos</td>
+  <td></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Germany<br>
+This is an SMS app with encryption between Secure Chat users.  Requires Google Play Services so I am unable to test it.  There is a version on Amazon App Store but it is from 2015.
 </td></tr>
 
 <tr>
@@ -668,9 +693,7 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 <li>FireChat https://www.opengarden.com/firechat.html</li>
 <li>OnionShare</li>
 <li>Chiffry- https://www.chiffry.de</li>
-<li>GDATA Secure Chat- https://www.gdata.de/mobile</li>
 <li>Brabbler- https://www.brabbler.ag/index-de.html</li>
-<li>https://safeswiss.com P2P (message saved on server before delivery?), closed source, Switzerland</li>
 
 </ul>
 <br>
