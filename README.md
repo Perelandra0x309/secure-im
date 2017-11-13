@@ -656,6 +656,7 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
   </li>
   <li>Line (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.</li>
   <li>WeChat (http://www.wechat.com) No information about security on website, requires a phone number to register.</li>
+  <li>Kullo- https://www.kullo.net Essentially just an encrypted email system, not really chat.</li>
 </ul>
 <br>
 <p>To investigate:</p>
@@ -669,7 +670,6 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 <li>Chiffry- https://www.chiffry.de</li>
 <li>GDATA Secure Chat- https://www.gdata.de/mobile</li>
 <li>Brabbler- https://www.brabbler.ag/index-de.html</li>
-<li>Kullo- https://www.kullo.net/de/#start</li>
 <li>https://safeswiss.com P2P (message saved on server before delivery?), closed source, Switzerland</li>
 
 </ul>
