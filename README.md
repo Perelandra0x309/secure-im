@@ -4,7 +4,7 @@ For now just a list of my notes.  May cleanup later.<br>
 In the table I break up the apps into four groups, split by whether they are open source or not, and whether they are strict Peer-to-Peer or require some type of federated or centralized infrastructure.  This may help to narrow down your search if you are only looking for open source, or only Peer-to-Peer for example.<br>
 Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
-<h3>My current top picks:</h3><br>
+<h2>My current top picks:</h2><br>
 Criteria:
 <ul>
 <li>This list is focused on instant messaging and chatting as the primary usage of the app</li>
@@ -20,13 +20,6 @@ OK let's get this one out of the way first.  If you have a phone, there's almost
 <br>
 Messaging apps to use without giving out your phone number:
 <ul>
-  <li>P2P:</li>
-  <ul>
-    <li>Ring (eagerly waiting for iOS client)</li>
-    <li>Ricochet (desktop only)</li>
-    <li>Tox (I had some usability issues and crashing with some clients)</li>
-  </ul>
-<br>
   <li>Federated or Centralized:</li>
   <ul>
     <li>XMPP with OMEMO</li>
@@ -71,13 +64,65 @@ The following scoring table includes messaging apps that can be used across mult
 
 </table>
 
+<ul>
+  <li>P2P:</li>
+  <ul>
+    <li>Ring (eagerly waiting for iOS client)</li>
+    <li>Ricochet (desktop only)</li>
+    <li>Tox (I had some usability issues and crashing with some clients)</li>
+  </ul>
+</ul>
+The following scoring table includes messaging apps used on a single device:<br>
+<table>
+<tr>
+  <th>Application</th>
+  <th width="11%">Additional sharing features- files, photos, etc</th>
+  <th width="11%">Group chats</th>
+  <th width="11%">Open source</th>
+  <th width="11%">Perfect forward secrecy</th>
+  <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
+    Based outside the 14 eyes: +.5</th>
+  <th width="11%">Total score:</th>
+</tr>
+<tr>
+  <td><a href="#riot">Riot.im</a></td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>4</td>
+</tr>
+<tr>
+  <td><a href="#threema">Threema</a></td>
+  <td>1</td><td>1</td><td>.5</td><td>.5 (on the network layer)</td><td>1 (Switzerland)</td><td>4</td>
+</tr>
+<tr>
+  <td><a href="#safeswiss">SafeSwiss</a></td>
+  <td>1</td><td>1</td><td>0</td><td>1</td><td>1 (Switzerland)</td><td>4</td>
+</tr>
+<tr>
+  <td><a href="#wickrme">WickrMe</a></td>
+  <td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
+</tr>
+<tr>
+  <td><a href="#keybase">Keybase.io</a></td>
+  <td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>3</td>
+</tr>
+<tr>
+  <td><a href="#eleet">Eleet.im</a></td>
+  <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>3</td>
+</tr>
+<tr>
+  <td><a href="#twinme">TwinMe</a></td>
+  <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (France)</td><td>1.5</td>
+</tr>
+
+</table>
+
+<br>
 If you're not so strict about being open source try:
 <ul>
   <li>Eleet- I am really liking this one</li>
   <li>Threema</li>
 </ul>
 
-<h3>Application Information:</h3>
+<h2>Application Information:</h2>
 <table>
   <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
@@ -419,7 +464,7 @@ Development seems to have ceased in May 2017.<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a href="https://twin.me">TwinMe</a></td>
+  <td><a name="twinme" href="https://twin.me">TwinMe</a></td>
   <td>Android, iOS</td>
   <td>Text, voice, video</td>
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
@@ -435,7 +480,7 @@ The version from the Google Play Store (downloaded via Yalp) did run.
 </td></tr>
 
 <tr>
-  <td><a href="https://safeswiss.com">SafeSwiss</a></td>
+  <td><a name="safeswiss" href="https://safeswiss.com">SafeSwiss</a></td>
   <td>Android, iOS, Windows</td>
   <td>Text, group chat, voice, pictures, video</td>
   <td><a href="https://safeswiss.com/encryption">Encryption</a></td>
@@ -499,7 +544,7 @@ The desktop clients will sync up all messages so you can transition between devi
 </td></tr>
 
 <tr>
-  <td><a href="https://threema.ch">Threema</a></td>
+  <td><a name="threema" href="https://threema.ch">Threema</a></td>
   <td>iOS, Android, Windows Phone, Web</td>
   <td>Text, group chat, voice, files</td>
   <td><a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a></td>
@@ -681,7 +726,8 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
   </li>
   <li>Line (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.</li>
   <li>WeChat (http://www.wechat.com) No information about security on website, requires a phone number to register.</li>
-  <li>Kullo- https://www.kullo.net Essentially just an encrypted email system, not really chat.</li>
+  <li>Kullo (https://www.kullo.net) Essentially just an encrypted email system, not really chat.</li>
+  <li>Chiffry (https://www.chiffry.de) Data not encrypted at rest but that feature is on the roadmap (https://www.chiffry.de/en/versionen)</li>
 </ul>
 <br>
 <p>To investigate:</p>
@@ -692,8 +738,7 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 <li>Disa- http://disa.im/index.html</li>
 <li>FireChat https://www.opengarden.com/firechat.html</li>
 <li>OnionShare</li>
-<li>Chiffry- https://www.chiffry.de</li>
-<li>Brabbler- https://www.brabbler.ag/index-de.html</li>
+<li>Brabbler Ginlo https://www.ginlo.net/en- in beta</li>
 
 </ul>
 <br>
