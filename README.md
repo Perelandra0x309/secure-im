@@ -26,7 +26,21 @@ Messaging apps to use without giving out your phone number:
     <li>Keybase.io</li>
     <li>Riot/Matrix (E2EE still in beta)</li>
   </ul>
+  
+  <li>P2P:</li>
+  <ul>
+    <li>Ring (eagerly waiting for iOS client)</li>
+    <li>Ricochet (desktop only)</li>
+    <li>Tox (I had some usability issues and crashing with some clients)</li>
+  </ul>
 </ul>
+<br>
+If you're not so strict about being open source try:
+<ul>
+  <li>Eleet- I am really liking this one</li>
+  <li>Threema</li>
+</ul>
+<br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
 <table>
 <tr>
@@ -64,14 +78,6 @@ The following scoring table includes messaging apps that can be used across mult
 
 </table>
 
-<ul>
-  <li>P2P:</li>
-  <ul>
-    <li>Ring (eagerly waiting for iOS client)</li>
-    <li>Ricochet (desktop only)</li>
-    <li>Tox (I had some usability issues and crashing with some clients)</li>
-  </ul>
-</ul>
 The following scoring table includes messaging apps used on a single device:<br>
 <table>
 <tr>
@@ -85,12 +91,20 @@ The following scoring table includes messaging apps used on a single device:<br>
   <th width="11%">Total score:</th>
 </tr>
 <tr>
+  <td><a href="#xmpp">ChatSecure with OMEMO</a></td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>5</td>
+</tr>
+<tr>
+  <td><a href="#tox">Tox</a></td>
+  <td>1</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>4.5</td>
+</tr>
+<tr>
   <td><a href="#riot">Riot.im</a></td>
   <td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>4</td>
 </tr>
 <tr>
   <td><a href="#threema">Threema</a></td>
-  <td>1</td><td>1</td><td>.5</td><td>.5 (on the network layer)</td><td>1 (Switzerland)</td><td>4</td>
+  <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>1 (Switzerland)</td><td>4</td>
 </tr>
 <tr>
   <td><a href="#safeswiss">SafeSwiss</a></td>
@@ -109,18 +123,20 @@ The following scoring table includes messaging apps used on a single device:<br>
   <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>3</td>
 </tr>
 <tr>
+  <td><a href="#ricochet">Ricochet</a></td>
+  <td>0</td><td>0</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>3</td>
+</tr>
+<tr>
   <td><a href="#twinme">TwinMe</a></td>
   <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (France)</td><td>1.5</td>
+</tr>
+<tr>
+  <td><a href="#ringcx">Ring.cx</a></td>
+  <td>0</td><td>0</td><td>1</td><td>?</td><td>0 (Canada)</td><td>1</td>
 </tr>
 
 </table>
 
-<br>
-If you're not so strict about being open source try:
-<ul>
-  <li>Eleet- I am really liking this one</li>
-  <li>Threema</li>
-</ul>
 
 <h2>Application Information:</h2>
 <table>
@@ -131,7 +147,7 @@ If you're not so strict about being open source try:
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a href="https://ring.cx">Ring</a></td>
+  <td><a name="ringcx" href="https://ring.cx">Ring</a></td>
   <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
   <td>Text, group chat, voice, video</td>
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
@@ -151,7 +167,7 @@ Country of origin: Canada<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://ricochet.im">Ricochet</a></td>
+  <td><a name="ricochet" href="https://ricochet.im">Ricochet</a></td>
   <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
   <td>Text</td>
   <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
@@ -167,7 +183,7 @@ Country of origin: Canada<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://tox.chat">Tox</a></td>
+  <td><a name="tox" href="https://tox.chat">Tox</a></td>
   <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
   <td>Text, voice, video, screen sharing, file sharing</td>
   <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
