@@ -38,7 +38,7 @@ Messaging apps to use without giving out your phone number:
 If you're not so strict about being open source try:
 <ul>
   <li>Eleet- I am really liking this one</li>
-  <li>Threema</li>
+  <li>Threema (partially open source)</li>
 </ul>
 <br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
@@ -127,12 +127,12 @@ The following scoring table includes messaging apps used on a single device:<br>
   <td>0</td><td>0</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>3</td>
 </tr>
 <tr>
-  <td><a href="#twinme">TwinMe</a></td>
-  <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (France)</td><td>1.5</td>
+  <td><a href="#ringcx">Ring.cx</a></td>
+  <td>0</td><td>0</td><td>1</td><td>?</td><td>1 (No central servers)</td><td>2</td>
 </tr>
 <tr>
-  <td><a href="#ringcx">Ring.cx</a></td>
-  <td>0</td><td>0</td><td>1</td><td>?</td><td>0 (Canada)</td><td>1</td>
+  <td><a href="#twinme">TwinMe</a></td>
+  <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (France)</td><td>1.5</td>
 </tr>
 
 </table>
