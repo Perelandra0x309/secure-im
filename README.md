@@ -241,7 +241,7 @@ Country of origin: Canada<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a href="https://www.signal.org">Signal</a></td>
+  <td><a name="signal" href="https://www.signal.org">Signal</a></td>
   <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
   <td>Text, voice, video, files, images</td>
   <td><a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a></td>
