@@ -13,7 +13,7 @@ Criteria:
 </ul>
 SMS:
 <ul>
-<li>Signal<br>
+<li><a href="#signal">Signal</a><br>
 OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are comfortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
 </li>
 </ul>
@@ -22,26 +22,27 @@ Messaging apps to use without giving out your phone number:
 <ul>
   <li>Federated or Centralized:</li>
   <ul>
-    <li>Threema (partially open source)</li>
-    <li>XMPP with OMEMO</li>
-    <li>Keybase.io</li>
-    <li>Riot/Matrix (E2EE still in beta)</li>
+    <li><a href="#threema">Threema</a> (partially open source)</li>
+    <li><a href="#xmpp">XMPP with OMEMO</a></li>
+    <li><a href="#keybase">Keybase.io</a></li>
+    <li><a href="#riot">Riot/Matrix</a> (E2EE still in beta)</li>
   </ul>
   
   <li>P2P:</li>
   <ul>
-    <li>Ricochet (desktop only)</li>
-    <li>Tox (I had some usability issues and crashing with some clients)</li>
+    <li><a href="#ricochet">Ricochet</a> (desktop only)</li>
+    <li><a href="#tox">Tox</a> (I had some usability issues and crashing with some clients)</li>
   </ul>
 </ul>
 <br>
 If you're not so strict about being open source try:
 <ul>
-  <li>SafeSwiss- P2P, not open source but based in Switzerland</li>
-  <li>TwinMe- P2P, not open source, based in France</li>
-  <li>Eleet- I am really liking this one, unfortunately not open source and based in the UK</li>
+  <li><a href="#safeswiss">SafeSwiss</a>- P2P, not open source but based in Switzerland</li>
+  <li><a href="#twinme">TwinMe</a>- P2P, not open source, based in France</li>
+  <li><a href="#eleet">Eleet</a>- I am really liking this one, unfortunately not open source and based in the UK</li>
 </ul>
 <br>
+<h2>How about some rankings?</h2><br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
 <table>
 <tr>
