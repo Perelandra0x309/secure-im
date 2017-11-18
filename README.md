@@ -22,6 +22,7 @@ Messaging apps to use without giving out your phone number:
 <ul>
   <li>Federated or Centralized:</li>
   <ul>
+    <li>Threema (partially open source)</li>
     <li>XMPP with OMEMO</li>
     <li>Keybase.io</li>
     <li>Riot/Matrix (E2EE still in beta)</li>
@@ -29,7 +30,6 @@ Messaging apps to use without giving out your phone number:
   
   <li>P2P:</li>
   <ul>
-    <li>Ring (eagerly waiting for iOS client)</li>
     <li>Ricochet (desktop only)</li>
     <li>Tox (I had some usability issues and crashing with some clients)</li>
   </ul>
@@ -37,8 +37,9 @@ Messaging apps to use without giving out your phone number:
 <br>
 If you're not so strict about being open source try:
 <ul>
-  <li>Eleet- I am really liking this one</li>
-  <li>Threema (partially open source)</li>
+  <li>SafeSwiss- P2P, not open source but based in Switzerland</li>
+  <li>TwinMe- P2P, not open source, based in France</li>
+  <li>Eleet- I am really liking this one, unfortunately not open source and based in the UK</li>
 </ul>
 <br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
@@ -132,7 +133,7 @@ The following scoring table includes messaging apps used on a single device:<br>
 </tr>
 <tr>
   <td><a href="#twinme">TwinMe</a></td>
-  <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (France)</td><td>1.5</td>
+  <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (Germany)</td><td>1.5</td>
 </tr>
 
 </table>
@@ -145,26 +146,6 @@ The following scoring table includes messaging apps used on a single device:<br>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
   <td><b>Websites</b></td></tr>
-
-<tr>
-  <td><a name="ringcx" href="https://ring.cx">Ring</a></td>
-  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
-  <td>Text, group chat, voice, video</td>
-  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
-</tr>
-<tr><td colspan="4">
-Country of origin: Canada<br>
-    Pros:<br>
-    On F-Droid<br>
-    Multiple platforms<br>
-    Not dependent on a phone #<br>
-    Cons:<br>
-    Android and Mac app still have some usability issues, just out of beta<br>
-    <br>
-    My verdict: Yes yes yes!<br>
-    This is being developed as a side project by Savoir-faire Linux so they know open source!  The clients have a unified experience and are available for most platforms (waiting for iOS).<br>
-    This was designed as a P2P app, so messages you send are not synced between your multiple clients.  However messages sent to you do appear on all your clients, making a somewhat confusing stream of conversation when using multiple clients.
-</td></tr>
 
 <tr>
   <td><a name="ricochet" href="https://ricochet.im">Ricochet</a></td>
@@ -202,6 +183,27 @@ What is leaked to the world:[1]<br>
 <br>
 My verdict: Try it!<br>
 Tox has a lot of promise, the clients need more polishing but they are available for most platforms which will help adoptability.
+</td></tr>
+
+<tr>
+  <td><a name="ringcx" href="https://ring.cx">Ring</a></td>
+  <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
+  <td>Text, group chat, voice, video</td>
+  <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Canada<br>
+    Pros:<br>
+    On F-Droid<br>
+    Multiple platforms<br>
+    Not dependent on a phone #<br>
+    Cons:<br>
+    Android and Mac app still have some usability issues, just out of beta<br>
+    <br>
+    My verdict: Worth a try!<br>
+    This is being developed as a side project by Savoir-faire Linux so they know open source!  The clients have a unified experience and are available for most platforms (waiting for iOS).<br>
+    This was designed as a P2P app, so messages you send are not synced between your multiple clients.  However messages sent to you do appear on all your clients, making a somewhat confusing stream of conversation when using multiple clients.<br>
+    The primary purpose of Ring is for video calling, but messaging (to individuals) does work.
 </td></tr>
 
 <tr>
@@ -348,7 +350,7 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
     Not dependent on Google play services<br>
   Cons:<br>
     People have to know your phone#
- </td></tr>
+</td></tr>
 
 <tr>
   <td><a href="http://retroshare.net">RetroShare</a></td>
@@ -480,6 +482,19 @@ Development seems to have ceased in May 2017.<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
+  <td><a name="safeswiss" href="https://safeswiss.com">SafeSwiss</a></td>
+  <td>Android, iOS, Windows</td>
+  <td>Text, group chat, voice, pictures, video</td>
+  <td><a href="https://safeswiss.com/encryption">Encryption</a></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Switzerland (<a href="https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695">Company Register</a>)<br>
+Registering your email or phone number is optional.<br>
+Messages are saved (encrypted) on the server if the recipient is not online, delivered and erased once they are online.<br>
+Self destruct messages, perfect forward secrecy
+</td></tr>
+
+<tr>
   <td><a name="twinme" href="https://twin.me">TwinMe</a></td>
   <td>Android, iOS</td>
   <td>Text, voice, video</td>
@@ -493,19 +508,6 @@ the Android client does not have autocorrect so typing behaves differently than 
 One cool feature is the ability to stream music from your device to your contact's device.<br>
 On Android Google Play Services are not required.  The Android version I first tried from the Amazon app store would not launch at all. 
 The version from the Google Play Store (downloaded via Yalp) did run.
-</td></tr>
-
-<tr>
-  <td><a name="safeswiss" href="https://safeswiss.com">SafeSwiss</a></td>
-  <td>Android, iOS, Windows</td>
-  <td>Text, group chat, voice, pictures, video</td>
-  <td><a href="https://safeswiss.com/encryption">Encryption</a></td>
-</tr>
-<tr><td colspan="4">
-Country of origin: Switzerland (<a href="https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695">Company Register</a>)<br>
-Registering your email or phone number is optional.<br>
-Messages are saved (encrypted) on the server if the recipient is not online, delivered and erased once they are online.<br>
-Self destruct messages, perfect forward secrecy
 </td></tr>
 
 <tr>
@@ -525,39 +527,6 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
   <td><b>Websites</b></td></tr>
-
-<tr>
-  <td><a name="wickrme" href="https://www.wickr.com/personal">Wickr Me</a></td>
-  <td><a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a></td>
-  <td>Text, group chat, video, files</td>
-  <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
-</tr>
-<tr><td colspan="4">
-Country of origin: USA<br>
-Partially open source (cypto protocol only)<br>
-WickrMe synchronizes your chats across all your devices.<br>
-There are no group chats and not many unique features, but as a basic chat client it works very well.<br>
-Conversations expire after a set time or can be set to erase once read.
-</td></tr>
-
-<tr>
-  <td><a name="eleet" href="https://eleet.im">Eleet</a></td>
-  <td><a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a></td>
-  <td>Text, group chat, photos, videos, audio files</td>
-  <td></td>
-</tr>
-<tr><td colspan="4">
-Country of origin: Scotland, UK<br>
-Eleet is very easy to setup and there is no requirement for an email or phone number.  To add a contact 
-you need to acquire their Eleet ID or scan their QR code.  In chats you can see an indicator when someone is typing. 
-Encrypted group chats are very easy to create.  Group chats have the option to be anonymous (where 
-you will not see anyone's ID only their nickname), and/or temporary where the group chat will be deleted 
-from everyone's device at a specified time.<br>
-One very nice feature is the ability to create private IDs, which are in addition to your primary ID. 
-These private IDs are not linked in any way to your primary one.  Each private ID has a separate list 
-of contacts and chats, and they are all accessible without needing to log in and out.<br>
-The desktop clients will sync up all messages so you can transition between devices and see all messages.
-</td></tr>
 
 <tr>
   <td><a name="threema" href="https://threema.ch">Threema</a></td>
@@ -604,6 +573,39 @@ Key pairs are generated in a decentralized way on your device. Your private key 
 us, and therefore we cannot decrypt any message contents.<br>
 Threema doesn't log who is communicating with whom (which Threema IDs are communicating).
 </blockquote>
+</td></tr>
+
+<tr>
+  <td><a name="eleet" href="https://eleet.im">Eleet</a></td>
+  <td><a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a></td>
+  <td>Text, group chat, photos, videos, audio files</td>
+  <td></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Scotland, UK<br>
+Eleet is very easy to setup and there is no requirement for an email or phone number.  To add a contact 
+you need to acquire their Eleet ID or scan their QR code.  In chats you can see an indicator when someone is typing. 
+Encrypted group chats are very easy to create.  Group chats have the option to be anonymous (where 
+you will not see anyone's ID only their nickname), and/or temporary where the group chat will be deleted 
+from everyone's device at a specified time.<br>
+One very nice feature is the ability to create private IDs, which are in addition to your primary ID. 
+These private IDs are not linked in any way to your primary one.  Each private ID has a separate list 
+of contacts and chats, and they are all accessible without needing to log in and out.<br>
+The desktop clients will sync up all messages so you can transition between devices and see all messages.
+</td></tr>
+
+<tr>
+  <td><a name="wickrme" href="https://www.wickr.com/personal">Wickr Me</a></td>
+  <td><a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a></td>
+  <td>Text, group chat, video, files</td>
+  <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: USA<br>
+Partially open source (cypto protocol only)<br>
+WickrMe synchronizes your chats across all your devices.<br>
+There are no group chats and not many unique features, but as a basic chat client it works very well.<br>
+Conversations expire after a set time or can be set to erase once read.
 </td></tr>
 
 <tr>
