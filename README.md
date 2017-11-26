@@ -93,7 +93,7 @@ The following scoring table includes messaging apps used on a single device:<br>
   <th width="11%">Total score:</th>
 </tr>
 <tr>
-  <td><a href="#xmpp">ChatSecure with OMEMO</a></td>
+  <td><a href="#xmpp">ChatSecure/Conversations</a></td>
   <td>1</td><td>1</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>5</td>
 </tr>
 <tr>
@@ -523,6 +523,18 @@ Self destruct messages<br>
 Requires a phone number to register, uses the phone numbers in your contacts list.
 </td></tr>
 
+<tr>
+  <td><a href="https://kripter.io">Kripter</a></td>
+  <td>Android</td>
+  <td>Text, voice, pictures, files, location</td>
+  <td></td>
+</tr>
+<tr><td colspan="4">
+Kripter is a secure P2P messenger app (they also have secure email).  It features self destruct messages, group chats, PIN number for self-destruct.<br>
+Messages were sent very quickly. Unfortunately in practice there were too many serious bugs to make this worth keeping. Encrypted chats lost their OTR connection and we received errors that we needed an OTR plugin. Sometimes the app would just display a rotating circle and say "Loading..." and we would have to kill the app and restart it to get into existing chat sessions.  Some messages failed to burn after the allotted time.<br>
+Until these bugs and issues are resolved (as of this writing Nov 26, 2017) I do not recommend using this application.
+</td></tr>
+
 <tr><td colspan="4" style="text-align:center"><H2>Federated or Centralized Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
@@ -605,7 +617,7 @@ The desktop clients will sync up all messages so you can transition between devi
 Country of origin: USA<br>
 Partially open source (cypto protocol only)<br>
 WickrMe synchronizes your chats across all your devices.<br>
-There are no group chats and not many unique features, but as a basic chat client it works very well.<br>
+There are not many unique features, but as a basic chat client it works very well.<br>
 Conversations expire after a set time or can be set to erase once read.
 </td></tr>
 
