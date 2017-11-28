@@ -149,7 +149,7 @@ In this table I break up the apps into four groups, split by whether they are op
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><img src="images/checkmark.gif"><a name="ricochet" href="https://ricochet.im">Ricochet</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="ricochet" href="https://ricochet.im">Ricochet</a></td>
   <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
   <td>Text</td>
   <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
@@ -165,7 +165,7 @@ In this table I break up the apps into four groups, split by whether they are op
 </td></tr>
 
 <tr>
-  <td><a name="tox" href="https://tox.chat">Tox</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="tox" href="https://tox.chat">Tox</a></td>
   <td><a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a></td>
   <td>Text, voice, video, screen sharing, file sharing</td>
   <td><a href="https://github.com/TokTok/c-toxcore">toxcore source</a></td>
@@ -187,7 +187,7 @@ Tox has a lot of promise, the clients need more polishing but they are available
 </td></tr>
 
 <tr>
-  <td><a name="ringcx" href="https://ring.cx">Ring</a></td>
+  <td><img src="images/checkmark.gif"><a name="ringcx" href="https://ring.cx">Ring</a></td>
   <td><a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a></td>
   <td>Text, group chat, voice, video</td>
   <td><a href="https://github.com/savoirfairelinux/">Source Code</a></td>
@@ -208,7 +208,7 @@ Country of origin: Canada<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://briarproject.org">Briar Project</a></td>
+  <td><img src="images/checkmark.gif"><a href="https://briarproject.org">Briar Project</a></td>
   <td>Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a></td>
   <td>Text and forums</td>
   <td><a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a></td>
@@ -241,7 +241,7 @@ Country of origin: Canada<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a name="signal" href="https://www.signal.org">Signal</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="signal" href="https://www.signal.org">Signal</a></td>
   <td>Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop</td>
   <td>Text, voice, video, files, images</td>
   <td><a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a></td>
@@ -268,7 +268,7 @@ This app may be the easiest to convince other people to use. However it requires
 </td></tr>
 
 <tr>
-  <td><a name="xmpp" href="https://xmpp.org">XMPP</a> (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="xmpp" href="https://xmpp.org">XMPP</a> (with <a href="https://wiki.xmpp.org/web/OTR">OTR</a> or OMEMO)</td>
   <td>Linux, Windows, MacOS, Android, iOS</td>
   <td>Text, group chat</td>
   <td><a href="https://xmpp.org/getting-started/">Getting Started</a></td>
@@ -300,7 +300,7 @@ One drawback is the clients are all different so there is a lack of consistency 
 </td></tr>
 
 <tr>
-  <td><a name="keybase" href="https://www.keybase.io">Keybase.io</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="keybase" href="https://www.keybase.io">Keybase.io</a></td>
   <td><a href="https://keybase.io/download">Android, iOS, MacOS, Windows, Linux</a></td>
   <td>Text, group chat, file sharing</td>
   <td><a href="https://github.com/keybase">Source code</a></td>
@@ -313,7 +313,7 @@ One drawback is the clients are all different so there is a lack of consistency 
 </td></tr>
 
 <tr>
-  <td><a name="riot" href="https://about.riot.im">Riot/Matrix</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="riot" href="https://about.riot.im">Riot/Matrix</a></td>
   <td><a href="https://about.riot.im/downloads/">Android, iOS, Linux, Mac, Windows, Web</a></td>
   <td>Text, voice, video, file sharing</td>
   <td><a href="https://github.com/vector-im">Source code</a></td>
@@ -328,7 +328,7 @@ Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)
 </td></tr>
 
 <tr>
-  <td><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger">Tor Messenger</a></td>
   <td>Linux, Windows, MacOS</td>
   <td>Text</td>
   <td></td>
@@ -339,7 +339,7 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
 </td></tr>
 
 <tr>
-  <td><a href="http://www.kontalk.org">Kontalk (XMPP)</a></td>
+  <td><img src="images/checkmark.gif"><a href="http://www.kontalk.org">Kontalk (XMPP)</a></td>
   <td><a href="https://github.com/kontalk/androidclient/releases">Android</a> (does not require Google Play), <a href="https://github.com/kontalk/desktopclient-java/releases">Java</a></td>
   <td>text</td>
   <td><a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>,<br>
@@ -354,7 +354,7 @@ Connect via multiple OTR protocols (IRC, XMPP, Google Talk, etc.)<br>
 </td></tr>
 
 <tr>
-  <td><a href="http://retroshare.net">RetroShare</a></td>
+  <td><img src="images/checkmark.gif"><a href="http://retroshare.net">RetroShare</a></td>
   <td><a href="http://retroshare.net/downloads.html">Windows, Mac, Linux</a></td>
   <td>Text, voice, video, email, file sharing</td>
   <td><a href="https://github.com/RetroShare/RetroShare">Source code</a></td>
@@ -446,7 +446,7 @@ on it.
 </td></tr>
 
 <tr>
-  <td><a href="https://wire.com">Wire</a></td>
+  <td><img src="images/x.gif"><a href="https://wire.com">Wire</a></td>
   <td>Android, iOS, MacOS, Windows, Linux, Web</td>
   <td>Text, voice, video</td>
   <td><a href="https://github.com/wireapp">Source code</a></td>
@@ -466,7 +466,7 @@ What the server sees and may save:[1]<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://www.surespot.me">Surespot</a></td>
+  <td><img src="images/checkmark.gif"><a href="https://www.surespot.me">Surespot</a></td>
   <td>Android, iOS</td>
   <td>Text, voice, images</td>
   <td><a href="https://github.com/surespot">Source code</a></td>
@@ -483,7 +483,7 @@ Development seems to have ceased in May 2017.<br>
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a name="safeswiss" href="https://safeswiss.com">SafeSwiss</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="safeswiss" href="https://safeswiss.com">SafeSwiss</a></td>
   <td>Android, iOS, Windows</td>
   <td>Text, group chat, voice, pictures, video</td>
   <td><a href="https://safeswiss.com/encryption">Encryption</a></td>
@@ -496,7 +496,7 @@ Self destruct messages, perfect forward secrecy
 </td></tr>
 
 <tr>
-  <td><a name="twinme" href="https://twin.me">TwinMe</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="twinme" href="https://twin.me">TwinMe</a></td>
   <td>Android, iOS</td>
   <td>Text, voice, video</td>
   <td><a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a></td>
@@ -512,7 +512,7 @@ The version from the Google Play Store (downloaded via Yalp) did run.
 </td></tr>
 
 <tr>
-  <td><a href="http://stealthchat.com">StealthChat</a></td>
+  <td><img src="images/checkmark.gif"><a href="http://stealthchat.com">StealthChat</a></td>
   <td>Android, iOS</td>
   <td>Text, voice, pictures</td>
   <td></td>
@@ -524,7 +524,7 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
 </td></tr>
 
 <tr>
-  <td><a href="https://kripter.io">Kripter</a></td>
+  <td><img src="images/x.gif"><a href="https://kripter.io">Kripter</a></td>
   <td>Android</td>
   <td>Text, voice, pictures, files, location</td>
   <td></td>
@@ -542,7 +542,7 @@ Until these bugs and issues are resolved (as of this writing Nov 26, 2017- versi
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a name="threema" href="https://threema.ch">Threema</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="threema" href="https://threema.ch">Threema</a></td>
   <td>iOS, Android, Windows Phone, Web</td>
   <td>Text, group chat, voice, files</td>
   <td><a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a></td>
@@ -589,7 +589,7 @@ Threema doesn't log who is communicating with whom (which Threema IDs are commun
 </td></tr>
 
 <tr>
-  <td><a name="eleet" href="https://eleet.im">Eleet</a></td>
+  <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="eleet" href="https://eleet.im">Eleet</a></td>
   <td><a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a></td>
   <td>Text, group chat, photos, videos, audio files</td>
   <td></td>
@@ -608,7 +608,7 @@ The desktop clients will sync up all messages so you can transition between devi
 </td></tr>
 
 <tr>
-  <td><a name="wickrme" href="https://www.wickr.com/personal">Wickr Me</a></td>
+  <td><img src="images/checkmark.gif"><a name="wickrme" href="https://www.wickr.com/personal">Wickr Me</a></td>
   <td><a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a></td>
   <td>Text, group chat, video, files</td>
   <td><a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a></td>
@@ -622,7 +622,7 @@ Conversations expire after a set time or can be set to erase once read.
 </td></tr>
 
 <tr>
-  <td><a href="https://hoccer.com">Hoccer</a></td>
+  <td><img src="images/checkmark.gif"><a href="https://hoccer.com">Hoccer</a></td>
   <td><a href="https://hoccer.com/#section-download">Android, iOS</a></td>
   <td>Text, file sharing</td>
   <td><a href="https://hoccer.com/faq/">FAQ</a></td>
@@ -633,7 +633,7 @@ Only works on a single device
 </td></tr>
 
 <tr>
-  <td><a href="https://www.sims.me">SIMSme</a></td>
+  <td><img src="images/checkmark.gif"><a href="https://www.sims.me">SIMSme</a></td>
   <td><a href="https://www.sims.me/en#Download">Android, iOS</a></td>
   <td>Text, group chat, images, videos, location, contacts</td>
   <td><a href="https://www.sims.me/data-protection">Data Protection</a></td>
@@ -649,7 +649,7 @@ It gives an error on Android without Google Play Services that it won't run, but
 </td></tr>
 
 <tr>
-  <td><a href="https://www.gdata.de/mobile">GDATA Secure Chat</a></td>
+  <td><img src="images/checkmark.gif"><a href="https://www.gdata.de/mobile">GDATA Secure Chat</a></td>
   <td>Android</td>
   <td>Text, voice, photos</td>
   <td></td>
@@ -660,7 +660,7 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 </td></tr>
 
 <tr>
-  <td><a href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
+  <td><img src="images/x.gif"><a href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
   <td><a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a></td>
   <td>Text, voice, file sharing</td>
   <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
@@ -692,7 +692,7 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 </td></tr>
 
 <tr>
-  <td><a href="https://www.viber.com">Viber</a></td>
+  <td><img src="images/x.gif"><a href="https://www.viber.com">Viber</a></td>
   <td>Android, iOS, Mac, Windows, Linux</td>
   <td>Text, group messaging, voice and video calls, photos</td>
   <td><a href="https://support.viber.com">Support</a>,<br>
@@ -710,7 +710,7 @@ developed from scratch and does not share Signal’s source code.
 </td></tr>
 
 <tr>
-  <td><a href="https://getconfide.com">Confide</a></td>
+  <td><img src="images/x.gif"><a href="https://getconfide.com">Confide</a></td>
   <td><a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a></td>
   <td>Text, group messaging, voice and video messages, file sharing</td>
   <td><a href="https://getconfide.com/faq">FAQ</a>,<br>
