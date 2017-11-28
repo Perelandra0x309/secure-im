@@ -1,7 +1,6 @@
 # secure-im
 My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
-For now just a list of my notes.  May cleanup later.<br>
-In the table I break up the apps into four groups, split by whether they are open source or not, and whether they are strict Peer-to-Peer or require some type of federated or centralized infrastructure.  This may help to narrow down your search if you are only looking for open source, or only Peer-to-Peer for example.<br>
+<br>
 Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
 
 <h2>My current top picks:</h2><br>
@@ -141,8 +140,9 @@ The following scoring table includes messaging apps used on a single device:<br>
 
 
 <h2>Application Information:</h2>
+In this table I break up the apps into four groups, split by whether they are open source or not, and whether messages are sent Peer-to-Peer or require some type of federated or centralized infrastructure.  This may help to narrow down your search if you are only looking for open source, or only Peer-to-Peer for example.<br>
 <table>
-  <tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Open Source</H2></td></tr>
+  <tr><td colspan="4" style="text-align:center"><H2>P2P Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -476,7 +476,7 @@ Development seems to have ceased in May 2017.<br>
 <a href="https://www.surespot.me/documents/threat.html">Data and threat analysis</a>
 </td></tr>
 
-<tr><td colspan="4" style="text-align:center"><H2>P2P Serverless Closed Source</H2></td></tr>
+<tr><td colspan="4" style="text-align:center"><H2>P2P Closed Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td>
@@ -532,7 +532,7 @@ Requires a phone number to register, uses the phone numbers in your contacts lis
 <tr><td colspan="4">
 Kripter is a secure P2P messenger app (they also have secure email).  It features self destruct messages, group chats, PIN number for self-destruct.<br>
 Messages were sent very quickly. Unfortunately in practice there were too many serious bugs to make this worth keeping. Encrypted chats lost their OTR connection and we received errors that we needed an OTR plugin. Sometimes the app would just display a rotating circle and say "Loading..." and we would have to kill the app and restart it to get into existing chat sessions.  Some messages failed to burn after the allotted time.<br>
-Until these bugs and issues are resolved (as of this writing Nov 26, 2017) I do not recommend using this application.
+Until these bugs and issues are resolved (as of this writing Nov 26, 2017- version 1.3) I do not recommend using this application.
 </td></tr>
 
 <tr><td colspan="4" style="text-align:center"><H2>Federated or Centralized Closed Source</H2></td></tr>
@@ -781,7 +781,7 @@ Other similar resources:<br>
 <a href="https://ssd.eff.org">EFF Surveillence Self-Defense</a><br>
 <a href="https://hackernoon.com/encrypted-instant-messaging-recommendations-january-2017-711c03af02cc">Marcel Ackermann's recommendations</a><br>
 <a href="https://yawnbox.com/2017/05/01/secure-messenger-scorecard-may-2017/">yawnbox's Secure Messagenger Scorecard</a><br>
-
+<a href="https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients#Messengers_with_client-to-client_encryption">Wikipedia- Comparison of IM Clients</a><br>
 <br>
 Sources:
 <pre>[1]: Information provided by JR</pre>
