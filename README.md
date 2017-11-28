@@ -149,7 +149,7 @@ In this table I break up the apps into four groups, split by whether they are op
   <td><b>Websites</b></td></tr>
 
 <tr>
-  <td><a name="ricochet" href="https://ricochet.im">Ricochet</a></td>
+  <td><img src="images/checkmark.gif"><a name="ricochet" href="https://ricochet.im">Ricochet</a></td>
   <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
   <td>Text</td>
   <td><a href="https://github.com/ricochet-im/ricochet">Source Code</a></td>
