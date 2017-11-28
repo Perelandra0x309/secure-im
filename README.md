@@ -141,6 +141,12 @@ The following scoring table includes messaging apps used on a single device:<br>
 
 <h2>Application Information:</h2>
 In this table I break up the apps into four groups, split by whether they are open source or not, and whether messages are sent Peer-to-Peer or require some type of federated or centralized infrastructure.  This may help to narrow down your search if you are only looking for open source, or only Peer-to-Peer for example.<br>
+Recommendation key:<br>
+<ul>
+  <li><img src="images/checkmark.gif"><img src="images/checkmark.gif">- Highly recommended</li>
+  <li><img src="images/checkmark.gif">- Worth a try</li>
+  <li><img src="images/x.gif">- Stay away!</li>
+</ul>
 <table>
   <tr><td colspan="4" style="text-align:center"><H2>P2P Open Source</H2></td></tr>
   <tr><td><b>Application (notes)</b></td>
