@@ -128,12 +128,12 @@ The following scoring table includes messaging apps used on a single device:<br>
   <td>0</td><td>0</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>3</td>
 </tr>
 <tr>
-  <td><a href="#ringcx">Ring.cx</a></td>
-  <td>0</td><td>0</td><td>1</td><td>?</td><td>1 (No central servers)</td><td>2</td>
+  <td><a href="#twinme">TwinMe</a></td>
+  <td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>2.5</td>
 </tr>
 <tr>
-  <td><a href="#twinme">TwinMe</a></td>
-  <td>1</td><td>0</td><td>0</td><td>?</td><td>.5 (Germany)</td><td>1.5</td>
+  <td><a href="#ringcx">Ring.cx</a></td>
+  <td>0</td><td>0</td><td>1</td><td>?</td><td>1 (No central servers)</td><td>2</td>
 </tr>
 
 </table>
@@ -491,7 +491,7 @@ Development seems to have ceased in May 2017.<br>
 <tr>
   <td><img src="images/checkmark.gif"><img src="images/checkmark.gif"><a name="safeswiss" href="https://safeswiss.com">SafeSwiss</a></td>
   <td>Android, iOS, Windows</td>
-  <td>Text, group chat, voice, pictures, video</td>
+  <td>Text, group chat, voice, pictures, video, location</td>
   <td><a href="https://safeswiss.com/encryption">Encryption</a></td>
 </tr>
 <tr><td colspan="4">
@@ -745,6 +745,7 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
   <li>Yahoo Messenger, AIM, ICQ</li>
   <li>Skype</li>
   <li>Trello</li>
+  <li>Blackberry Messenger</li>
 </ul>
 <br>
 <p>Apps not recommended for other reasons:</p>
