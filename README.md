@@ -299,6 +299,7 @@ What the server sees:[1]<br>
 - Who you contacted, when, and how frequently.<br>
 - SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
 </blockquote>
+Excellent <a href="documents/OMEMO__Cryptographic_Analysis___Report__for__Pacific_Research_Alliance.pdf">cryptographic analysis</a><br>
 <br>
 My verdict: The best option for a wide base of users.<br>
 XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.<br>
@@ -469,6 +470,8 @@ What the server sees and may save:[1]<br>
 - Your contact list is saved to the server in plaintext.<br>
 - Who you talk to, when, and for how long.
 </blockquote>
+Massive battery usage- even when not actively being used:<br>
+<img src="images/wire_battery.png">
 </td></tr>
 
 <tr>
@@ -756,6 +759,8 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
     -Data sharing with Facebook
   </li>
   <li>Semaphor- targeted for business, monthly subscription</li>
+  <li><a href="https://www.chatgrape.com/open-source">Grape</a>-  Another team/work oriented messaging tool, all platforms except Linux, monthly subscription</li>
+  <li>Slack- team/work oriented</li>
   <li>Mumble- Voice chat for gaming. You can send text and links but that is not its primary intent.</li>
   <li>Jitsi- video conferencing</li>
   <li>Bubcon- <a href="https://bubcon.com/datenschutz-app/?lang=en">Phone# required, collects your contacts info</a><br>
@@ -771,8 +776,6 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
 <p>To investigate:</p>
 <ul>
 <li>https://bitchat.im- Windows and Ubuntu</li>
-<li>https://www.chatgrape.com/open-source - All platforms except Linux, monthly subscription</li>
-<li>Slack</li>
 <li>Disa- http://disa.im/index.html</li>
 <li>FireChat https://www.opengarden.com/firechat.html</li>
 <li>OnionShare</li>
