@@ -676,6 +676,14 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 </tr>
 <tr><td colspan="4">
 Country of origin: Russia, now Dubai<br>
+<br>
+Security Analysis of the Telegram IM<br>
+Tomas Susanka (January 2017)<br>
+<a href="https://www.susanka.eu/files/master-thesis-final.pdf">https://www.susanka.eu/files/master-thesis-final.pdf</a>
+<br>
+Security Analysis of Telegram<br>
+Hayk Saribekyan, Akaki Margvelashvili (May 2017)<br>
+<a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a>
 <blockquote>
 Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is
@@ -697,14 +705,6 @@ Contact Theft through Telegram, Paragraph 9 and 10.<br>
 A practical Analysis of the Telegram Messaging Protocol<br>
 Jakobsen, Jakob B. (Published September 2015)<br>
 <a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
-<br>
-Security Analysis of the Telegram IM<br>
-Tomas Susanka (January 2017)<br>
-<a href="https://www.susanka.eu/files/master-thesis-final.pdf">https://www.susanka.eu/files/master-thesis-final.pdf</a>
-<br>
-Security Analysis of Telegram<br>
-Hayk Saribekyan, Akaki Margvelashvili (May 2017)<br>
-<a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a>
 </blockquote>
 </td></tr>
 
