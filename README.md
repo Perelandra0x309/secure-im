@@ -677,13 +677,25 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 <tr><td colspan="4">
 Country of origin: Russia, now Dubai<br>
 <br>
+<a href="https://core.telegram.org/mtproto">MTProto protocol</a>: This is a roll-your-own protocol by Telegram (not a good idea).  All traffic is encrypted by MTProto Part I encryption, but this is only between the client device and the server.  Only secret chats are encrypted end to end using MTProto Part II.
+<br>
+<a href="https://telegram.org/privacy#2-storing-data">Data storage</a>:
+<ul>
+  <li>Telegram stores regular cloud chats encrypted on their servers but they control all the encryption keys.</li>
+  <li>All your contacts' phone numbers and names are stored on their servers.</li>
+</ul><br>
+<br>
+On the CCA (in)security of MTProto<br>
+Jakob Jakobsen and Claudio Orlandi (Spring 2015)<br>
+<a href="https://eprint.iacr.org/2015/1177.pdf">https://eprint.iacr.org/2015/1177.pdf</a><br>
+<br>
 Security Analysis of the Telegram IM<br>
 Tomas Susanka (January 2017)<br>
-<a href="https://www.susanka.eu/files/master-thesis-final.pdf">https://www.susanka.eu/files/master-thesis-final.pdf</a>
+<a href="https://www.susanka.eu/files/master-thesis-final.pdf">https://www.susanka.eu/files/master-thesis-final.pdf</a><br>
 <br>
 Security Analysis of Telegram<br>
 Hayk Saribekyan, Akaki Margvelashvili (May 2017)<br>
-<a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a>
+<a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a><br>
 <blockquote>
 Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is
