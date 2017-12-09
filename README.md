@@ -677,13 +677,13 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 <tr><td colspan="4">
 Country of origin: Russia, now Dubai<br>
 <br>
-<a href="https://core.telegram.org/mtproto">MTProto protocol</a>: This is a roll-your-own protocol by Telegram (not a good idea).  All traffic is encrypted by MTProto Part I encryption, but this is only between the client device and the server.  Only secret chats are encrypted end to end using MTProto Part II.
+<a href="https://core.telegram.org/mtproto">MTProto protocol</a>: This is a roll-your-own protocol by Telegram (not a good idea).  All traffic is encrypted by MTProto Part I encryption, but this is only between the client device and the server.  Only secret chats are encrypted end to end using MTProto Part II.<br>
 <br>
 <a href="https://telegram.org/privacy#2-storing-data">Data storage</a>:
 <ul>
   <li>Telegram stores regular cloud chats encrypted on their servers but they control all the encryption keys.</li>
   <li>All your contacts' phone numbers and names are stored on their servers.</li>
-</ul><br>
+</ul>
 <br>
 On the CCA (in)security of MTProto<br>
 Jakob Jakobsen and Claudio Orlandi (Spring 2015)<br>
@@ -718,6 +718,10 @@ A practical Analysis of the Telegram Messaging Protocol<br>
 Jakobsen, Jakob B. (Published September 2015)<br>
 <a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
 </blockquote>
+<br>
+My verdict: Too many problems with the protocol and data storage!<br>
+There are many issues with the protocol as shown by the referenced papers above.  Rolling your own crypto is hard and MTProto has many problems.<br>
+Also all your phone contacts are stored on their servers, and non-secret chats are accessible to Telegram.
 </td></tr>
 
 <tr>
