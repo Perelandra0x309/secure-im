@@ -669,7 +669,7 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 </td></tr>
 
 <tr>
-  <td><img src="images/x.gif"><a href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
+  <td><img src="images/x.gif"><a name="telegram" href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
   <td><a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a></td>
   <td>Text, voice, file sharing</td>
   <td><a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a></td>
@@ -696,6 +696,7 @@ Tomas Susanka (January 2017)<br>
 Security Analysis of Telegram<br>
 Hayk Saribekyan, Akaki Margvelashvili (May 2017)<br>
 <a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a><br>
+<br>
 <blockquote>
 Metadata leakage:[1]<br>
 - When you are online or not or whether the application is running or not is
