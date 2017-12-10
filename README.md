@@ -796,6 +796,8 @@ Did they fix these issues?  Maybe but without open code to inspect we cannot kno
   <li>WeChat (http://www.wechat.com) No information about security on website, requires a phone number to register.</li>
   <li>Kullo (https://www.kullo.net) Essentially just an encrypted email system, not really chat.</li>
   <li>Chiffry (https://www.chiffry.de) Data not encrypted at rest but that feature is on the roadmap (https://www.chiffry.de/en/versionen)</li>
+  <li>Bleep (bleep.im)- a client that used the bittorrent system for messaging, no longer in development.  I was not able to add a contact when I tried it.</li>
+  <li>Connect.im- No recent development since March 2017, seems like a scam trying to get people's bitcoin addresses and keys.</li>
 </ul>
 <br>
 <p>To investigate:</p>
