@@ -513,8 +513,7 @@ Self destruct messages, perfect forward secrecy
 <tr><td colspan="4">
 Country of origin: France?<br>
 TwinMe is easy to setup and to connect with another TwinMe user you can either scan their QR code in person or send them an invite link.<br>
-The interface is professional looking, though the iOS version seems more consistant with the host OS than the Android version.  For example 
-the Android client does not have autocorrect so typing behaves differently than if you are used to autocorrect.<br>
+The interface is professional looking, though the iOS version seems more consistant with the host OS than the Android version.<br>
 One cool feature is the ability to stream music from your device to your contact's device.<br>
 On Android Google Play Services are not required.  The Android version I first tried from the Amazon app store would not launch at all. 
 The version from the Google Play Store (downloaded via Yalp) did run.
@@ -628,6 +627,22 @@ Partially open source (cypto protocol only)<br>
 WickrMe synchronizes your chats across all your devices.<br>
 There are not many unique features, but as a basic chat client it works very well.<br>
 Conversations expire after a set time or can be set to erase once read.
+</td></tr>
+
+<tr>
+  <td><img src="images/checkmark.gif"><a href="https://www.goldenfrog.com/cyphr">Goldenfrog Cypher</a></td>
+  <td>Android, iOS</td>
+  <td>Text, group chat, pictures</td>
+  <td><a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Switzerland<br>
+Servers based in Switzerland are only used as temporary location for messages until they are delivered to the recipient. Minimal meta data is known.<br>
+Registration requires an email address which is used as your account ID which other people must search for.  I would like to see this changed so your email is hidden and you can search for others by their display name.<br>
+Fairly basic messenger app, and last update was in March 2017 for Android so I am not sure how much this is being worked on.  The forum has very infrequent posts and there were no blog posts on the website dedicated to this app.<br>
+Multi device sync does seem to work with Android and the web app.  How do they accomplish that?<br>
+My Verdict:<br>
+Worth a try to communicate with anyone you trust to know your email address. I hope they continue to make improvements and updates.
 </td></tr>
 
 <tr>
