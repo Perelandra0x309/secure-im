@@ -630,22 +630,6 @@ Conversations expire after a set time or can be set to erase once read.
 </td></tr>
 
 <tr>
-  <td><img src="images/checkmark.gif"><a href="https://www.goldenfrog.com/cyphr">Goldenfrog Cypher</a></td>
-  <td>Android, iOS</td>
-  <td>Text, group chat, pictures</td>
-  <td><a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a></td>
-</tr>
-<tr><td colspan="4">
-Country of origin: Switzerland<br>
-Servers based in Switzerland are only used as temporary location for messages until they are delivered to the recipient. Minimal meta data is known.<br>
-Registration requires an email address which is used as your account ID which other people must search for.  I would like to see this changed so your email is hidden and you can search for others by their display name.<br>
-Fairly basic messenger app, and last update was in March 2017 for Android so I am not sure how much this is being worked on.  The forum has very infrequent posts and there were no blog posts on the website dedicated to this app.<br>
-Multi device sync does seem to work with Android and the web app.  How do they accomplish that?<br>
-My Verdict:<br>
-Worth a try to communicate with anyone you trust to know your email address. I hope they continue to make improvements and updates.
-</td></tr>
-
-<tr>
   <td><img src="images/checkmark.gif"><a href="https://hoccer.com">Hoccer</a></td>
   <td><a href="https://hoccer.com/#section-download">Android, iOS</a></td>
   <td>Text, file sharing</td>
@@ -684,6 +668,24 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 </td></tr>
 
 <tr>
+  <td><img src="images/x.gif"><a href="https://www.goldenfrog.com/cyphr">Goldenfrog Cypher</a></td>
+  <td>Android, iOS</td>
+  <td>Text, group chat, pictures</td>
+  <td><a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a></td>
+</tr>
+<tr><td colspan="4">
+Country of origin: Switzerland<br>
+Servers based in Switzerland are only used as temporary location for messages until they are delivered to the recipient. Minimal meta data is known.<br>
+Registration requires an email address which is used as your account ID which other people must search for.  I would like to see this changed so your email is hidden and you can search for others by their display name.<br>
+Fairly basic messenger app, and last update was in March 2017 for Android so I am not sure how much this is being worked on.  The forum has very infrequent posts and there were no blog posts on the website dedicated to this app.<br>
+Multi device sync does seem to work with Android and the web app.  How do they accomplish that?<br>
+Update: December 2017: Golden Frog has no plans to provide further updates, so any improvements I would like to see do not look like they will happen.  As it is now, since your email address is your ID I do not consider this a secure application.<br>
+<br>
+My Verdict:<br>
+Without any further updates this application is only useful to communicate with anyone you trust to know your email address.
+</td></tr>
+
+<tr>
   <td><img src="images/x.gif"><a name="telegram" href="https://telegram.org">Telegram</a> (E2EE only in secret chats)</td>
   <td><a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a></td>
   <td>Text, voice, file sharing</td>
@@ -691,6 +693,10 @@ This is an SMS app with encryption between Secure Chat users.  Requires Google P
 </tr>
 <tr><td colspan="4">
 Country of origin: Russia, now Dubai<br>
+<br>
+Telegram channels are monitored by Telegram and government authorities. Telegram <a href="https://www.recode.net/2017/12/30/16833542/telegram-iran-demostrations-messaging-protests-pavel-durov">shuts down a public channel</a> then <a href="https://www.dailydot.com/debug/iran-protests-telegram-instagram-apps/">Iran shuts off access to Telegram</a><br>
+The CEO of Telegram shows an unwillingness to consider that encrypting communications may actually preserve freedom of speech:<br>
+<a href="https://twitter.com/durov/status/947208697188581381?s=17"><img src="images/telegram_tweet.png"></a>
 <br>
 <a href="https://core.telegram.org/mtproto">MTProto protocol</a>: This is a roll-your-own protocol by Telegram (not a good idea).  All traffic is encrypted by MTProto Part I encryption, but this is only between the client device and the server.  Only secret chats are encrypted end to end using MTProto Part II.<br>
 <br>
