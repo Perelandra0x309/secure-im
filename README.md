@@ -73,8 +73,16 @@ The following scoring table includes messaging apps that can be used across mult
   <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
 </tr>
 <tr>
+  <td><a href="#vipole">VIPole</a></td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
+</tr>
+<tr>
   <td><a href="#xmpp">XMPP with OMEMO</a></td>
   <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
+</tr>
+<tr>
+  <td><a href="#sid">Sid</a></td>
+  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>?</td><td>.5 (Germany)</td><td>4.5</td>
 </tr>
 
 </table>
