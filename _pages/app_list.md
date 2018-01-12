@@ -6,7 +6,7 @@ permalink: /applist.html
 {% assign applications = site.data.applications | sort: 'name' %}
 
 {% for application in applications %}
-{% if application.category == 1 %}{% capture htmllink %}<a href="/p2popen.html#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% if application.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2popen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 2 %}{% capture htmllink %}<a href="/p2pclosed.html#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 3 %}{% capture htmllink %}<a href="/otheropen.html#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 4 %}{% capture htmllink %}<a href="/otherclosed.html#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
