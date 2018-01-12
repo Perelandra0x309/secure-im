@@ -1,6 +1,25 @@
+# Template:
+#- name:
+#  category: (1- P2P open source, 2- P2P closed source, 3- Other open source, 4- Other closed source)
+#  display_name:
+#  url:
+#  recommendation: (1- highly, 2- worth a try, 3- not recommended)
+#  platforms:
+#  communication_types:
+#  country_origin:
+#  requires_phone_number:
+#  requires_email:
+#  android_requires_google_play:
+#  is_locally_encrypted:
+#  perfect_forward_secrecy:
+#  websites:
+#  notes_file:
+
 - name: ricochet
+  category: 1
   display_name: Ricochet
   url: https://ricochet.im
+  recommendation: 1
   platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a>
   communication_types: Text
   country_origin: "?"
@@ -13,8 +32,10 @@
   notes_file: ricochet_notes.html
 
 - name: tox
+  category: 1
   display_name: Tox
   url: https://tox.chat/
+  recommendation: 1
   platforms: <a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a>
   communication_types: Text, voice, video, screen sharing, file sharing
   country_origin:
@@ -27,8 +48,10 @@
   notes_file: tox_notes.html
   
 - name: ring
+  category: 1
   display_name: Ring
   url: https://ring.cx
+  recommendation: 2
   platforms: <a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a>
   communication_types: Text, group chat, voice, video
   country_origin: Canada
@@ -41,8 +64,10 @@
   notes_file: ring_notes.html
   
 - name: briar
+  category: 1
   display_name: Briar Project
   url: https://briarproject.org
+  recommendation: 2
   platforms: Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>
   communication_types: Text and forums
   country_origin:
