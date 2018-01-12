@@ -23,7 +23,7 @@ title: Peer to Peer Open Source
   Websites: {{ application.websites }}<br>
   <hr>
   <b>Notes:</b><br>
-   
+  {% include_relative _data/{{ application.notes_file }} %}
 </td></tr>
 {% endfor %}
 
