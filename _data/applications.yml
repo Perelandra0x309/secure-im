@@ -79,3 +79,19 @@
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
   
+- name: signal
+  category: 3
+  display_name: Signal
+  url: https://www.signal.org
+  recommendation: 1
+  platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop
+  communication_types: Text, voice, video, files, images
+  country_origin:
+  requires_phone_number: Yes
+  requires_email:
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy:
+  websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
+  notes_file: signal_notes.html
+  
