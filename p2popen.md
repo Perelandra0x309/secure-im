@@ -10,8 +10,8 @@ title: Peer to Peer Open Source
 {% for application in site.data.applications %}
 <tr>
   <td><a name="{{ application.name }}" href="{{ application.url }}">{{ application.name }}</a></td>
-  <td><a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a></td>
-  <td>Text</td>
+  <td>{{ application.platforms }}</td>
+  <td>{{ application.communication_types }}</td>
 </tr>
 <tr><td colspan="4">
   Country of origin: {{ application.country_origin }}<br>
