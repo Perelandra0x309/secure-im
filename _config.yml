@@ -1,3 +1,4 @@
 name: My list of secure messaging apps
 markdown: kramdown
 theme: jekyll-theme-midnight
+include: ['_pages']
