@@ -10,7 +10,12 @@ title: Peer to Peer Open Source
 {% assign applications = site.data.applications | where:"category","1" | sort: 'name' | sort: 'recommendation' %}
 {% for application in applications %}
 <tr>
-  <td><a name="{{ application.name }}" href="{{ application.url }}">{{ application.display_name }}</a></td>
+  <td>
+    {% if application.recommendation == 1 %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">
+    {% elseif application.recommendation == 2 %}<img src="images/checkmark.gif">
+    {% else %}<img src="images/checkmark.gif"><img src="images/x.gif">{% endif %}
+    <a name="{{ application.name }}" href="{{ application.url }}">{{ application.display_name }}</a>
+  </td>
   <td>{{ application.platforms }}</td>
   <td>{{ application.communication_types }}</td>
 </tr>
