@@ -1,4 +1,5 @@
 - name: ricochet
+  url: https://ricochet.im
   country_origin: "?"
   requires_phone_number: Not applicable
   requires_email: No
@@ -6,4 +7,4 @@
   is_locally_encrypted:
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>
-  
+  notes_file: ricochet_notes.html
