@@ -10,3 +10,43 @@
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>
   notes_file: ricochet_notes.html
+
+- name: tox
+  url: https://tox.chat/
+  platforms: <a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a>
+  communication_types: Text, voice, video, screen sharing, file sharing
+  country_origin:
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted:
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
+  notes_file: tox_notes.html
+  
+- name: ring
+  url: https://ring.cx
+  platforms: <a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a>
+  communication_types: Text, group chat, voice, video
+  country_origin: Canada
+  requires_phone_number: No
+  requires_email:
+  android_requires_google_play:
+  is_locally_encrypted:
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
+  notes_file: ring_notes.html
+  
+- name: briar
+  url: https://briarproject.org
+  platforms: Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>
+  communication_types: Text and forums
+  country_origin:
+  requires_phone_number:
+  requires_email:
+  android_requires_google_play: No
+  is_locally_encrypted:
+  perfect_forward_secrecy:
+  websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
+  notes_file: briar_notes.html
+  
