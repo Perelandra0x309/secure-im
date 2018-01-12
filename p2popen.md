@@ -7,7 +7,7 @@ title: Peer to Peer Open Source
   <tr><td><b>Application</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td></tr>
-{% assign applications = site.data.applications | where:"category","1" %}
+{% assign applications = site.data.applications | where:"category","1" | sort: 'name' | sort: 'recommendation' %}
 {% for application in applications %}
 <tr>
   <td><a name="{{ application.name }}" href="{{ application.url }}">{{ application.display_name }}</a></td>
