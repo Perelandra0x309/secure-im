@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Applications list
-permalink: /applist.html
+permalink: applist.html
 ---
 
 Content goes here.
