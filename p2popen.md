@@ -9,7 +9,7 @@ title: Peer to Peer Open Source
   <td><b>Communication types</b></td></tr>
 {% for application in site.data.applications %}
 <tr>
-  <td><a name="{{ application.name }}" href="{{ application.url }}">{{ application.name }}</a></td>
+  <td><a name="{{ application.name }}" href="{{ application.url }}">{{ application.display_name }}</a></td>
   <td>{{ application.platforms }}</td>
   <td>{{ application.communication_types }}</td>
 </tr>
