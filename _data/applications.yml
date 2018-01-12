@@ -1,5 +1,5 @@
 - name: ricochet
-  country_origin:
+  country_origin: "?"
   requires_phone_number: Not applicable
   requires_email: No
   android_requires_google_play: Not applicable
