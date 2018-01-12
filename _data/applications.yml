@@ -1,0 +1,9 @@
+- name: ricochet
+  country_origin: ?
+  requires_phone_number: Not applicable
+  requires_email: No
+  android_requires_google_play: Not applicable
+  is_locally_encrypted: ?
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>
+  
