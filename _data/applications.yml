@@ -1,5 +1,7 @@
 - name: ricochet
   url: https://ricochet.im
+  platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a>
+  communication_types: Text
   country_origin: "?"
   requires_phone_number: Not applicable
   requires_email: No
