@@ -1,0 +1,83 @@
+<blockquote>
+What is leaked to the world when using the DHT.[1]<br>
+- Your IP address.<br>
+- The IP addresses that you are connecting to.<br>
+Optionally, Retroshare may be configured to tunnel through I2P or Tor
+with friend finding turned off to function as a true darknet. This
+however, is slow, unreliable, high-latency, and very difficult to set up.<br>
+<br>
+- Retroshare may appear to use PGP, but what actually seems to be
+happening under the hood is that it's using the RSA keys to sign
+ephemeral keys which are then used to establish connections to your
+friends via perfect forward secrecy. The PGP parts of it look like they
+are used only for certifying and authentication, and are not used to
+encrypt the data.<br>
+<br>
+- Certificate authorities are not used, the networks are fully
+friend-to-friend. This is markedly different from peer-to-peer because
+it is expected in a friend-to-friend network, you already know, and
+already trust the people you will be connecting and routing for. This is
+a VERY important distinction in the differences between peer-to-peer and
+friend to friend.<br>
+<br>
+- Key signing or setting up a PGP web of trust model is in some cases
+mandatory.<br>
+<br>
+- Retroshare is difficult to set up for the average user. Every user on
+the Retroshare network MUST know how to port forward or the friend
+lookup will not function.<br>
+<br>
+- Because it is assumed you already trust the people that you will be
+using retroshare to connect to, Retroshare makes no effort to disguise
+or hide your IP address from them. In fact, if your IP address changes,
+they will get a warning message.<br>
+
+- When operating through the regular Internet, it looks like Retroshare
+uses a Distributed Hash Table for IP address lookups and friend finding.
+If this is correct this may present a source of metadata leakage. I will
+need to look into this some more and find out how it works, because I
+don't want to spread F-U-D.<br>
+<br>
+- Retroshare *can be made to* go over I2P, but doing so is very slow and
+requires configuration of the I2P Router. You will need to set up your
+own tunnels. The documentation for this is a little bit sparse and some
+of it is in Spanish. You may need to do a bit of experimentation before
+it works. During this time on I2P, friend finding and the DHT can be
+turned off, and in this case, Retroshare will function as a true Darknet
+which will allow for TLS-secured traffic to be wrapped up within I2P's
+native encryption functions. But this is extremely slow and difficult.<br>
+<br>
+- Retroshare is loaded with features and probably hands down has the
+most features of any instant messaging bundle. It is VERY good at
+distributing large files among friends who trust each other.<br>
+<br>
+- Retroshare's trust model is transitory. Friends-of-friends have a
+certain amount of privilege in some areas. For the rest, a lot of it
+uses the PGP web of trust.<br>
+<br>
+- The code base has not recently been audited (if ever?). This is the
+same situation with I2P, where the weak link might be the client
+software and not the protocol.<br>
+<br>
+- If your Retroshare private key is stolen, although technically you
+have perfect forward secrecy with TLS, the problem with Retroshare tends
+to be that much of the content on the network is distributed among your
+friends. It can be difficult to take back down once. So, for instance,
+let us say that Alice, Bob, Charlie and Daniel start posting on a
+Retroshare messageboard that is private to them. Sometime later, Mallory
+steals Alice's plaintext private key. Even if she does not have Alice's
+computer, she can still impersonate Alice to Bob, Charlie and Daniel,
+and re-synchronize her 'copy' of the messageboard with theirs and see
+all of their would-be private communications. If Alice sent movie.mov to
+Charlie, and Charlie sent it to Bob, even if Charlie moved movie.mov
+out of his share, Mallory can use Alice's private key to impersonate
+Alice and re-download movie.mov from Bob instead.<br>
+<br>
+- The more friends you have on your Retroshare network, the more routing
+your computer must do and the more bandwidth and processing power the
+program will need to function comfortably.<br>
+<br>
+- There is a commandline version of Retroshare that is intended to be
+used as a retroshare server. I have never used it, so I cannot comment
+on it.
+</blockquote>

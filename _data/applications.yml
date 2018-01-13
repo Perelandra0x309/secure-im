@@ -1,19 +1,21 @@
 # Template:
-#- name:
+#- name: 
 #  category: (1- P2P open source, 2- P2P closed source, 3- Other open source, 4- Other closed source)
-#  display_name:
-#  url:
+#  display_name: 
+#  url: 
 #  recommendation: (1- highly, 2- worth a try, 3- not recommended)
-#  platforms:
-#  communication_types:
-#  country_origin:
-#  requires_phone_number:
-#  requires_email:
-#  android_requires_google_play:
-#  is_locally_encrypted:
-#  perfect_forward_secrecy:
-#  websites:
-#  notes_file:
+#  platforms: Android/iOS/Mac/Windows/Linux
+#  communication_types: 
+#  country_origin: 
+#  requires_phone_number: Yes/No
+#  requires_email: Yes/No
+#  android_requires_google_play: Yes/No
+#  is_locally_encrypted: Yes/No
+#  perfect_forward_secrecy: Yes/No
+#  websites: 
+#  notes_file: 
+
+#  Category 1- P2P open source
 
 - name: ricochet
   category: 1
@@ -22,7 +24,7 @@
   recommendation: 1
   platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a>
   communication_types: Text
-  country_origin: "?"
+  country_origin: No centralized servers
   requires_phone_number: Not applicable
   requires_email: No
   android_requires_google_play: Not applicable
@@ -38,7 +40,7 @@
   recommendation: 1
   platforms: <a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a>
   communication_types: Text, voice, video, screen sharing, file sharing
-  country_origin:
+  country_origin: No centralized servers
   requires_phone_number: No
   requires_email: No
   android_requires_google_play: No
@@ -79,6 +81,10 @@
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
   
+# Category 2- P2P closed source
+
+# Category 3- Other open source
+
 - name: signal
   category: 3
   display_name: Signal
@@ -95,3 +101,133 @@
   websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
   notes_file: signal_notes.html
   
+- name: xmpp
+  category: 3
+  display_name: XMPP with OTR or OMEMO
+  url: https://xmpp.org
+  recommendation: 1
+  platforms: Android, iOS, Mac, Windows, Linux
+  communication_types: Text, group chat
+  country_origin: 
+  requires_phone_number: No
+  requires_email: Yes
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
+  notes_file: xmpp_notes.html
+
+- name: keybase
+  category: 3
+  display_name: Keybase
+  url: https://www.keybase.io
+  recommendation: 1
+  platforms: Android, iOS, Mac, Windows, Linux
+  communication_types: Text, group chat, file sharing
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  websites: <a href="https://github.com/keybase">Source code</a>
+  notes_file: keybase_notes.html
+
+- name: riot
+  category: 3
+  display_name: Riot
+  url: https://about.riot.im
+  recommendation: 1
+  platforms: Android, iOS, Mac, Windows, Linux, Web
+  communication_types: Text, voice, video, file sharing
+  country_origin: 
+  requires_phone_number: No
+  requires_email: Yes
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://github.com/vector-im">Source code</a>
+  notes_file: riot_notes.html
+
+- name: tor_messenger
+  category: 3
+  display_name: Tor Messenger
+  url: https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger
+  recommendation: 1
+  platforms: Mac, Windows, Linux
+  communication_types: Text
+  country_origin: 
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: 
+  notes_file: tormessenger_notes.html
+
+- name: kontalk
+  category: 3
+  display_name: Kontalk (XMPP)
+  url: http://www.kontalk.org
+  recommendation: 2
+  platforms: Android, Java client
+  communication_types: Text
+  country_origin: 
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
+  notes_file: kontalk_notes.html
+
+- name: retroshare
+  category: 3
+  display_name: RetroShare
+  url: http://retroshare.net
+  recommendation: 2
+  platforms: <a href="http://retroshare.net/downloads.html">Windows, Mac, Linux</a>
+  communication_types: Text, voice, video, email, file sharing
+  country_origin: 
+  requires_phone_number: No
+  requires_email: 
+  android_requires_google_play: N/A
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://github.com/RetroShare/RetroShare">Source code</a>
+  notes_file: retroshare_notes.html
+
+- name: wire
+  category: 3
+  display_name: Wire
+  url: https://wire.com
+  recommendation: 3
+  platforms: Android, iOS, Mac, Windows, Linux, Web
+  communication_types: Text, voice, video
+  country_origin: 
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://github.com/wireapp">Source code</a>
+  notes_file: wire_notes.html
+
+- name: surespot
+  category: 3
+  display_name: Surespot
+  url: https://www.surespot.me
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, voice, images
+  country_origin: 
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://github.com/surespot">Source code</a>
+  notes_file: surespot_notes.html
+
+# Category 4- Other closed source
+

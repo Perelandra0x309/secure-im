@@ -1,0 +1,24 @@
+<a href="https://otr.cypherpunks.ca/software.php">OTR clients</a><br>
+OMEMO Clients:<br>
+<ul>
+  <li>Android- <a href="https://conversations.im/">Conversations</a></li>
+  <li>iOS- <a href="https://chatsecure.org/">ChatSecure</a></li>
+  <li>Linux and Windows- <a href="https://gajim.org/">Gajim</a> with <a href="https://dev.gajim.org/gajim/gajim-plugins/wikis/OmemoGajimPlugin">OmemoGajimPlugin</a></li>
+  <li>Linux- <a href="https://www.pidgin.im/">Pidgin</a> with <a href="https://github.com/gkdr/lurch">lurch</a></li>
+  <li>MacOS- <a href="https://adium.im/">Adium</a> with <a href="https://github.com/shtrom/Lurch4Adium">Lurch4Adium</a></li>
+</ul>
+<blockquote>
+What the server sees:[1]<br>
+- Your plaintext chats unless you use encryption such as OTR, PGP, or OMEMO.<br>
+- Your contact list is saved to the server in plaintext<br>
+- Precise time you logged in or out<br>
+- Precise time you sent any messages to a contact and what messages they send you.<br>
+- Whether you are online or not, and your status.<br>
+- Who you contacted, when, and how frequently.<br>
+- SHA-1 hash of your password. Improperly configured servers may store passwords in plaintext.
+</blockquote>
+Excellent <a href="documents/OMEMO__Cryptographic_Analysis___Report__for__Pacific_Research_Alliance.pdf">cryptographic analysis</a><br>
+<br>
+My verdict: The best option for a wide base of users.<br>
+XMPP is a protocol, and clients are built on top of that so there are many options across all platforms which will help adoptability.<br>
+One drawback is the clients are all different so there is a lack of consistency in experience and features across platforms.
