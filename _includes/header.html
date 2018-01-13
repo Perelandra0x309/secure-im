@@ -1,18 +1,20 @@
-<a href="{{ site.github.repository_url }}">View On GitHub</a>
+<!-- <a href="{{ site.github.repository_url }}">View On GitHub</a> -->
 <div id="title">
   <h1>{{ site.title | default: site.github.repository_name }}</h1>
   <p>{{ site.description | default: site.github.project_tagline }}</p>
   
 Table of Contents:<br>
 <ul>
+  {% capture htmllink %}{% link _pages/app_list.md %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">List of Applications</a></li>
   {% capture htmllink %}{% link p2popen.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">P2P Open Source Applications Details</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">P2P Open Source Applications</a></li>
   {% capture htmllink %}{% link p2pclosed.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">P2P Closed Source Applications Details</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">P2P Closed Source Applications</a></li>
   {% capture htmllink %}{% link otheropen.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Other Open Source Applications Details</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Other Open Source Applications</a></li>
   {% capture htmllink %}{% link otherclosed.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Other Closed Source Applications Details</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Other Closed Source Applications</a></li>
 </ul>
   <hr>
   <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
