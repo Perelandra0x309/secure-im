@@ -10,12 +10,10 @@ Table of Contents:<br>
 <ul>
   {% capture htmllink %}{{ site.baseurl }}{% link p2popen.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Open Source</a></li>
-  {% comment %}
   {% capture htmllink %}{{ site.baseurl }}{% link p2pclosed.md %}{% endcapture %}
-  <li class="{% if {{ htmllink }} == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Closed Source</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Closed Source</a></li>
   {% capture htmllink %}{{ site.baseurl }}{% link otheropen.md %}{% endcapture %}
-  <li class="{% if {{ htmllink }} == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Open Source</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Open Source</a></li>
   {% capture htmllink %}{{ site.baseurl }}{% link otherclosed.md %}{% endcapture %}
-  <li class="{% if {{ htmllink }} == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Closed Source</a></li>
-  {% endcomment %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Closed Source</a></li>
 </ul>
