@@ -6,7 +6,7 @@
 Table of Contents:<br>
 <ul>
   {% capture htmllink %}{% link p2popen.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Open Source</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Open Source {{ htmllink }} {{ page.url }}</a></li>
   {% capture htmllink %}{{ site.baseurl }}{% link p2pclosed.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Closed Source</a></li>
   {% capture htmllink %}{{ site.baseurl }}{% link otheropen.md %}{% endcapture %}
