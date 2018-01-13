@@ -6,13 +6,13 @@
 Table of Contents:<br>
 <ul>
   {% capture htmllink %}{% link p2popen.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Open Source {{ htmllink }} {{ page.url }}</a></li>
-  {% capture htmllink %}{{ site.baseurl }}{% link p2pclosed.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Closed Source</a></li>
-  {% capture htmllink %}{{ site.baseurl }}{% link otheropen.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Open Source</a></li>
-  {% capture htmllink %}{{ site.baseurl }}{% link otherclosed.md %}{% endcapture %}
-  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Closed Source</a></li>
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Open Source Applications Details</a></li>
+  {% capture htmllink %}{% link p2pclosed.md %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">P2P Closed Source Applications Details</a></li>
+  {% capture htmllink %}{% link otheropen.md %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Open Source Applications Details</a></li>
+  {% capture htmllink %}{% link otherclosed.md %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ htmllink }}">Other Closed Source Applications Details</a></li>
 </ul>
   <hr>
   <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
