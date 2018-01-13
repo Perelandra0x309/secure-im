@@ -34,8 +34,8 @@
   Data is locally encrypted: {{ application.is_locally_encrypted }}<br>
   Perfect forward secrecy: {{ application.perfect_forward_secrecy }}<br>
   Websites: {{ application.websites }}<br>
-  <hr>
   <b>Notes:</b><br>
+  <br>
   {% include_relative _data/{{ application.notes_file }} %}
 </td></tr>
 {% endfor %}

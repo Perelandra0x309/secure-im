@@ -83,6 +83,86 @@
   
 # Category 2- P2P closed source
 
+- name: safeswiss
+  category: 2
+  display_name: SafeSwiss
+  url: https://safeswiss.com
+  recommendation: 1
+  platforms: Android, iOS, Windows
+  communication_types: Text, group chat, voice, pictures, video, location
+  country_origin: Switzerland (<a href="https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695">Company Register</a>)
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://safeswiss.com/encryption">Encryption</a>
+  notes_file: safeswiss_notes.html
+
+- name: twinme
+  category: 2
+  display_name: TwinMe
+  url: https://twin.me
+  recommendation: 1
+  platforms: Android, iOS
+  communication_types: Text, voice, video
+  country_origin: France?
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
+  notes_file: twinme_notes.html
+
+- name: sid
+  category: 2
+  display_name: Sid
+  url: https://sid.co
+  recommendation: 1
+  platforms: Android, iOS, Mac, Windows, Linux
+  communication_types: Text, group chat, pictures, audio, files
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://sid.co/security-by-design">Security by Design</a>
+  notes_file: sid_notes.html
+
+- name: stealthchat
+  category: 2
+  display_name: StealthChat
+  url: http://stealthchat.com
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, voice, pictures
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: 
+  notes_file: stealthchat_notes.html
+
+- name: kripter
+  category: 2
+  display_name: Kripter
+  url: https://kripter.io
+  recommendation: 3
+  platforms: Android
+  communication_types: Text, voice, pictures, files, location
+  country_origin: 
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: 
+  notes_file: kripter_notes.html
+
 # Category 3- Other open source
 
 - name: signal
