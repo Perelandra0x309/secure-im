@@ -20,3 +20,7 @@ section {
 .inner {
   max-width:95%;
 }
+.result li.active a {
+    color: lightgray;
+    cursor: default;
+  }
