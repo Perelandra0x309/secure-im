@@ -14,7 +14,7 @@
   <tr><td><b>Application</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td></tr>
-{% assign applications = site.data.applications | where: "category","{{ page.which_category }}" | sort: 'name' | sort: 'recommendation' %}
+{% assign applications = site.data.applications | where_exp: "item","item.category == page.which_category" | sort: 'name' | sort: 'recommendation' %}
 {% for application in applications %}
 <tr>
   <td>
