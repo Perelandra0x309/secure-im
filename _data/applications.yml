@@ -311,3 +311,178 @@
 
 # Category 4- Other closed source
 
+- name: threema
+  category: 4
+  display_name: Threema
+  url: https://threema.ch
+  recommendation: 1
+  platforms: Android, iOS, Windows Phone, Web
+  communication_types: Text, group chat, voice, files
+  country_origin: Switzerland
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
+  notes_file: threema_notes.html
+
+- name: eleet
+  category: 4
+  display_name: Eleet
+  url: https://eleet.im
+  recommendation: 1
+  platforms: <a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a>
+  communication_types: Text, group chat, photos, videos, audio files
+  country_origin: Scotland, UK
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: 
+  notes_file: eleet_notes.html
+
+- name: wickrme
+  category: 4
+  display_name: Wickr Me
+  url: https://www.wickr.com/personal
+  recommendation: 2
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a>
+  communication_types: Text, group chat, video, files
+  country_origin: USA
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
+  notes_file: wickrme_notes.html
+
+- name: vipole
+  category: 4
+  display_name: VIPole
+  url: https://www.vipole.com
+  recommendation: 2
+  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, Mac, Windows, Linux</a>
+  communication_types: Text, files, photos, video, location, contacts, audio
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: No (free version)
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
+  notes_file: vipole_notes.html
+
+- name: hoccer
+  category: 4
+  display_name: Hoccer
+  url: https://hoccer.com
+  recommendation: 2
+  platforms: <a href="https://hoccer.com/#section-download">Android, iOS</a>
+  communication_types: Text, file sharing
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: 
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://hoccer.com/faq/">FAQ</a>
+  notes_file: hoccer_notes.html
+
+- name: simsme
+  category: 4
+  display_name: SIMSme
+  url: https://www.sims.me
+  recommendation: 2
+  platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
+  communication_types: Text, group chat, images, videos, location, contacts
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
+  notes_file: simsme_notes.html
+
+- name: securechat
+  category: 4
+  display_name: GDATA Secure Chat
+  url: https://www.gdata.de/mobile
+  recommendation: 2
+  platforms: Android
+  communication_types: Text, voice, photos
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: 
+  notes_file: securechat_notes.html
+
+- name: cypher
+  category: 4
+  display_name: Goldenfrog Cypher
+  url: https://www.goldenfrog.com/cyphr
+  recommendation: 3
+  platforms: Android, iOS
+  communication_types: Text, group chat, pictures
+  country_origin: Switzerland
+  requires_phone_number: No
+  requires_email: Yes
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>
+  notes_file: cypher_notes.html
+
+- name: telegram
+  category: 4
+  display_name: Telegram
+  url: https://telegram.org
+  recommendation: 3
+  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a>
+  communication_types: Text, voice, file sharing
+  country_origin: First Russia, now Dubai
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
+  notes_file: telegram_notes.html
+
+- name: viber
+  category: 4
+  display_name: Viber
+  url: https://www.viber.com
+  recommendation: 3
+  platforms: Android, iOS, Mac, Windows, Linux
+  communication_types: Text, group messaging, voice and video calls, photos
+  country_origin: 
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a></td>
+  notes_file: viber_notes.html
+
+- name: confide
+  category: 4
+  display_name: Confide
+  url: https://getconfide.com
+  recommendation: 3
+  platforms: <a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a>
+  communication_types: Text, group messaging, voice and video messages, file sharing
+  country_origin: 
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: 
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
+  notes_file: confide_notes.html

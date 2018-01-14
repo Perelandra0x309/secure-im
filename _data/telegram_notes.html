@@ -1,0 +1,50 @@
+Telegram channels are monitored by Telegram and government authorities. Telegram <a href="https://www.recode.net/2017/12/30/16833542/telegram-iran-demostrations-messaging-protests-pavel-durov">shuts down a public channel</a> then <a href="https://www.dailydot.com/debug/iran-protests-telegram-instagram-apps/">Iran shuts off access to Telegram</a><br>
+The CEO of Telegram shows an unwillingness to consider that encrypting communications may actually preserve freedom of speech:<br>
+<a href="https://twitter.com/durov/status/947208697188581381?s=17"><img src="images/telegram_tweet.png"></a>
+<br>
+<a href="https://core.telegram.org/mtproto">MTProto protocol</a>: This is a roll-your-own protocol by Telegram (not a good idea).  All traffic is encrypted by MTProto Part I encryption, but this is only between the client device and the server.  Only secret chats are encrypted end to end using MTProto Part II.<br>
+<br>
+<a href="https://telegram.org/privacy#2-storing-data">Data storage</a>:
+<ul>
+  <li>Telegram stores regular cloud chats encrypted on their servers but they control all the encryption keys.</li>
+  <li>All your contacts' phone numbers and names are stored on their servers.</li>
+</ul>
+<br>
+On the CCA (in)security of MTProto<br>
+Jakob Jakobsen and Claudio Orlandi (Spring 2015)<br>
+<a href="https://eprint.iacr.org/2015/1177.pdf">https://eprint.iacr.org/2015/1177.pdf</a><br>
+<br>
+Security Analysis of the Telegram IM<br>
+Tomas Susanka (January 2017)<br>
+<a href="https://www.susanka.eu/files/master-thesis-final.pdf">https://www.susanka.eu/files/master-thesis-final.pdf</a><br>
+<br>
+Security Analysis of Telegram<br>
+Hayk Saribekyan, Akaki Margvelashvili (May 2017)<br>
+<a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a><br>
+<br>
+<blockquote>
+Metadata leakage:[1]<br>
+- When you are online or not or whether the application is running or not is
+  publicly viewable.<br>
+- Who you talk to, when, and the precise time you send a message, and how frequently
+  is publicly viewable via commandline tools.<br>
+- If an attacker knows your phone number, the attacker will be able to silently log
+  your Telegram activity without you knowing about it or being informed they have you
+  as a contact.<br>
+<br>
+Stalking via Telegram through the use of Commandline Tools (Flisback, Ola, updated 2015,
+  December 16th)<br>
+<a href="https://oflisback.github.io/telegram-stalking/">https://oflisback.github.io/telegram-stalking/</a><br>
+<br>
+Contact Theft through Telegram, Paragraph 9 and 10.<br>
+"Operational Telegram"  "The Grugq (assumed name" (Posted November 18th, 2015)<br>
+<a href="https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x">https://medium.com/@thegrugq/operational-telegram-cbbaadb9013a#.a62knhv8x</a><br>
+<br>
+A practical Analysis of the Telegram Messaging Protocol<br>
+Jakobsen, Jakob B. (Published September 2015)<br>
+<a href="http://cs.au.dk/~jakjak/master-thesis.pdf">http://cs.au.dk/~jakjak/master-thesis.pdf</a>
+</blockquote>
+<br>
+My verdict: Too many problems with the protocol and data storage!<br>
+There are many issues with the protocol as shown by the referenced papers above.  Rolling your own crypto is hard and MTProto has many problems.<br>
+Also all your phone contacts are stored on their servers, and non-secret chats are accessible to Telegram.

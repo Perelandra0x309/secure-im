@@ -1,0 +1,37 @@
+Threema is very easy to setup and use.  Linking to an email or phone number is totally optional. 
+To add a contact you need to acquire their Threema ID via a separate channel, search your contacts list for a match,
+ or scan their fingerprint QR code in person.  These three methods attach 3 levels of "verification" 
+to your contacts:
+<ul>
+<li>Red- Anonymous (added manually)</li>
+<li>Yellow- Matches a contact in your address book</li>
+<li>Green- QR code scanned in person</li>
+</ul>
+This is a nice feature so you can have and easily see different trust levels of your contacts.<br>
+It is also very easy to create encrypted group chats with multiple contacts.  All individual and 
+group chats will show up in the same list.<br>
+Search feature in individual and group chats.<br>
+Threema is <a href="https://threema.ch/en/faq/source_code">partially open source</a><br>
+From the <a href="https://threema.ch/en/faq">FAQ</a>:
+<blockquote cite="https://threema.ch/en/faq">
+Which data gets stored at Threema?<br>
+<br>
+Using Threema ought to generate as little data on servers as possible – this is part of the concept.
+For that reason, data like e.g. contacts or group chats are stored in a decentralized way on user
+devices, instead of on a Threema server. Our servers assume the role of a switch; messages and data
+get forwarded, but not permanently stored. Where there is no data, there is nothing to be accessed
+or misused. However: without some kind of (temporary) data storage, there cannot be any asynchronous
+communication. In the following we will explain what kind of data we store, how we store it and for
+how long.<br>
+<br>
+Messages and group chats: As soon as a message has been successfully delivered to the recipient, it
+is immediately deleted from the server. All messages and media are transmitted end-to-end encrypted
+in Threema. This means: even if someone intercepted your message, it would be completely useless.
+Only the intended recipient is able to decrypt and read a message.<br>
+No contact lists are stored when synchronizing contacts: The email addresses and phone numbers from
+your address book get anonymized (hashed) before they reach the server. Once the comparison is
+finished, they are immediately deleted from the server.<br>
+Key pairs are generated in a decentralized way on your device. Your private key is never known to
+us, and therefore we cannot decrypt any message contents.<br>
+Threema doesn't log who is communicating with whom (which Threema IDs are communicating).
+</blockquote>
