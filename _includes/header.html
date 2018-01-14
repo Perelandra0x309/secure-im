@@ -5,6 +5,8 @@
   
 Table of Contents:<br>
 <ul>
+  {% capture htmllink %}{% link index.html %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}">Home</a></li>
   {% capture htmllink %}{% link _pages/app_list.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">List of Applications</a></li>
   {% capture htmllink %}{% link p2popen.md %}{% endcapture %}
