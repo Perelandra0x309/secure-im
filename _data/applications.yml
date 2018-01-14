@@ -468,7 +468,7 @@
   android_requires_google_play: 
   is_locally_encrypted: 
   perfect_forward_secrecy: 
-  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a></td>
+  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
   notes_file: viber_notes.html
 
 - name: confide
