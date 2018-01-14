@@ -3,6 +3,12 @@ layout: default
 title: Applications list
 permalink: /applist.html
 ---
+Recommendation key:<br>
+<ul>
+  <li><img src="images/checkmark.gif"><img src="images/checkmark.gif">- Highly recommended</li>
+  <li><img src="images/checkmark.gif">- Worth a try</li>
+  <li><img src="images/x.gif">- Stay away!</li>
+</ul>
 {% assign applications = site.data.applications | sort: 'name' %}
 
 {% for application in applications %}

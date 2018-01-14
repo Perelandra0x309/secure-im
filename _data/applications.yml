@@ -157,7 +157,7 @@
   country_origin: 
   requires_phone_number: 
   requires_email: 
-  android_requires_google_play: 
+  android_requires_google_play: No
   is_locally_encrypted: 
   perfect_forward_secrecy: 
   websites: 
