@@ -1,5 +1,5 @@
-{% assign application = site.data.applications | where_exp: "item","item.name == include.app_name" %}
-
+{% assign applications = site.data.applications | where_exp: "item","item.name == include.app_name" %}
+{% assign application = applications[1] %}
 {% if application.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2popen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2pclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otheropen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
