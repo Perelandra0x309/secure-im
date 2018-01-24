@@ -175,8 +175,8 @@
   requires_phone_number: No
   requires_email: Yes
   android_requires_google_play: Yes
-  is_locally_encrypted: ?
-  perfect_forward_secrecy: ?
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
   websites: <a href="https://www.opengarden.com/how-to.html">How it works</a>
   notes_file: firechat_notes.html
   version_tested: 8.0.58
