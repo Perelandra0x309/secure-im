@@ -24,3 +24,4 @@ Recommendation key:<br>
 {{ htmllink }}{{ htmlimage }}
 <br>
 {% endfor %}
+Page updated {{ page.date }}<br>
