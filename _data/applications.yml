@@ -14,6 +14,8 @@
 #  perfect_forward_secrecy: Yes/No
 #  websites: 
 #  notes_file: 
+#  version_tested: 
+#  last_update: 
 
 #  Category 1- P2P open source
 
@@ -30,8 +32,10 @@
   android_requires_google_play: Not applicable
   is_locally_encrypted:
   perfect_forward_secrecy: Yes
-  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>
+  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
   notes_file: ricochet_notes.html
+  version_tested: 1.1.4
+  last_update: 1/18/2018
 
 - name: tox
   category: 1
@@ -48,6 +52,7 @@
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
   notes_file: tox_notes.html
+  last_update: 1/23/2018
   
 - name: ring
   category: 1
@@ -58,12 +63,14 @@
   communication_types: Text, group chat, voice, video
   country_origin: Canada
   requires_phone_number: No
-  requires_email:
+  requires_email: No
   android_requires_google_play:
-  is_locally_encrypted:
+  is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
   notes_file: ring_notes.html
+  version_tested: 1.0
+  last_update: 1/23/2018
   
 - name: briar
   category: 1
@@ -73,13 +80,15 @@
   platforms: Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>
   communication_types: Text and forums
   country_origin:
-  requires_phone_number:
-  requires_email:
+  requires_phone_number: No
+  requires_email: No
   android_requires_google_play: No
-  is_locally_encrypted:
+  is_locally_encrypted: Yes
   perfect_forward_secrecy:
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
+  version_tested: 0.16.16
+  last_update: 1/23/2018
   
 # Category 2- P2P closed source
 
@@ -98,6 +107,8 @@
   perfect_forward_secrecy: Yes
   websites: <a href="https://safeswiss.com/encryption">Encryption</a>
   notes_file: safeswiss_notes.html
+  version_tested: 1.3.03
+  last_update: 1/23/2018
 
 - name: twinme
   category: 2
@@ -107,13 +118,15 @@
   platforms: Android, iOS
   communication_types: Text, voice, video
   country_origin: France?
-  requires_phone_number: 
-  requires_email: 
+  requires_phone_number: No
+  requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
   notes_file: twinme_notes.html
+  version_tested: 7.8.5
+  last_update: 1/23/2018
 
 - name: sid
   category: 2
@@ -124,12 +137,14 @@
   communication_types: Text, group chat, pictures, audio, files
   country_origin: Germany
   requires_phone_number: No
-  requires_email: 
+  requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  perfect_forward_secrecy: No
   websites: <a href="https://sid.co/security-by-design">Security by Design</a>
   notes_file: sid_notes.html
+  version_tested: 0.9.4
+  last_update: 1/23/2018
 
 - name: stealthchat
   category: 2
@@ -141,11 +156,31 @@
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
-  android_requires_google_play: 
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
   websites: 
   notes_file: stealthchat_notes.html
+  version_tested: 1.3.7
+  last_update: 1/23/2018
+
+- name: firechat
+  category: 2
+  display_name: FireChat
+  url: https://www.opengarden.com/firechat.html
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, private group chat, public chatrooms, photos
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  android_requires_google_play: Yes
+  is_locally_encrypted: ?
+  perfect_forward_secrecy: ?
+  websites: <a href="https://www.opengarden.com/how-to.html">How it works</a>
+  notes_file: firechat_notes.html
+  version_tested: 8.0.58
+  last_update: 1/23/2018
 
 - name: kripter
   category: 2
@@ -155,13 +190,15 @@
   platforms: Android
   communication_types: Text, voice, pictures, files, location
   country_origin: 
-  requires_phone_number: 
-  requires_email: 
+  requires_phone_number: No
+  requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  perfect_forward_secrecy: Yes
   websites: 
   notes_file: kripter_notes.html
+  version_tested: 1.3
+  last_update: 11/26/2017
 
 # Category 3- Other open source
 
