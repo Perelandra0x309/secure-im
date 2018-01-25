@@ -314,6 +314,24 @@
   websites: <a href="https://github.com/RetroShare/RetroShare">Source code</a>
   notes_file: retroshare_notes.html
 
+- name: surespot
+  category: 3
+  display_name: Surespot
+  url: https://www.surespot.me
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, voice, images
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
+  notes_file: surespot_notes.html
+  version_tested: 72
+  last_update: 1/24/2018
+
 - name: wire
   category: 3
   display_name: Wire
@@ -330,21 +348,6 @@
   websites: <a href="https://github.com/wireapp">Source code</a>
   notes_file: wire_notes.html
 
-- name: surespot
-  category: 3
-  display_name: Surespot
-  url: https://www.surespot.me
-  recommendation: 2
-  platforms: Android, iOS
-  communication_types: Text, voice, images
-  country_origin: 
-  requires_phone_number: 
-  requires_email: 
-  android_requires_google_play: 
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
-  websites: <a href="https://github.com/surespot">Source code</a>
-  notes_file: surespot_notes.html
 
 # Category 4- Other closed source
 
@@ -462,7 +465,7 @@
 
 - name: cypher
   category: 4
-  display_name: Goldenfrog Cypher
+  display_name: Cypher
   url: https://www.goldenfrog.com/cyphr
   recommendation: 3
   platforms: Android, iOS
