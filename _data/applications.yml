@@ -322,11 +322,14 @@
   platforms: Android, iOS
   communication_types: Text, voice, images
   country_origin: USA
+  country_origin_source: https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html
   requires_phone_number: No
   requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://www.surespot.me/documents/how_surespot_works.html
   perfect_forward_secrecy: No
+  perfect_forward_secrecy_source: https://www.surespot.me/documents/how_surespot_works.html
   websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
   notes_file: surespot_notes.html
   version_tested: 72

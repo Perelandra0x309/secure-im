@@ -4,3 +4,23 @@ Backup identity and save file to other location to be able to restore identity o
 The app complains about needing Google Play services when opening, but it seems to work fine.<br>
 Video and audio are available by paid upgrade.<br>
 Individual chat messages can be deleted from all devices.<br>
+<br>
+From <a href="https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html">Surespot Law Enforcement Guidelines</a><br>
+Surespot stores the following data on its servers:<br>
+<ul>
+<li>Usernames.</li>
+<li>Friend relationships (who is friends with who, blocked who, ignored who, deleted who).</li>
+<li>Conversation relationships (how many friends currently you have a "conversation" with - meaning have a sent or received a message with).</li>
+<li>Messages in the amount of MAX_MESSAGES_PER_USER (currently 1000) which each have a server timestamp, to username, from username, and encrypted content, or link to encrypted content (image or file).</li>
+<li>Encrypted message file data (image or other - anything but encrypted message content) is stored (encrypted in the same way text messages are) on rackspace cloud files.</li>
+<li>Total messages sent per user.</li>
+<li>Total images sent per user.</li>
+<li>Current message count per user. (How many messages they have stored in the database currently, will always be <= MAX_MESSAGES_PER_USER (currently 1000)).</li>
+<li>Signing (DSA) public keys and versions.</li>
+<li>Encryption (DH) public keys and versions.</li>
+<li>Encrypted "friend images" or avatars and friend aliases that are assigned to certain usernames. These are encrypted with a key generated from ECDH key derivation of assigning identity's private/public keypair.</li>
+<li>Google GCM id (used for push messaging) which is related to the username in the surespot database.</li>
+<li>Apple APN token (used for push messaging) which is related to the username in the surespot database.</li>
+<li>If voice messaging is purchased, a purchase token given to us by Google or Apple which is related to the username in the surespot database.</li>
+<li>Server logs may contain any of the above information and are in a 20 log - 5MB per log rotation.</li>
+</ul>
