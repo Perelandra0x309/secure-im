@@ -482,6 +482,24 @@
   websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>
   notes_file: cypher_notes.html
 
+- name: foilchat
+  category: 4
+  display_name: foilChat
+  url: https://www.foilchat.com
+  recommendation: 3
+  platforms: Android, iOS, web
+  communication_types: Text, group chat, photos, video, audio messages
+  country_origin: Finland
+  requires_phone_number: No
+  requires_email: Yes
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  websites: <a href="https://www.foilchat.com/security/">Security</a>
+  notes_file: foilchat_notes.html
+  version_tested: 1.4.39
+  last_update: 1/25/2018
+
 - name: telegram
   category: 4
   display_name: Telegram
