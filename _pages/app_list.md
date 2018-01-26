@@ -24,6 +24,5 @@ Recommendation key:<br>
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}
 {{ htmllink }}{{ htmlimage }}
-<br>
 {% endfor %}
 Page updated {{ page.date }}<br>
