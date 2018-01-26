@@ -9,6 +9,9 @@ Recommendation key:<br>
   <li><img src="images/checkmark.gif">- Worth a try</li>
   <li><img src="images/x.gif">- Stay away!</li>
 </ul>
+<br>
+Index of applications:
+<ul>
 {% assign applications = site.data.applications | sort: 'name' %}
 
 {% for application in applications %}
@@ -23,6 +26,7 @@ Recommendation key:<br>
 {% elsif application.recommendation == 2 %}{% capture htmlimage %}<img src="images/checkmark.gif">{% endcapture %}
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}
-{{ htmllink }}{{ htmlimage }}
+<li>{{ htmllink }}{{ htmlimage }}</li>
 {% endfor %}
+</ul>
 Page updated {{ page.date }}<br>
