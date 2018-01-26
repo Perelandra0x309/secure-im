@@ -547,3 +547,145 @@
   perfect_forward_secrecy: 
   websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
   notes_file: confide_notes.html
+
+# Category 10- Not E2EE
+
+- name: facebookmesssenger
+  category: 10
+  display_name: Facebook Messenger
+  recommendation: 3
+  notes_text: 
+
+- name: googlemessengers
+  category: 10
+  display_name: Google Hangouts, Allo, Duo
+  recommendation: 3
+  notes_text: 
+
+- name: yahoomesssenger
+  category: 10
+  display_name: Yahoo Messenger
+  recommendation: 3
+  notes_text: 
+
+- name: aim
+  category: 10
+  display_name: AOL Instant Messenger
+  recommendation: 3
+  notes_text: 
+
+- name: skype
+  category: 10
+  display_name: Skype
+  recommendation: 3
+  notes_text: 
+
+- name: trello
+  category: 10
+  display_name: Trello
+  recommendation: 3
+  notes_text: 
+
+- name: blackberrymesssenger
+  category: 10
+  display_name: Blackberry Messenger
+  recommendation: 3
+  notes_text: 
+
+# Category 11- Not recommended other reasons
+
+- name: facetime
+  category: 11
+  display_name: FaceTime
+  recommendation: 3
+  notes_text: iOS only, closed source, data saved on Apple servers
+
+- name: imessage
+  category: 11
+  display_name: iMessage
+  recommendation: 3
+  notes_text: iOS only, closed source, data saved on Apple servers
+
+- name: whatsapp
+  category: 11
+  display_name: WhatsApp
+  recommendation: 3
+  notes_text: <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">EFF's concerns</a>: Unencrypted backups at rest, data sharing with Facebook
+
+- name: semaphore
+  category: 11
+  display_name: Semaphore
+  recommendation: 3
+  notes_text: Targeted for business, monthly subscription
+
+- name: slack
+  category: 11
+  display_name: Slack
+  recommendation: 3
+  notes_text: Team/work oriented
+
+- name: grape
+  category: 11
+  display_name: Grape
+  recommendation: 3
+  notes_text: (https://www.chatgrape.com/open-source)-  Another team/work oriented messaging tool, all platforms except Linux, monthly subscription.
+
+- name: mumble
+  category: 11
+  display_name: Mumble
+  recommendation: 3
+  notes_text: Voice chat for gaming. You can send text and links but that is not its primary intent.
+
+- name: jitsi
+  category: 11
+  display_name: Jitsi
+  recommendation: 3
+  notes_text: Video conferencing
+
+- name: bubcon
+  category: 11
+  display_name: Bubcon
+  recommendation: 3
+  notes_text: (https://bubcon.com/datenschutz-app/)- Phone# required, collects your contacts info, Android only (Oct 2017), single device only, messages stored decrypted at rest
+
+- name: line
+  category: 11
+  display_name: Line
+  recommendation: 3
+  notes_text: (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.
+
+- name: wechat
+  category: 11
+  display_name: WeChat
+  recommendation: 3
+  notes_text: (http://www.wechat.com) No information about security on website, requires a phone number to register.
+
+- name: kullo
+  category: 11
+  display_name: Kullo
+  recommendation: 3
+  notes_text: (https://www.kullo.net) Essentially just an encrypted email system, not really chat.
+
+- name: chiffry
+  category: 11
+  display_name: Chiffry
+  recommendation: 3
+  notes_text: (https://www.chiffry.de) Data not encrypted at rest but that feature is on the roadmap (https://www.chiffry.de/en/versionen)
+
+- name: bleep
+  category: 11
+  display_name: Bleep
+  recommendation: 3
+  notes_text: (bleep.im)- a client that used the bittorrent system for messaging, no longer in development.  I was not able to add a contact when I tried it.
+
+- name: connectim
+  category: 11
+  display_name: Connect.im
+  recommendation: 3
+  notes_text: No recent development since March 2017, seems like a scam trying to get people's bitcoin addresses and keys.
+
+- name: safeum
+  category: 11
+  display_name: SafeUM
+  recommendation: 3
+  notes_text: (https://safeum.com)- Free version only uses secure websockets, need to pay 5 Euro/month for message encryption (https://safeum.com/price)
