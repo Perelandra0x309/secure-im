@@ -610,7 +610,7 @@
   category: 11
   display_name: WhatsApp
   recommendation: 3
-  notes_text: <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">EFF's concerns</a>: Unencrypted backups at rest, data sharing with Facebook
+  notes_text: "(https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns) EFF's concerns- Unencrypted backups at rest, data sharing with Facebook"
 
 - name: semaphore
   category: 11
@@ -628,7 +628,7 @@
   category: 11
   display_name: Grape
   recommendation: 3
-  notes_text: (https://www.chatgrape.com/open-source)-  Another team/work oriented messaging tool, all platforms except Linux, monthly subscription.
+  notes_text: "(https://www.chatgrape.com/open-source) Another team/work oriented messaging tool, all platforms except Linux, monthly subscription."
 
 - name: mumble
   category: 11
@@ -646,13 +646,13 @@
   category: 11
   display_name: Bubcon
   recommendation: 3
-  notes_text: (https://bubcon.com/datenschutz-app/)- Phone# required, collects your contacts info, Android only (Oct 2017), single device only, messages stored decrypted at rest
+  notes_text: "(https://bubcon.com/datenschutz-app/) Phone# required, collects your contacts info, Android only (Oct 2017), single device only, messages stored decrypted at rest"
 
 - name: line
   category: 11
   display_name: Line
   recommendation: 3
-  notes_text: (https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE.
+  notes_text: "(https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE."
 
 - name: wechat
   category: 11
