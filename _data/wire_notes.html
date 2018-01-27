@@ -2,15 +2,16 @@
 <a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a>:
 <ul>
   <li>Wire client sends the unencrypted, unhashed password to the central server over TLS, the server hashes the plaintext password with scrypt, and the hash is compared to the hash stored by the server.		This process leaks the user's password to the central server; the server operators (or anyone who compromises the server) could log all of the plaintext passwords as users authenticate.</li>
-  <li>The desktop application is implemented as a packaged web application</li>
+ <li>The desktop application is implemented as a packaged web application</li>
 </ul>
 <blockquote>
-What the server sees and may save:[1]<br>
-- Your contact list is saved to the server in plaintext.<br>
-- Who you talk to, when, and for how long.
+ What the server sees and may save:[1]<br>
+ - Your contact list is saved to the server hashed.<br>
+ - Who you talk to, when, and for how long. (Needed for syncing multiple devices)
 </blockquote>
 Massive battery usage- even when not actively being used:<br>
 <img src="images/wire_battery.png"><br>
+Only on some devices, test it on your own! <br>
 <br>
 Sources:
-<pre>[1]: Information provided by JR</pre>
+<pre>[1]: Information provided by JR, updated by Perflyst on 1/28/2018</pre>

@@ -357,17 +357,20 @@
   category: 3
   display_name: Wire
   url: https://wire.com
-  recommendation: 3
+  recommendation: 2
   platforms: Android, iOS, Mac, Windows, Linux, Web
-  communication_types: Text, voice, video
-  country_origin: 
-  requires_phone_number: 
-  requires_email: 
+  communication_types: Text, voice, video, file sharing
+  country_origin: Switzerland
+  requires_phone_number: Yes, or email
+  requires_email: Yes, or phone number
   android_requires_google_play: No
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
-  websites: <a href="https://github.com/wireapp">Source code</a>
+  is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.surespot.me/documents/how_surespot_works.html
+  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>
   notes_file: wire_notes.html
+  last_update: 1/28/2018
 
 
 # Category 4- Other closed source
