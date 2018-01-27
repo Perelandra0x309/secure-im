@@ -182,6 +182,24 @@
   version_tested: 8.0.58
   last_update: 1/23/2018
 
+- name: zangi
+  category: 2
+  display_name: Zangi
+  url: http://zangi.com
+  recommendation: 2
+  platforms: Android, iOS (Mac, Windows and web coming soon)
+  communication_types: Text, photos, video, files, location
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: 
+  perfect_forward_secrecy: Yes
+  websites: 
+  notes_file: zangi_notes.html
+  version_tested: 4.3.5
+  last_update: 1/27/2018
+
 - name: kripter
   category: 2
   display_name: Kripter
@@ -466,6 +484,24 @@
   websites: 
   notes_file: securechat_notes.html
 
+- name: brosix
+  category: 4
+  display_name: Brosix
+  url: https://www.brosix.com
+  recommendation: 3
+  platforms: Android, iOS, Mac, Windows, Linux
+  communication_types: Text, group chat, files, voice, video
+  country_origin: Bulgaria
+  requires_phone_number: 
+  requires_email: 
+  android_requires_google_play: No
+  is_locally_encrypted: 
+  perfect_forward_secrecy: 
+  websites: <a href="https://www.brosix.com/security/">Security</a>
+  notes_file: brosix_notes.html
+  version_tested: 3.4.5
+  last_update: 1/27/2018
+
 - name: cypher
   category: 4
   display_name: Cypher
@@ -476,7 +512,7 @@
   country_origin: Switzerland
   requires_phone_number: No
   requires_email: Yes
-  android_requires_google_play: No
+  android_requires_google_play: Yes
   is_locally_encrypted: 
   perfect_forward_secrecy: 
   websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>

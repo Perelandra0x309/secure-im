@@ -153,7 +153,7 @@ The following scoring table includes messaging apps used on a single device:<br>
 <ul>
 {% assign applications = site.data.applications | where_exp: "item","item.category == 10" | sort: 'name' %}
 {% for application in applications %}
-  <li><a name="{{ application.name }}">{{ application.display_name }}</a></li>
+  <li><a name="{{ application.name }}"></a>{{ application.display_name }}</li>
 {% endfor %}
 </ul>
 <br>
@@ -161,7 +161,7 @@ The following scoring table includes messaging apps used on a single device:<br>
 <ul>
 {% assign applications = site.data.applications | where_exp: "item","item.category == 11" | sort: 'name' %}
 {% for application in applications %}
-  <li><a name="{{ application.name }}">{{ application.display_name }}</a>- {{ application.notes_text }}
+  <li><a name="{{ application.name }}"></a>{{ application.display_name }}- {{ application.notes_text }}
 {% endfor %}
 </ul>
 <br>
