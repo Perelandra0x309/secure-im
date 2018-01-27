@@ -146,6 +146,24 @@
   version_tested: 0.9.4
   last_update: 1/23/2018
 
+- name: zangi
+  category: 2
+  display_name: Zangi
+  url: http://zangi.com
+  recommendation: 1
+  platforms: Android, iOS (Mac, Windows and web coming soon)
+  communication_types: Text, VOIP, photos, video, audio, files, location
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: 
+  perfect_forward_secrecy: Yes
+  websites: 
+  notes_file: zangi_notes.html
+  version_tested: 4.3.5
+  last_update: 1/27/2018
+
 - name: stealthchat
   category: 2
   display_name: StealthChat
@@ -181,24 +199,6 @@
   notes_file: firechat_notes.html
   version_tested: 8.0.58
   last_update: 1/23/2018
-
-- name: zangi
-  category: 2
-  display_name: Zangi
-  url: http://zangi.com
-  recommendation: 2
-  platforms: Android, iOS (Mac, Windows and web coming soon)
-  communication_types: Text, photos, video, files, location
-  country_origin: USA
-  requires_phone_number: Yes
-  requires_email: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: 
-  perfect_forward_secrecy: Yes
-  websites: 
-  notes_file: zangi_notes.html
-  version_tested: 4.3.5
-  last_update: 1/27/2018
 
 - name: kripter
   category: 2
