@@ -367,9 +367,10 @@
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
   perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://www.surespot.me/documents/how_surespot_works.html
-  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>
+  perfect_forward_secrecy_source: 
+  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>
   notes_file: wire_notes.html
+  version_tested: 3.6.391
   last_update: 1/28/2018
 
 

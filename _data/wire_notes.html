@@ -9,6 +9,42 @@
  - Your contact list is saved to the server hashed.<br>
  - Who you talk to, when, and for how long. (Needed for syncing multiple devices)
 </blockquote>
+From the <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>:<br>
+<blockquote>
+	5 Usage data
+	
+	Wire client applications can collect usage data with the aim of improving future
+	versions of Wire. Usage data helps Wire engineers to assess how Wire is used
+	and to identify areas of improvement. Usage data doesn’t contain personally
+	identifiable information.
+	Users can disable usage data collection at any time.
+	
+	5.1 Types of usage data
+	Wire client applications collect several types of usage data:
+	• Crash reports
+	• Aggregated usage statistics
+	
+	5.1.1 Crash reports
+	Crash reports are the version-specific per-event application state snapshots generated
+	in the event of an execution failure. Usually the crash reports are generated
+	when the application was terminated unexpectedly by the operating system.
+	Crash reports help Wire to understand what went wrong and to release bugfixes
+	faster.
+	
+	5.1.2 Aggregated usage statistics
+	This type of data aggregates the various metrics of the application’s usage, such
+	as the amount of text messages sent, images posted and calls placed as well as
+	user interface flow data and events, such as a dropped call.
+	This statistical data helps Wire to improve future versions.
+  
+	5.2 Usage and storage
+	Initially the data collected is stored on the users’ devices. It is synchronized
+	periodically with Wire and third-party services. Crash and exception reports
+	are stored on HockeyApp [1] and Raygun [2]. All other types of usage data are
+	stored on the Localytics [3] and Mixpanel [4] services.
+</blockquote>
+So be sure to turn off the analytics settings under Settings and Advanced:<br>
+<img src="images/wire_analytics_setting.png"><br>
 Massive battery usage- even when not actively being used:<br>
 <img src="images/wire_battery.png"><br>
 Only on some devices, test it on your own! <br>
