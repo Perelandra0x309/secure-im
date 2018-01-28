@@ -227,14 +227,17 @@
   recommendation: 1
   platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop
   communication_types: Text, voice, video, files, images
-  country_origin:
+  country_origin: USA
   requires_phone_number: Yes
-  requires_email:
+  requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
-  perfect_forward_secrecy:
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.signal.org/docs/specifications/doubleratchet/#introduction
   websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
   notes_file: signal_notes.html
+  version_tested: 4.14.10
+  last_update: 1/28/2018
   
 - name: xmpp
   category: 3
@@ -243,7 +246,7 @@
   recommendation: 1
   platforms: Android, iOS, Mac, Windows, Linux
   communication_types: Text, group chat
-  country_origin: 
+  country_origin: USA
   requires_phone_number: No
   requires_email: Yes
   android_requires_google_play: No
@@ -251,6 +254,7 @@
   perfect_forward_secrecy: Yes
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
   notes_file: xmpp_notes.html
+  last_update: 1/28/2018
 
 - name: keybase
   category: 3
@@ -267,54 +271,62 @@
   perfect_forward_secrecy: No
   websites: <a href="https://github.com/keybase">Source code</a>
   notes_file: keybase_notes.html
+  version_tested: 1.0.4
+  last_update: 1/28/2018
 
 - name: riot
   category: 3
   display_name: Riot
   url: https://about.riot.im
   recommendation: 1
-  platforms: Android, iOS, Mac, Windows, Linux, Web
+  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, Mac, Windows, Linux, Web
   communication_types: Text, voice, video, file sharing
-  country_origin: 
+  country_origin: UK
   requires_phone_number: No
   requires_email: Yes
   android_requires_google_play: No
   is_locally_encrypted: 
   perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://about.riot.im/security/
   websites: <a href="https://github.com/vector-im">Source code</a>
   notes_file: riot_notes.html
+  version_tested: 0.7.03
+  last_update: 1/28/2018
 
 - name: tor_messenger
   category: 3
   display_name: Tor Messenger
   url: https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger
-  recommendation: 1
+  recommendation: 2
   platforms: Mac, Windows, Linux
   communication_types: Text
-  country_origin: 
+  country_origin: USA
   requires_phone_number: No
   requires_email: No
   android_requires_google_play: N/A
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
   websites: 
   notes_file: tormessenger_notes.html
+  version_tested: 0.5.0b1
+  last_update: 1/28/2018
 
 - name: kontalk
   category: 3
   display_name: Kontalk (XMPP)
   url: http://www.kontalk.org
   recommendation: 2
-  platforms: Android, Java client
+  platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
   communication_types: Text
   country_origin: 
   requires_phone_number: Yes
   requires_email: No
   android_requires_google_play: No
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
   notes_file: kontalk_notes.html
+  last_update: 1/28/2018
 
 - name: retroshare
   category: 3
@@ -343,7 +355,7 @@
   country_origin_source: https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html
   requires_phone_number: No
   requires_email: No
-  android_requires_google_play: No
+  android_requires_google_play: Yes
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://www.surespot.me/documents/how_surespot_works.html
   perfect_forward_secrecy: No
@@ -363,7 +375,7 @@
   country_origin: Switzerland
   requires_phone_number: Yes, or email
   requires_email: Yes, or phone number
-  android_requires_google_play: No
+  android_requires_google_play: Yes
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
   perfect_forward_secrecy: Yes
@@ -381,23 +393,26 @@
   display_name: Threema
   url: https://threema.ch
   recommendation: 1
-  platforms: Android, iOS, Windows Phone, Web
+  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
   communication_types: Text, group chat, voice, files
   country_origin: Switzerland
-  requires_phone_number: 
-  requires_email: 
+  requires_phone_number: No
+  requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
+  perfect_forward_secrecy_source: https://threema.ch/en/faq/why_secure
   websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
   notes_file: threema_notes.html
+  version_tested: 3.31
+  last_update: 1/28/2018
 
 - name: eleet
   category: 4
   display_name: Eleet
   url: https://eleet.im
   recommendation: 1
-  platforms: <a href="https://eleet.im/download/#tap-mobile">Android, iOS</a>, <a href="https://eleet.im/download/#tab-desktop">MacOS, Windows, Linux</a>, <a href="https://eleet.im/download/#tap-web">Web</a>
+  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux, Web
   communication_types: Text, group chat, photos, videos, audio files
   country_origin: Scotland, UK
   requires_phone_number: No
@@ -407,6 +422,8 @@
   perfect_forward_secrecy: Yes
   websites: 
   notes_file: eleet_notes.html
+  version_tested: 2.0.29
+  last_update: 1/28/2018
 
 - name: wickrme
   category: 4
@@ -416,13 +433,15 @@
   platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a>
   communication_types: Text, group chat, video, files
   country_origin: USA
-  requires_phone_number: 
-  requires_email: 
+  requires_phone_number: No
+  requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
   notes_file: wickrme_notes.html
+  version_tested: 4.19.4
+  last_update: 1/28/2018
 
 - name: vipole
   category: 4
