@@ -9,15 +9,15 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
 <h2>My current top picks:</h2><br>
 Criteria:
 <ul>
-<li>This list is focused on instant messaging and chatting as the primary usage of the app</li>
-<li>Open source</li>
-<li>Multiple platforms preferred</li>
+  <li>This list is focused on instant messaging and chatting as the primary usage of the app</li>
+  <li>Open source</li>
+  <li>Multiple platforms preferred</li>
 </ul>
 SMS:
 <ul>
-<li>{% include generate_app_link.html app_name="signal" %}<br>
-OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are comfortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
-</li>
+  <li>{% include generate_app_link.html app_name="signal" %}<br>
+    OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number.  For people you are comfortable knowing your phone number that is fine, but for those you don't want to give out your number to...<br>
+  </li>
 </ul>
 <br>
 Messaging apps to use without giving out your phone number:
@@ -29,7 +29,7 @@ Messaging apps to use without giving out your phone number:
     <li>{% include generate_app_link.html app_name="keybase" %}</li>
     <li>{% include generate_app_link.html app_name="riot" %} (E2EE still in beta)</li>
   </ul>
-  
+
   <li>P2P:</li>
   <ul>
     <li>{% include generate_app_link.html app_name="ricochet" %} (desktop only)</li>
@@ -48,133 +48,141 @@ If you're not so strict about being open source try:
 <h2>How about some rankings?</h2><br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
 <table>
-<tr>
-  <th>Application</th>
-  <th width="11%">Additional sharing features- files, photos, etc</th>
-  <th width="11%">Group chats</th>
-  <th width="11%">Unified UI across platforms</th>
-  <th width="11%">Messages sync to all devices</th>
-  <th width="11%">Open source</th>
-  <th width="11%">Perfect forward secrecy</th>
-  <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
-    Based outside the 14 eyes: +.5</th>
-  <th width="11%">Total score:</th>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="riot" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="wickrme" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>5.5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="keybase" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="eleet" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="vipole" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="xmpp" %}</td>
-  <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="sid" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>.5 (Germany)</td><td>4.5</td>
-</tr>
+  <tr>
+    <th>Application</th>
+    <th width="11%">Additional sharing features- files, photos, etc</th>
+    <th width="11%">Group chats</th>
+    <th width="11%">Unified UI across platforms</th>
+    <th width="11%">Messages sync to all devices</th>
+    <th width="11%">Open source</th>
+    <th width="11%">Perfect forward secrecy</th>
+    <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
+      Based outside the 14 eyes: +.5</th>
+    <th width="11%">Total score:</th>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="riot" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="wickrme" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>5.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="keybase" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="wire" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>7</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="eleet" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="vipole" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="xmpp" %}</td>
+    <td>.5 (depends on client)</td><td>.5 (depends on client)</td><td>0</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>4.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="sid" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>.5 (Germany)</td><td>4.5</td>
+  </tr>
 
 </table>
 
 The following scoring table includes messaging apps used on a single device:<br>
 <table>
-<tr>
-  <th>Application</th>
-  <th width="11%">Additional sharing features- files, photos, etc</th>
-  <th width="11%">Group chats</th>
-  <th width="11%">Open source</th>
-  <th width="11%">Perfect forward secrecy</th>
-  <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
-    Based outside the 14 eyes: +.5</th>
-  <th width="11%">Total score:</th>
-</tr>
-<tr>
-  <td><a href="#xmpp">ChatSecure/Conversations</a></td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="tox" %}</td>
-  <td>1</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>4.5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="riot" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>4</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="threema" %}</td>
-  <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>1 (Switzerland)</td><td>4</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="safeswiss" %}</td>
-  <td>1</td><td>1</td><td>0</td><td>1</td><td>1 (Switzerland)</td><td>4</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="wickrme" %}</td>
-  <td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="keybase" %}</td>
-  <td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>3</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="eleet" %}</td>
-  <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>3</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="zangi" %}</td>
-  <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (USA)</td><td>3</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="ricochet" %}</td>
-  <td>0</td><td>0</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>3</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="twinme" %}</td>
-  <td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>2.5</td>
-</tr>
-<tr>
-  <td>{% include generate_app_link.html app_name="ring" %}</td>
-  <td>0</td><td>0</td><td>1</td><td>?</td><td>1 (No central servers)</td><td>2</td>
-</tr>
+  <tr>
+    <th>Application</th>
+    <th width="11%">Additional sharing features- files, photos, etc</th>
+    <th width="11%">Group chats</th>
+    <th width="11%">Open source</th>
+    <th width="11%">Perfect forward secrecy</th>
+    <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
+      Based outside the 14 eyes: +.5</th>
+    <th width="11%">Total score:</th>
+  </tr>
+  <tr>
+    <td><a href="#xmpp">ChatSecure/Conversations</a></td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1 (if you choose the right server)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="tox" %}</td>
+    <td>1</td><td>.5 (depends on client)</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>4.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="riot" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>4</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="threema" %}</td>
+    <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>1 (Switzerland)</td><td>4</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="safeswiss" %}</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>1 (Switzerland)</td><td>4</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="wickrme" %}</td>
+    <td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="keybase" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>0</td><td>0 (USA)</td><td>3</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="wire" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="eleet" %}</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>3</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="zangi" %}</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (USA)</td><td>3</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="ricochet" %}</td>
+    <td>0</td><td>0</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>3</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="twinme" %}</td>
+    <td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>2.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="ring" %}</td>
+    <td>0</td><td>0</td><td>1</td><td>?</td><td>1 (No central servers)</td><td>2</td>
+  </tr>
 
 </table>
 
 <p>Apps that are not E2EE:</p>
 <ul>
-{% assign applications = site.data.applications | where_exp: "item","item.category == 10" | sort: 'name' %}
-{% for application in applications %}
+  {% assign applications = site.data.applications | where_exp: "item","item.category == 10" | sort: 'name' %}
+  {% for application in applications %}
   <li><a name="{{ application.name }}"></a>{{ application.display_name }}</li>
-{% endfor %}
+  {% endfor %}
 </ul>
 <br>
 <p>Apps not recommended for other reasons:</p>
 <ul>
-{% assign applications = site.data.applications | where_exp: "item","item.category == 11" | sort: 'name' %}
-{% for application in applications %}
+  {% assign applications = site.data.applications | where_exp: "item","item.category == 11" | sort: 'name' %}
+  {% for application in applications %}
   <li><a name="{{ application.name }}"></a>{{ application.display_name }}- {{ application.notes_text }}
-{% endfor %}
+    {% endfor %}
 </ul>
 <br>
 <p>To investigate:</p>
 <ul>
-<li>Sudo- https://sudoapp.com- iOS only right now</li>
-<li>https://bitchat.im- Windows and Ubuntu</li>
-<li>Disa- http://disa.im/index.html</li>
-<li>OnionShare</li>
-<li>Brabbler Ginlo https://www.ginlo.net/en- currently in beta</li>
+  <li>Sudo- https://sudoapp.com- iOS only right now</li>
+  <li>https://bitchat.im- Windows and Ubuntu</li>
+  <li>Disa- http://disa.im/index.html</li>
+  <li>OnionShare</li>
+  <li>Brabbler Ginlo https://www.ginlo.net/en- currently in beta</li>
 </ul>
