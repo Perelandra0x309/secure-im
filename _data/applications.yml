@@ -452,12 +452,14 @@
   communication_types: Text, files, photos, video, location, contacts, audio
   country_origin: UK
   requires_phone_number: No
-  requires_email: 
+  requires_email: Yes (or phone number)
   android_requires_google_play: No
   is_locally_encrypted: No (free version)
   perfect_forward_secrecy: Yes
   websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
   notes_file: vipole_notes.html
+  version_tested: 1.8.73
+  last_update: 1/28/2018
 
 - name: hoccer
   category: 4

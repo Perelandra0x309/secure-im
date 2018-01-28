@@ -27,6 +27,7 @@
   <td>{{ application.communication_types }}</td>
 </tr>
 <tr><td colspan="4">
+  Version tested: {{ application.version_tested }}<br>
   Country of origin: {{ application.country_origin }}<br>
   Requires a phone number: {{ application.requires_phone_number }}<br>
   Requires an email address: {{ application.requires_email }}<br>
@@ -34,6 +35,7 @@
   Data is locally encrypted: {{ application.is_locally_encrypted }}<br>
   Perfect forward secrecy: {{ application.perfect_forward_secrecy }}<br>
   Websites: {{ application.websites }}<br>
+  Last update: {{ application.last_update }}<br>
   <b>Notes:</b><br>
   <br>
   {% include_relative _data/{{ application.notes_file }} %}
