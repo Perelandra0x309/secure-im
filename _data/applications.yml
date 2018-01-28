@@ -358,7 +358,7 @@
   display_name: Wire
   url: https://wire.com
   recommendation: 2
-  platforms: Android, iOS, Mac, Windows, Linux, Web
+  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, Mac, Windows, Linux, Web
   communication_types: Text, voice, video, file sharing
   country_origin: Switzerland
   requires_phone_number: Yes, or email
@@ -368,7 +368,7 @@
   is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
   perfect_forward_secrecy: Yes
   perfect_forward_secrecy_source: 
-  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>
+  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
   notes_file: wire_notes.html
   version_tested: 3.6.391
   last_update: 1/28/2018
