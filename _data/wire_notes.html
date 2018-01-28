@@ -1,4 +1,5 @@
 <a href="https://medium.com/@wireapp/open-sourcing-wire-server-code-ef7866a731d5">Server code open sourced</a><br>
+<br>
 <a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a>:
 <ul>
   <li>Wire client sends the unencrypted, unhashed password to the central server over TLS, the server hashes the plaintext password with scrypt, and the hash is compared to the hash stored by the server.		This process leaks the user's password to the central server; the server operators (or anyone who compromises the server) could log all of the plaintext passwords as users authenticate.</li>
@@ -9,38 +10,39 @@
  - Your contact list is saved to the server hashed.<br>
  - Who you talk to, when, and for how long. (Needed for syncing multiple devices)
 </blockquote>
+<br>
 From the <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>:<br>
 <blockquote>
-	5 Usage data
-	
-	Wire client applications can collect usage data with the aim of improving future
-	versions of Wire. Usage data helps Wire engineers to assess how Wire is used
-	and to identify areas of improvement. Usage data doesn’t contain personally
-	identifiable information.
-	Users can disable usage data collection at any time.
-	
-	5.1 Types of usage data
-	Wire client applications collect several types of usage data:
-	• Crash reports
-	• Aggregated usage statistics
-	
-	5.1.1 Crash reports
-	Crash reports are the version-specific per-event application state snapshots generated
-	in the event of an execution failure. Usually the crash reports are generated
-	when the application was terminated unexpectedly by the operating system.
-	Crash reports help Wire to understand what went wrong and to release bugfixes
-	faster.
-	
-	5.1.2 Aggregated usage statistics
-	This type of data aggregates the various metrics of the application’s usage, such
-	as the amount of text messages sent, images posted and calls placed as well as
-	user interface flow data and events, such as a dropped call.
-	This statistical data helps Wire to improve future versions.
-  
-	5.2 Usage and storage
-	Initially the data collected is stored on the users’ devices. It is synchronized
-	periodically with Wire and third-party services. Crash and exception reports
-	are stored on HockeyApp [1] and Raygun [2]. All other types of usage data are
+	5 Usage data<br>
+	<br>
+	Wire client applications can collect usage data with the aim of improving future<br>
+	versions of Wire. Usage data helps Wire engineers to assess how Wire is used<br>
+	and to identify areas of improvement. Usage data doesn’t contain personally<br>
+	identifiable information.<br>
+	Users can disable usage data collection at any time.<br>
+	<br>
+	5.1 Types of usage data<br>
+	Wire client applications collect several types of usage data:<br>
+	• Crash reports<br>
+	• Aggregated usage statistics<br>
+	<br>
+	5.1.1 Crash reports<br>
+	Crash reports are the version-specific per-event application state snapshots generated<br>
+	in the event of an execution failure. Usually the crash reports are generated<br>
+	when the application was terminated unexpectedly by the operating system.<br>
+	Crash reports help Wire to understand what went wrong and to release bugfixes<br>
+	faster.<br>
+	<br>
+	5.1.2 Aggregated usage statistics<br>
+	This type of data aggregates the various metrics of the application’s usage, such<br>
+	as the amount of text messages sent, images posted and calls placed as well as<br>
+	user interface flow data and events, such as a dropped call.<br>
+	This statistical data helps Wire to improve future versions.<br>
+  <br>
+	5.2 Usage and storage<br>
+	Initially the data collected is stored on the users’ devices. It is synchronized<br>
+	periodically with Wire and third-party services. Crash and exception reports<br>
+	are stored on HockeyApp [1] and Raygun [2]. All other types of usage data are<br>
 	stored on the Localytics [3] and Mixpanel [4] services.
 </blockquote>
 So be sure to turn off the analytics settings under Settings and Advanced:<br>
