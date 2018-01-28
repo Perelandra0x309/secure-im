@@ -484,6 +484,24 @@
   websites: 
   notes_file: securechat_notes.html
 
+- name: soma
+  category: 4
+  display_name: Soma
+  url: https://soma.im
+  recommendation: 2
+  platforms: Android, iOS, Web
+  communication_types: Text, group chat, images, video, audio, location
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  websites: 
+  notes_file: soma_notes.html
+  version_tested: 1.9.0
+  last_update: 1/27/2018
+
 - name: brosix
   category: 4
   display_name: Brosix
@@ -586,12 +604,6 @@
 
 # Category 10- Not E2EE
 
-- name: facebookmesssenger
-  category: 10
-  display_name: Facebook Messenger
-  recommendation: 3
-  notes_text: 
-
 - name: googlemessengers
   category: 10
   display_name: Google Hangouts, Allo, Duo
@@ -607,12 +619,6 @@
 - name: aim
   category: 10
   display_name: AOL Instant Messenger
-  recommendation: 3
-  notes_text: 
-
-- name: skype
-  category: 10
-  display_name: Skype
   recommendation: 3
   notes_text: 
 
@@ -642,11 +648,23 @@
   recommendation: 3
   notes_text: iOS only, closed source, data saved on Apple servers
 
+- name: facebookmesssenger
+  category: 11
+  display_name: Facebook Messenger
+  recommendation: 3
+  notes_text: Chats are not encrypted by default.  Plus it's Facebook; slurp, slurp, your data is the product!
+
 - name: whatsapp
   category: 11
   display_name: WhatsApp
   recommendation: 3
   notes_text: "<a href=\"https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns\">EFF's concerns</a>- Unencrypted backups at rest, data sharing with Facebook"
+
+- name: skype
+  category: 11
+  display_name: Skype
+  recommendation: 3
+  notes_text: Private Conversations are not enabled by default, not available in video calls or group chats, only available in beta Skype Insider version.
 
 - name: semaphore
   category: 11
