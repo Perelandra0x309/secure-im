@@ -425,6 +425,24 @@
   version_tested: 2.0.29
   last_update: 1/28/2018
 
+- name: tungsten
+  category: 4
+  display_name: Tungsten
+  url: https://tungsten-labs.com
+  recommendation: 2
+  platforms: Android, iOS (Mac/Windows/Linux coming soon)
+  communication_types: Chat, group chat, photos, files
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  websites: 
+  notes_file: tungsten_notes.html
+  version_tested: 0.4.0
+  last_update: 2/1/2018
+
 - name: wickrme
   category: 4
   display_name: Wickr Me
