@@ -786,3 +786,10 @@
   display_name: SafeUM
   recommendation: 3
   notes_text: (https://safeum.com)- Free version only uses secure websockets, need to pay 5 Euro/month for message encryption (https://safeum.com/price)
+
+- name: shadowtalk
+  category: 11
+  display_name: ShadowTalk
+  recommendation: 3
+  notes_text: Made in China, application costs $20 for iOS and $7 for Android, bad English translations.
+  
