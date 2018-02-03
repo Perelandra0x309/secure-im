@@ -164,24 +164,6 @@
   version_tested: 4.3.5
   last_update: 1/27/2018
 
-- name: stealthchat
-  category: 2
-  display_name: StealthChat
-  url: http://stealthchat.com
-  recommendation: 2
-  platforms: Android, iOS
-  communication_types: Text, voice, pictures
-  country_origin: USA
-  requires_phone_number: Yes
-  requires_email: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  websites: 
-  notes_file: stealthchat_notes.html
-  version_tested: 1.3.7
-  last_update: 1/23/2018
-
 - name: firechat
   category: 2
   display_name: FireChat
@@ -217,6 +199,24 @@
   notes_file: kripter_notes.html
   version_tested: 1.3
   last_update: 11/26/2017
+
+- name: stealthchat
+  category: 2
+  display_name: StealthChat
+  url: http://stealthchat.com
+  recommendation: 3
+  platforms: Android, iOS
+  communication_types: Text, group chat, voice, pictures
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: 
+  notes_file: stealthchat_notes.html
+  version_tested: 1.3.7
+  last_update: 2/2/2018
 
 # Category 3- Other open source
 
