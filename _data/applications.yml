@@ -697,6 +697,12 @@
 
 # Category 11- Not recommended other reasons
 
+- name: anytalk
+  category: 11
+  display_name: AnyTalk
+  recommendation: 3
+  notes_text: "http://anytalkapp.com- Not encrypted by default, requires a phone number to signup and search for contacts. Encrypting messages requires manual exchange of keys and multiple device management looks cumbersome (http://anytalkapp.com/en/support/)."
+
 - name: facetime
   category: 11
   display_name: FaceTime
