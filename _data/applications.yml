@@ -425,6 +425,24 @@
   version_tested: 2.0.29
   last_update: 1/28/2018
 
+- name: freemessage
+  category: 4
+  display_name: FreeMessage
+  url: https://freemessage.com
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, group chat, photos, files
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  websites: <ahref="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
+  notes_file: freemessage_notes.html
+  version_tested: 1.22.20
+  last_update: 2/5/2018
+
 - name: tungsten
   category: 4
   display_name: Tungsten
