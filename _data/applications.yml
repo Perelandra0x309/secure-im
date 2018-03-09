@@ -438,7 +438,7 @@
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
-  websites: <ahref="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
+  websites: <a href="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
   notes_file: freemessage_notes.html
   version_tested: 1.22.20
   last_update: 2/5/2018
@@ -453,13 +453,13 @@
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
-  android_requires_google_play: Yes
+  android_requires_google_play: No
   is_locally_encrypted: "?"
-  perfect_forward_secrecy: "?"
-  websites: 
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://tungsten-labs.com/faq">FAQ</a>
   notes_file: tungsten_notes.html
-  version_tested: 0.4.0
-  last_update: 2/1/2018
+  version_tested: 0.5.0
+  last_update: 3/8/2018
 
 - name: whispeer
   category: 4
@@ -523,13 +523,16 @@
   platforms: <a href="https://hoccer.com/#section-download">Android, iOS</a>
   communication_types: Text, file sharing
   country_origin: Germany
-  requires_phone_number: Yes
-  requires_email: 
-  android_requires_google_play: 
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  requires_phone_number: No
+  requires_email: No
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: http://hoccer.com/hoccer-xo-privacy-security-statement/
   websites: <a href="https://hoccer.com/faq/">FAQ</a>
   notes_file: hoccer_notes.html
+  version_tested: 3.2.15
+  last_update: 3/8/2018
 
 - name: simsme
   category: 4
@@ -542,10 +545,12 @@
   requires_phone_number: Yes
   requires_email: No
   android_requires_google_play: No
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: No
   websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
   notes_file: simsme_notes.html
+  version_tested: 2.00.002.193784
+  last_update: 3/8/2018
 
 - name: securechat
   category: 4
@@ -562,6 +567,8 @@
   perfect_forward_secrecy: 
   websites: 
   notes_file: securechat_notes.html
+  version_tested: 1.0.7
+  last_update: 3/8/2018
 
 - name: soma
   category: 4
@@ -614,6 +621,8 @@
   perfect_forward_secrecy: 
   websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>
   notes_file: cypher_notes.html
+  version_tested: 0.7.3
+  last_update: 1/27/2018
 
 - name: foilchat
   category: 4
@@ -627,7 +636,7 @@
   requires_email: Yes
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
-  perfect_forward_secrecy: "?"
+  perfect_forward_secrecy: No
   websites: <a href="https://www.foilchat.com/security/">Security</a>
   notes_file: foilchat_notes.html
   version_tested: 1.4.39
@@ -648,6 +657,8 @@
   perfect_forward_secrecy: 
   websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
   notes_file: telegram_notes.html
+  version_tested: 4.8
+  last_update: 1/25/2018
 
 - name: viber
   category: 4
@@ -664,6 +675,8 @@
   perfect_forward_secrecy: 
   websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
   notes_file: viber_notes.html
+  version_tested: 
+  last_update: 1/25/2018
 
 - name: confide
   category: 4
@@ -672,14 +685,16 @@
   recommendation: 3
   platforms: <a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a>
   communication_types: Text, group messaging, voice and video messages, file sharing
-  country_origin: 
+  country_origin: USA
   requires_phone_number: 
   requires_email: 
   android_requires_google_play: 
   is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  perfect_forward_secrecy: Yes
   websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
   notes_file: confide_notes.html
+  version_tested: 
+  last_update: 1/25/2018
 
 # Category 10- Not E2EE
 
