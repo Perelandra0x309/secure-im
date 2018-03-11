@@ -27,9 +27,9 @@
   platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a>
   communication_types: Text
   country_origin: No centralized servers
-  requires_phone_number: Not applicable
+  requires_phone_number: N/A
   requires_email: No
-  android_requires_google_play: Not applicable
+  android_requires_google_play: N/A
   is_locally_encrypted:
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
@@ -301,7 +301,7 @@
   platforms: Mac, Windows, Linux
   communication_types: Text
   country_origin: USA
-  requires_phone_number: No
+  requires_phone_number: N/A
   requires_email: No
   android_requires_google_play: N/A
   is_locally_encrypted: "?"
@@ -336,7 +336,7 @@
   platforms: <a href="http://retroshare.net/downloads.html">Windows, Mac, Linux</a>
   communication_types: Text, voice, video, email, file sharing
   country_origin: 
-  requires_phone_number: No
+  requires_phone_number: N/A
   requires_email: 
   android_requires_google_play: N/A
   is_locally_encrypted: 
@@ -414,7 +414,7 @@
   recommendation: 1
   platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux, Web
   communication_types: Text, group chat, photos, videos, audio files
-  country_origin: Scotland, UK
+  country_origin: UK
   requires_phone_number: No
   requires_email: No
   android_requires_google_play: No

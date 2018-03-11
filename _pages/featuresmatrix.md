@@ -11,7 +11,8 @@ Features Matrix:
 
 <table>
 <th>Name</th>
-<th>Type</th>
+<th>P2P or Other</th>
+<th>Open or Closed Source</th>
 <th>Platforms</th>
 <th>Country of Origin</th>
 <th>Requires Phone#</th>
@@ -27,18 +28,84 @@ Features Matrix:
 {% endif %}
 <tr>
 	<td>{% include generate_app_link.html app_name="application.name" %}</td>
-	<td>{{ application.category }}</td>
-	<td>{{ application.platforms }}</td>
-	<td>{{ application.country_origin }}</td>
-{% if application.requires_phone_number == "Yes" %}{% capture tdclass %} background-color="red"{% endcapture %}
-{% elsif application.requires_phone_number == "No" %}{% capture tdclass %} background-color="green"{% endcapture %}
-{% endif %}
-	<td{{ tdclass }}>{{ application.requires_phone_number }}</td>
 
+{% if application.category == 1 or application.category == 2 %}
+	<td>P2P</td>
+{% elsif application.category == 3 or application.category == 4 %}
+	<td>Other</td>
+{% else %}
+	<td>?</td>
+{% endif %}
+	
+{% if application.category == 1 or application.category == 3 %}
+	<td>Open</td>
+{% elsif application.category == 2 or application.category == 4 %}
+	<td>Closed</td>
+{% else %}
+	<td>?</td>
+{% endif %}
+
+	<td>{{ application.platforms }}</td>
+
+{% if application.country_origin == "Australia"
+	or application.country_origin == "Canada"
+	or application.country_origin == "New Zealand"
+	or application.country_origin == "UK"
+	or application.country_origin == "USA" %}
+	<td bgcolor="red">{{ application.country_origin }}</td>
+{% elsif application.country_origin == "Denmark"
+	or application.country_origin == "France"
+	or application.country_origin == "Netherlands"
+	or application.country_origin == "Norway" %}
+	<td bgcolor="orange">{{ application.country_origin }}</td>
+{% elsif application.country_origin == "Belgium"
+	or application.country_origin == "Germany"
+	or application.country_origin == "Italy"
+	or application.country_origin == "Spain" %}
+	<td bgcolor="yellow" style="color: black">{{ application.country_origin }}</td>
+{% else %}
+	<td>{{ application.country_origin }}</td>
+{% endif %}
+	
+{% if application.requires_phone_number == true %}
+	<td bgcolor="red">Yes</td>
+{% elsif application.requires_phone_number == false %}
+	<td bgcolor="green">No</td>
+{% else %}
+	<td>{{ application.requires_phone_number }}</td>
+{% endif %}
+
+{% if application.requires_email == true %}
+	<td bgcolor="red">Yes</td>
+{% elsif application.requires_email == false %}
+	<td bgcolor="green">No</td>
+{% else %}
 	<td>{{ application.requires_email }}</td>
+{% endif %}
+
+{% if application.android_requires_google_play == true %}
+	<td bgcolor="red">Yes</td>
+{% elsif application.android_requires_google_play == false %}
+	<td bgcolor="green">No</td>
+{% else %}
 	<td>{{ application.android_requires_google_play }}</td>
+{% endif %}
+
+{% if application.is_locally_encrypted == true %}
+	<td bgcolor="green">Yes</td>
+{% elsif application.is_locally_encrypted == false %}
+	<td bgcolor="red">No</td>
+{% else %}
 	<td>{{ application.is_locally_encrypted }}</td>
+{% endif %}
+
+{% if application.perfect_forward_secrecy == true %}
+	<td bgcolor="green">Yes</td>
+{% elsif application.perfect_forward_secrecy == false %}
+	<td bgcolor="red">No</td>
+{% else %}
 	<td>{{ application.perfect_forward_secrecy }}</td>
+{% endif %}
 </tr>
 {% endfor %}
 
