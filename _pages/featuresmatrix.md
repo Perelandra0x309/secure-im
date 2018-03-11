@@ -16,7 +16,7 @@ Features Matrix:
 <th>Country of Origin</th>
 <th>Requires Phone#</th>
 <th>Requires email</th>
-<th>Reuires Google Play</th>
+<th>Requires Google Play</th>
 <th>Locally Encrypted Data</th>
 <th>Uses Perfect Forward Secrecy</th>
 
@@ -30,7 +30,11 @@ Features Matrix:
 	<td>{{ application.category }}</td>
 	<td>{{ application.platforms }}</td>
 	<td>{{ application.country_origin }}</td>
-	<td>{{ application.requires_phone_number }}</td>
+{% if application.requires_phone_number == "Yes" %}{% capture tdclass %} background-color="red"{% endcapture %}
+{% if application.requires_phone_number == "No" %}{% capture tdclass %} background-color="green"{% endcapture %}
+{% endif %}
+	<td{{ tdclass }}>{{ application.requires_phone_number }}</td>
+
 	<td>{{ application.requires_email }}</td>
 	<td>{{ application.android_requires_google_play }}</td>
 	<td>{{ application.is_locally_encrypted }}</td>
