@@ -26,7 +26,7 @@ Features Matrix:
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}
 <tr>
-	<td>{% include generate_app_link.html app_name="{{ application.name }}" %}</td>
+	<td>{% include generate_app_link.html app_name="application.name" %}</td>
 	<td>application.category</td>
 	<td>application.platforms</td>
 	<td>application.country_origin</td>
