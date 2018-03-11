@@ -31,7 +31,7 @@ Features Matrix:
 	<td>{{ application.platforms }}</td>
 	<td>{{ application.country_origin }}</td>
 {% if application.requires_phone_number == "Yes" %}{% capture tdclass %} background-color="red"{% endcapture %}
-{% if application.requires_phone_number == "No" %}{% capture tdclass %} background-color="green"{% endcapture %}
+{% elsif application.requires_phone_number == "No" %}{% capture tdclass %} background-color="green"{% endcapture %}
 {% endif %}
 	<td{{ tdclass }}>{{ application.requires_phone_number }}</td>
 
