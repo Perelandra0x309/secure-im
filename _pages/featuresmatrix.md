@@ -7,7 +7,7 @@ permalink: /featuresmatrix.html
 <br>
 Features Matrix:
 
-{% assign applications = site.data.applications | sort: 'name' %}
+{% assign applications = site.data.applications | where_exp: "item","item.category < 5" | sort: 'name' %}
 
 <table>
 <th>Name</th>
@@ -27,14 +27,14 @@ Features Matrix:
 {% endif %}
 <tr>
 	<td>{% include generate_app_link.html app_name="application.name" %}</td>
-	<td>application.category</td>
-	<td>application.platforms</td>
-	<td>application.country_origin</td>
-	<td>application.requires_phone_number</td>
-	<td>application.requires_email</td>
-	<td>application.android_requires_google_play</td>
-	<td>application.is_locally_encrypted</td>
-	<td>application.perfect_forward_secrecy</td>
+	<td>{{ application.category }}</td>
+	<td>{{ application.platforms }}</td>
+	<td>{{ application.country_origin }}</td>
+	<td>{{ application.requires_phone_number }}</td>
+	<td>{{ application.requires_email }}</td>
+	<td>{{ application.android_requires_google_play }}</td>
+	<td>{{ application.is_locally_encrypted }}</td>
+	<td>{{ application.perfect_forward_secrecy }}</td>
 </tr>
 {% endfor %}
 
