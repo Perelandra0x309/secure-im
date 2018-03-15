@@ -27,7 +27,7 @@
   platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a>
   communication_types: Text
   country_origin: No centralized servers
-  requires_phone_number: N/A
+  requires_phone_number: No
   requires_email: No
   android_requires_google_play: N/A
   is_locally_encrypted:
@@ -64,7 +64,7 @@
   country_origin: Canada
   requires_phone_number: No
   requires_email: No
-  android_requires_google_play:
+  android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
@@ -84,7 +84,7 @@
   requires_email: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
-  perfect_forward_secrecy:
+  perfect_forward_secrecy: Yes
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
   version_tested: 0.16.16
@@ -189,7 +189,7 @@
   recommendation: 3
   platforms: Android
   communication_types: Text, voice, pictures, files, location
-  country_origin: 
+  country_origin: UK
   requires_phone_number: No
   requires_email: No
   android_requires_google_play: No
@@ -246,7 +246,7 @@
   recommendation: 1
   platforms: Android, iOS, Mac, Windows, Linux
   communication_types: Text, group chat
-  country_origin: USA
+  country_origin: Various
   requires_phone_number: No
   requires_email: Yes
   android_requires_google_play: No
@@ -301,7 +301,7 @@
   platforms: Mac, Windows, Linux
   communication_types: Text
   country_origin: USA
-  requires_phone_number: N/A
+  requires_phone_number: No
   requires_email: No
   android_requires_google_play: N/A
   is_locally_encrypted: "?"
@@ -336,7 +336,7 @@
   platforms: <a href="http://retroshare.net/downloads.html">Windows, Mac, Linux</a>
   communication_types: Text, voice, video, email, file sharing
   country_origin: 
-  requires_phone_number: N/A
+  requires_phone_number: No
   requires_email: 
   android_requires_google_play: N/A
   is_locally_encrypted: 
@@ -373,8 +373,8 @@
   platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, Mac, Windows, Linux, Web
   communication_types: Text, voice, video, file sharing
   country_origin: Switzerland
-  requires_phone_number: Yes, or email
-  requires_email: Yes, or phone number
+  requires_phone_number: Either
+  requires_email: Either
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
@@ -505,8 +505,8 @@
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, Mac, Windows, Linux</a>
   communication_types: Text, files, photos, video, location, contacts, audio
   country_origin: UK
-  requires_phone_number: No
-  requires_email: Yes (or phone number)
+  requires_phone_number: Either
+  requires_email: Either
   android_requires_google_play: No
   is_locally_encrypted: No (free version)
   perfect_forward_secrecy: Yes
@@ -596,11 +596,12 @@
   platforms: Android, iOS, Mac, Windows, Linux
   communication_types: Text, group chat, files, voice, video
   country_origin: Bulgaria
-  requires_phone_number: 
-  requires_email: 
+  requires_phone_number: No
+  requires_email: Yes
   android_requires_google_play: No
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.brosix.com/blog/encrypted-communication-yes-its-important/
   websites: <a href="https://www.brosix.com/security/">Security</a>
   notes_file: brosix_notes.html
   version_tested: 3.4.5
@@ -617,8 +618,10 @@
   requires_phone_number: No
   requires_email: Yes
   android_requires_google_play: Yes
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://www.goldenfrog.com/cyphr/how-cyphr-works
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.goldenfrog.com/cyphr/how-cyphr-works
   websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>
   notes_file: cypher_notes.html
   version_tested: 0.7.3
@@ -650,11 +653,12 @@
   platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a>
   communication_types: Text, voice, file sharing
   country_origin: First Russia, now Dubai
-  requires_phone_number: 
-  requires_email: 
-  android_requires_google_play: 
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  requires_phone_number: Yes
+  requires_email: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://core.telegram.org/techfaq#q-how-does-end-to-end-encryption-work-in-mtproto
   websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
   notes_file: telegram_notes.html
   version_tested: 4.8
@@ -667,12 +671,13 @@
   recommendation: 3
   platforms: Android, iOS, Mac, Windows, Linux
   communication_types: Text, group messaging, voice and video calls, photos
-  country_origin: 
+  country_origin: Japan
   requires_phone_number: Yes
   requires_email: No
-  android_requires_google_play: 
-  is_locally_encrypted: 
-  perfect_forward_secrecy: 
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.viber.com/security-overview
   websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
   notes_file: viber_notes.html
   version_tested: 
@@ -686,11 +691,11 @@
   platforms: <a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a>
   communication_types: Text, group messaging, voice and video messages, file sharing
   country_origin: USA
-  requires_phone_number: 
-  requires_email: 
-  android_requires_google_play: 
-  is_locally_encrypted: 
-  perfect_forward_secrecy: Yes
+  requires_phone_number: Either
+  requires_email: Either
+  android_requires_google_play: Yes
+  is_locally_encrypted: N/A (messages deleted immediately)
+  perfect_forward_secrecy: No
   websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
   notes_file: confide_notes.html
   version_tested: 

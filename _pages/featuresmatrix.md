@@ -5,18 +5,23 @@ permalink: /featuresmatrix.html
 ---
 
 <br>
+Country Key:
+<table style="width:15%">
+	<tr><td bgcolor="red">5 Eyes Member</td></tr>
+	<tr><td bgcolor="orange" style="color: black">9 Eyes Member</td></tr>
+	<tr><td bgcolor="yellow" style="color: black">14 Eyes Member</td></tr>
+</table>
+<br>
 Features Matrix:
-
+<br>
 {% assign applications = site.data.applications | where_exp: "item","item.category < 5" | sort: 'name' %}
-
 <table>
 <th>Name</th>
 <th>P2P or Other</th>
 <th>Open or Closed Source</th>
 <th>Platforms</th>
 <th>Country of Origin</th>
-<th>Requires Phone#</th>
-<th>Requires email</th>
+<th>Requires Phone# or Email</th>
 <th>Requires Google Play</th>
 <th>Locally Encrypted Data</th>
 <th>Uses Perfect Forward Secrecy</th>
@@ -57,7 +62,7 @@ Features Matrix:
 	or application.country_origin == "France"
 	or application.country_origin == "Netherlands"
 	or application.country_origin == "Norway" %}
-	<td bgcolor="orange">{{ application.country_origin }}</td>
+	<td bgcolor="orange" style="color: black">{{ application.country_origin }}</td>
 {% elsif application.country_origin == "Belgium"
 	or application.country_origin == "Germany"
 	or application.country_origin == "Italy"
@@ -66,21 +71,19 @@ Features Matrix:
 {% else %}
 	<td>{{ application.country_origin }}</td>
 {% endif %}
-	
-{% if application.requires_phone_number == true %}
-	<td bgcolor="red">Yes</td>
-{% elsif application.requires_phone_number == false %}
+
+{% if application.requires_phone_number == "Either" %}
+	<td bgcolor="red">Phone or Email</td>
+{% elsif application.requires_phone_number == true and application.requires_email == true %}
+	<td bgcolor="red">Phone and Email</td>
+{% elsif application.requires_phone_number == false and application.requires_email == false %}
 	<td bgcolor="green">No</td>
+{% elsif application.requires_phone_number == true %}
+	<td bgcolor="red">Phone</td>
+{% elsif application.requires_email == true %}
+	<td bgcolor="red">Email</td>
 {% else %}
 	<td>{{ application.requires_phone_number }}</td>
-{% endif %}
-
-{% if application.requires_email == true %}
-	<td bgcolor="red">Yes</td>
-{% elsif application.requires_email == false %}
-	<td bgcolor="green">No</td>
-{% else %}
-	<td>{{ application.requires_email }}</td>
 {% endif %}
 
 {% if application.android_requires_google_play == true %}
