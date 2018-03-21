@@ -9,9 +9,11 @@
 #  country_origin: 
 #  requires_phone_number: Yes/No
 #  requires_email: Yes/No
+#  id_contains_contact_info: No/Email/Phone
 #  android_requires_google_play: Yes/No
 #  is_locally_encrypted: Yes/No
 #  perfect_forward_secrecy: Yes/No
+#  message_stored_on_server: Never/Temporarily/Yes
 #  websites: 
 #  notes_file: 
 #  version_tested: 
@@ -646,6 +648,26 @@
   notes_file: foilchat_notes.html
   version_tested: 1.4.39
   last_update: 1/25/2018
+
+- name: fortknoxster
+  category: 4
+  display_name: FortKnoxster
+  url: https://fortknoxster.com
+  recommendation: 3
+  platforms: Android, iOS, Web
+  communication_types: Chat, group chat, cloud file storage, video chat, screen sharing, voice, calendar, notes
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: Email
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: No
+  message_stored_on_server: Yes
+  websites: <a href="https://fortknoxster.com/whitepaper.pdf">Whitepaper</a>
+  notes_file: fortknoxster.html
+  version_tested: 1.0.1
+  last_update: 3/20/2018
 
 - name: telegram
   category: 4
