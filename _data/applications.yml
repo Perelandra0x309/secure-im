@@ -710,10 +710,10 @@
   recommendation: 3
   platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a>
   communication_types: Text, voice, file sharing
-  country_origin: First Russia, now Dubai
+  country_origin: UK
   requires_phone_number: Yes
   requires_email: No
-  id_contains_contact_info: 
+  id_contains_contact_info: Optional aliases
   android_requires_google_play: Yes
   is_locally_encrypted: No
   perfect_forward_secrecy: Yes
@@ -753,7 +753,7 @@
   country_origin: USA
   requires_phone_number: Either
   requires_email: Either
-  id_contains_contact_info: 
+  id_contains_contact_info: Email
   android_requires_google_play: Yes
   is_locally_encrypted: N/A (messages deleted immediately)
   perfect_forward_secrecy: No
