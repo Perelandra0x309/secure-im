@@ -22,6 +22,7 @@ Features Matrix:
 <th>Platforms</th>
 <th>Country of Origin</th>
 <th>Requires Phone# or Email</th>
+<th>ID contains personal info</th>
 <th>Requires Google Play</th>
 <th>Locally Encrypted Data</th>
 <th>Uses Perfect Forward Secrecy</th>
@@ -84,6 +85,16 @@ Features Matrix:
 	<td bgcolor="red">Email</td>
 {% else %}
 	<td>{{ application.requires_phone_number }}</td>
+{% endif %}
+
+{% if application.id_contains_contact_info == false %}
+	<td bgcolor="green">No</td>
+{% elsif application.id_contains_contact_info == "Email" %}
+	<td bgcolor="red">Email</td>
+{% elsif application.id_contains_contact_info == "Phone" %}
+	<td bgcolor="red">Phone</td>
+{% else %}
+	<td>{{ application.id_contains_contact_info }}</td>
 {% endif %}
 
 {% if application.android_requires_google_play == true %}

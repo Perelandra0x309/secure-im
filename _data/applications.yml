@@ -31,6 +31,7 @@
   country_origin: No centralized servers
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: N/A
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -49,6 +50,7 @@
   country_origin: No centralized servers
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted:
   perfect_forward_secrecy: Yes
@@ -66,6 +68,7 @@
   country_origin: Canada
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -84,6 +87,7 @@
   country_origin:
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -104,6 +108,7 @@
   country_origin: Switzerland (<a href="https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695">Company Register</a>)
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -122,6 +127,7 @@
   country_origin: France?
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -140,6 +146,7 @@
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://sid.co/faq#faq-list-item-5
@@ -159,6 +166,7 @@
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: Yes
   is_locally_encrypted: 
   perfect_forward_secrecy: Yes
@@ -177,6 +185,7 @@
   country_origin: USA
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: No
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: "?"
@@ -195,6 +204,7 @@
   country_origin: UK
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -213,6 +223,7 @@
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -233,6 +244,7 @@
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -252,6 +264,7 @@
   country_origin: Various
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -269,6 +282,7 @@
   country_origin: USA
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
@@ -287,6 +301,7 @@
   country_origin: UK
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -306,6 +321,7 @@
   country_origin: USA
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: N/A
   is_locally_encrypted: "?"
   perfect_forward_secrecy: "?"
@@ -324,6 +340,7 @@
   country_origin: 
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -341,6 +358,7 @@
   country_origin: None
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: N/A
   is_locally_encrypted: "?"
   perfect_forward_secrecy: No
@@ -359,6 +377,7 @@
   country_origin_source: https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://www.surespot.me/documents/how_surespot_works.html
@@ -379,6 +398,7 @@
   country_origin: Switzerland
   requires_phone_number: Either
   requires_email: Either
+  id_contains_contact_info: No
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
@@ -402,6 +422,7 @@
   country_origin: Switzerland
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
@@ -421,6 +442,7 @@
   country_origin: UK
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -439,6 +461,7 @@
   country_origin: Germany
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
@@ -457,6 +480,7 @@
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -475,6 +499,7 @@
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: "?"
@@ -493,6 +518,7 @@
   country_origin: USA
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
@@ -511,6 +537,7 @@
   country_origin: UK
   requires_phone_number: Either
   requires_email: Either
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: No (free version)
   perfect_forward_secrecy: Yes
@@ -529,6 +556,7 @@
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -548,6 +576,7 @@
   country_origin: Germany
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: No
@@ -566,6 +595,7 @@
   country_origin: Germany
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: Yes
   is_locally_encrypted: 
   perfect_forward_secrecy: 
@@ -584,6 +614,7 @@
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -602,6 +633,7 @@
   country_origin: Bulgaria
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -621,6 +653,7 @@
   country_origin: Switzerland
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: Email
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   is_locally_encrypted_source: https://www.goldenfrog.com/cyphr/how-cyphr-works
@@ -641,6 +674,7 @@
   country_origin: Finland
   requires_phone_number: No
   requires_email: Yes
+  id_contains_contact_info: Email
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: No
@@ -679,6 +713,7 @@
   country_origin: First Russia, now Dubai
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: 
   android_requires_google_play: Yes
   is_locally_encrypted: No
   perfect_forward_secrecy: Yes
@@ -698,6 +733,7 @@
   country_origin: Japan
   requires_phone_number: Yes
   requires_email: No
+  id_contains_contact_info: Phone
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
@@ -717,6 +753,7 @@
   country_origin: USA
   requires_phone_number: Either
   requires_email: Either
+  id_contains_contact_info: 
   android_requires_google_play: Yes
   is_locally_encrypted: N/A (messages deleted immediately)
   perfect_forward_secrecy: No
