@@ -817,6 +817,25 @@
   recommendation: 3
   notes_text: 
 
+- name: discord
+  category: 10
+  display_name: Discord
+  url: https://discordapp.com
+  recommendation: 3
+  platforms: <a href="https://discordapp.com/download">Android, iOS, Mac, Windows, Linux, Web</a>
+  communication_types: Text, group messaging, voice and video messages, file sharing
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: Email
+  android_requires_google_play: No
+  is_locally_encrypted: No
+  perfect_forward_secrecy: No
+  websites: <a href="https://support.discordapp.com/">Support</a>, <a href="https://discordapp.com/security">Security Overview</a>
+  notes_file: discord_notes.html
+  version_tested: 
+  last_update: 4/24/2018
+
 # Category 11- Not recommended other reasons
 
 - name: anytalk
