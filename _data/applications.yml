@@ -95,7 +95,26 @@
   notes_file: briar_notes.html
   version_tested: 0.16.16
   last_update: 1/23/2018
-  
+
+- name: patchwork
+  category: 1
+  display_name: Patchwork
+  url: https://github.com/ssbc/patchwork
+  recommendation: 2
+  platforms: Linux, Mac, Windows
+  communication_types: Text
+  country_origin: Everywhere
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
+  notes_file: patchwork_notes.html
+  version_tested: 3.8.10
+  last_update: 4/24/2018
+
 # Category 2- P2P closed source
 
 - name: safeswiss
