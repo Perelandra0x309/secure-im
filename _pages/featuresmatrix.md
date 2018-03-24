@@ -35,9 +35,9 @@ Features Matrix:
 <tr>
 	<td>{% include generate_app_link.html app_name="application.name" %}</td>
 
-{% if application.category == 1 or application.category == 2 %}
+{% if application.category == 1 or application.category == 2 or application.category == 6 %}
 	<td>P2P</td>
-{% elsif application.category == 3 or application.category == 4 %}
+{% elsif application.category == 3 or application.category == 4 or application.category == 5 %}
 	<td>Other</td>
 {% else %}
 	<td>?</td>
@@ -45,6 +45,8 @@ Features Matrix:
 	
 {% if application.category == 1 or application.category == 3 %}
 	<td>Open</td>
+{% elsif application.category == 5 or application.category == 6 %}
+        <td>Partially Open</td>
 {% elsif application.category == 2 or application.category == 4 %}
 	<td>Closed</td>
 {% else %}

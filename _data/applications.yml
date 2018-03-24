@@ -1,6 +1,6 @@
 # Template:
 #- name: 
-#  category: (1- P2P open source, 2- P2P closed source, 3- Other open source, 4- Other closed source)
+#  category: (1- P2P open source, 2- P2P closed source, 3- Other open source, 4- Other closed source, 5- Other partially open Source, 6- P2P partially open source)
 #  display_name: 
 #  url: 
 #  recommendation: (1- highly, 2- worth a try, 3- not recommended)
@@ -99,7 +99,26 @@
   notes_file: briar_notes.html
   version_tested: 0.16.16
   last_update: 1/23/2018
-  
+
+- name: patchwork
+  category: 1
+  display_name: Patchwork
+  url: https://github.com/ssbc/patchwork
+  recommendation: 2
+  platforms: Linux, Mac, Windows
+  communication_types: Text
+  country_origin: Everywhere
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
+  notes_file: patchwork_notes.html
+  version_tested: 3.8.10
+  last_update: 4/24/2018
+
 # Category 2- P2P closed source
 
 - name: safeswiss
@@ -416,26 +435,6 @@
 
 # Category 4- Other closed source
 
-- name: threema
-  category: 4
-  display_name: Threema
-  url: https://threema.ch
-  recommendation: 1
-  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
-  communication_types: Text, group chat, voice, files
-  country_origin: Switzerland
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  perfect_forward_secrecy_source: https://threema.ch/en/faq/why_secure
-  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
-  notes_file: threema_notes.html
-  version_tested: 3.31
-  last_update: 1/28/2018
-
 - name: eleet
   category: 4
   display_name: Eleet
@@ -707,26 +706,6 @@
   version_tested: 1.0.1
   last_update: 3/20/2018
 
-- name: telegram
-  category: 4
-  display_name: Telegram
-  url: https://telegram.org
-  recommendation: 3
-  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a>
-  communication_types: Text, voice, file sharing
-  country_origin: UK
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Optional aliases
-  android_requires_google_play: Yes
-  is_locally_encrypted: No
-  perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://core.telegram.org/techfaq#q-how-does-end-to-end-encryption-work-in-mtproto
-  websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
-  notes_file: telegram_notes.html
-  version_tested: 4.8
-  last_update: 1/25/2018
-
 - name: viber
   category: 4
   display_name: Viber
@@ -766,6 +745,50 @@
   version_tested: 
   last_update: 1/25/2018
 
+# Category 5- Other partially open Source
+
+- name: threema
+  category: 5
+  display_name: Threema
+  url: https://threema.ch
+  recommendation: 1
+  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
+  communication_types: Text, group chat, voice, files
+  country_origin: Switzerland
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  perfect_forward_secrecy_source: https://threema.ch/en/faq/why_secure
+  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
+  notes_file: threema_notes.html
+  version_tested: 3.41
+  last_update: 1/28/2018
+
+- name: telegram
+  category: 5
+  display_name: Telegram
+  url: https://telegram.org
+  recommendation: 3
+  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a>
+  communication_types: Text, voice, file sharing
+  country_origin: UK
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Optional aliases
+  android_requires_google_play: Yes
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://core.telegram.org/techfaq#q-how-does-end-to-end-encryption-work-in-mtproto
+  websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
+  notes_file: telegram_notes.html
+  version_tested: 4.8
+  last_update: 1/25/2018
+
+# Category 6- P2P partially open Source
+
 # Category 10- Not E2EE
 
 - name: googlemessengers
@@ -797,6 +820,25 @@
   display_name: Blackberry Messenger
   recommendation: 3
   notes_text: 
+
+- name: discord
+  category: 10
+  display_name: Discord
+  url: https://discordapp.com
+  recommendation: 3
+  platforms: <a href="https://discordapp.com/download">Android, iOS, Mac, Windows, Linux, Web</a>
+  communication_types: Text, group messaging, voice and video messages, file sharing
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: Email
+  android_requires_google_play: No
+  is_locally_encrypted: No
+  perfect_forward_secrecy: No
+  websites: <a href="https://support.discordapp.com/">Support</a>, <a href="https://discordapp.com/security">Security Overview</a>
+  notes_file: discord_notes.html
+  version_tested: 
+  last_update: 4/24/2018
 
 # Category 11- Not recommended other reasons
 
