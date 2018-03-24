@@ -19,8 +19,8 @@ Index of applications:
 {% elsif application.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2pclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otheropen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 4 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% elsif application.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% elsif application.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.html %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.html %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% endif %}

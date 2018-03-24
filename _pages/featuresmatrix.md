@@ -14,7 +14,7 @@ Country Key:
 <br>
 Features Matrix:
 <br>
-{% assign applications = site.data.applications | where_exp: "item","item.category < 5" | sort: 'name' %}
+{% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
 <table>
 <th>Name</th>
 <th>P2P or Other</th>
@@ -46,7 +46,7 @@ Features Matrix:
 {% if application.category == 1 or application.category == 3 %}
 	<td>Open</td>
 {% elsif application.category == 5 or application.category == 6 %}
-        <td>Partially Open</td>
+  <td>Partially Open</td>
 {% elsif application.category == 2 or application.category == 4 %}
 	<td>Closed</td>
 {% else %}
