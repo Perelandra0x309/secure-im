@@ -25,3 +25,14 @@ li.active a {
     color: lightgray;
     cursor: default;
 }
+table tr td.fiveeyes {
+   background-color: red;
+}
+table tr td.nineeyes {
+	background-color: orange;
+	color: black;
+}
+table tr td.fourteeneyes {
+	background-color: yellow;
+	color: black;
+}

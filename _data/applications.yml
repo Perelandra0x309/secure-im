@@ -107,11 +107,11 @@
   recommendation: 2
   platforms: Linux, Mac, Windows
   communication_types: Text
-  country_origin: Everywhere
+  country_origin: None
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
-  android_requires_google_play: No
+  android_requires_google_play: N/A
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
@@ -128,7 +128,8 @@
   recommendation: 1
   platforms: Android, iOS, Windows
   communication_types: Text, group chat, voice, pictures, video, location
-  country_origin: Switzerland (<a href="https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695">Company Register</a>)
+  country_origin: Switzerland
+  country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
@@ -838,7 +839,7 @@
   websites: <a href="https://support.discordapp.com/">Support</a>, <a href="https://discordapp.com/security">Security Overview</a>
   notes_file: discord_notes.html
   version_tested: 
-  last_update: 4/24/2018
+  last_update: 3/24/2018
 
 # Category 11- Not recommended other reasons
 

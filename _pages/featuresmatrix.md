@@ -7,9 +7,9 @@ permalink: /featuresmatrix.html
 <br>
 Country Key:
 <table style="width:15%">
-	<tr><td bgcolor="red">5 Eyes Member</td></tr>
-	<tr><td bgcolor="orange" style="color: black">9 Eyes Member</td></tr>
-	<tr><td bgcolor="yellow" style="color: black">14 Eyes Member</td></tr>
+	<tr><td class="fiveeyes">5 Eyes Member</td></tr>
+	<tr><td class="nineeyes">9 Eyes Member</td></tr>
+	<tr><td class="fourteeneyes">14 Eyes Member</td></tr>
 </table>
 <br>
 Features Matrix:
@@ -55,24 +55,28 @@ Features Matrix:
 
 	<td>{{ application.platforms }}</td>
 
+{% capture classname %}{% endcapture %}
 {% if application.country_origin == "Australia"
 	or application.country_origin == "Canada"
 	or application.country_origin == "New Zealand"
 	or application.country_origin == "UK"
 	or application.country_origin == "USA" %}
-	<td bgcolor="red">{{ application.country_origin }}</td>
+	{% capture classname %}fiveeyes{% endcapture %}
 {% elsif application.country_origin == "Denmark"
 	or application.country_origin == "France"
 	or application.country_origin == "Netherlands"
 	or application.country_origin == "Norway" %}
-	<td bgcolor="orange" style="color: black">{{ application.country_origin }}</td>
+	{% capture classname %}nineeyes{% endcapture %}
 {% elsif application.country_origin == "Belgium"
 	or application.country_origin == "Germany"
 	or application.country_origin == "Italy"
 	or application.country_origin == "Spain" %}
-	<td bgcolor="yellow" style="color: black">{{ application.country_origin }}</td>
+	{% capture classname %}fourteeneyes{% endcapture %}
+{% endif %}
+{% if application.country_origin_source %}
+  <td class="{{ classname }}"><a href="{{ application.country_origin_source }}">{{ application.country_origin }}</a></td>
 {% else %}
-	<td>{{ application.country_origin }}</td>
+	<td class="{{ classname }}">{{ application.country_origin }}</td>
 {% endif %}
 
 {% if application.requires_phone_number == "Either" %}
@@ -108,17 +112,33 @@ Features Matrix:
 {% endif %}
 
 {% if application.is_locally_encrypted == true %}
+  {% if application.is_locally_encrypted_source %}
+	<td bgcolor="green"><a href="{{ application.is_locally_encrypted_source }}">Yes</a></td>
+	{% else %}
 	<td bgcolor="green">Yes</td>
+	{% endif %}
 {% elsif application.is_locally_encrypted == false %}
+  {% if application.is_locally_encrypted_source %}
+	<td bgcolor="red"><a href="{{ application.is_locally_encrypted_source }}">No</a></td>
+	{% else %}
 	<td bgcolor="red">No</td>
+	{% endif %}
 {% else %}
 	<td>{{ application.is_locally_encrypted }}</td>
 {% endif %}
 
 {% if application.perfect_forward_secrecy == true %}
+  {% if application.perfect_forward_secrecy_source %}
+	<td bgcolor="green"><a href="{{ application.perfect_forward_secrecy_source }}">Yes</a></td>
+	{% else %}
 	<td bgcolor="green">Yes</td>
+	{% endif %}
 {% elsif application.perfect_forward_secrecy == false %}
+  {% if application.is_locally_encrypted_source %}
+	<td bgcolor="red"><a href="{{ application.perfect_forward_secrecy_source }}">No</a></td>
+	{% else %}
 	<td bgcolor="red">No</td>
+	{% endif %}
 {% else %}
 	<td>{{ application.perfect_forward_secrecy }}</td>
 {% endif %}
