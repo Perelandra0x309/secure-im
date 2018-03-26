@@ -324,7 +324,7 @@
   communication_types: Text, voice, video, file sharing
   country_origin: UK
   requires_phone_number: No
-  requires_email: Yes
+  requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
