@@ -433,6 +433,27 @@
   version_tested: 3.6.391
   last_update: 1/28/2018
 
+- name: lets-chat
+  category: 3
+  display_name: Let's Chat
+  url: https://sdelements.github.io/lets-chat/
+  recommendation: 2
+  platforms: Android, iOS, Mac, Linux, Windows, Web
+  communication_types: Text, voice, file sharing
+  country_origin: N/A
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: NO
+  is_locally_encrypted: "?"
+  is_locally_encrypted_source:
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source:
+  websites: <a href="https://github.com/sdelements/lets-chat/">Source code</a>
+  notes_file: lets-chat_notes.html
+  version_tested: 0.4.0
+  last_update: 4/26/2018
+
 
 # Category 4- Other closed source
 
