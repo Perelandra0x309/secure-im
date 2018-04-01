@@ -269,11 +269,11 @@
   is_locally_encrypted: "?"
   perfect_forward_secrecy: "?"
   message_stored_on_server: Never
-  has_ephemeral_messages: 
+  has_ephemeral_messages: No
   encypted_by_default: Yes
   passes_puddle_test: No
   passes_hammer_test: Yes
-  has_contact_verification: 
+  has_contact_verification: No
   websites: <a href="https://www.opengarden.com/how-to.html">How it works</a>
   notes_file: firechat_notes.html
   version_tested: 8.0.58
@@ -375,7 +375,7 @@
   has_ephemeral_messages: No
   encypted_by_default: No
   passes_puddle_test: Yes
-  passes_hammer_test: No
+  passes_hammer_test: Yes
   has_contact_verification: Yes
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
   notes_file: xmpp_notes.html
@@ -577,12 +577,13 @@
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  message_stored_on_server:
-  has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
   websites: 
   notes_file: eleet_notes.html
   version_tested: 2.0.29
@@ -603,11 +604,11 @@
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
   message_stored_on_server:
-  has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
   websites: <a href="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
   notes_file: freemessage_notes.html
   version_tested: 1.22.20
@@ -652,12 +653,12 @@
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: "?"
-  message_stored_on_server:
-  has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
   websites: 
   notes_file: whispeer_notes.html
   version_tested: 0.3.11
@@ -688,9 +689,35 @@
   version_tested: 4.19.4
   last_update: 1/28/2018
 
-- name: vipole
+- name: vipolefree
   category: 4
-  display_name: VIPole
+  display_name: VIPole (Free version)
+  url: https://www.vipole.com
+  recommendation: 3
+  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, Mac, Windows, Linux</a>
+  communication_types: Text, files, photos, video, location, contacts, audio
+  country_origin: UK
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: No
+  has_contact_verification: No
+  websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
+  notes_file: vipole_notes.html
+  version_tested: 1.8.73
+  last_update: 1/28/2018
+
+- name: vipolepro
+  category: 4
+  display_name: VIPole (Pro version)
   url: https://www.vipole.com
   recommendation: 2
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, Mac, Windows, Linux</a>
@@ -700,14 +727,15 @@
   requires_email: Either
   id_contains_contact_info: No
   android_requires_google_play: No
-  is_locally_encrypted: No (free version)
+  is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  message_stored_on_server:
-  has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  message_stored_on_server: Yes
+  message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: No
   websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
   notes_file: vipole_notes.html
   version_tested: 1.8.73
@@ -728,12 +756,14 @@
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
   perfect_forward_secrecy_source: http://hoccer.com/hoccer-xo-privacy-security-statement/
-  message_stored_on_server:
-  has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://hoccer.com/faq/
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  has_contact_verification_source: https://hoccer.com/faq/
   websites: <a href="https://hoccer.com/faq/">FAQ</a>
   notes_file: hoccer_notes.html
   version_tested: 3.2.15
@@ -753,12 +783,13 @@
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: No
-  message_stored_on_server:
-  has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://www.sims.me/data-protection
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
   websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
   notes_file: simsme_notes.html
   version_tested: 2.00.002.193784
@@ -780,7 +811,7 @@
   perfect_forward_secrecy: 
   message_stored_on_server:
   has_ephemeral_messages: 
-  encypted_by_default: 
+  encypted_by_default: No
   passes_puddle_test: 
   passes_hammer_test: 
   has_contact_verification: 
@@ -803,11 +834,12 @@
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
-  message_stored_on_server:
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
   has_ephemeral_messages: 
-  encypted_by_default: 
-  passes_puddle_test: 
-  passes_hammer_test: 
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
   has_contact_verification: 
   websites: 
   notes_file: soma_notes.html

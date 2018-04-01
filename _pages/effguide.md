@@ -10,13 +10,13 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
 <ul>
   <li>Are you worried about your messages being intercepted by governments or service providers?<br>
     Solution: End-to-end encryption<br>
-    All messengers listed on this page will have full end to end encryption<br>
+    All messengers listed on this page will have full end to end encryption as an option.<br>
   </li>
   <li>Are you worried about people in your physical environment reading your messages?<br>
   Solution: ephemeral or “disappearing” messages<br>
   </li>
   <li>Do you want to avoid giving out your phone number (or email)?<br>
-  Solution: Messengers that allow aliases<br>
+  Solution: Messengers that allow aliases (and do not expose your personal information as part of your ID)<br>
   </li>
   <li>How risky would a mistake be? Do you need a “foolproof” encrypted messenger?<br>
   Solution: encryption by default or only support encrypted communication<br>
@@ -99,9 +99,9 @@ Features Matrix:
 	{% endif %}
 {% elsif application.passes_puddle_test == false %}
   {% if application.passes_puddle_test_source %}
-	<td bgcolor="red"><a href="{{ application.passes_puddle_test_source }}">No</a></td>
+	<td class="yellow"><a href="{{ application.passes_puddle_test_source }}">No</a></td>
 	{% else %}
-	<td bgcolor="red">No</td>
+	<td class="yellow">No</td>
 	{% endif %}
 {% else %}
 	<td>{{ application.passes_puddle_test }}</td>
