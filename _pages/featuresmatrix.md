@@ -20,12 +20,12 @@ Features Matrix:
 <th>P2P or Other</th>
 <th>Open or Closed Source</th>
 <th>Platforms</th>
-<th>Country of Origin</th>
-<th>Requires Phone# or Email</th>
-<th>ID contains personal info</th>
-<th>Requires Google Play</th>
-<th>Locally Encrypted Data</th>
-<th>Uses Perfect Forward Secrecy</th>
+<th width="11%">Country of Origin</th>
+<th width="11%">Requires Phone# or Email</th>
+<th width="11%">ID contains personal info</th>
+<th width="11%">Requires Google Play</th>
+<th width="11%">Locally Encrypted Data</th>
+<th width="11%">Uses Perfect Forward Secrecy</th>
 
 {% for application in applications %}
 {% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}

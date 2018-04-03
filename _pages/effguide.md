@@ -19,10 +19,10 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
   Solution: Messengers that allow aliases (and do not expose your personal information as part of your ID)<br>
   </li>
   <li>How risky would a mistake be? Do you need a “foolproof” encrypted messenger?<br>
-  Solution: encryption by default or only support encrypted communication<br>
+  Solution: Only encrypted communication is possible<br>
   </li>
   <li>Are you more concerned about the the “Puddle Test” or the “Hammer Test”?<br>
-  “Puddle Test”: If you accidentally dropped your phone in a Puddle and ruined it, would your messages be lost forever? Would you be able to recover them?<br>
+  “Puddle Test”: If you accidentally dropped your phone in a Puddle and ruined it, would your messages be lost forever? Would you be able to recover them? Note that the No marked in yellow means that not passing the puddle test may be something you DO want.  Not passing this test could be desirable or not depending on your use case.<br>
   “Hammer Test”: If you and a contact intentionally took a Hammer to your phones or otherwise tried to delete all your messages, would they really be deleted? Would someone else be able to recover them?<br>
   </li>
   <li>Do you need features to help you verify the identity of the person you’re talking to?<br>
@@ -36,12 +36,12 @@ Features Matrix:
 <table>
 <th>Name</th>
 <th>Platforms</th>
-<th>Ephemeral Messages</th>
-<th>ID contains personal info</th>
-<th>Foolproof (Encrypted by default)</th>
-<th>Passes Puddle Test</th>
-<th>Passes Hammer Test</th>
-<th>Has Contact Verification</th>
+<th width="11%">Ephemeral Messages</th>
+<th width="11%">ID contains personal info</th>
+<th width="11%">Foolproof (All Messages Encrypted)</th>
+<th width="11%">Passes Puddle Test</th>
+<th width="11%">Passes Hammer Test</th>
+<th width="11%">Has Contact Verification</th>
 
 {% for application in applications %}
 <tr>
