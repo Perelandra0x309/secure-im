@@ -637,8 +637,8 @@
   has_contact_verification: No
   websites: <a href="https://tungsten-labs.com/faq">FAQ</a>
   notes_file: tungsten_notes.html
-  version_tested: 0.5.0
-  last_update: 3/8/2018
+  version_tested: 1.0.0
+  last_update: 4/6/2018
 
 - name: whispeer
   category: 4
