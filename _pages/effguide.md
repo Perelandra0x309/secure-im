@@ -4,6 +4,53 @@ title: EFF Messenger choosing Guide
 permalink: /effguide.html
 ---
 
+<script>
+function setFilters() {
+  // Declare variables 
+  var input, filterRec, filterEph, filterID, filterFoolproof, filterPuddle, filterHammer, filterVer, table, tr, td, i;
+  input = document.getElementById("onlyRec");
+  filterRec = input.checked;
+  input = document.getElementById("ephemCB");
+  filterEph = input.checked;
+  input = document.getElementById("idCB");
+  filterID = input.checked;
+  input = document.getElementById("foolproofCB");
+  filterFoolproof = input.checked;
+  input = document.getElementById("puddleCB");
+  filterPuddle = input.checked;
+  input = document.getElementById("hammerCB");
+  filterHammer = input.checked;
+  input = document.getElementById("verifyCB");
+  filterVer = input.checked;
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      if (filterRec && td.innerHTML > 2) {
+        tr[i].style.display = "none";
+      } else if (filterEph && tr[i].getElementsByTagName("td")[3].innerHTML == "No"){
+        tr[i].style.display = "none";
+      } else if (filterID && tr[i].getElementsByTagName("td")[4].innerHTML != "No"){
+        tr[i].style.display = "none";
+      } else if (filterFoolproof && tr[i].getElementsByTagName("td")[5].innerHTML == "No"){
+        tr[i].style.display = "none";
+      } else if (filterPuddle && tr[i].getElementsByTagName("td")[6].innerHTML == "No"){
+        tr[i].style.display = "none";
+      } else if (filterHammer && tr[i].getElementsByTagName("td")[7].innerHTML == "No"){
+        tr[i].style.display = "none";
+      } else if (filterVer && tr[i].getElementsByTagName("td")[8].innerHTML == "No"){
+        tr[i].style.display = "none";
+      } else {
+        tr[i].style.display = "";
+      }
+    }
+  }
+}
+</script>
+
 <br>
 Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-you-need-secure-messenger">Thinking About What You Need In A Secure Messenger</a>.
 <br>
@@ -30,11 +77,20 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
   </li>
 </ul>
 <br>
-Features Matrix:
+<input type="checkbox" id="onlyRec" onchange="setFilters()" name="onlyRec" value="false"> <label for="onlyRec">Show only recommended apps</label><br>
 <br>
+Show apps that have:<br>
+<input type="checkbox" id="ephemCB" onchange="setFilters()" name="ephemCB" value="false"> <label for="ephemCB">Ephemeral Messages</label><br>
+<input type="checkbox" id="idCB" onchange="setFilters()" name="idCB" value="false"> <label for="idCB">ID contains no personal info</label><br>
+<input type="checkbox" id="foolproofCB" onchange="setFilters()" name="foolproofCB" value="false"> <label for="foolproofCB">Foolproof encryption</label><br>
+<input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false"> <label for="puddleCB">Passes Puddle test</label><br>
+<input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false"> <label for="hammerCB">Passes Hammer test</label><br>
+<input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false"> <label for="verifyCB">Has contact verification</label><br>
+
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
-<table>
+<table id="myTable">
 <th>Name</th>
+<th style="display:none">Recomendation</th>
 <th>Platforms</th>
 <th width="11%">Ephemeral Messages</th>
 <th width="11%">ID contains personal info</th>
@@ -46,6 +102,7 @@ Features Matrix:
 {% for application in applications %}
 <tr>
 	<td>{% include generate_app_link.html app_name="application.name" %}</td>
+	<td style="display:none">{{ application.recommendation }}</td>
 
 	<td>{{ application.platforms }}</td>
 
