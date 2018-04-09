@@ -166,7 +166,7 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server:
   has_ephemeral_messages: 
-  encypted_by_default: 
+  encypted_by_default: Yes
   passes_puddle_test: 
   passes_hammer_test: 
   has_contact_verification: 
@@ -837,11 +837,11 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server: Temporarily
   message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
-  has_ephemeral_messages: 
+  has_ephemeral_messages: No
   encypted_by_default: Yes
   passes_puddle_test: No
   passes_hammer_test: Yes
-  has_contact_verification: 
+  has_contact_verification: No
   websites: 
   notes_file: soma_notes.html
   version_tested: 1.9.0
