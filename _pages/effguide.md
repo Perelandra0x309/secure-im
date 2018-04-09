@@ -27,21 +27,21 @@ function setFilters() {
 
   // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[1];
+    td = tr[i].getElementsByTagName("td")[9];
     if (td) {
       if (filterRec && td.innerHTML > 2) {
         tr[i].style.display = "none";
-      } else if (filterEph && tr[i].getElementsByTagName("td")[3].innerHTML == "No"){
+      } else if (filterEph && tr[i].getElementsByTagName("td")[3].innerHTML != "Yes"){
         tr[i].style.display = "none";
       } else if (filterID && tr[i].getElementsByTagName("td")[4].innerHTML != "No"){
         tr[i].style.display = "none";
-      } else if (filterFoolproof && tr[i].getElementsByTagName("td")[5].innerHTML == "No"){
+      } else if (filterFoolproof && tr[i].getElementsByTagName("td")[5].innerHTML != "Yes"){
         tr[i].style.display = "none";
-      } else if (filterPuddle && tr[i].getElementsByTagName("td")[6].innerHTML == "No"){
+      } else if (filterPuddle && tr[i].getElementsByTagName("td")[6].innerHTML != "Yes"){
         tr[i].style.display = "none";
-      } else if (filterHammer && tr[i].getElementsByTagName("td")[7].innerHTML == "No"){
+      } else if (filterHammer && tr[i].getElementsByTagName("td")[7].innerHTML != "Yes"){
         tr[i].style.display = "none";
-      } else if (filterVer && tr[i].getElementsByTagName("td")[8].innerHTML == "No"){
+      } else if (filterVer && tr[i].getElementsByTagName("td")[8].innerHTML != "Yes"){
         tr[i].style.display = "none";
       } else {
         tr[i].style.display = "";
@@ -90,21 +90,44 @@ Show apps that have:<br>
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
 <table id="myTable">
 <th>Name</th>
-<th style="display:none">Recomendation</th>
 <th>Platforms</th>
+<th width="11%">Country of Origin</th>
 <th width="11%">Ephemeral Messages</th>
 <th width="11%">ID contains personal info</th>
 <th width="11%">Foolproof (All Messages Encrypted)</th>
 <th width="11%">Passes Puddle Test</th>
 <th width="11%">Passes Hammer Test</th>
 <th width="11%">Has Contact Verification</th>
+<th style="display:none">Recomendation</th>
 
 {% for application in applications %}
 <tr>
 	<td>{% include generate_app_link.html app_name="application.name" %}</td>
-	<td style="display:none">{{ application.recommendation }}</td>
-
 	<td>{{ application.platforms }}</td>
+
+{% capture classname %}{% endcapture %}
+{% if application.country_origin == "Australia"
+	or application.country_origin == "Canada"
+	or application.country_origin == "New Zealand"
+	or application.country_origin == "UK"
+	or application.country_origin == "USA" %}
+	{% capture classname %}fiveeyes{% endcapture %}
+{% elsif application.country_origin == "Denmark"
+	or application.country_origin == "France"
+	or application.country_origin == "Netherlands"
+	or application.country_origin == "Norway" %}
+	{% capture classname %}nineeyes{% endcapture %}
+{% elsif application.country_origin == "Belgium"
+	or application.country_origin == "Germany"
+	or application.country_origin == "Italy"
+	or application.country_origin == "Spain" %}
+	{% capture classname %}fourteeneyes{% endcapture %}
+{% endif %}
+{% if application.country_origin_source %}
+  <td class="{{ classname }}"><a href="{{ application.country_origin_source }}">{{ application.country_origin }}</a></td>
+{% else %}
+	<td class="{{ classname }}">{{ application.country_origin }}</td>
+{% endif %}
 
 {% if application.has_ephemeral_messages == true %}
   {% if application.has_ephemeral_messages_source %}
@@ -195,8 +218,10 @@ Show apps that have:<br>
 {% else %}
 	<td>{{ application.has_contact_verification }}</td>
 {% endif %}
+
+	<td style="display:none">{{ application.recommendation }}</td>
 </tr>
 {% endfor %}
 
 </table>
-Page updated {{ page.date }}<br>
+<!-- Page updated {{ page.date }}<br> -->
