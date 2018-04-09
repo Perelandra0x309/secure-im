@@ -9,6 +9,8 @@ Table of Contents:<br>
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Home</a></li>
   {% capture htmllink %}{% link _pages/app_list.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">List of Applications</a></li>
+  {% capture htmllink %}{% link _pages/effguide.md %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">EFF Guide to Choosing a Messenger</a></li>
   {% capture htmllink %}{% link _pages/featuresmatrix.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Features Matrix</a></li>
   {% capture htmllink %}{% link p2popen.md %}{% endcapture %}
