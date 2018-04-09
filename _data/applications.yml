@@ -1047,9 +1047,9 @@
   message_stored_on_server:
   has_ephemeral_messages: Yes
   encypted_by_default: No
-  passes_puddle_test: 
+  passes_puddle_test: No
   passes_hammer_test: No
-  has_contact_verification: 
+  has_contact_verification: Yes
   websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
   notes_file: telegram_notes.html
   version_tested: 4.8
