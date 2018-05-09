@@ -24,6 +24,31 @@
 #  version_tested: 
 #  last_update: 
 
+- name: hoopmessenger
+  category: 4
+  display_name: HoopMessenger
+  url: https://www.hoopmessenger.com
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, photos, files, video, stickers
+  country_origin: Canada
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: 
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: 
+  has_ephemeral_messages: Yes
+  encypted_by_default: No
+  passes_puddle_test: 
+  passes_hammer_test: No
+  has_contact_verification: No
+  websites: <a href="https://www.hoopmessenger.com/privacy-policy/">Privacy Policy</a>
+  notes_file: hoopmessenger_notes.html
+  version_tested: 2.6.1311
+  last_update: 4/10/2018
+
 #  Category 1- P2P open source
 
 - name: silence
