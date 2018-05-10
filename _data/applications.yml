@@ -407,31 +407,6 @@
   notes_file: xmpp_notes.html
   last_update: 1/28/2018
 
-- name: keybase
-  category: 3
-  display_name: Keybase
-  url: https://www.keybase.io
-  recommendation: 1
-  platforms: Android, iOS, Mac, Windows, Linux
-  communication_types: Text, group chat, file sharing
-  country_origin: USA
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  message_stored_on_server: 
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
-  has_contact_verification: No
-  websites: <a href="https://github.com/keybase">Source code</a>
-  notes_file: keybase_notes.html
-  version_tested: 1.0.4
-  last_update: 1/28/2018
-
 - name: riot
   category: 3
   display_name: Riot
@@ -782,14 +757,14 @@
   requires_phone_number: Yes
   requires_email: No
   id_contains_contact_info: No
-  android_requires_google_play: 
+  android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  message_stored_on_server: 
+  message_stored_on_server: Yes
   has_ephemeral_messages: Yes
   encypted_by_default: No
-  passes_puddle_test: 
-  passes_hammer_test: No
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
   has_contact_verification: No
   websites: <a href="https://www.hoopmessenger.com/privacy-policy/">Privacy Policy</a>
   notes_file: hoopmessenger_notes.html
@@ -1028,6 +1003,31 @@
   last_update: 1/25/2018
 
 # Category 5- Other partially open Source
+
+- name: keybase
+  category: 5
+  display_name: Keybase
+  url: https://www.keybase.io
+  recommendation: 1
+  platforms: Android, iOS, Mac, Windows, Linux
+  communication_types: Text, group chat, file sharing
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: 
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  websites: <a href="https://github.com/keybase">Source code</a>
+  notes_file: keybase_notes.html
+  version_tested: 1.0.4
+  last_update: 1/28/2018
 
 - name: threema
   category: 5
