@@ -45,7 +45,7 @@
   has_ephemeral_messages: No
   encypted_by_default: No
   passes_puddle_test: No
-  passes_hammer_test: No
+  passes_hammer_test: Yes
   has_contact_verification: Yes
   websites: 
   notes_file: silence_notes.html
@@ -399,7 +399,7 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: No
-  encypted_by_default: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always in some clients)
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: Yes
