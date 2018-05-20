@@ -130,17 +130,9 @@ Show apps that have:<br>
 {% endif %}
 
 {% if application.has_ephemeral_messages == true %}
-  {% if application.has_ephemeral_messages_source %}
-	<td bgcolor="green"><a href="{{ application.has_ephemeral_messages_source }}">Yes</a></td>
-	{% else %}
 	<td bgcolor="green">Yes</td>
-	{% endif %}
 {% elsif application.has_ephemeral_messages == false %}
-  {% if application.has_ephemeral_messages_source %}
-	<td bgcolor="red"><a href="{{ application.has_ephemeral_messages_source }}">No</a></td>
-	{% else %}
 	<td bgcolor="red">No</td>
-	{% endif %}
 {% else %}
 	<td>{{ application.has_ephemeral_messages }}</td>
 {% endif %}
@@ -156,65 +148,33 @@ Show apps that have:<br>
 {% endif %}
 
 {% if application.encypted_by_default == true %}
-  {% if application.encypted_by_default_source %}
-	<td bgcolor="green"><a href="{{ application.encypted_by_default_source }}">Yes</a></td>
-	{% else %}
 	<td bgcolor="green">Yes</td>
-	{% endif %}
 {% elsif application.encypted_by_default == false %}
-  {% if application.encypted_by_default_source %}
-	<td bgcolor="red"><a href="{{ application.encypted_by_default_source }}">No</a></td>
-	{% else %}
 	<td bgcolor="red">No</td>
-	{% endif %}
 {% else %}
 	<td>{{ application.encypted_by_default }}</td>
 {% endif %}
 
 {% if application.passes_puddle_test == true %}
-  {% if application.passes_puddle_test_source %}
-	<td bgcolor="green"><a href="{{ application.passes_puddle_test_source }}">Yes</a></td>
-	{% else %}
 	<td bgcolor="green">Yes</td>
-	{% endif %}
 {% elsif application.passes_puddle_test == false %}
-  {% if application.passes_puddle_test_source %}
-	<td class="yellow"><a href="{{ application.passes_puddle_test_source }}">No</a></td>
-	{% else %}
 	<td class="yellow">No</td>
-	{% endif %}
 {% else %}
 	<td>{{ application.passes_puddle_test }}</td>
 {% endif %}
 
 {% if application.passes_hammer_test == true %}
-  {% if application.passes_hammer_test_source %}
-	<td bgcolor="green"><a href="{{ application.passes_hammer_test_source }}">Yes</a></td>
-	{% else %}
 	<td bgcolor="green">Yes</td>
-	{% endif %}
 {% elsif application.passes_hammer_test == false %}
-  {% if application.passes_hammer_test_source %}
-	<td bgcolor="red"><a href="{{ application.passes_hammer_test_source }}">No</a></td>
-	{% else %}
 	<td bgcolor="red">No</td>
-	{% endif %}
 {% else %}
 	<td>{{ application.passes_hammer_test }}</td>
 {% endif %}
 
 {% if application.has_contact_verification == true %}
-  {% if application.has_contact_verification_source %}
-	<td bgcolor="green"><a href="{{ application.has_contact_verification_source }}">Yes</a></td>
-	{% else %}
 	<td bgcolor="green">Yes</td>
-	{% endif %}
 {% elsif application.has_contact_verification == false %}
-  {% if application.has_contact_verification_source %}
-	<td bgcolor="red"><a href="{{ application.has_contact_verification_source }}">No</a></td>
-	{% else %}
 	<td bgcolor="red">No</td>
-	{% endif %}
 {% else %}
 	<td>{{ application.has_contact_verification }}</td>
 {% endif %}

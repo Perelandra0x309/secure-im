@@ -29,12 +29,162 @@
 <tr><td colspan="4">
   Version tested: {{ application.version_tested }}<br>
   Country of origin: {{ application.country_origin }}<br>
-  Requires a phone number: {{ application.requires_phone_number }}<br>
-  Requires an email address: {{ application.requires_email }}<br>
-  Your ID contains personal information: {{ application.id_contains_contact_info }}<br>
   Android app requires Google Play Services: {{ application.android_requires_google_play }}<br>
-  Data is locally encrypted: {{ application.is_locally_encrypted }}<br>
-  Perfect forward secrecy: {{ application.perfect_forward_secrecy }}<br>
+  
+{% if application.requires_phone_number == true %}
+  {% if application.requires_phone_number_source %}
+	Requires a phone number: <span class="red"><a href="{{ application.requires_phone_number_source }}">Yes</a></span><br>
+	{% else %}
+	Requires a phone number: <span class="red">Yes</span><br>
+	{% endif %}
+{% elsif application.requires_phone_number == false %}
+  {% if application.requires_phone_number_source %}
+	Requires a phone number: <span class="green"><a href="{{ application.requires_phone_number_source }}">No</a></span><br>
+	{% else %}
+	Requires a phone number: <span class="green">No</span><br>
+	{% endif %}
+{% else %}
+	Requires a phone number: <span class="yellow">{{ application.requires_phone_number }}</span><br>
+{% endif %}
+  
+{% if application.requires_email == true %}
+  {% if application.requires_email_source %}
+	Requires an email address: <span class="red"><a href="{{ application.requires_email_source }}">Yes</a></span><br>
+	{% else %}
+	Requires an email address: <span class="red">Yes</span><br>
+	{% endif %}
+{% elsif application.requires_email == false %}
+  {% if application.requires_email_source %}
+	Requires an email address: <span class="green"><a href="{{ application.requires_email_source }}">No</a></span><br>
+	{% else %}
+	Requires an email address: <span class="green">No</span><br>
+	{% endif %}
+{% else %}
+	Requires an email address: <span class="yellow">{{ application.requires_email }}</span><br>
+{% endif %}
+
+{% if application.id_contains_contact_info == false %}
+	Your ID contains personal information: <span class="green">No</span><br>
+{% elsif application.id_contains_contact_info == "Email" %}
+	Your ID contains personal information: <span class="red">Email</span><br>
+{% elsif application.id_contains_contact_info == "Phone" %}
+	Your ID contains personal information: <span class="red">Phone</span><br>
+{% else %}
+	Your ID contains personal information: <span class="red">{{ application.id_contains_contact_info }}</span><br>
+{% endif %}
+  
+{% if application.is_locally_encrypted == true %}
+  {% if application.is_locally_encrypted_source %}
+	Data is locally encrypted: <span class="green"><a href="{{ application.is_locally_encrypted_source }}">Yes</a></span><br>
+	{% else %}
+	Data is locally encrypted: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.is_locally_encrypted == false %}
+  {% if application.is_locally_encrypted_source %}
+	Data is locally encrypted: <span class="red"><a href="{{ application.is_locally_encrypted_source }}">No</a></span><br>
+	{% else %}
+	Data is locally encrypted: <span class="red">No</span><br>
+	{% endif %}
+{% else %}
+	Data is locally encrypted: {{ application.is_locally_encrypted }}<br>
+{% endif %}
+
+{% if application.encypted_by_default == true %}
+  {% if application.encypted_by_default_source %}
+	Encrypted by default: <span class="green"><a href="{{ application.encypted_by_default_source }}">Yes</a></span><br>
+	{% else %}
+	Encrypted by default: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.encypted_by_default == false %}
+  {% if application.encypted_by_default_source %}
+	Encrypted by default: <span class="red"><a href="{{ application.encypted_by_default_source }}">No</a></span><br>
+	{% else %}
+	Encrypted by default: <span class="red">No</span><br>
+	{% endif %}
+{% else %}
+	Encrypted by default: {{ application.encypted_by_default }}<br>
+{% endif %}
+
+{% if application.perfect_forward_secrecy == true %}
+  {% if application.perfect_forward_secrecy_source %}
+	Perfect forward secrecy: <span class="green"><a href="{{ application.perfect_forward_secrecy_source }}">Yes</a></span><br>
+	{% else %}
+	Perfect forward secrecy: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.perfect_forward_secrecy == false %}
+  {% if application.perfect_forward_secrecy_source %}
+	Perfect forward secrecy: <span class="red"><a href="{{ application.perfect_forward_secrecy_source }}">No</a></span><br>
+	{% else %}
+	Perfect forward secrecy: <span class="red">No</span><br>
+	{% endif %}
+{% else %}
+	Perfect forward secrecy: {{ application.perfect_forward_secrecy }}<br>
+{% endif %}
+
+{% if application.has_ephemeral_messages == true %}
+  {% if application.has_ephemeral_messages_source %}
+	Ephemeral messages: <span class="green"><a href="{{ application.has_ephemeral_messages_source }}">Yes</a></span><br>
+	{% else %}
+	Ephemeral messages: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.has_ephemeral_messages == false %}
+  {% if application.has_ephemeral_messages_source %}
+	Ephemeral messages: <span class="red"><a href="{{ application.has_ephemeral_messages_source }}">No</a></span><br>
+	{% else %}
+	Ephemeral messages: <span class="red">No</span><br>
+	{% endif %}
+{% else %}
+	Ephemeral messages: {{ application.has_ephemeral_messages }}<br>
+{% endif %}
+
+{% if application.passes_puddle_test == true %}
+  {% if application.passes_puddle_test_source %}
+	Passes the Puddle test: <span class="green"><a href="{{ application.passes_puddle_test_source }}">Yes</a></span><br>
+	{% else %}
+	Passes the Puddle test: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.passes_puddle_test == false %}
+  {% if application.passes_puddle_test_source %}
+	Passes the Puddle test: <span class="yellow"><a href="{{ application.passes_puddle_test_source }}">No</a></span><br>
+	{% else %}
+	Passes the Puddle test: <span class="yellow">No</span><br>
+	{% endif %}
+{% else %}
+	Passes the Puddle test: {{ application.passes_puddle_test }}<br>
+{% endif %}
+
+{% if application.passes_hammer_test == true %}
+  {% if application.passes_hammer_test_source %}
+	Passes the Hammer test: <span class="green"><a href="{{ application.passes_hammer_test_source }}">Yes</a></span><br>
+	{% else %}
+	Passes the Hammer test: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.passes_hammer_test == false %}
+  {% if application.passes_hammer_test_source %}
+	Passes the Hammer test: <span class="red"><a href="{{ application.passes_hammer_test_source }}">No</a></span><br>
+	{% else %}
+	Passes the Hammer test: <span class="red">No</span><br>
+	{% endif %}
+{% else %}
+	Passes the Hammer test: {{ application.passes_hammer_test }}<br>
+{% endif %}
+
+{% if application.has_contact_verification == true %}
+  {% if application.has_contact_verification_source %}
+	Has contact verification: <span class="green"><a href="{{ application.has_contact_verification_source }}">Yes</a></span><br>
+	{% else %}
+	Has contact verification: <span class="green">Yes</span><br>
+	{% endif %}
+{% elsif application.has_contact_verification == false %}
+  {% if application.has_contact_verification_source %}
+	Has contact verification: <span class="red"><a href="{{ application.has_contact_verification_source }}">No</a></span><br>
+	{% else %}
+	Has contact verification: <span class="red">No</span><br>
+	{% endif %}
+{% else %}
+	Has contact verification: {{ application.has_contact_verification }}<br>
+{% endif %}
+
   Websites: {{ application.websites }}<br>
   Last tested: {{ application.last_update }}<br>
   <b>Notes:</b><br>
