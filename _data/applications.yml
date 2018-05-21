@@ -130,7 +130,7 @@
   category: 1
   display_name: Briar Project
   url: https://briarproject.org
-  recommendation: 2
+  recommendation: 1
   platforms: Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>
   communication_types: Text and forums
   country_origin:
@@ -148,8 +148,8 @@
   has_contact_verification: Yes
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
-  version_tested: 0.16.16
-  last_update: 1/23/2018
+  version_tested: 1.0.4
+  last_update: 5/19/2018
 
 - name: patchwork
   category: 1
