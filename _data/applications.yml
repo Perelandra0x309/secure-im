@@ -514,7 +514,7 @@
   category: 3
   display_name: Wire
   url: https://wire.com
-  recommendation: 2
+  recommendation: 1
   platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, Mac, Windows, Linux, Web
   communication_types: Text, voice, video, file sharing
   country_origin: Switzerland
@@ -613,8 +613,8 @@
   has_contact_verification: No
   websites: <a href="https://tungsten-labs.com/faq">FAQ</a>
   notes_file: tungsten_notes.html
-  version_tested: 1.0.0
-  last_update: 4/6/2018
+  version_tested: 1.1.0
+  last_update: 5/25/2018
 
 - name: whispeer
   category: 4
