@@ -31,4 +31,3 @@ Index of applications:
 <li>{{ htmllink }}{{ htmlimage }}</li>
 {% endfor %}
 </ul>
-Page updated {{ page.date }}<br>
