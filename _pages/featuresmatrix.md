@@ -23,9 +23,10 @@ Features Matrix:
 <th width="11%">Country of Origin</th>
 <th width="11%">Requires Phone# or Email</th>
 <th width="11%">ID contains personal info</th>
-<th width="11%">Requires Google Play</th>
+<!--<th width="11%">Requires Google Play</th>-->
 <th width="11%">Locally Encrypted Data</th>
 <th width="11%">Uses Perfect Forward Secrecy</th>
+<th width="11%">Android leaks files</th>
 
 {% for application in applications %}
 {% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
@@ -103,6 +104,7 @@ Features Matrix:
 	<td>{{ application.id_contains_contact_info }}</td>
 {% endif %}
 
+<!--
 {% if application.android_requires_google_play == true %}
 	<td bgcolor="red">Yes</td>
 {% elsif application.android_requires_google_play == false %}
@@ -110,6 +112,7 @@ Features Matrix:
 {% else %}
 	<td>{{ application.android_requires_google_play }}</td>
 {% endif %}
+-->
 
 {% if application.is_locally_encrypted == true %}
   {% if application.is_locally_encrypted_source %}
@@ -142,6 +145,15 @@ Features Matrix:
 {% else %}
 	<td>{{ application.perfect_forward_secrecy }}</td>
 {% endif %}
+
+{% if application.android_leaks_files == true %}
+	<td bgcolor="red">Yes</td>
+{% elsif application.android_leaks_files == false %}
+	<td bgcolor="green">No</td>
+{% else %}
+	<td>{{ application.android_leaks_files }}</td>
+{% endif %}
+
 </tr>
 {% endfor %}
 
