@@ -8,6 +8,7 @@ The CEO of Telegram shows an unwillingness to consider that encrypting communica
 <ul>
   <li>Telegram stores regular cloud chats encrypted on their servers but they control all the encryption keys.</li>
   <li>All your contacts' phone numbers and names are stored on their servers.</li>
+  <li>Android leaks files: found photos in Local Storage/Device Storage/Android/data/org.telegram.messenger.  When you log out of Telegram it says that it will kill all your secret chats, however the photos remain saved on the device.</li>
 </ul>
 <br>
 On the CCA (in)security of MTProto<br>
@@ -49,4 +50,4 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 <br>
 My verdict: Too many problems with the protocol and data storage!<br>
 There are many issues with the protocol as shown by the referenced papers above.  Rolling your own crypto is hard and MTProto has many problems.<br>
-Also all your phone contacts are stored on their servers, and non-secret chats are accessible to Telegram.<br>
+Also all your phone contacts are stored on their servers, and non-secret chats are accessible to Telegram.  Photos are stored in the system wide accessible local device storage even for secret chats.<br>

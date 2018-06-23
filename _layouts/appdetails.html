@@ -185,6 +185,14 @@
 	Has contact verification: {{ application.has_contact_verification }}<br>
 {% endif %}
 
+{% if application.android_leaks_files == true %}
+	Android leaks files: <span class="red">Yes</span><br>
+{% elsif application.android_leaks_files == false %}
+	Android leaks files: <span class="green">No</span><br>
+{% else %}
+	Android leaks files: {{ application.android_leaks_files }}<br>
+{% endif %}
+
   Websites: {{ application.websites }}<br>
   Last tested: {{ application.last_update }}<br>
   <b>Notes:</b><br>
