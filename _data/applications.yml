@@ -488,7 +488,8 @@
   requires_email: No
   id_contains_contact_info: Phone
   android_requires_google_play: No
-  is_locally_encrypted: "?"
+  is_locally_encrypted: No
+  is_locally_encrypted_source: https://github.com/kontalk/androidclient/issues/951
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: No
