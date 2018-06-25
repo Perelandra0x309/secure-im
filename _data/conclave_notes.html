@@ -10,48 +10,56 @@ Information and Data Access
 Conclave is a security and privacy centered application and is committed to being a trusted steward of
 user information. While the conclave system is designed to safeguard all user data, some user data is not
 encrypted, though it is protected. The information that is not encrypted with a user’s private keys is 
-8
 provided, in addition to how it is utilized within the conclave system. This data is protected by the secure
 infrastructure Conclave has built and Conclave’s adherence to data protection compliance.
+
 User Name
-Purpose Usernames are used to login to the conclave system. Additionally, users can search for
+Purpose: Usernames are used to login to the conclave system. Additionally, users can search for
 contacts by username.
+
 First Name and Last Name
-Purpose Conclave stores users first and last names unencrypted to allow users to search for
+Purpose: Conclave stores users first and last names unencrypted to allow users to search for
 contacts by name and to allow them to see the names of other users.
+
 Email Address
-Purpose Conclave uses the user’s email address to contact them for verification during certain
+Purpose: Conclave uses the user’s email address to contact them for verification during certain
 system processes, and to send special offers, alerts, and updates using Mail Chimp. The
 user can opt-out of these non-critical emails.
+
 User-links and Status
-Purpose Conclave stores the “contact” relationships between users to allow user’s contact lists to
+Purpose: Conclave stores the “contact” relationships between users to allow user’s contact lists to
 be synchronized between devices and to perform server-side searches of contacts by
 username, first name, or last name.
+
 File Directory Structure
-Purpose To allow users to organize and manage their files in a familiar way, Conclave provides
+Purpose: To allow users to organize and manage their files in a familiar way, Conclave provides
 a file directory feature (“folders”). The names of these directories are stored in plain
 text to provide support for server-side sorting and paging.
+
 File Names
-Purpose In support of the file directory structure feature, Conclave stores file names in plain text
+Purpose: In support of the file directory structure feature, Conclave stores file names in plain text
 to provide support for server-side sorting and paging.
+
 Event Metadata
-Purpose To provide the user with persistent notifications of events involving them in the system,
+Purpose: To provide the user with persistent notifications of events involving them in the system,
 Conclave stores this data so that it is available when requested by the web app to
 provide a “Notifications” interface.
-9
+
 Conversation Metadata
-Purpose Conclave allows users to conduct conversations between fixed groups of users with
+Purpose: Conclave allows users to conduct conversations between fixed groups of users with
 persistent histories that are available on all of a user’s devices. While the content of
 each of the messages in the conversation are end-to-end encrypted, Conclave must store
 the participants involved in each conversation as well as the time each message was sent.
+
 File/Folder Share Metadata
-Purpose To allow users to send and share files and folders to one-another, the Conclave system
+Purpose: To allow users to send and share files and folders to one-another, the Conclave system
 must know which file or folder is to be shared or sent with which user(s). In the case of
 sharing, a list of the users who have access to the file/folder must be maintained so that
 the server knows which users it may serve the encrypted file or folder data to and so that
 it can store the encrypted key for that file/folder for each shared user.
+
 Support Tickets
-Purpose When you contact Conclave to provide feedback or request support, we keep a record
+Purpose: When you contact Conclave to provide feedback or request support, we keep a record
 of this communication to help solve any issues. We may use this information for internal or
 external reporting, or to inform you of changes being made to the system to resolve your
 submission.
