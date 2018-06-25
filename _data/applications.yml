@@ -616,31 +616,31 @@
   last_update: 1/28/2018
 
 - name: conclave
-  category: 4
-  display_name: Conclave
-  url: https://about.conclave.global
-  recommendation: 2
-  platforms: Android, iOS, web
-  communication_types: text, photos, Conclave Events, files
-  country_origin: USA
-  requires_phone_number: Either
-  requires_email: Either
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
+  category: 4
+  display_name: Conclave
+  url: https://about.conclave.global
+  recommendation: 2
+  platforms: Android, iOS, web
+  communication_types: text, photos, Conclave Events, files
+  country_origin: USA
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
   message_stored_on_server_source: https://about.conclave.global/pdf/security-architecture.pdf
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
-  has_contact_verification: Yes
-  android_leaks_files: No
-  websites: <a href="https://about.conclave.global/pdf/security-architecture.pdf">Security Architecture</a>
-  notes_file: conclave_notes.html
-  version_tested: 1.18 (iOS), 1.37.0 (Android)
-  last_update: 6/24/2018
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  android_leaks_files: No
+  websites: <a href="https://about.conclave.global/pdf/security-architecture.pdf">Security Architecture</a>
+  notes_file: conclave_notes.html
+  version_tested: 1.18 (iOS), 1.37.0 (Android)
+  last_update: 6/24/2018
 
 - name: freemessage
   category: 4
