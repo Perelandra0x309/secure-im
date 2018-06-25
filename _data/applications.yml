@@ -615,14 +615,14 @@
   version_tested: 2.0.29
   last_update: 1/28/2018
 
-- name: conclave
+- name: conclave
   category: 4
-  display_name: Conclave
-  url: https://about.conclave.global
+  display_name: Conclave
+  url: https://about.conclave.global
   recommendation: 2
   platforms: Android, iOS, web
-  communication_types: text, photos, Conclave Events, files
-  country_origin: USA
+  communication_types: text, photos, Conclave Events, files
+  country_origin: USA
   requires_phone_number: Either
   requires_email: Either
   id_contains_contact_info: No
@@ -631,16 +631,16 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   message_stored_on_server_source: https://about.conclave.global/pdf/security-architecture.pdf
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
-  has_contact_verification: Yes
-  android_leaks_files: No
-  websites: <a href="https://about.conclave.global/pdf/security-architecture.pdf">Security Architecture</a>
-  notes_file: conclave_notes.html
-  version_tested: 1.18 (iOS), 1.37.0 (Android)
-  last_update: 6/24/2018
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  android_leaks_files: No
+  websites: <a href="https://about.conclave.global/pdf/security-architecture.pdf">Security Architecture</a>
+  notes_file: conclave_notes.html
+  version_tested: 1.18 (iOS), 1.37.0 (Android)
+  last_update: 6/24/2018
 
 - name: freemessage
   category: 4
@@ -1127,24 +1127,6 @@
 
 # Category 10- Not E2EE
 
-- name: braxme
-  category: 11
-  display_name: BraxMe
-  recommendation: 3
-  notes_text: (brax.me)- Looks to be a dead project, no app updates since April 2017.
-
-- name: nettalk
-  category: 11
-  display_name: NetTalk Duo/Connect
-  recommendation: 3
-  notes_text: (nettalkconnect.com)- Application hasn't been updated in 2 years.
-
-- name: pulsesms
-  category: 11
-  display_name: PulseSMS
-  recommendation: 3
-  notes_text: (messenger.klinkerapps.com)- This app doesn't offer E2EE, what it does offer is using SMS on multiple devices using your phone by connecting each device to an encrypted cloud server.  Which is very cool!  But once your message leaves your phone it is sent over standard open SMS channels unencrypted.
-
 - name: googlemessengers
   category: 10
   display_name: Google Hangouts, Allo, Duo
@@ -1195,6 +1177,24 @@
   last_update: 3/24/2018
 
 # Category 11- Not recommended other reasons
+
+- name: braxme
+  category: 11
+  display_name: BraxMe
+  recommendation: 3
+  notes_text: (brax.me)- Looks to be a dead project, no app updates since April 2017.
+
+- name: nettalk
+  category: 11
+  display_name: NetTalk Duo/Connect
+  recommendation: 3
+  notes_text: (nettalkconnect.com)- Application hasn't been updated in 2 years.
+
+- name: pulsesms
+  category: 11
+  display_name: PulseSMS
+  recommendation: 3
+  notes_text: (messenger.klinkerapps.com)- This app doesn't offer E2EE, what it does offer is using SMS on multiple devices using your phone by connecting each device to an encrypted cloud server.  Which is very cool!  But once your message leaves your phone it is sent over standard open SMS channels unencrypted.
 
 - name: tor_messenger
   category: 11
