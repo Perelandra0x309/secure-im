@@ -668,6 +668,32 @@
   version_tested: 1.22.20
   last_update: 2/5/2018
 
+- name: mysudo
+  category: 4
+  display_name: MySudo
+  url: https://mysudo.com
+  recommendation: 2
+  platforms: iOS
+  communication_types: text, voice call, photos, contacts, location
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes for MySudo contacts, No for SMS
+  encypted_by_default: Yes for MySudo contacts, No for SMS
+  passes_puddle_test: "?"
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  android_leaks_files: N/A
+  websites: <a href="https://mysudo.com/security/">Security Features</a>
+  notes_file: mysudo_notes.html
+  version_tested: 0.9.4
+  last_update: 6/26/2018
+
 - name: tungsten
   category: 4
   display_name: Tungsten
