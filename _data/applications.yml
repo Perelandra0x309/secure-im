@@ -1110,7 +1110,7 @@
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
   message_stored_on_server: 
-  has_ephemeral_messages: No
+  has_ephemeral_messages: Yes
   encypted_by_default: Yes
   passes_puddle_test: Yes
   passes_hammer_test: Yes
@@ -1118,8 +1118,8 @@
   android_leaks_files: No
   websites: <a href="https://github.com/keybase">Source code</a>
   notes_file: keybase_notes.html
-  version_tested: 1.0.4
-  last_update: 1/28/2018
+  version_tested: 2.2.1
+  last_update: 7/1/2018
 
 - name: threema
   category: 5
