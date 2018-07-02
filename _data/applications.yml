@@ -111,7 +111,7 @@
   url: https://ring.cx
   recommendation: 2
   platforms: <a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a>
-  communication_types: Text, group chat, voice, video
+  communication_types: Text, group chat, voice, video, files, photos
   country_origin: Canada
   requires_phone_number: No
   requires_email: No
@@ -125,11 +125,11 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: 
+  android_leaks_files: No
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
   notes_file: ring_notes.html
-  version_tested: 1.0
-  last_update: 1/23/2018
+  version_tested: 200180629
+  last_update: 7/1/2018
   
 - name: briar
   category: 1
