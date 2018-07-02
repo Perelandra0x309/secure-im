@@ -110,7 +110,7 @@
   display_name: Ring
   url: https://ring.cx
   recommendation: 2
-  platforms: <a href="https://ring.cx/en/download">Android, Linux, Mac, Windows (soon iOS)</a>
+  platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, Mac, Windows</a>
   communication_types: Text, group chat, voice, video, files, photos
   country_origin: Canada
   requires_phone_number: No
