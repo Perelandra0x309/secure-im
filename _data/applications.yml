@@ -585,6 +585,32 @@
   version_tested: 3.6.391
   last_update: 1/28/2018
 
+- name: xtorchat
+  category: 3
+  display_name: xTorChat
+  url: https://xrooters.ro
+  recommendation: 3
+  platforms: iOS
+  communication_types: Text
+  country_origin: Romania
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: No
+  has_contact_verification: No
+  android_leaks_files: N/A
+  websites: 
+  notes_file: xtorchat_notes.html
+  version_tested: "?"
+  last_update: 7/11/2018
+
 
 # Category 4- Other closed source
 
