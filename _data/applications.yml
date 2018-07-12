@@ -1160,7 +1160,7 @@
   id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
+  perfect_forward_secrecy: Only for &quot;exploding&quot; messages
   message_stored_on_server: 
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
