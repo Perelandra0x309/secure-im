@@ -1093,6 +1093,32 @@
   version_tested: 1.1.2
   last_update: 6/30/2018
 
+- name: vanish
+  category: 4
+  display_name: Vanish Messenger
+  url: https://www.disappears.com
+  recommendation: 3
+  platforms: Android, iOS
+  communication_types: text, photos, video and audio calls
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  android_leaks_files: No
+  websites: <a href="https://www.disappears.com/pdf/report.pdf">Preliminary audit</a>
+  notes_file: vanish_notes.html
+  version_tested: 2.04 (Android), 2.1 (iOS)
+  last_update: 7/11/2018
+
 # Category 5- Other partially open Source
 
 - name: keybase
