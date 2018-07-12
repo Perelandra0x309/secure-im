@@ -307,7 +307,7 @@
   perfect_forward_secrecy: "?"
   message_stored_on_server: Never
   has_ephemeral_messages: No
-  encypted_by_default: Yes
+  encypted_by_default: No
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
