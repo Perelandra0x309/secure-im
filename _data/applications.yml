@@ -1509,3 +1509,8 @@
   recommendation: 3
   notes_text: Monthly subscription of $13.99 per month.
   
+- name: cellcrypt
+  category: 11
+  display_name: Cellcrypt
+  recommendation: 3
+  notes_text: (https://www.cellcrypt.com)- Looks like a good product but enterprise focused, lowest cost is $90/month
