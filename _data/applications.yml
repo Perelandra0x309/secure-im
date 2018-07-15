@@ -430,7 +430,7 @@
   recommendation: 2
   platforms: Android
   communication_types: Text, group chat, video, files, images
-  country_origin: 
+  country_origin: Germany
   requires_phone_number: No
   requires_email: Yes
   id_contains_contact_info: No
