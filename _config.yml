@@ -1,4 +1,6 @@
-name: My list of secure messaging apps
+title: "secure-im"
+name: "-Tycho Net-"
 markdown: kramdown
 theme: jekyll-theme-midnight
 include: ['_pages']
+description: My list of secure messaging apps
