@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include stylesheets.html %}
+  </head>
+  <body onload="setFilters()">
+    <div class="wrapper">
+      <section>
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+      </section>
+    </div>
+  </body>
+</html>

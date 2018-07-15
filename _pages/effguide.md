@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: effguide_layout
 title: EFF Messenger choosing Guide
 permalink: /effguide.html
 ---
