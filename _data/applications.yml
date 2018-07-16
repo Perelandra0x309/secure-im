@@ -1022,12 +1022,12 @@
   platforms: Android, iOS, Web
   communication_types: Chat, group chat, cloud file storage, video chat, screen sharing, voice, calendar, notes
   country_origin: UK
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: Email
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: "?"
-  perfect_forward_secrecy: No
+  perfect_forward_secrecy: "For mail yes, others ?"
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
@@ -1037,8 +1037,8 @@
   android_leaks_files: Yes
   websites: <a href="https://fortknoxster.com/whitepaper.pdf">Whitepaper</a>
   notes_file: fortknoxster.html
-  version_tested: 1.0.1
-  last_update: 3/20/2018
+  version_tested: 1.0.9
+  last_update: 7/16/2018
 
 - name: viber
   category: 4
