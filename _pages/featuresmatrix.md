@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: featuresmatrix_layout
 title: Features Matrix
 permalink: /featuresmatrix.html
 ---
@@ -15,18 +15,20 @@ Country Key:
 Features Matrix:
 <br>
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
-<table>
+<table id="featurestable">
+<thead><tr>
 <th>Name</th>
 <th>P2P or Other</th>
 <th>Open or Closed Source</th>
-<th>Platforms</th>
-<th width="11%">Country of Origin</th>
-<th width="11%">Requires Phone# or Email</th>
-<th width="11%">ID contains personal info</th>
-<!--<th width="11%">Requires Google Play</th>-->
-<th width="11%">Locally Encrypted Data</th>
-<th width="11%">Uses Perfect Forward Secrecy</th>
-<th width="11%">Android leaks files</th>
+<th width="15%">Platforms</th>
+<th>Country of Origin</th>
+<th>Requires Phone# or Email</th>
+<th>ID contains personal info</th>
+<th>Locally Encrypted Data</th>
+<th>Uses Perfect Forward Secrecy</th>
+<th>Android leaks files</th>
+</tr></thead>
+<tbody>
 
 {% for application in applications %}
 {% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
@@ -104,16 +106,6 @@ Features Matrix:
 	<td>{{ application.id_contains_contact_info }}</td>
 {% endif %}
 
-<!--
-{% if application.android_requires_google_play == true %}
-	<td bgcolor="red">Yes</td>
-{% elsif application.android_requires_google_play == false %}
-	<td bgcolor="green">No</td>
-{% else %}
-	<td>{{ application.android_requires_google_play }}</td>
-{% endif %}
--->
-
 {% if application.is_locally_encrypted == true %}
   {% if application.is_locally_encrypted_source %}
 	<td bgcolor="green"><a href="{{ application.is_locally_encrypted_source }}">Yes</a></td>
@@ -156,6 +148,23 @@ Features Matrix:
 
 </tr>
 {% endfor %}
-
+</tbody>
 </table>
-Page updated {{ page.date }}<br>
+<script language="javascript" type="text/javascript">  
+    var tableFilters = {
+        col_0: "none",
+        col_1: "select",
+        col_2: "select",
+        col_3: "none",
+        col_4: "select",
+        col_5: "select",
+        col_6: "select",
+        col_7: "select",
+        col_8: "select",
+        col_9: "select"
+    }  
+    var tf01 = setFilterGrid("featurestable",1,tableFilters);  
+</script> 
+
+<!--Page updated {{ page.date }}-->
+<br>
