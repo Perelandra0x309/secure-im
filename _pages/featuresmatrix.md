@@ -26,6 +26,9 @@ Features Matrix:
 <th>ID contains personal info</th>
 <th>Locally Encrypted Data</th>
 <th>Uses Perfect Forward Secrecy</th>
+<th>Ephemeral Messages</th>
+<th>Foolproof (All Messages Encrypted)</th>
+<th>Has Contact Verification</th>
 <th>Android leaks files</th>
 </tr></thead>
 <tbody>
@@ -138,6 +141,30 @@ Features Matrix:
 	<td>{{ application.perfect_forward_secrecy }}</td>
 {% endif %}
 
+{% if application.has_ephemeral_messages == true %}
+	<td bgcolor="green">Yes</td>
+{% elsif application.has_ephemeral_messages == false %}
+	<td bgcolor="red">No</td>
+{% else %}
+	<td>{{ application.has_ephemeral_messages }}</td>
+{% endif %}
+
+{% if application.encypted_by_default == true %}
+	<td bgcolor="green">Yes</td>
+{% elsif application.encypted_by_default == false %}
+	<td bgcolor="red">No</td>
+{% else %}
+	<td>{{ application.encypted_by_default }}</td>
+{% endif %}
+
+{% if application.has_contact_verification == true %}
+	<td bgcolor="green">Yes</td>
+{% elsif application.has_contact_verification == false %}
+	<td bgcolor="red">No</td>
+{% else %}
+	<td>{{ application.has_contact_verification }}</td>
+{% endif %}
+
 {% if application.android_leaks_files == true %}
 	<td bgcolor="red">Yes</td>
 {% elsif application.android_leaks_files == false %}
@@ -161,7 +188,10 @@ Features Matrix:
         col_6: "select",
         col_7: "select",
         col_8: "select",
-        col_9: "select"
+        col_9: "select",
+        col_10: "select",
+        col_11: "select",
+        col_12: "select"
     }  
     var tf01 = setFilterGrid("featurestable",1,tableFilters);  
 </script> 
