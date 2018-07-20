@@ -10,10 +10,11 @@ Corrections and additions are welcome, either by an Issue ticket or a Pull Reque
 Criteria:
 <ul>
   <li>This list is focused on instant messaging and chatting as the primary usage of the app</li>
-  <li>Open source</li>
-  <li>Multiple platforms preferred</li>
+  <li>Clients on multiple platforms preferred</li>
   <li>Does not expose your phone number or email address to other users</li>
   <li>Does not leak data (pictures or other data saved unencrypted in browseable folders)</li>
+  <li>Has ephemeral messages (encryption keys destroyed after a set time)</li>
+  <li>Has contact verification</li>
   <li>Testing done on both Android and iOS when possible.  See my <a href="#testing">testing setup</a></li>
 </ul>
 SMS:
@@ -27,68 +28,71 @@ SMS:
 <br>
 Messaging apps to use without giving out your phone number:
 <ul>
-  <li>Federated or Centralized:</li>
+  <li>Top Tier Recommendations:</li>
   <ul>
-    <li>{% include generate_app_link.html app_name="threema" %} (partially open source)</li>
-    <li>{% include generate_app_link.html app_name="wire" %} (beware of possible high battery usage on older Android versions or Android forks without Play Services)</li>
-    <li>{% include generate_app_link.html app_name="keybase" %} (partially open source)</li>
-    <li>{% include generate_app_link.html app_name="riot" %} (E2EE still in beta)</li>
+    <li>{% include generate_app_link.html app_name="wire" %}- Beware of possible high battery usage on older Android versions or Android forks without Play Services</li>
+    <li>{% include generate_app_link.html app_name="wickrme" %}- Based in USA, all messages expire</li>
+    <li>{% include generate_app_link.html app_name="safeswiss" %}- P2P, based in Switzerland</li>
+  </ul>
+  <li>Second Tier (misses some criteria):</li>
+  <ul>
+    <li>{% include generate_app_link.html app_name="threema" %}- P2P, based in Switzerland [No PFS or ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="briar" %}- P2P, Android only, can use Tor, text only [No ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="ricochet" %}- P2P, desktop only, text only, uses Tor [No contact verification]</li>
+    <li>{% include generate_app_link.html app_name="keybase" %}- Based in USA [Only &quot;exploding&quot; messages are PFS, no contact verification]</li>
+     <li>{% include generate_app_link.html app_name="eleet" %}- Based in the UK [No contact verification]</li>
   </ul>
 
-  <li>P2P:</li>
+  <li>Third Tier (keep an eye on these):</li>
   <ul>
-    <li>{% include generate_app_link.html app_name="briar" %} (Android only)</li>
-    <li>{% include generate_app_link.html app_name="ricochet" %} (desktop only)</li>
+    <li>{% include generate_app_link.html app_name="riot" %}- E2EE still in beta, based in the UK [No ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No ephemeral messages or contact verification]</li>
+    <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification]</li>
+    <li>{% include generate_app_link.html app_name="conversations" %}- Android Only, based in Germany [No ephemeral messages]</li>
   </ul>
 </ul>
 <br>
-If you're not so strict about being open source try:
-<ul>
-  <li>{% include generate_app_link.html app_name="safeswiss" %}- P2P, not open source but based in Switzerland</li>
-  <li>{% include generate_app_link.html app_name="twinme" %}- P2P, not open source, based in Germany</li>
-  <li>{% include generate_app_link.html app_name="wickrme" %}- Only crypto protocol is open source, based in USA, all messages expire</li>
-  <li>{% include generate_app_link.html app_name="eleet" %}- I am really liking this one, unfortunately not open source and based in the UK</li>
-  <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany.</li>
-</ul>
 <br>
 <h2>How about some rankings?</h2><br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
 <table>
   <tr>
     <th>Application</th>
-    <th width="11%">Additional sharing features- files, photos, etc</th>
-    <th width="11%">Group chats</th>
-    <th width="11%">Unified UI across platforms</th>
-    <th width="11%">Messages sync to all devices</th>
-    <th width="11%">Open source</th>
-    <th width="11%">Perfect forward secrecy</th>
-    <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
+    <th width="8%">Additional sharing features- files, photos, etc</th>
+    <th width="8%">Group chats</th>
+    <th width="8%">Unified UI across platforms</th>
+    <th width="8%">Messages sync to all devices</th>
+    <th width="8%">Open source</th>
+    <th width="8%">Perfect forward secrecy</th>
+    <th width="8%">Ephemeral Messages</th>
+    <th width="8%">Contact Verification</th>
+    <th width="8%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
       Based outside the 14 eyes: +.5</th>
-    <th width="11%">Total score:</th>
+    <th width="8%">Total score:</th>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="wire" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>7</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="riot" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="tungsten" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>5.5</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>9</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="wickrme" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>5.5</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>1</td><td>1</td><td>0 (USA)</td><td>7.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="riot" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>7</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="keybase" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>0 (USA)</td><td>5.5</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>0 (USA)</td><td>6.5</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="eleet" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0 (UK)</td><td>6</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="tungsten" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>.5 (Germany)</td><td>5.5</td>
   </tr>
 
 </table>
@@ -97,61 +101,68 @@ The following scoring table includes messaging apps used on a single device:<br>
 <table>
   <tr>
     <th>Application</th>
-    <th width="11%">Additional sharing features- files, photos, etc</th>
-    <th width="11%">Group chats</th>
-    <th width="11%">Open source</th>
-    <th width="11%">Perfect forward secrecy</th>
-    <th width="11%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
+    <th width="8%">Additional sharing features- files, photos, etc</th>
+    <th width="8%">Group chats</th>
+    <th width="8%">Open source</th>
+    <th width="8%">Perfect forward secrecy</th>
+    <th width="8%">Ephemeral Messages</th>
+    <th width="8%">Contact Verification</th>
+    <th width="8%">Clients on multiple platforms</th>
+    <th width="8%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
       Based outside the 14 eyes: +.5</th>
-    <th width="11%">Total score:</th>
+    <th width="8%">Total score:</th>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="wire" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="threema" %}</td>
-    <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>1 (Switzerland)</td><td>4</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="briar" %}</td>
-    <td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="riot" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0 (UK)</td><td>4</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>8</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="safeswiss" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>1 (Switzerland)</td><td>4</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>7</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="wickrme" %}</td>
-    <td>1</td><td>1</td><td>.5</td><td>1</td><td>0 (USA)</td><td>3.5</td>
+    <td>1</td><td>1</td><td>.5</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (USA)</td><td>6.5</td>
   </tr>
   <tr>
-    <td>{% include generate_app_link.html app_name="tungsten" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>3.5</td>
+    <td>{% include generate_app_link.html app_name="threema" %}</td>
+    <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>0</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>6</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="riot" %} (encrypted messages)</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="keybase" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>0 (USA)</td><td>3.5</td>
+    <td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>1</td><td>0 (USA)</td><td>5.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="briar" %}</td>
+    <td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>5</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="eleet" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>3</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="conversations" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>.5 (OMEMO only)</td><td>0</td><td>1</td><td>0</td><td>.5 (Germany)</td><td>5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="tungsten" %}</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>4.5</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="ricochet" %}</td>
-    <td>0</td><td>0</td><td>1</td><td>1</td><td>1 (No central servers)</td><td>3</td>
+    <td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1 (No central servers)</td><td>4</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="ring" %}</td>
-    <td>1</td><td>0</td><td>1</td><td>?</td><td>1 (No central servers)</td><td>3</td>
+    <td>1</td><td>0</td><td>1</td><td>?</td><td>0</td><td>0</td><td>1</td><td>1 (No central servers)</td><td>4</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="twinme" %}</td>
-    <td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>2.5</td>
+    <td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>3.5</td>
   </tr>
 
 </table>
