@@ -142,6 +142,7 @@ div.tot{ /* rows counter appearance */
 	border-right:1px solid #ccc;
 	margin:0 5px 0 2px;
 	padding:0 2px 0 2px;
+	color:#000;
 }
 div.tot span{ font-weight:bold; font-size:11px; }
 select.rspg{ width:50px; margin:1px 5px 0 5px; vertical-align:middle; }/*results per page select*/
@@ -169,6 +170,7 @@ div.status{ /* status bar appearance */
 	border-right:1px solid #ccc;
 	margin:0 5px 0 2px;
 	padding:0 2px 0 2px;
+	color:#000;
 }
 div.status span{ font-weight:bold; font-size:11px; }
 

@@ -3,7 +3,6 @@ layout: featuresmatrix_layout
 title: Features Matrix
 permalink: /featuresmatrix.html
 ---
-
 <br>
 Country Key:
 <table style="width:15%">
@@ -177,24 +176,41 @@ Features Matrix:
 {% endfor %}
 </tbody>
 </table>
-<script language="javascript" type="text/javascript">  
+
+<script language="javascript" type="text/javascript"> 
+    // http://tablefilter.free.fr 
     var tableFilters = {
-        col_0: "none",
-        col_1: "select",
-        col_2: "select",
-        col_3: "none",
-        col_4: "select",
-        col_5: "select",
-        col_6: "select",
-        col_7: "select",
-        col_8: "select",
-        col_9: "select",
-        col_10: "select",
-        col_11: "select",
-        col_12: "select"
+      status_bar: true,
+      display_all_text: " [ Show all ] ",
+      rows_counter: true,
+      btn_reset: true,
+      col_0: "none",
+      col_1: "select",
+      col_2: "select",
+      col_3: "none",
+      col_4: "select",
+      col_5: "select",
+      col_6: "select",
+      col_7: "select",
+      col_8: "select",
+      col_9: "select",
+      col_10: "select",
+      col_11: "select",
+      col_12: "select",
+      
+      /*** Extensions manager ***/
+			btn_showHide_cols_text: 'Columns&#9660;',
+			showHide_cols_text: 'Hide: ',
+			extensions: {
+				/*** Columns Visibility Manager extension load ***/
+				name:['ColsVisibility'],
+				src:['TableFilter/TFExt_ColsVisibility.js'],
+				description:['Columns visibility manager'],
+				initialize:[function(o){o.SetColsVisibility();}]
+			}
     }  
     var tf01 = setFilterGrid("featurestable",1,tableFilters);  
-</script> 
+</script>
 
 <!--Page updated {{ page.date }}-->
 <br>
