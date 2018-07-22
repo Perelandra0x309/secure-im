@@ -197,6 +197,7 @@ Features Matrix:
       col_10: "select",
       col_11: "select",
       col_12: "select",
+      help_instructions_html: "Use the filters above each column to filter and limit table data.<hr/>",
       
       /*** Extensions manager ***/
 			btn_showHide_cols_text: 'Columns&#9660;',
