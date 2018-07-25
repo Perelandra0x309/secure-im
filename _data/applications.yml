@@ -4,7 +4,7 @@
 #  display_name: 
 #  url: 
 #  recommendation: (1- highly, 2- worth a try, 3- not recommended)
-#  platforms: Android/iOS/Mac/Windows/Linux
+#  platforms: Android/iOS/MacOS/Windows/Linux/Web
 #  communication_types: 
 #  country_origin: 
 #  requires_phone_number: Yes/No
@@ -59,7 +59,7 @@
   display_name: Ricochet
   url: https://ricochet.im
   recommendation: 1
-  platforms: <a href="https://ricochet.im/releases/latest/">Windows, Mac, Linux</a>
+  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux</a>
   communication_types: Text
   country_origin: No centralized servers
   requires_phone_number: No
@@ -85,7 +85,7 @@
   display_name: Tox
   url: https://tox.chat/
   recommendation: 3
-  platforms: <a href="https://tox.chat/download.html">Windows, Mac, Linux, FreeBSD, iOS, Android</a>
+  platforms: <a href="https://tox.chat/download.html">Windows, MacOS, Linux, FreeBSD, iOS, Android</a>
   communication_types: Text, voice, video, screen sharing, file sharing
   country_origin: No centralized servers
   requires_phone_number: No
@@ -110,7 +110,7 @@
   display_name: Ring
   url: https://ring.cx
   recommendation: 2
-  platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, Mac, Windows</a>
+  platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
   communication_types: Text, group chat, voice, video, files, photos
   country_origin: Canada
   requires_phone_number: No
@@ -136,9 +136,9 @@
   display_name: Briar Project
   url: https://briarproject.org
   recommendation: 1
-  platforms: Android (doesn't need play services) via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>
+  platforms: Android (via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>)
   communication_types: Text and forums
-  country_origin:
+  country_origin: None
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
@@ -162,7 +162,7 @@
   display_name: Patchwork
   url: https://github.com/ssbc/patchwork
   recommendation: 2
-  platforms: Linux, Mac, Windows
+  platforms: Linux, MacOS, Windows
   communication_types: Text
   country_origin: None
   requires_phone_number: No
@@ -171,12 +171,12 @@
   android_requires_google_play: N/A
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  message_stored_on_server:
-  has_ephemeral_messages: 
+  message_stored_on_server: "?"
+  has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: 
-  passes_hammer_test: 
-  has_contact_verification: 
+  passes_puddle_test: "?"
+  passes_hammer_test: "?"
+  has_contact_verification: No
   android_leaks_files: N/A
   websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
   notes_file: patchwork_notes.html
@@ -243,7 +243,7 @@
   display_name: Sid
   url: https://sid.co
   recommendation: 3
-  platforms: Android, iOS, Mac, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux
   communication_types: Text, group chat, pictures, audio, files
   country_origin: Germany
   requires_phone_number: No
@@ -270,7 +270,7 @@
   display_name: Zangi
   url: http://zangi.com
   recommendation: 3
-  platforms: Android, iOS (Mac, Windows and web coming soon)
+  platforms: Android, iOS (MacOS, Windows and web coming soon)
   communication_types: Text, VOIP, photos, video, audio, files, location
   country_origin: USA
   requires_phone_number: Yes
@@ -376,7 +376,7 @@
   display_name: Signal
   url: https://www.signal.org
   recommendation: 1
-  platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iPhone, Desktop
+  platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iOS, MacOS, Windows, Linux
   communication_types: Text, voice, video, files, images
   country_origin: USA
   requires_phone_number: Yes
@@ -403,7 +403,7 @@
   display_name: XMPP with OTR or OMEMO
   url: https://xmpp.org
   recommendation: 3
-  platforms: Android, iOS, Mac, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux
   communication_types: Text, group chat
   country_origin: Various
   requires_phone_number: No
@@ -454,7 +454,7 @@
   display_name: Riot
   url: https://about.riot.im
   recommendation: 1
-  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, Mac, Windows, Linux, Web
+  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux, Web
   communication_types: Text, voice, video, file sharing
   country_origin: UK
   requires_phone_number: No
@@ -483,7 +483,7 @@
   recommendation: 3
   platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
   communication_types: Text, photo, video, audio, files, location, contacts
-  country_origin: 
+  country_origin: None
   requires_phone_number: Yes
   requires_email: No
   id_contains_contact_info: Phone
@@ -508,7 +508,7 @@
   display_name: RetroShare
   url: http://retroshare.net
   recommendation: 2
-  platforms: <a href="http://retroshare.net/downloads.html">Windows, Mac, Linux</a>
+  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux</a>
   communication_types: Text, voice, video, email, file sharing
   country_origin: None
   requires_phone_number: No
@@ -562,7 +562,7 @@
   display_name: Wire
   url: https://wire.com
   recommendation: 1
-  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, Mac, Windows, Linux, Web
+  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux, Web
   communication_types: Text, voice, video, file sharing
   country_origin: Switzerland
   requires_phone_number: Either
@@ -646,7 +646,7 @@
   display_name: Conclave
   url: https://about.conclave.global
   recommendation: 2
-  platforms: Android, iOS, web
+  platforms: Android, iOS, Web
   communication_types: text, photos, Conclave Events, files
   country_origin: USA
   requires_phone_number: Either
@@ -725,7 +725,7 @@
   display_name: Tungsten
   url: https://tungsten-labs.com
   recommendation: 2
-  platforms: Android, iOS (Mac/Windows/Linux coming soon)
+  platforms: Android, iOS (MacOS/Windows/Linux coming soon)
   communication_types: Chat, group chat, photos, files
   country_origin: Germany
   requires_phone_number: No
@@ -776,8 +776,8 @@
   category: 4
   display_name: Wickr Me
   url: https://www.wickr.com/personal
-  recommendation: 2
-  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Ubuntu</a>
+  recommendation: 1
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
   communication_types: Text, group chat, video, files, video chat
   country_origin: USA
   requires_phone_number: No
@@ -803,7 +803,7 @@
   display_name: VIPole (Free version)
   url: https://www.vipole.com
   recommendation: 3
-  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, Mac, Windows, Linux</a>
+  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
   communication_types: Text, files, photos, video, location, contacts, audio
   country_origin: UK
   requires_phone_number: Either
@@ -830,7 +830,7 @@
   display_name: VIPole (Pro version)
   url: https://www.vipole.com
   recommendation: 3
-  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, Mac, Windows, Linux</a>
+  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
   communication_types: Text, files, photos, video, location, contacts, audio
   country_origin: UK
   requires_phone_number: Either
@@ -966,7 +966,7 @@
   display_name: Brosix
   url: https://www.brosix.com
   recommendation: 3
-  platforms: Android, iOS, Mac, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux
   communication_types: Text, group chat, files, voice, video
   country_origin: Bulgaria
   requires_phone_number: No
@@ -993,7 +993,7 @@
   display_name: foilChat
   url: https://www.foilchat.com
   recommendation: 3
-  platforms: Android, iOS, web
+  platforms: Android, iOS, Web
   communication_types: Text, group chat, photos, video, audio messages
   country_origin: Finland
   requires_phone_number: No
@@ -1045,7 +1045,7 @@
   display_name: Viber
   url: https://www.viber.com
   recommendation: 3
-  platforms: Android, iOS, Mac, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux
   communication_types: Text, group messaging, voice and video calls, photos
   country_origin: Japan
   requires_phone_number: Yes
@@ -1072,7 +1072,7 @@
   display_name: Confide
   url: https://getconfide.com
   recommendation: 3
-  platforms: <a href="https://getconfide.com/download">Android, iOS, Mac, Windows</a>
+  platforms: <a href="https://getconfide.com/download">Android, iOS, MacOS, Windows</a>
   communication_types: Text, group messaging, voice and video messages, file sharing
   country_origin: USA
   requires_phone_number: Either
@@ -1152,7 +1152,7 @@
   display_name: Keybase
   url: https://www.keybase.io
   recommendation: 1
-  platforms: Android, iOS, Mac, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux
   communication_types: Text, group chat, file sharing
   country_origin: USA
   requires_phone_number: No
@@ -1205,7 +1205,7 @@
   display_name: Telegram
   url: https://telegram.org
   recommendation: 3
-  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, web</a>
+  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, Web</a>
   communication_types: Text, voice, file sharing
   country_origin: UK
   requires_phone_number: Yes
@@ -1266,7 +1266,7 @@
   display_name: Discord
   url: https://discordapp.com
   recommendation: 3
-  platforms: <a href="https://discordapp.com/download">Android, iOS, Mac, Windows, Linux, Web</a>
+  platforms: <a href="https://discordapp.com/download">Android, iOS, MacOS, Windows, Linux, Web</a>
   communication_types: Text, group messaging, voice and video messages, file sharing
   country_origin: USA
   requires_phone_number: No
@@ -1305,7 +1305,7 @@
   display_name: Tor Messenger
   url: https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger
   recommendation: 3
-  platforms: Mac, Windows, Linux
+  platforms: MacOS, Windows, Linux
   communication_types: Text
   country_origin: USA
   requires_phone_number: No
