@@ -32,9 +32,10 @@ Features Matrix:
 </tr></thead>
 <tbody>
 
+{% assign final_platforms = 'Android' %}
 {% for application in applications %}
-{% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
-{% elsif application.recommendation == 2 %}{% capture htmlimage %}<img src="images/checkmark.gif">{% endcapture %}
+{% if application.recommendation == 1 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+{% elsif application.recommendation == 2 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img src="images/checkmark.gif">{% endcapture %}
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}
 <tr>
@@ -59,6 +60,12 @@ Features Matrix:
 {% endif %}
 
 	<td>{{ application.platforms }}</td>
+	{% assign platforms_scrubbing = application.platforms | strip_html | split: '(' %}
+	{% for element in platforms_scrubbing %}
+	  {% assign clean = element | append: ' ' | split: ')' | last | strip | replace: ' ,',',' | replace: ', ',',' %}
+	  {% assign final_platforms = final_platforms | append: ',' | append: clean %}
+	{% endfor %}
+	{% assign final_platforms = final_platforms | replace: ',,',',' | split:',' | uniq | join: ',' %}
 
 {% capture classname %}{% endcapture %}
 {% if application.country_origin == "Australia"
@@ -177,26 +184,36 @@ Features Matrix:
 </tbody>
 </table>
 
+{% capture texts_values %}[['Only recommended'],['{{ final_platforms | split: ',' | sort | join: "','" }}']]{% endcapture %}
+{% capture values_values %}[['*recommended'],['*{{ final_platforms | split: ',' | sort | join: "','*" }}']]{% endcapture %}
+
 <script language="javascript" type="text/javascript"> 
     // http://tablefilter.free.fr 
     var tableFilters = {
       status_bar: true,
-      display_all_text: " [ Show all ] ",
+      display_all_text: "Show all",
       rows_counter: true,
+      mark_active_columns: true,
       btn_reset: true,
-      col_0: "none",
-      col_1: "select",
-      col_2: "select",
-      col_3: "none",
-      col_4: "select",
-      col_5: "select",
-      col_6: "select",
-      col_7: "select",
-      col_8: "select",
-      col_9: "select",
-      col_10: "select",
-      col_11: "select",
-      col_12: "select",
+      col_0: "select",
+      col_1: "checklist",
+      col_2: "checklist",
+      col_3: "select",
+      col_4: "checklist",
+      col_5: "checklist",
+      col_6: "checklist",
+      col_7: "checklist",
+      col_8: "checklist",
+      col_9: "checklist",
+      col_10: "checklist",
+      col_11: "checklist",
+      col_12: "checklist",
+      custom_slc_options: {
+        cols:[0,3],
+        texts: {{ texts_values }},
+        values: {{ values_values }},
+        sorts: [false,false]
+      },
       help_instructions_html: "Use the filters above each column to filter and limit table data.<hr/>",
       
       /*** Extensions manager ***/
