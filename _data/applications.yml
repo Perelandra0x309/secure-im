@@ -109,7 +109,7 @@
   category: 1
   display_name: Ring
   url: https://ring.cx
-  recommendation: 2
+  recommendation: 3
   platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
   communication_types: Text, group chat, voice, video, files, photos
   country_origin: Canada
@@ -508,7 +508,7 @@
   display_name: RetroShare
   url: http://retroshare.net
   recommendation: 2
-  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux</a>
+  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux, FreeBSD</a>
   communication_types: Text, voice, video, email, file sharing
   country_origin: None
   requires_phone_number: No
