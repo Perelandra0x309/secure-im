@@ -19,7 +19,7 @@
 #  passes_puddle_test: 
 #  passes_hammer_test: 
 #  has_contact_verification: 
-#  android_leaks_files: 
+#  leaks_files: 
 #  websites: 
 #  notes_file: 
 #  version_tested: 
@@ -48,7 +48,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: 
   notes_file: silence_notes.html
   version_tested: 0.15.12
@@ -74,7 +74,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: N/A
+  leaks_files: No
   websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
   notes_file: ricochet_notes.html
   version_tested: 1.1.4
@@ -100,7 +100,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
   notes_file: tox_notes.html
   last_update: 1/23/2018
@@ -125,7 +125,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: MacOS
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
   notes_file: ring_notes.html
   version_tested: 200180629
@@ -151,7 +151,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
   version_tested: 1.0.4
@@ -177,7 +177,7 @@
   passes_puddle_test: "?"
   passes_hammer_test: "?"
   has_contact_verification: No
-  android_leaks_files: N/A
+  leaks_files: No
   websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
   notes_file: patchwork_notes.html
   version_tested: 3.8.10
@@ -206,7 +206,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://safeswiss.com/encryption">Encryption</a>
   notes_file: safeswiss_notes.html
   version_tested: 1.3.03
@@ -232,7 +232,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
   notes_file: twinme_notes.html
   version_tested: 7.8.5
@@ -258,7 +258,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: 
   notes_file: skred_notes.html
   version_tested: 0.6.5
@@ -285,7 +285,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android, Mac
   websites: <a href="https://sid.co/security-by-design">Security by Design</a>
   notes_file: sid_notes.html
   version_tested: 0.9.4
@@ -311,7 +311,7 @@
   passes_puddle_test: No
   passes_hammer_test: No
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: 
   notes_file: zangi_notes.html
   version_tested: 4.3.5
@@ -337,7 +337,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://www.opengarden.com/how-to.html">How it works</a>
   notes_file: firechat_notes.html
   version_tested: 8.0.58
@@ -363,7 +363,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: 
   notes_file: kripter_notes.html
   version_tested: 1.3
@@ -389,7 +389,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: 
   notes_file: stealthchat_notes.html
   version_tested: 1.3.7
@@ -418,7 +418,7 @@
   passes_puddle_test: No
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
   notes_file: signal_notes.html
   version_tested: 4.14.10
@@ -444,7 +444,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: Depends on the client
+  leaks_files: Depends on the client
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
   notes_file: xmpp_notes.html
   last_update: 1/28/2018
@@ -469,7 +469,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
   notes_file: conversations_notes.html
   version_tested: 2.2.3
@@ -495,7 +495,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   perfect_forward_secrecy_source: https://about.riot.im/security/
   websites: <a href="https://github.com/vector-im">Source code</a>
   notes_file: riot_notes.html
@@ -523,7 +523,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
   notes_file: kontalk_notes.html
   version_tested: 4.1.5
@@ -550,7 +550,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: No
-  android_leaks_files: N/A
+  leaks_files: No
   websites: <a href="https://github.com/RetroShare/RetroShare">Source code</a>
   notes_file: retroshare_notes.html
 
@@ -577,7 +577,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
   notes_file: surespot_notes.html
   version_tested: 72
@@ -605,7 +605,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
   notes_file: wire_notes.html
   version_tested: 3.6.391
@@ -631,7 +631,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: No
-  android_leaks_files: N/A
+  leaks_files: No
   websites: 
   notes_file: xtorchat_notes.html
   version_tested: "?"
@@ -660,7 +660,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
   notes_file: babelnet_notes.html
   version_tested: 7.6.1
@@ -687,7 +687,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: 
   notes_file: eleet_notes.html
   version_tested: 2.0.29
@@ -714,7 +714,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://about.conclave.global/pdf/security-architecture.pdf">Security Architecture</a>
   notes_file: conclave_notes.html
   version_tested: 1.18 (iOS), 1.37.0 (Android)
@@ -740,7 +740,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
   notes_file: freemessage_notes.html
   version_tested: 1.22.20
@@ -766,7 +766,7 @@
   passes_puddle_test: "?"
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: N/A
+  leaks_files: No
   websites: <a href="https://mysudo.com/security/">Security Features</a>
   notes_file: mysudo_notes.html
   version_tested: 0.9.4
@@ -792,7 +792,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://tungsten-labs.com/faq">FAQ</a>
   notes_file: tungsten_notes.html
   version_tested: 1.1.0
@@ -818,7 +818,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: 
   notes_file: whispeer_notes.html
   version_tested: 0.3.11
@@ -844,7 +844,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
   notes_file: wickrme_notes.html
   version_tested: 4.19.4
@@ -871,7 +871,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
   notes_file: vipole_notes.html
   version_tested: 1.8.73
@@ -898,7 +898,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
   notes_file: vipole_notes.html
   version_tested: 1.8.73
@@ -927,7 +927,7 @@
   passes_hammer_test: Yes
   has_contact_verification: Yes
   has_contact_verification_source: https://hoccer.com/faq/
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://hoccer.com/faq/">FAQ</a>
   notes_file: hoccer_notes.html
   version_tested: 3.2.15
@@ -953,7 +953,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://www.hoopmessenger.com/privacy-policy/">Privacy Policy</a>
   notes_file: hoopmessenger_notes.html
   version_tested: 2.6.1311
@@ -980,7 +980,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
   notes_file: simsme_notes.html
   version_tested: 2.00.002.193784
@@ -1007,7 +1007,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: 
   notes_file: soma_notes.html
   version_tested: 1.9.0
@@ -1034,7 +1034,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: "?"
+  leaks_files: "?"
   websites: <a href="https://www.brosix.com/security/">Security</a>
   notes_file: brosix_notes.html
   version_tested: 3.4.5
@@ -1060,7 +1060,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://www.foilchat.com/security/">Security</a>
   notes_file: foilchat_notes.html
   version_tested: 1.4.39
@@ -1086,7 +1086,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: No
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://fortknoxster.com/whitepaper.pdf">Whitepaper</a>
   notes_file: fortknoxster.html
   version_tested: 1.0.9
@@ -1113,7 +1113,7 @@
   passes_puddle_test: No
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
   notes_file: viber_notes.html
   version_tested: 8.6.0
@@ -1139,7 +1139,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
   notes_file: confide_notes.html
   version_tested: 5.3.5
@@ -1165,7 +1165,7 @@
   passes_puddle_test: "?"
   passes_hammer_test: "?"
   has_contact_verification: No
-  android_leaks_files: "? Needs more testing"
+  leaks_files: "? Needs more testing"
   websites: 
   notes_file: squirrel_notes.html
   version_tested: 1.1.2
@@ -1191,7 +1191,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://www.disappears.com/pdf/report.pdf">Preliminary audit</a>
   notes_file: vanish_notes.html
   version_tested: 2.04 (Android), 2.1 (iOS)
@@ -1219,7 +1219,7 @@
   passes_puddle_test: Yes
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://github.com/keybase">Source code</a>
   notes_file: keybase_notes.html
   version_tested: 2.2.1
@@ -1246,7 +1246,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: Yes
-  android_leaks_files: No
+  leaks_files: No
   websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
   notes_file: threema_notes.html
   version_tested: 3.41
@@ -1273,7 +1273,7 @@
   passes_puddle_test: No
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: Yes
+  leaks_files: Android
   websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
   notes_file: telegram_notes.html
   version_tested: 4.8
@@ -1398,7 +1398,7 @@
   passes_puddle_test: No
   passes_hammer_test: No
   has_contact_verification: Yes
-  android_leaks_files: 
+  leaks_files: 
   websites: 
   notes_file: securechat_notes.html
   version_tested: 1.0.7
@@ -1428,7 +1428,7 @@
   passes_puddle_test: No
   passes_hammer_test: Yes
   has_contact_verification: No
-  android_leaks_files: 
+  leaks_files: 
   websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>
   notes_file: cypher_notes.html
   version_tested: 0.7.3

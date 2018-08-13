@@ -28,7 +28,7 @@ Features Matrix:
 <th>Ephemeral Messages</th>
 <th>Foolproof (All Messages Encrypted)</th>
 <th>Has Contact Verification</th>
-<th>Android leaks files</th>
+<th>Leaks Files</th>
 </tr></thead>
 <tbody>
 
@@ -171,12 +171,12 @@ Features Matrix:
 	<td>{{ application.has_contact_verification }}</td>
 {% endif %}
 
-{% if application.android_leaks_files == true %}
+{% if application.leaks_files == true %}
 	<td bgcolor="red">Yes</td>
-{% elsif application.android_leaks_files == false %}
+{% elsif application.leaks_files == false %}
 	<td bgcolor="green">No</td>
 {% else %}
-	<td>{{ application.android_leaks_files }}</td>
+	<td bgcolor="red">{{ application.leaks_files }}</td>
 {% endif %}
 
 </tr>
