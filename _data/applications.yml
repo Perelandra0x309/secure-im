@@ -645,7 +645,7 @@
   display_name: BabelNet
   url: https://www.babelnet.com
   recommendation: 1
-  platforms: Android, iOS, MacOS, Windows, Blackberry
+  platforms: Android, iOS, MacOS, Windows
   communication_types: Text, photos, files, voice messages
   country_origin: Czechoslovakia
   requires_phone_number: No
