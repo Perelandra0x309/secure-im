@@ -238,6 +238,32 @@
   version_tested: 7.8.5
   last_update: 1/23/2018
 
+- name: skred
+  category: 2
+  display_name: Skred
+  url: https://skred.mobi
+  recommendation: 2
+  platforms: Android, iOS
+  communication_types: Text, image, sound, music, video
+  country_origin: France
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  android_leaks_files: No
+  websites: 
+  notes_file: skred_notes.html
+  version_tested: 0.6.5
+  last_update: 8/12/2018
+
 - name: sid
   category: 2
   display_name: Sid
@@ -613,6 +639,32 @@
 
 
 # Category 4- Other closed source
+
+- name: babelnet
+  category: 4
+  display_name: BabelNet
+  url: https://www.babelnet.com
+  recommendation: 1
+  platforms: Android, iOS, MacOS, Windows, Blackberry
+  communication_types: Text, photos, files, voice messages
+  country_origin: Czechoslovakia
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never/Temporarily/Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  android_leaks_files: No
+  websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
+  notes_file: babelnet_notes.html
+  version_tested: 7.6.1
+  last_update: 8/12/2018
 
 - name: eleet
   category: 4
