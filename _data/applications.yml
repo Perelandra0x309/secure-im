@@ -640,32 +640,6 @@
 
 # Category 4- Other closed source
 
-- name: babelnet
-  category: 4
-  display_name: BabelNet
-  url: https://www.babelnet.com
-  recommendation: 1
-  platforms: Android, iOS, MacOS, Windows
-  communication_types: Text, photos, files, voice messages
-  country_origin: Czechoslovakia
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never/Temporarily/Yes
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: Yes
-  leaks_files: No
-  websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
-  notes_file: babelnet_notes.html
-  version_tested: 7.6.1
-  last_update: 8/12/2018
-
 - name: eleet
   category: 4
   display_name: Eleet
@@ -692,6 +666,58 @@
   notes_file: eleet_notes.html
   version_tested: 2.0.29
   last_update: 1/28/2018
+
+- name: wickrme
+  category: 4
+  display_name: Wickr Me
+  url: https://www.wickr.com/personal
+  recommendation: 1
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
+  communication_types: Text, group chat, video, files, video chat
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  leaks_files: No
+  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
+  notes_file: wickrme_notes.html
+  version_tested: 4.19.4
+  last_update: 1/28/2018
+
+- name: babelnet
+  category: 4
+  display_name: BabelNet
+  url: https://www.babelnet.com
+  recommendation: 2
+  platforms: Android, iOS, MacOS, Windows
+  communication_types: Text, photos, files, voice messages
+  country_origin: Czech Republic
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never/Temporarily/Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  leaks_files: No
+  websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
+  notes_file: babelnet_notes.html
+  version_tested: 7.6.1 (Android), 3.7.0 (MacOS)
+  last_update: 8/12/2018
 
 - name: conclave
   category: 4
@@ -772,6 +798,60 @@
   version_tested: 0.9.4
   last_update: 6/26/2018
 
+- name: simsme
+  category: 4
+  display_name: SIMSme
+  url: https://www.sims.me
+  recommendation: 2
+  platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
+  communication_types: Text, group chat, images, videos, location, contacts
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: No
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://www.sims.me/data-protection
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: Yes
+  leaks_files: No
+  websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
+  notes_file: simsme_notes.html
+  version_tested: 2.00.002.193784
+  last_update: 3/8/2018
+
+- name: soma
+  category: 4
+  display_name: Soma
+  url: https://soma.im
+  recommendation: 2
+  platforms: Android, iOS, Web
+  communication_types: Text, group chat, images, video, audio, location
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: No
+  websites: 
+  notes_file: soma_notes.html
+  version_tested: 1.9.0
+  last_update: 1/27/2018
+
 - name: tungsten
   category: 4
   display_name: Tungsten
@@ -824,85 +904,110 @@
   version_tested: 0.3.11
   last_update: 2/3/2018
 
-- name: wickrme
+- name: brosix
   category: 4
-  display_name: Wickr Me
-  url: https://www.wickr.com/personal
-  recommendation: 1
-  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
-  communication_types: Text, group chat, video, files, video chat
-  country_origin: USA
+  display_name: Brosix
+  url: https://www.brosix.com
+  recommendation: 3
+  platforms: Android, iOS, MacOS, Windows, Linux
+  communication_types: Text, group chat, files, voice, video
+  country_origin: Bulgaria
   requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.brosix.com/blog/encrypted-communication-yes-its-important/
+  message_stored_on_server: 
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: "?"
+  websites: <a href="https://www.brosix.com/security/">Security</a>
+  notes_file: brosix_notes.html
+  version_tested: 3.4.5
+  last_update: 1/27/2018
+
+- name: confide
+  category: 4
+  display_name: Confide
+  url: https://getconfide.com
+  recommendation: 3
+  platforms: <a href="https://getconfide.com/download">Android, iOS, MacOS, Windows</a>
+  communication_types: Text, group messaging, voice and video messages, file sharing
+  country_origin: USA
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: Email
+  android_requires_google_play: Yes
+  is_locally_encrypted: N/A (messages deleted immediately)
+  perfect_forward_secrecy: No
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: No
+  websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
+  notes_file: confide_notes.html
+  version_tested: 5.3.5
+  last_update: 1/25/2018
+
+- name: foilchat
+  category: 4
+  display_name: foilChat
+  url: https://www.foilchat.com
+  recommendation: 3
+  platforms: Android, iOS, Web
+  communication_types: Text, group chat, photos, video, audio messages
+  country_origin: Finland
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: Email
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: No
+  message_stored_on_server: 
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: Android
+  websites: <a href="https://www.foilchat.com/security/">Security</a>
+  notes_file: foilchat_notes.html
+  version_tested: 1.4.39
+  last_update: 1/25/2018
+
+- name: fortknoxster
+  category: 4
+  display_name: FortKnoxster
+  url: https://fortknoxster.com
+  recommendation: 3
+  platforms: Android, iOS, Web
+  communication_types: Chat, group chat, cloud file storage, video chat, screen sharing, voice, calendar, notes
+  country_origin: UK
+  requires_phone_number: Yes
   requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "For mail yes, others ?"
   message_stored_on_server: Yes
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
-  has_contact_verification: Yes
-  leaks_files: No
-  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
-  notes_file: wickrme_notes.html
-  version_tested: 4.19.4
-  last_update: 1/28/2018
-
-- name: vipolefree
-  category: 4
-  display_name: VIPole (Free version)
-  url: https://www.vipole.com
-  recommendation: 3
-  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
-  communication_types: Text, files, photos, video, location, contacts, audio
-  country_origin: UK
-  requires_phone_number: Either
-  requires_email: Either
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: No
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
   has_ephemeral_messages: No
   encypted_by_default: Yes
   passes_puddle_test: Yes
   passes_hammer_test: No
   has_contact_verification: No
   leaks_files: Android
-  websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
-  notes_file: vipole_notes.html
-  version_tested: 1.8.73
-  last_update: 1/28/2018
-
-- name: vipolepro
-  category: 4
-  display_name: VIPole (Pro version)
-  url: https://www.vipole.com
-  recommendation: 3
-  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
-  communication_types: Text, files, photos, video, location, contacts, audio
-  country_origin: UK
-  requires_phone_number: Either
-  requires_email: Either
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
-  has_contact_verification: No
-  leaks_files: Android
-  websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
-  notes_file: vipole_notes.html
-  version_tested: 1.8.73
-  last_update: 1/28/2018
+  websites: <a href="https://fortknoxster.com/whitepaper.pdf">Whitepaper</a>
+  notes_file: fortknoxster.html
+  version_tested: 1.0.9
+  last_update: 7/16/2018
 
 - name: hoccer
   category: 4
@@ -959,192 +1064,6 @@
   version_tested: 2.6.1311
   last_update: 4/10/2018
 
-- name: simsme
-  category: 4
-  display_name: SIMSme
-  url: https://www.sims.me
-  recommendation: 2
-  platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
-  communication_types: Text, group chat, images, videos, location, contacts
-  country_origin: Germany
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: No
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: No
-  message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://www.sims.me/data-protection
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: Yes
-  leaks_files: No
-  websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
-  notes_file: simsme_notes.html
-  version_tested: 2.00.002.193784
-  last_update: 3/8/2018
-
-- name: soma
-  category: 4
-  display_name: Soma
-  url: https://soma.im
-  recommendation: 2
-  platforms: Android, iOS, Web
-  communication_types: Text, group chat, images, video, audio, location
-  country_origin: USA
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: No
-  leaks_files: No
-  websites: 
-  notes_file: soma_notes.html
-  version_tested: 1.9.0
-  last_update: 1/27/2018
-
-- name: brosix
-  category: 4
-  display_name: Brosix
-  url: https://www.brosix.com
-  recommendation: 3
-  platforms: Android, iOS, MacOS, Windows, Linux
-  communication_types: Text, group chat, files, voice, video
-  country_origin: Bulgaria
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://www.brosix.com/blog/encrypted-communication-yes-its-important/
-  message_stored_on_server: 
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: No
-  leaks_files: "?"
-  websites: <a href="https://www.brosix.com/security/">Security</a>
-  notes_file: brosix_notes.html
-  version_tested: 3.4.5
-  last_update: 1/27/2018
-
-- name: foilchat
-  category: 4
-  display_name: foilChat
-  url: https://www.foilchat.com
-  recommendation: 3
-  platforms: Android, iOS, Web
-  communication_types: Text, group chat, photos, video, audio messages
-  country_origin: Finland
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: Email
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: No
-  message_stored_on_server: 
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: No
-  leaks_files: Android
-  websites: <a href="https://www.foilchat.com/security/">Security</a>
-  notes_file: foilchat_notes.html
-  version_tested: 1.4.39
-  last_update: 1/25/2018
-
-- name: fortknoxster
-  category: 4
-  display_name: FortKnoxster
-  url: https://fortknoxster.com
-  recommendation: 3
-  platforms: Android, iOS, Web
-  communication_types: Chat, group chat, cloud file storage, video chat, screen sharing, voice, calendar, notes
-  country_origin: UK
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: "For mail yes, others ?"
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: No
-  has_contact_verification: No
-  leaks_files: Android
-  websites: <a href="https://fortknoxster.com/whitepaper.pdf">Whitepaper</a>
-  notes_file: fortknoxster.html
-  version_tested: 1.0.9
-  last_update: 7/16/2018
-
-- name: viber
-  category: 4
-  display_name: Viber
-  url: https://www.viber.com
-  recommendation: 3
-  platforms: Android, iOS, MacOS, Windows, Linux
-  communication_types: Text, group messaging, voice and video calls, photos
-  country_origin: Japan
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: Yes
-  is_locally_encrypted: No
-  perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://www.viber.com/security-overview
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: No
-  has_contact_verification: Yes
-  leaks_files: Android
-  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
-  notes_file: viber_notes.html
-  version_tested: 8.6.0
-  last_update: 4/3/2018
-
-- name: confide
-  category: 4
-  display_name: Confide
-  url: https://getconfide.com
-  recommendation: 3
-  platforms: <a href="https://getconfide.com/download">Android, iOS, MacOS, Windows</a>
-  communication_types: Text, group messaging, voice and video messages, file sharing
-  country_origin: USA
-  requires_phone_number: Either
-  requires_email: Either
-  id_contains_contact_info: Email
-  android_requires_google_play: Yes
-  is_locally_encrypted: N/A (messages deleted immediately)
-  perfect_forward_secrecy: No
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: No
-  leaks_files: No
-  websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
-  notes_file: confide_notes.html
-  version_tested: 5.3.5
-  last_update: 1/25/2018
-
 - name: squirrel
   category: 4
   display_name: Squirrel
@@ -1196,6 +1115,87 @@
   notes_file: vanish_notes.html
   version_tested: 2.04 (Android), 2.1 (iOS)
   last_update: 7/11/2018
+- name: viber
+  category: 4
+  display_name: Viber
+  url: https://www.viber.com
+  recommendation: 3
+  platforms: Android, iOS, MacOS, Windows, Linux
+  communication_types: Text, group messaging, voice and video calls, photos
+  country_origin: Japan
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.viber.com/security-overview
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: No
+  has_contact_verification: Yes
+  leaks_files: Android
+  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
+  notes_file: viber_notes.html
+  version_tested: 8.6.0
+  last_update: 4/3/2018
+
+- name: vipolefree
+  category: 4
+  display_name: VIPole (Free version)
+  url: https://www.vipole.com
+  recommendation: 3
+  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
+  communication_types: Text, files, photos, video, location, contacts, audio
+  country_origin: UK
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: No
+  has_contact_verification: No
+  leaks_files: Android
+  websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
+  notes_file: vipole_notes.html
+  version_tested: 1.8.73
+  last_update: 1/28/2018
+
+- name: vipolepro
+  category: 4
+  display_name: VIPole (Pro version)
+  url: https://www.vipole.com
+  recommendation: 3
+  platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
+  communication_types: Text, files, photos, video, location, contacts, audio
+  country_origin: UK
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: Yes
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: Android
+  websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
+  notes_file: vipole_notes.html
+  version_tested: 1.8.73
+  last_update: 1/28/2018
+
 
 # Category 5- Other partially open Source
 

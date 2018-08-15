@@ -1,13 +1,13 @@
 This messenger provides syncing of messages across multiple platforms, messages are not saved on the server so you do not get past messages when you connect a new device.  The user interface is very consistant between platforms.<br>
 A nice feature is that when you are sending messages from different devices, messages you send from other devices will have a note next to the time indicating which device it was sent from.<br>
 <br>
-Sent and read receipts appear on each message.  Pictures have a fuzzy preview until you download them.  Pictures are not automatically saved to your device but you can export them from the application to your device manually.  I really like this and think more applications should follow this model.  There is also a section of the app to view all attachments.<br>
+Sent and read receipts appear on each message.  Pictures have a fuzzy preview until they fully download from the server.  Pictures are not automatically saved to your device but you can export them from the application to your device manually.  I really like this and think more applications should follow this model.  There is also a section of the app to view all attachments.<br>
 <br>
-A bit of confusion in the interface is when creating new chats, there is an option for "new chat", which is for communicating with one person, then there is "New conversation" which is for communicating with a group.<br>
+A bit of confusion in the interface is when creating new chats, there is an option for "New chat", which is for communicating with one person, then there is "New conversation" which is for communicating with a group.<br>
 <br>
 The contact verification codes are a series of 15 random words.  This may be easier when comparing keys than what many apps use (long strings of characters).  However there does not seem to be a way in the app to mark that you have successfully verified a contact, so if you have lots of contacts you may forget which ones you have verified already.<br>
 <br>
-Another point of confusion is what the setting "Message expiration" actually does.  I set messages to expire after 5 minutes, however the messages I sent are still visible several days later.  Perhaps this means that if messages are not delivered within that time frame they are deleted from the server and never delivered?  I believe that is what happens based on section 2.1.1 of the white paper, however this feature isn't explained very clearly on the website.<br>
+Another point of confusion is what the setting "Message expiration" actually does.  This means that if messages are not delivered within that time frame they are deleted from the server and never delivered.  There is another option called "Automatic deletion" in the chat session which will delete the message after the set time once the message is read.  These features aren't explained very clearly on the website.  The Mac application does not seem to have the "Message expiration" setting anywhere that I can find.<br>
 <br>
 Push notifications for new messages were always received on multiple devices.<br>
 <br>
@@ -51,9 +51,11 @@ be used
 – strictly before any attempt to decrypt messages
 </pre></blockquote>
 <br>
-My verdict: I am liking it!<br>
+My verdict: I am liking it, some UI or FAQ clarifications still needed!<br>
 <br>
-I was pleasantly surprised at the number of security features available in the application.  The only major security feature I find missing is ephemeral messages (after message delivery), however it does have a setting to delete undelivered messages after a set amount of time (very nice)!<br>
-Also the synchronization of messages between multiple devices works almost flawlessly.  In one instance adding a new device created a second chat session with my test partner.<br>
-There were also some confusion about the difference between creating a new chat or conversation.  Also adding some indicator when you successfully verify a contact's key would be nice to have.<br>
-No other bugs were found in the software, and syncing across multiple platforms and being based outside the 14 eyes makes this a great option.<br>
+I was pleasantly surprised at the number of security features available in the application.  Not only does it have a timeout for the message to be deleted once it is delivered and read, there is also a separate setting for a timeout if the message is not delivered and still resides on the server (very nice)!<br>
+The synchronization of messages between multiple devices works flawlessly.  You do not get history of existing chats when adding a new device but that is expected (and good security).<br>
+I was a bit confused about the difference between creating a new chat or conversation (one is an individual chat and one is a group chat). The group chat has a subject, the individual chat does not.  At one point my chat partner and I had two separate chats going, and didn't understand why until we realized one of them was a group conversation.<br>
+Adding some indicator when you successfully verify a contact's key would be nice to have.<br>
+I did have a problem adding a third device, it received messages for a while but then would no longer connect to the server while my other devices still were connected to the server.<br>
+Syncing across multiple platforms and being based outside the 14 eyes makes this a great option.<br>
