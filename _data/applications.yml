@@ -746,6 +746,32 @@
   version_tested: 1.18 (iOS), 1.37.0 (Android)
   last_update: 6/24/2018
 
+- name: crypvisor
+  category: 4
+  display_name: Crypvisor
+  url: https://crypviser.network
+  recommendation: 2
+  platforms: iOS
+  communication_types: Chat, files, videos, location, voice calls
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: No
+  websites: <a href="https://crypviser.network/files/CrypViser_Whitepaper_v.1.2.pdf">Whitepaper</a>, <a href="https://medium.com/@crypviser/the-nitty-gritty-of-it-all-crypviser-unleased-f493df1f54a0">Medium: The Nitty Gritty of It All. Crypviser Unleased.</a>
+  notes_file: crypvisor_notes.html
+  version_tested: 1.5
+  last_update: 8/21/2018
+
 - name: freemessage
   category: 4
   display_name: FreeMessage
