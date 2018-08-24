@@ -1366,6 +1366,13 @@
   recommendation: 3
   notes_text: (brax.me)- Looks to be a dead project, no app updates since April 2017.
 
+- name: chat.onion
+  url: https://onionapps.github.io/Chat.onion/
+  category: 11
+  display_name: Chat.onion
+  recommendation: 3
+  notes_text: (https://onionapps.github.io/Chat.onion/) This app does not encrypt messages, it only uses base64 encoding! It looks like the project was started and never implimented enryption, no updates since 2016.
+
 - name: nettalk
   category: 11
   display_name: NetTalk Duo/Connect
