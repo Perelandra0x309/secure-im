@@ -7,10 +7,10 @@
 #  platforms: Android/iOS/MacOS/Windows/Linux/Web
 #  communication_types: 
 #  country_origin: 
-#  requires_phone_number: Yes/No
-#  requires_email: Yes/No
+#  requires_phone_number: Yes/No/Either
+#  requires_email: Yes/No/Either
 #  id_contains_contact_info: No/Email/Phone
-#  android_requires_google_play: Yes/No
+#  android_requires_google_play: Yes/No/"N/A"
 #  is_locally_encrypted: Yes/No
 #  perfect_forward_secrecy: Yes/No
 #  message_stored_on_server: Never/Temporarily/Yes
@@ -1090,6 +1090,33 @@
   version_tested: 2.6.1311
   last_update: 4/10/2018
 
+- name: secems
+  category: 4
+  display_name: SecEMS
+  url: https://secems.com
+  recommendation: 3
+  platforms: Android, iOS (MacOS and Windows coming soon)
+  communication_types:  Text, pictures, voice, video, files
+  country_origin: China?
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: "https://secems.com/2017/06/16/the-best-messaging-app-with-end-to-end-encryption/"
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  passes_puddle_test: No
+  passes_hammer_test: Yes
+  has_contact_verification: No
+  leaks_files: No
+  websites: 
+  notes_file: secems_notes.html
+  version_tested: 6.0.10
+  last_update: 8/25/2018
+
 - name: squirrel
   category: 4
   display_name: Squirrel
@@ -1115,6 +1142,32 @@
   notes_file: squirrel_notes.html
   version_tested: 1.1.2
   last_update: 6/30/2018
+
+- name: twicie
+  category: 4
+  display_name: Twicie
+  url: http://www.twicie.com
+  recommendation: 3
+  platforms: Android, iOS
+  communication_types: Text, group chat, photos, videos, audio
+  country_origin: Canada
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: Yes
+  encypted_by_default: "?"
+  passes_puddle_test: "?"
+  passes_hammer_test: "?"
+  has_contact_verification: "?"
+  leaks_files: "?"
+  websites: 
+  notes_file: twicie_notes.html
+  version_tested: 1.1.6
+  last_update: 8/26/2018
 
 - name: vanish
   category: 4
