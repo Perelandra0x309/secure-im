@@ -37,9 +37,9 @@ function setFilters() {
         tr[i].style.display = "none";
       } else if (filterFoolproof && tr[i].getElementsByTagName("td")[5].innerHTML != "Yes"){
         tr[i].style.display = "none";
-      } else if (filterPuddle && tr[i].getElementsByTagName("td")[6].innerHTML != "Yes"){
+      } else if (filterPuddle && tr[i].getElementsByTagName("td")[6].innerHTML != "Data not recoverable"){
         tr[i].style.display = "none";
-      } else if (filterHammer && tr[i].getElementsByTagName("td")[7].innerHTML != "Yes"){
+      } else if (filterHammer && tr[i].getElementsByTagName("td")[7].innerHTML != "Data not recoverable"){
         tr[i].style.display = "none";
       } else if (filterVer && tr[i].getElementsByTagName("td")[8].innerHTML != "Yes"){
         tr[i].style.display = "none";
@@ -69,7 +69,7 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
   Solution: Only encrypted communication is possible<br>
   </li>
   <li>Are you more concerned about the the “Puddle Test” or the “Hammer Test”?<br>
-  “Puddle Test”: If you accidentally dropped your phone in a Puddle and ruined it, would your messages be lost forever? Would you be able to recover them? Note that the No marked in yellow means that not passing the puddle test may be something you DO want.  Not passing this test could be desirable or not depending on your use case.<br>
+  “Puddle Test”: If you accidentally dropped your phone in a Puddle and ruined it, would your messages be lost forever? This test is really a personal preference, whether you want your messages to be retrievable in the event of an accident.  If you do not care about restoration of message, it may be desirable for the app you use to not be able to recover past messages.<br>
   “Hammer Test”: If you and a contact intentionally took a Hammer to your phones or otherwise tried to delete all your messages, would they really be deleted? Would someone else be able to recover them?<br>
   </li>
   <li>Do you need features to help you verify the identity of the person you’re talking to?<br>
@@ -83,8 +83,8 @@ Show apps that have:<br>
 <input type="checkbox" id="ephemCB" onchange="setFilters()" name="ephemCB" value="false"> <label for="ephemCB">Ephemeral Messages</label><br>
 <input type="checkbox" id="idCB" onchange="setFilters()" name="idCB" value="false"> <label for="idCB">ID contains no personal info</label><br>
 <input type="checkbox" id="foolproofCB" onchange="setFilters()" name="foolproofCB" value="false"> <label for="foolproofCB">Foolproof encryption</label><br>
-<input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false"> <label for="puddleCB">Passes Puddle test</label><br>
-<input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false"> <label for="hammerCB">Passes Hammer test</label><br>
+<input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false"> <label for="puddleCB">Puddle test: Data not recoverable</label><br>
+<input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false"> <label for="hammerCB">Hammer test: Data not recoverable</label><br>
 <input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false"> <label for="verifyCB">Has contact verification</label><br>
 
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
@@ -95,8 +95,8 @@ Show apps that have:<br>
 <th width="11%">Ephemeral Messages</th>
 <th width="11%">ID contains personal info</th>
 <th width="11%">Foolproof (All Messages Encrypted)</th>
-<th width="11%">Passes Puddle Test</th>
-<th width="11%">Passes Hammer Test</th>
+<th width="11%">Puddle Test</th>
+<th width="11%">Hammer Test</th>
 <th width="11%">Has Contact Verification</th>
 <th style="display:none">Recomendation</th>
 
@@ -155,20 +155,20 @@ Show apps that have:<br>
 	<td>{{ application.encypted_by_default }}</td>
 {% endif %}
 
-{% if application.passes_puddle_test == true %}
-	<td bgcolor="green">Yes</td>
-{% elsif application.passes_puddle_test == false %}
-	<td class="yellow">No</td>
+{% if application.puddle_test == "Not Recoverable" %}
+	<td bgcolor="green">Data not recoverable</td>
+{% elsif application.puddle_test == "Recoverable" %}
+	<td class="yellow">Data recoverable</td>
 {% else %}
-	<td>{{ application.passes_puddle_test }}</td>
+	<td>{{ application.puddle_test }}</td>
 {% endif %}
 
-{% if application.passes_hammer_test == true %}
-	<td bgcolor="green">Yes</td>
-{% elsif application.passes_hammer_test == false %}
-	<td bgcolor="red">No</td>
+{% if application.hammer_test == "Not Recoverable" %}
+	<td bgcolor="green">Data not recoverable</td>
+{% elsif application.hammer_test == "Recoverable" %}
+	<td bgcolor="red">Data recoverable</td>
 {% else %}
-	<td>{{ application.passes_hammer_test }}</td>
+	<td>{{ application.hammer_test }}</td>
 {% endif %}
 
 {% if application.has_contact_verification == true %}

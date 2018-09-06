@@ -16,8 +16,10 @@
 #  message_stored_on_server: Never/Temporarily/Yes
 #  has_ephemeral_messages: 
 #  encypted_by_default: 
-#  passes_puddle_test: 
-#  passes_hammer_test: 
+#  puddle_test: Not Recoverable/Recoverable
+#  puddle_test_note: 
+#  hammer_test: Not Recoverable/Recoverable
+#  hammer_test_note: 
 #  has_contact_verification: 
 #  leaks_files: 
 #  websites: 
@@ -45,8 +47,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: No
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
   websites: 
@@ -71,8 +75,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
@@ -97,8 +103,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Some clients on Android leak files
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
@@ -122,8 +130,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: MacOS leaks files
   has_contact_verification: No
   leaks_files: MacOS
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
@@ -148,8 +158,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
@@ -173,9 +185,11 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server: "?"
   has_ephemeral_messages: No
-  encypted_by_default: Yes
-  passes_puddle_test: "?"
-  passes_hammer_test: "?"
+  encypted_by_default: No
+  puddle_test: Recoverable
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: "Your data is saved in multiple feeds.  https://www.scuttlebutt.nz/faq/basics/data-live.html https://www.scuttlebutt.nz/faq/basics/delete.html"
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
@@ -203,8 +217,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://safeswiss.com/encryption">Encryption</a>
@@ -229,8 +245,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
@@ -255,8 +273,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: No
   leaks_files: No
   websites: 
@@ -282,8 +302,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: You may be able to see historical messages that were send to other devices, but there is no way to import from another device to restore messages
+  hammer_test: Recoverable
+  hammer_test_note: Android and Mac clients leak files
   has_contact_verification: No
   leaks_files: Android, Mac
   websites: <a href="https://sid.co/security-by-design">Security by Design</a>
@@ -308,8 +330,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: No
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
   has_contact_verification: No
   leaks_files: Android
   websites: 
@@ -334,8 +358,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: No
   encypted_by_default: No
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://www.opengarden.com/how-to.html">How it works</a>
@@ -360,8 +386,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
   has_contact_verification: No
   leaks_files: Android
   websites: 
@@ -386,8 +414,10 @@
   message_stored_on_server: Never
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
   websites: 
@@ -415,8 +445,10 @@
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: No
-  passes_puddle_test: No
-  passes_hammer_test: No
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
@@ -441,8 +473,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: No (Unless OMEMO Encyption is set to Always in some clients)
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Some clients also leak files.
   has_contact_verification: Yes
   leaks_files: Depends on the client
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
@@ -466,8 +500,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: No (Unless OMEMO Encyption is set to Always)
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
   has_contact_verification: Yes
   leaks_files: Android
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
@@ -492,8 +528,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: No
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the server, however if the session keys are lost then they cannot be decrypted.
+  hammer_test: Not Recoverable
+  hammer_test_note: When you delete all session keys from all your devices and chat partners' devices.  Messages may remain in encrypted form on the servers.
   has_contact_verification: Yes
   leaks_files: No
   perfect_forward_secrecy_source: https://about.riot.im/security/
@@ -520,8 +558,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
   has_contact_verification: Yes
   leaks_files: Android
   websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
@@ -547,8 +587,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: "Recoverable?"
+  puddle_test_note: 
+  hammer_test: "Recoverable?"
+  hammer_test_note: 
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://github.com/RetroShare/RetroShare">Source code</a>
@@ -571,11 +613,13 @@
   is_locally_encrypted_source: https://www.surespot.me/documents/how_surespot_works.html
   perfect_forward_secrecy: No
   perfect_forward_secrecy_source: https://www.surespot.me/documents/how_surespot_works.html
-  message_stored_on_server: 
+  message_stored_on_server: "?"
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
@@ -599,11 +643,13 @@
   is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
   perfect_forward_secrecy: Yes
   perfect_forward_secrecy_source: https://wire.com/en/security/
-  message_stored_on_server: 
+  message_stored_on_server: Yes
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Not Recoverable
+  hammer_test_note: Wire has an option to delete messages from all participant's devices.
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
@@ -628,13 +674,15 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: "?"
+  hammer_test_note: There is an option to delete a chat, it is not clear if this deletes it from the server or just deletes the keys.
   has_contact_verification: No
   leaks_files: No
   websites: 
   notes_file: xtorchat_notes.html
-  version_tested: "?"
+  version_tested: 1.0
   last_update: 7/11/2018
 
 
@@ -658,8 +706,10 @@
   message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
+  hammer_test: Not Recoverable
+  hammer_test_note:  When messages are deleted on all devices
   has_contact_verification: No
   leaks_files: No
   websites: 
@@ -670,7 +720,7 @@
 - name: wickrme
   category: 4
   display_name: Wickr Me
-  url: https://www.wickr.com/personal
+  url: https://wickr.com/products/personal/
   recommendation: 1
   platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
   communication_types: Text, group chat, video, files, video chat
@@ -681,11 +731,13 @@
   android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
+  message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
+  hammer_test: Not Recoverable
+  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
@@ -707,11 +759,13 @@
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  message_stored_on_server: Never/Temporarily/Yes
+  message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.  You can remotely delete messages from devices.
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
@@ -737,8 +791,10 @@
   message_stored_on_server_source: https://about.conclave.global/pdf/security-architecture.pdf
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: 
+  hammer_test: Not Recoverable
+  hammer_test_note: 
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://about.conclave.global/pdf/security-architecture.pdf">Security Architecture</a>
@@ -763,8 +819,10 @@
   message_stored_on_server: "?"
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Features multi-device synchronization
+  hammer_test: Not Recoverable
+  hammer_test_note: Able to destroy messages on both ends of chat.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://crypviser.network/files/CrypViser_Whitepaper_v.1.2.pdf">Whitepaper</a>, <a href="https://medium.com/@crypviser/the-nitty-gritty-of-it-all-crypviser-unleased-f493df1f54a0">Medium- The Nitty Gritty of It All. Crypviser Unleased.</a>
@@ -786,12 +844,14 @@
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
-  message_stored_on_server:
+  message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
-  has_contact_verification: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored encrypted on the server, so as long as your FreeMessage ID is backed up somewhere you can recreate your key.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices. Also if you destroy all partners chat keys messages remaining on server can not be decrypted.
+  has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
   notes_file: freemessage_notes.html
@@ -815,8 +875,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: Yes for MySudo contacts, No for SMS
   encypted_by_default: Yes for MySudo contacts, No for SMS
-  passes_puddle_test: "?"
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://mysudo.com/security/">Security Features</a>
@@ -842,8 +904,10 @@
   message_stored_on_server_source: https://www.sims.me/data-protection
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
@@ -869,8 +933,10 @@
   message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
   websites: 
@@ -895,8 +961,10 @@
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Message are automatically deleted once read. Any unread messages stored on the device are lost.
+  hammer_test: Not Recoverable
+  hammer_test_note: Message are automatically deleted once read.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://www.squealock.com/faq.html">FAQ</a>
@@ -918,11 +986,13 @@
   android_requires_google_play: No
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
-  message_stored_on_server:
+  message_stored_on_server: No
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are not restored when installing Tungsten on a new device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://tungsten-labs.com/faq">FAQ</a>
@@ -947,8 +1017,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server.
+  hammer_test: Recoverable
+  hammer_test_note: There does not seem to be any way to delete messages or your account.
   has_contact_verification: Yes
   leaks_files: No
   websites: 
@@ -971,13 +1043,15 @@
   is_locally_encrypted: "?"
   perfect_forward_secrecy: Yes
   perfect_forward_secrecy_source: https://www.brosix.com/blog/encrypted-communication-yes-its-important/
-  message_stored_on_server: 
+  message_stored_on_server: Temporarily
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: There does not seem to be any way to delete messages or your account.  The only way to really delete your messages is to uninstall the app.
   has_contact_verification: No
-  leaks_files: "?"
+  leaks_files: No
   websites: <a href="https://www.brosix.com/security/">Security</a>
   notes_file: brosix_notes.html
   version_tested: 3.4.5
@@ -1000,8 +1074,10 @@
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are deleted as soon as they are read.
+  hammer_test: Not Recoverable
+  hammer_test_note: Messages are deleted as soon as they are read.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://getconfide.com/faq">FAQ</a>, <a href="https://static.getconfide.com/audits/Confide-PT_A4.ENG.0001.02.pdf">Security Audit</a>
@@ -1023,11 +1099,13 @@
   android_requires_google_play: Yes
   is_locally_encrypted: "?"
   perfect_forward_secrecy: No
-  message_stored_on_server: 
+  message_stored_on_server: Yes
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://www.foilchat.com/security/">Security</a>
@@ -1052,8 +1130,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://fortknoxster.com/whitepaper.pdf">Whitepaper</a>
@@ -1080,8 +1160,10 @@
   message_stored_on_server_source: https://hoccer.com/faq/
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: Yes
   has_contact_verification_source: https://hoccer.com/faq/
   leaks_files: Android
@@ -1107,8 +1189,10 @@
   message_stored_on_server: Yes
   has_ephemeral_messages: Yes
   encypted_by_default: No
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages in the encrypted vault are saved to the cloud.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://www.hoopmessenger.com/privacy-policy/">Privacy Policy</a>
@@ -1123,7 +1207,7 @@
   recommendation: 3
   platforms: Android, iOS (MacOS and Windows coming soon)
   communication_types:  Text, pictures, voice, video, files
-  country_origin: China?
+  country_origin: China
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
@@ -1134,8 +1218,10 @@
   message_stored_on_server_source: "https://secems.com/2017/06/16/the-best-messaging-app-with-end-to-end-encryption/"
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
   websites: 
@@ -1160,8 +1246,10 @@
   message_stored_on_server: "?"
   has_ephemeral_messages: No
   encypted_by_default: No
-  passes_puddle_test: "?"
-  passes_hammer_test: "?"
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: "?"
+  hammer_test_note: 
   has_contact_verification: No
   leaks_files: "? Needs more testing"
   websites: 
@@ -1186,8 +1274,10 @@
   message_stored_on_server: "?"
   has_ephemeral_messages: Yes
   encypted_by_default: "?"
-  passes_puddle_test: "?"
-  passes_hammer_test: "?"
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: "?"
+  hammer_test_note: 
   has_contact_verification: "?"
   leaks_files: "?"
   websites: 
@@ -1212,14 +1302,17 @@
   message_stored_on_server: "?"
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: The encryption keys are only stored on your device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://www.disappears.com/pdf/report.pdf">Preliminary audit</a>
   notes_file: vanish_notes.html
   version_tested: 2.04 (Android), 2.1 (iOS)
   last_update: 7/11/2018
+
 - name: viber
   category: 4
   display_name: Viber
@@ -1234,15 +1327,17 @@
   android_requires_google_play: Yes
   is_locally_encrypted: No
   perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://www.viber.com/security-overview
+  perfect_forward_secrecy_source: https://www.viber.com/security/
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: No
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: Yes
   leaks_files: Android
-  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security-overview">Security Overview</a>
+  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security/">Security Overview</a>
   notes_file: viber_notes.html
   version_tested: 8.6.0
   last_update: 4/3/2018
@@ -1265,8 +1360,10 @@
   message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
@@ -1292,8 +1389,10 @@
   message_stored_on_server_source: https://www.vipole.com/en/security/protection-levels
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: No
   leaks_files: Android
   websites: <a href="https://www.vipole.com/en/security/encryption">Encryption</a>
@@ -1321,8 +1420,10 @@
   message_stored_on_server: 
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  passes_puddle_test: Yes
-  passes_hammer_test: Yes
+  puddle_test: Recoverable
+  puddle_test_note: 
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
   websites: <a href="https://github.com/keybase">Source code</a>
@@ -1348,8 +1449,10 @@
   message_stored_on_server: 
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: Yes
   leaks_files: No
   websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
@@ -1372,11 +1475,13 @@
   is_locally_encrypted: No
   perfect_forward_secrecy: Yes
   perfect_forward_secrecy_source: https://core.telegram.org/techfaq#q-how-does-end-to-end-encryption-work-in-mtproto
-  message_stored_on_server:
+  message_stored_on_server: Yes
   has_ephemeral_messages: Yes
   encypted_by_default: No
-  passes_puddle_test: No
-  passes_hammer_test: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
   has_contact_verification: Yes
   leaks_files: Android
   websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
@@ -1481,8 +1586,8 @@
   message_stored_on_server:
   has_ephemeral_messages: No
   encypted_by_default: No
-  passes_puddle_test: 
-  passes_hammer_test: 
+  puddle_test: 
+  hammer_test: 
   has_contact_verification: No
   websites: 
   notes_file: tormessenger_notes.html
@@ -1507,8 +1612,8 @@
   message_stored_on_server: 
   has_ephemeral_messages: Yes
   encypted_by_default: No
-  passes_puddle_test: No
-  passes_hammer_test: No
+  puddle_test: 
+  hammer_test: 
   has_contact_verification: Yes
   leaks_files: 
   websites: 
@@ -1537,8 +1642,8 @@
   message_stored_on_server: Temporarily
   has_ephemeral_messages: No
   encypted_by_default: Yes
-  passes_puddle_test: No
-  passes_hammer_test: Yes
+  puddle_test: 
+  hammer_test: 
   has_contact_verification: No
   leaks_files: 
   websites: <a href="https://www.goldenfrog.com/cyphr/how-cyphr-works">How Cypher Works</a>

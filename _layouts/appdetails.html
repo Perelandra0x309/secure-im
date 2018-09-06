@@ -136,36 +136,52 @@
 	Ephemeral messages: {{ application.has_ephemeral_messages }}<br>
 {% endif %}
 
-{% if application.passes_puddle_test == true %}
-  {% if application.passes_puddle_test_source %}
-	Passes the Puddle test: <span class="green"><a href="{{ application.passes_puddle_test_source }}">Yes</a></span><br>
+{% if application.puddle_test == "Not Recoverable" %}
+  {% if application.puddle_test_source %}
+	Puddle test: <span class="green"><a href="{{ application.puddle_test_source }}">Data not recoverable</a></span>
 	{% else %}
-	Passes the Puddle test: <span class="green">Yes</span><br>
+	Puddle test: <span class="green">Data not recoverable</span>
 	{% endif %}
-{% elsif application.passes_puddle_test == false %}
-  {% if application.passes_puddle_test_source %}
-	Passes the Puddle test: <span class="yellow"><a href="{{ application.passes_puddle_test_source }}">No</a></span><br>
+	{% if application.puddle_test_note %}
+	  {{ application.puddle_test_note }}
+	{% endif %}
+	<br>
+{% elsif application.puddle_test == "Recoverable" %}
+  {% if application.puddle_test_source %}
+	Puddle test: <span class="yellow"><a href="{{ application.puddle_test_source }}">Data recoverable</a></span>
 	{% else %}
-	Passes the Puddle test: <span class="yellow">No</span><br>
+	Puddle test: <span class="yellow">Data recoverable</span>
 	{% endif %}
+	{% if application.puddle_test_note %}
+	  {{ application.puddle_test_note }}
+	{% endif %}
+	<br>
 {% else %}
-	Passes the Puddle test: {{ application.passes_puddle_test }}<br>
+	Puddle test: {{ application.puddle_test }} {{ application.puddle_test_note }}<br>
 {% endif %}
 
-{% if application.passes_hammer_test == true %}
-  {% if application.passes_hammer_test_source %}
-	Passes the Hammer test: <span class="green"><a href="{{ application.passes_hammer_test_source }}">Yes</a></span><br>
+{% if application.hammer_test == "Not Recoverable" %}
+  {% if application.hammer_test_source %}
+	Hammer test: <span class="green"><a href="{{ application.hammer_test_source }}">Data not recoverable</a></span>
 	{% else %}
-	Passes the Hammer test: <span class="green">Yes</span><br>
+	Hammer test: <span class="green">Data not recoverable</span>
 	{% endif %}
-{% elsif application.passes_hammer_test == false %}
-  {% if application.passes_hammer_test_source %}
-	Passes the Hammer test: <span class="red"><a href="{{ application.passes_hammer_test_source }}">No</a></span><br>
+	{% if application.hammer_test_note %}
+	  {{ application.hammer_test_note }}
+	{% endif %}
+	<br>
+{% elsif application.hammer_test == "Recoverable" %}
+  {% if application.hammer_test_source %}
+	Hammer test: <span class="red"><a href="{{ application.hammer_test_source }}">Data recoverable</a></span>
 	{% else %}
-	Passes the Hammer test: <span class="red">No</span><br>
+	Hammer test: <span class="red">Data recoverable</span>
 	{% endif %}
+	{% if application.hammer_test_note %}
+	  {{ application.hammer_test_note }}
+	{% endif %}
+	<br>
 {% else %}
-	Passes the Hammer test: {{ application.passes_hammer_test }}<br>
+	Hammer test: {{ application.hammer_test }} {{ application.hammer_test_note }}<br>
 {% endif %}
 
 {% if application.has_contact_verification == true %}
