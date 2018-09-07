@@ -1057,6 +1057,34 @@
   version_tested: 3.4.5
   last_update: 1/27/2018
 
+- name: cashew
+  category: 4
+  display_name: Cashew
+  url: https://loment.net
+  recommendation: 3
+  platforms: Android, iOS
+  communication_types: text messaging, pictures, voice notes, audio, video, media files, documents
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Intalling app on another devices and logging in restores all previous messages and contacts.
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  websites: 
+  notes_file: cashew_notes.html
+  version_tested: 3.3.7 (iOS), 3.2.1 (Android)
+  last_update: 9/6/2018
+
 - name: confide
   category: 4
   display_name: Confide
