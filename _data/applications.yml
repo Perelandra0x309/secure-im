@@ -253,8 +253,8 @@
   leaks_files: No
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
   notes_file: twinme_notes.html
-  version_tested: 7.8.5
-  last_update: 1/23/2018
+  version_tested: 8.3.0
+  last_update: 9/17/2018
 
 - name: skred
   category: 2
