@@ -29,10 +29,12 @@ Features Matrix:
 <th>Foolproof (All Messages Encrypted)</th>
 <th>Has Contact Verification</th>
 <th>Leaks Files</th>
+<th>Android Trackers</th>
 </tr></thead>
 <tbody>
 
 {% assign final_platforms = 'Android' %}
+{% assign final_trackers = 'Google Firebase Analytics' %}
 {% for application in applications %}
 {% if application.recommendation == 1 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
 {% elsif application.recommendation == 2 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img src="images/checkmark.gif">{% endcapture %}
@@ -179,13 +181,19 @@ Features Matrix:
 	<td bgcolor="red">{{ application.leaks_files }}</td>
 {% endif %}
 
+
+	<td>{{ application.exodus_privacy_trackers_description }}</td>
+{% assign clean = application.exodus_privacy_trackers_description | replace: ' ,',',' | replace: ', ',',' %}
+{% assign final_trackers = final_trackers | append: ',' | append: clean %}
+{% assign final_trackers = final_trackers | replace: ',,',',' | split:',' | uniq | sort | join: ',' %}
+
 </tr>
 {% endfor %}
 </tbody>
 </table>
 
-{% capture texts_values %}[['Only recommended'],['{{ final_platforms | split: ',' | sort | join: "','" }}']]{% endcapture %}
-{% capture values_values %}[['*recommended'],['*{{ final_platforms | split: ',' | sort | join: "','*" }}']]{% endcapture %}
+{% capture texts_values %}[['Only recommended'],['{{ final_platforms | split: ',' | sort | join: "','" }}'],['{{ final_trackers | split: ',' | join: "','"}}']]{% endcapture %}
+{% capture values_values %}[['*recommended'],['*{{ final_platforms | split: ',' | sort | join: "','*" }}'],['*{{ final_trackers | split: ',' | join: "','*"}}']]{% endcapture %}
 
 <script language="javascript" type="text/javascript"> 
     // http://tablefilter.free.fr 
@@ -208,11 +216,12 @@ Features Matrix:
       col_10: "checklist",
       col_11: "checklist",
       col_12: "checklist",
+      col_13: "select",
       custom_slc_options: {
-        cols:[0,3],
+        cols:[0,3,13],
         texts: {{ texts_values }},
         values: {{ values_values }},
-        sorts: [false,false]
+        sorts: [false,false,false]
       },
       help_instructions_html: "Use the filters above each column to filter and limit table data.<hr/>",
       

@@ -4,6 +4,8 @@
   <p>{{ site.description }}</p>
   
 Table of Contents:<br>
+<table>
+<tr><td>
 <ul>
   {% capture htmllink %}{% link index.html %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Home</a></li>
@@ -13,6 +15,10 @@ Table of Contents:<br>
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">EFF Guide to Choosing a Messenger</a></li>
   {% capture htmllink %}{% link _pages/featuresmatrix.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Features Matrix</a></li>
+  {% capture htmllink %}{% link _pages/notrackers.md %}{% endcapture %}
+  <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">No Trackers Hall of Fame!</a></li>
+</ul></td>
+<td><ul>
   {% capture htmllink %}{% link p2popen.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">P2P Open Source Applications</a></li>
   {% capture htmllink %}{% link p2ppartialopen.md %}{% endcapture %}
@@ -25,7 +31,8 @@ Table of Contents:<br>
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Other Partial Open Source Applications</a></li>
   {% capture htmllink %}{% link otherclosed.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Other Closed Source Applications</a></li>
-</ul>
+</ul></td>
+</table>
   <hr>
   <span class="credits left">Project maintained by <a href="https://github.com/Perelandra0x309">Perelandra0x309</a></span>
   <span class="credits right">Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>

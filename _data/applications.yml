@@ -359,7 +359,7 @@
   has_contact_verification: No
   leaks_files: Android
   exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Google Anaytics, Google CrashLytics, Google Firebase Analytics
+  exodus_privacy_trackers_description: Google Analytics, Google CrashLytics, Google Firebase Analytics
   websites: 
   notes_file: zangi_notes.html
   version_tested: 4.3.5
@@ -943,7 +943,7 @@
   has_contact_verification: Yes
   leaks_files: No
   exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Adjust, Google Ads, Google DoublClick
+  exodus_privacy_trackers_description: Adjust, Google Ads, Google DoubleClick
   websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
   notes_file: simsme_notes.html
   version_tested: 2.00.002.193784
