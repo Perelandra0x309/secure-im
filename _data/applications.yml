@@ -1315,9 +1315,9 @@
   version_tested: 6.0.10
   last_update: 8/25/2018
 
-- name: squirrel
+- name: together
   category: 4
-  display_name: Squirrel
+  display_name: Together
   url: https://squirrel.yahoo.com
   recommendation: 3
   platforms: Android, iOS
@@ -1341,9 +1341,9 @@
   exodus_privacy_trackers_count: 3
   exodus_privacy_trackers_description: Flurry, Google Ads, Google DoubleClick
   websites: 
-  notes_file: squirrel_notes.html
-  version_tested: 1.1.2
-  last_update: 6/30/2018
+  notes_file: together_notes.html
+  version_tested: 1.5.1
+  last_update: 10/21/2018
 
 - name: twicie
   category: 4
