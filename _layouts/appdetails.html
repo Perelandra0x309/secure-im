@@ -206,6 +206,10 @@
 	Leaks files: <span class="red">{{ application.leaks_files }}</span><br>
 {% endif %}
 
+{% if application.exodus_privacy_trackers_count %}
+  Android app trackers ({{ application.exodus_privacy_trackers_count }}): {{ application.exodus_privacy_trackers_description }}<br>
+{% endif %}
+
   Websites: {{ application.websites }}<br>
   Last tested: {{ application.last_update }}<br>
   <b>Notes:</b><br>
