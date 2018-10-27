@@ -918,6 +918,36 @@
   version_tested: 0.9.4
   last_update: 6/26/2018
 
+- name: safetext
+  category: 4
+  display_name: SafeText
+  url: https://safe-text.com
+  recommendation: 2
+  platforms: Android, iOS, Web
+  communication_types: Text, photos, group chat
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on their servers so you can access via the web login.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count:  1
+  exodus_privacy_trackers_description: Google CrashLytics
+  websites: <a href="https://safe-text.com/privacy/">Privacy Policy</a>, <a href ="https://safe-text.com/terms-of-service/">Terms of Service</a>
+  notes_file: safetext_notes.html
+  version_tested: "Android: 1.1.79, iOS: 1.0.118"
+  last_update: 10/27/2018
+
 - name: simsme
   category: 4
   display_name: SIMSme
