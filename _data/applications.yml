@@ -768,36 +768,6 @@
   version_tested: 2.0.29
   last_update: 1/28/2018
 
-- name: wickrme
-  category: 4
-  display_name: Wickr Me
-  url: https://wickr.com/products/personal/
-  recommendation: 1
-  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
-  communication_types: Text, group chat, video, files, video chat
-  country_origin: USA
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
-  hammer_test: Not Recoverable
-  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Countly, Google Firebase Analytics
-  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
-  notes_file: wickrme_notes.html
-  version_tested: 4.19.4
-  last_update: 1/28/2018
-
 - name: babelnet
   category: 4
   display_name: BabelNet
@@ -1591,6 +1561,36 @@
   notes_file: threema_notes.html
   version_tested: 3.41
   last_update: 1/28/2018
+
+- name: wickrme
+  category: 5
+  display_name: Wickr Me
+  url: https://wickr.com/products/personal/
+  recommendation: 1
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
+  communication_types: Text, group chat, video, files, video chat
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
+  hammer_test: Not Recoverable
+  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Countly, Google Firebase Analytics
+  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
+  notes_file: wickrme_notes.html
+  version_tested: 4.62.0
+  last_update: 10/30/2018
 
 - name: telegram
   category: 5
