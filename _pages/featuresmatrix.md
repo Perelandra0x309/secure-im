@@ -30,6 +30,7 @@ Features Matrix:
 <th>Has Contact Verification</th>
 <th>Leaks Files</th>
 <th>Android Trackers</th>
+<th>Business Model</th>
 </tr></thead>
 <tbody>
 
@@ -187,6 +188,7 @@ Features Matrix:
 {% assign final_trackers = final_trackers | append: ',' | append: clean %}
 {% assign final_trackers = final_trackers | replace: ',,',',' | split:',' | uniq | sort | join: ',' %}
 
+  <td>{{ application.business_model }}</td>
 </tr>
 {% endfor %}
 </tbody>
