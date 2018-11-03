@@ -131,7 +131,7 @@
   url: https://ring.cx
   recommendation: 3
   platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
-  business_model:
+  business_model: Open source, side project of Savoir-faire Linux
   communication_types: Text, group chat, voice, video, files, photos
   country_origin: Canada
   requires_phone_number: No
@@ -162,7 +162,7 @@
   url: https://briarproject.org
   recommendation: 1
   platforms: Android (via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>)
-  business_model:
+  business_model: Free open source project, Bitcoin donations, <a href="https://briarproject.org/about.html">other funding</a>
   communication_types: Text and forums
   country_origin: None
   requires_phone_number: No
@@ -193,7 +193,7 @@
   url: https://github.com/ssbc/patchwork
   recommendation: 2
   platforms: Linux, MacOS, Windows
-  business_model:
+  business_model: Free open source project
   communication_types: Text
   country_origin: None
   requires_phone_number: No
@@ -226,7 +226,7 @@
   url: https://safeswiss.com
   recommendation: 1
   platforms: Android, iOS, Windows
-  business_model:
+  business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
   communication_types: Text, group chat, voice, pictures, video, location
   country_origin: Switzerland
   country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
@@ -289,7 +289,7 @@
   url: https://skred.mobi
   recommendation: 2
   platforms: Android, iOS
-  business_model:
+  business_model: <a href="https://skred.mobi/fr/cgu/">Operated by SKRED SAS with a capital of €1,387,000</a>
   communication_types: Text, image, sound, music, video
   country_origin: France
   requires_phone_number: No
@@ -317,10 +317,10 @@
 - name: firechat
   category: 2
   display_name: FireChat
-  url: https://www.opengarden.com/firechat.html
+  url: https://www.opengarden.com/firechat/
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: Various <a href="https://www.opengarden.com/team/">investors</a>??
   communication_types: Text, private group chat, public chatrooms, photos
   country_origin: USA
   requires_phone_number: No
@@ -351,7 +351,7 @@
   url: https://kripter.io
   recommendation: 3
   platforms: Android
-  business_model:
+  business_model: "?"
   communication_types: Text, voice, pictures, files, location
   country_origin: UK
   requires_phone_number: No
@@ -366,8 +366,8 @@
   puddle_test: Not Recoverable
   puddle_test_note: Messages saved only on device
   hammer_test: Recoverable
-  hammer_test_note: Android client leaks files
-  has_contact_verification: No
+  hammer_test_note: Android client automatically saves files to your Pictures folder (by design)
+  has_contact_verification: Yes
   leaks_files: Android
   exodus_privacy_trackers_count: 1
   exodus_privacy_trackers_description: Google CrashLytics
@@ -382,7 +382,6 @@
   url: https://linkcast.me
   recommendation: 3
   platforms: Android, iOS
-  business_model:
   business_model: Purchasing of coins and stickers in the app
   communication_types: Text, group chat, video chat, photos, videos, files, location
   country_origin: Japan
@@ -414,7 +413,7 @@
   url: https://sid.co
   recommendation: 3
   platforms: Android, iOS, MacOS, Windows, Linux
-  business_model:
+  business_model: Sid is a demonstration of <a href="http://www.spherebox.com">Spherebox</a> technology
   communication_types: Text, group chat, pictures, audio, files
   country_origin: Germany
   requires_phone_number: No
@@ -446,7 +445,7 @@
   url: http://stealthchat.com
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: A project of <a href="http://www.rockliffe.com">Rockliffe</a> software.
   communication_types: Text, group chat, voice, pictures
   country_origin: USA
   requires_phone_number: Yes
@@ -477,7 +476,7 @@
   url: http://zangi.com
   recommendation: 3
   platforms: Android, iOS (MacOS, Windows and web coming soon)
-  business_model:
+  business_model: Enterprise <a href="https://zangi.com/about">messenger solutions</a>
   communication_types: Text, VOIP, photos, video, audio, files, location
   country_origin: USA
   requires_phone_number: Yes
@@ -511,7 +510,7 @@
   url: https://www.signal.org
   recommendation: 1
   platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iOS, MacOS, Windows, Linux
-  business_model:
+  business_model: Free open source project supported by grants and donations
   communication_types: Text, voice, video, files, images
   country_origin: USA
   requires_phone_number: Yes
@@ -543,7 +542,7 @@
   url: https://xmpp.org
   recommendation: 3
   platforms: Android, iOS, MacOS, Windows, Linux
-  business_model:
+  business_model: Nonprofit <a href="https://xmpp.org/about/xmpp-standards-foundation.html">XMPP Standards Foundation</a>
   communication_types: Text, group chat
   country_origin: Various
   requires_phone_number: No
@@ -605,7 +604,7 @@
   url: https://about.riot.im
   recommendation: 1
   platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux, Web
-  business_model:
+  business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
   communication_types: Text, voice, video, file sharing
   country_origin: UK
   requires_phone_number: No
@@ -637,7 +636,7 @@
   url: http://www.kontalk.org
   recommendation: 3
   platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
-  business_model:
+  business_model: Free open source project, servers run by volunteers
   communication_types: Text, photo, video, audio, files, location, contacts
   country_origin: None
   requires_phone_number: Yes
@@ -669,7 +668,7 @@
   url: http://retroshare.net
   recommendation: 2
   platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux, FreeBSD</a>
-  business_model:
+  business_model: Free open source project
   communication_types: Text, voice, video, email, file sharing
   country_origin: None
   requires_phone_number: No
@@ -699,7 +698,7 @@
   url: https://www.surespot.me
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: Free open source project, Bitcoin donations
   communication_types: Text, voice, images
   country_origin: USA
   country_origin_source: https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html
@@ -733,7 +732,7 @@
   url: https://wire.com
   recommendation: 1
   platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux, Web
-  business_model:
+  business_model: Enterprise version of the platform
   communication_types: Text, voice, video, file sharing
   country_origin: Switzerland
   requires_phone_number: Either
@@ -766,7 +765,7 @@
   url: https://xrooters.ro
   recommendation: 3
   platforms: iOS
-  business_model:
+  business_model: Free open source project
   communication_types: Text
   country_origin: Romania
   requires_phone_number: No
@@ -800,7 +799,7 @@
   url: https://eleet.im
   recommendation: 1
   platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux, Web
-  business_model:
+  business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, videos, audio files
   country_origin: UK
   requires_phone_number: No
@@ -863,7 +862,7 @@
   url: https://crypviser.network
   recommendation: 2
   platforms: iOS
-  business_model:
+  business_model: CV Secure Business and CVCore SaaS enterprise subscriptions
   communication_types: Chat, files, videos, location, voice calls
   country_origin: Germany
   requires_phone_number: No
@@ -894,7 +893,7 @@
   url: https://freemessage.com
   recommendation: 2
   platforms: Android, iOS
-  business_model:
+  business_model: "?"
   communication_types: Text, group chat, photos, files
   country_origin: Germany
   requires_phone_number: Yes
@@ -956,7 +955,7 @@
   url: https://safe-text.com
   recommendation: 2
   platforms: Android, iOS, Web
-  business_model:
+  business_model: "?"
   communication_types: Text, photos, group chat
   country_origin: UK
   requires_phone_number: No
@@ -987,7 +986,7 @@
   url: https://www.sims.me
   recommendation: 2
   platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
-  business_model:
+  business_model: Enterprise version of the platform
   communication_types: Text, group chat, images, videos, location, contacts
   country_origin: Germany
   requires_phone_number: Yes
@@ -1019,7 +1018,7 @@
   url: https://soma.im
   recommendation: 3
   platforms: Android, iOS, Web
-  business_model:
+  business_model: Supported by ads
   communication_types: Text, group chat, images, video, audio, location
   country_origin: USA
   requires_phone_number: Yes
@@ -1051,7 +1050,7 @@
   url: https://www.squealock.com
   recommendation: 2
   platforms: Android, iOS
-  business_model:
+  business_model: <a href="https://www.squealock.com/donate.html">Investors and donations</a>?
   communication_types: Chat, images, video, audio
   country_origin: USA
   requires_phone_number: No
@@ -1082,7 +1081,7 @@
   url: https://tungsten-labs.com
   recommendation: 2
   platforms: Android, iOS (MacOS/Windows/Linux coming soon)
-  business_model:
+  business_model: Future <a href="https://tungsten-labs.com/faq/general#how-do-you-make-money">paid version or subscription</a>
   communication_types: Chat, group chat, photos, files
   country_origin: Germany
   requires_phone_number: No
@@ -1113,7 +1112,7 @@
   url: https://whispeer.de
   recommendation: 2
   platforms: Android, iOS, Web
-  business_model:
+  business_model: "?"
   communication_types: Text, group chat, photos, files, audio recordings
   country_origin: Germany
   requires_phone_number: No
@@ -1144,7 +1143,7 @@
   url: https://www.brosix.com
   recommendation: 3
   platforms: Android, iOS, MacOS, Windows, Linux
-  business_model: Enterprise version of platform
+  business_model: Enterprise version of the platform
   communication_types: Text, group chat, files, voice, video
   country_origin: Bulgaria
   requires_phone_number: No
@@ -1176,7 +1175,7 @@
   url: https://loment.net
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: Enterprise version of the platform
   communication_types: text messaging, pictures, voice notes, audio, video, media files, documents
   country_origin: USA
   requires_phone_number: No
@@ -1207,7 +1206,7 @@
   url: https://getconfide.com
   recommendation: 3
   platforms: <a href="https://getconfide.com/download">Android, iOS, MacOS, Windows</a>
-  business_model:
+  business_model: Subscription plans for premium features or enterprise
   communication_types: Text, group messaging, voice and video messages, file sharing
   country_origin: USA
   requires_phone_number: Either
@@ -1238,7 +1237,7 @@
   url: https://www.foilchat.com
   recommendation: 3
   platforms: Android, iOS, Web
-  business_model:
+  business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, video, audio messages
   country_origin: Finland
   requires_phone_number: No
@@ -1269,7 +1268,7 @@
   url: https://fortknoxster.com
   recommendation: 3
   platforms: Android, iOS, Web
-  business_model:
+  business_model: Purchasing additional cloud storage, future enterprise platform
   communication_types: Chat, group chat, cloud file storage, video chat, screen sharing, voice, calendar, notes
   country_origin: UK
   requires_phone_number: Yes
@@ -1300,7 +1299,7 @@
   url: https://hoccer.com
   recommendation: 3
   platforms: <a href="https://hoccer.com/#section-download">Android, iOS</a>
-  business_model:
+  business_model: <a href="https://hoccer.com/company/">?</a>
   communication_types: Text, file sharing
   country_origin: Germany
   requires_phone_number: No
@@ -1334,7 +1333,7 @@
   url: https://www.hoopmessenger.com
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: "?"
   communication_types: Text, photos, files, video, stickers
   country_origin: Canada
   requires_phone_number: Yes
@@ -1365,7 +1364,7 @@
   url: https://secems.com
   recommendation: 3
   platforms: Android, iOS (MacOS and Windows coming soon)
-  business_model:
+  business_model: "?"
   communication_types:  Text, pictures, voice, video, files
   country_origin: China
   requires_phone_number: No
@@ -1397,7 +1396,7 @@
   url: https://squirrel.yahoo.com
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: It's Yahoo!
   communication_types: text, photos, group chat, files
   country_origin: USA
   requires_phone_number: Yes
@@ -1428,7 +1427,7 @@
   url: http://www.twicie.com
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: "?"
   communication_types: Text, group chat, photos, videos, audio
   country_origin: Canada
   requires_phone_number: Either
@@ -1459,9 +1458,9 @@
   url: https://www.disappears.com
   recommendation: 3
   platforms: Android, iOS
-  business_model:
+  business_model: "?"
   communication_types: text, photos, video and audio calls
-  country_origin: USA
+  country_origin: Canada
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
@@ -1490,7 +1489,7 @@
   url: https://www.viber.com
   recommendation: 3
   platforms: Android, iOS, MacOS, Windows, Linux
-  business_model:
+  business_model: VoIP calling plans
   communication_types: Text, group messaging, voice and video calls, photos
   country_origin: Japan
   requires_phone_number: Yes
@@ -1522,7 +1521,7 @@
   url: https://www.vipole.com
   recommendation: 3
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
-  business_model: Enterprise version of platform
+  business_model: Subscription plans for premium features
   communication_types: Text, files, photos, video, location, contacts, audio
   country_origin: UK
   requires_phone_number: Either
@@ -1554,7 +1553,7 @@
   url: https://www.vipole.com
   recommendation: 3
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
-  business_model: Enterprise version of platform
+  business_model: Enterprise version of the platform
   communication_types: Text, files, photos, video, location, contacts, audio
   country_origin: UK
   requires_phone_number: Either
@@ -1589,7 +1588,7 @@
   url: https://www.keybase.io
   recommendation: 1
   platforms: Android, iOS, MacOS, Windows, Linux
-  business_model:
+  business_model: <a href="https://keybase.io/jobs">Investors?</a>
   communication_types: Text, group chat, file sharing
   country_origin: USA
   requires_phone_number: No
@@ -1652,7 +1651,7 @@
   url: https://wickr.com/products/personal/
   recommendation: 1
   platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
-  business_model: Enterprise version of platform
+  business_model: Enterprise version of the platform
   communication_types: Text, group chat, video, files, video chat
   country_origin: USA
   requires_phone_number: No
@@ -1683,7 +1682,7 @@
   url: https://telegram.org
   recommendation: 3
   platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, Web</a>
-  business_model:
+  business_model: <a href="https://www.bloomberg.com/news/articles/2017-12-12/cryptic-russian-crusader-says-his-5-billion-app-can-t-be-bought">Self funded</a> by <a href="https://telegram.org/faq#q-who-are-the-people-behind-telegram">Pavel Durov</a>
   communication_types: Text, voice, file sharing
   country_origin: UK
   requires_phone_number: Yes
