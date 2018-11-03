@@ -5,6 +5,7 @@
 #  url: 
 #  recommendation: (1- highly, 2- worth a try, 3- not recommended)
 #  platforms: Android/iOS/MacOS/Windows/Linux/Web
+#  business_model: 
 #  communication_types: 
 #  country_origin: 
 #  requires_phone_number: Yes/No/Either
@@ -22,7 +23,7 @@
 #  hammer_test_note: 
 #  has_contact_verification: 
 #  leaks_files: 
-#  exodus_privacy_trackers_count:  
+#  exodus_privacy_trackers_count: 
 #  exodus_privacy_trackers_description: 
 #  websites: 
 #  notes_file: 
@@ -304,67 +305,6 @@
   version_tested: 0.6.5
   last_update: 8/12/2018
 
-- name: sid
-  category: 2
-  display_name: Sid
-  url: https://sid.co
-  recommendation: 3
-  platforms: Android, iOS, MacOS, Windows, Linux
-  communication_types: Text, group chat, pictures, audio, files
-  country_origin: Germany
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  is_locally_encrypted_source: https://sid.co/faq#faq-list-item-5
-  perfect_forward_secrecy: No
-  message_stored_on_server: Never
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: You may be able to see historical messages that were send to other devices, but there is no way to import from another device to restore messages
-  hammer_test: Recoverable
-  hammer_test_note: Android and Mac clients leak files
-  has_contact_verification: No
-  leaks_files: Android, Mac
-  exodus_privacy_trackers_count: 4
-  exodus_privacy_trackers_description: Facebook Login, Facebook Share, Google Firebase Analytics, Matomo (Piwik)
-  websites: <a href="https://sid.co/security-by-design">Security by Design</a>
-  notes_file: sid_notes.html
-  version_tested: 0.9.4
-  last_update: 1/23/2018
-
-- name: zangi
-  category: 2
-  display_name: Zangi
-  url: http://zangi.com
-  recommendation: 3
-  platforms: Android, iOS (MacOS, Windows and web coming soon)
-  communication_types: Text, VOIP, photos, video, audio, files, location
-  country_origin: USA
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: Yes
-  is_locally_encrypted: No
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Recoverable
-  hammer_test_note: Android client leaks files
-  has_contact_verification: No
-  leaks_files: Android
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Google Analytics, Google CrashLytics, Google Firebase Analytics
-  websites: 
-  notes_file: zangi_notes.html
-  version_tested: 4.3.5
-  last_update: 1/27/2018
-
 - name: firechat
   category: 2
   display_name: FireChat
@@ -425,6 +365,68 @@
   version_tested: 1.3
   last_update: 11/26/2017
 
+- name: linkcast
+  category: 2
+  display_name: LinkCast
+  url: https://linkcast.me
+  recommendation: 3
+  platforms: Android, iOS
+  business_model: Purchasing of coins and stickers in the app
+  communication_types: Text, group chat, video chat, photos, videos, files, location
+  country_origin: Japan
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Google Analytics, Google CrashLytics, Google Firebase Analytics
+  websites: <a href="https://linkcast.me/en/faq.php">FAQ</a>
+  notes_file: linkcast_notes.html
+  version_tested: Android- 3.0.5, iOS- 3.1.0
+  last_update: 11/03/2018
+
+- name: sid
+  category: 2
+  display_name: Sid
+  url: https://sid.co
+  recommendation: 3
+  platforms: Android, iOS, MacOS, Windows, Linux
+  communication_types: Text, group chat, pictures, audio, files
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://sid.co/faq#faq-list-item-5
+  perfect_forward_secrecy: No
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: You may be able to see historical messages that were send to other devices, but there is no way to import from another device to restore messages
+  hammer_test: Recoverable
+  hammer_test_note: Android and Mac clients leak files
+  has_contact_verification: No
+  leaks_files: Android, Mac
+  exodus_privacy_trackers_count: 4
+  exodus_privacy_trackers_description: Facebook Login, Facebook Share, Google Firebase Analytics, Matomo (Piwik)
+  websites: <a href="https://sid.co/security-by-design">Security by Design</a>
+  notes_file: sid_notes.html
+  version_tested: 0.9.4
+  last_update: 1/23/2018
+
 - name: stealthchat
   category: 2
   display_name: StealthChat
@@ -454,6 +456,37 @@
   notes_file: stealthchat_notes.html
   version_tested: 1.3.7
   last_update: 2/2/2018
+
+- name: zangi
+  category: 2
+  display_name: Zangi
+  url: http://zangi.com
+  recommendation: 3
+  platforms: Android, iOS (MacOS, Windows and web coming soon)
+  communication_types: Text, VOIP, photos, video, audio, files, location
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Google Analytics, Google CrashLytics, Google Firebase Analytics
+  websites: 
+  notes_file: zangi_notes.html
+  version_tested: 4.3.5
+  last_update: 1/27/2018
+
 
 # Category 3- Other open source
 
