@@ -27,21 +27,21 @@ function setFilters() {
 
   // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[9];
+    td = tr[i].getElementsByTagName("td")[10];
     if (td) {
       if (filterRec && td.innerHTML > 2) {
         tr[i].style.display = "none";
-      } else if (filterEph && tr[i].getElementsByTagName("td")[3].innerHTML != "Yes"){
+      } else if (filterEph && tr[i].getElementsByTagName("td")[4].innerHTML != "Yes"){
         tr[i].style.display = "none";
-      } else if (filterID && tr[i].getElementsByTagName("td")[4].innerHTML != "No"){
+      } else if (filterID && tr[i].getElementsByTagName("td")[5].innerHTML != "No"){
         tr[i].style.display = "none";
-      } else if (filterFoolproof && tr[i].getElementsByTagName("td")[5].innerHTML != "Yes"){
+      } else if (filterFoolproof && tr[i].getElementsByTagName("td")[6].innerHTML != "Yes"){
         tr[i].style.display = "none";
-      } else if (filterPuddle && tr[i].getElementsByTagName("td")[6].innerHTML != "Data not recoverable"){
+      } else if (filterPuddle && tr[i].getElementsByTagName("td")[7].innerHTML != "Data not recoverable"){
         tr[i].style.display = "none";
-      } else if (filterHammer && tr[i].getElementsByTagName("td")[7].innerHTML != "Data not recoverable"){
+      } else if (filterHammer && tr[i].getElementsByTagName("td")[8].innerHTML != "Data not recoverable"){
         tr[i].style.display = "none";
-      } else if (filterVer && tr[i].getElementsByTagName("td")[8].innerHTML != "Yes"){
+      } else if (filterVer && tr[i].getElementsByTagName("td")[9].innerHTML != "Yes"){
         tr[i].style.display = "none";
       } else {
         tr[i].style.display = "";
@@ -89,6 +89,7 @@ Show apps that have:<br>
 
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
 <table id="myTable">
+<th>&nbsp;&nbsp;&nbsp;</th>
 <th>Name</th>
 <th>Platforms</th>
 <th width="11%">Country of Origin</th>
@@ -101,7 +102,14 @@ Show apps that have:<br>
 <th style="display:none">Recomendation</th>
 
 {% for application in applications %}
+{% if application.recommendation == 1 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+{% elsif application.recommendation == 2 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img src="images/checkmark.gif">{% endcapture %}
+{% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
+{% endif %}
+
 <tr>
+  <td>{{ htmlimage }}</td>
+
 	<td>{% include generate_app_link.html app_name="application.name" %}</td>
 	<td>{{ application.platforms }}</td>
 

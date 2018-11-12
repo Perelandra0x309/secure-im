@@ -1,4 +1,67 @@
-Android leaks files: found photos in Local Storage/Device Storage/Conversations/Media<br>
+It has taken me some time to really understand how Conversations and OMEMO works, and so I have to start by saying that if you are concerned about message confidentiality I feel this app is only for those who are technically advanced and have an understanding of the technologies involved and the limitations.  Using OMEMO is not foolproof at all and so can easily be used incorrectly if you are looking for a truly secure system.<br>
 <br>
-My Verdict: The best xmpp app, but security is an afterthought<br>
-XMPP was not designed with security at it's core.  Therefore be careful of data leakage.  Until that is resolved Conversations is not a secure IM app.  Even if these flaws are fixed however, you are still exposed if others are using clients that may also have data leakage.<br>
+Here is some good reading on the issues with OMEMO encryption and contact trust and verification.  These are not easy concepts for the normal person to grasp: <a href="https://gultsch.de/trust.html">Blind Trust Before Verification</a>. OMEMO encryption only works in private (members only) conferences and individual chats, so it will not work in open group chats.<br>
+<br>
+Here are some settings to make Conversations more secure:<br>
+<br>
+Settings->OMEMO Encryption: Set to &quot;Always&quot;<br>
+<img src="/images/conv_omemo_encryption.png"><br>
+<br>
+Settings->Expert Settings->Blind Trust Before Verification: Disable<br>
+<img src="/images/conv_blind_trust.png"><br>
+<br>
+Manage Accounts->Click on account->Top right corner hamburger->Archiving preferences: either &quot;Contacts&quot; or &quot;Never&quot;<br>
+<img src="/images/conv_server_side_archiving.png"><br>
+<br>
+Here is a list of what information is stored on the conversations.im server.  Each XMPP server however has different policies on what information they store, so this is only an example.
+<a href="https://account.conversations.im/privacy/">https://account.conversations.im/privacy</a>
+<blockquote>
+    What we store
+    <ul>
+        <li>
+            Account data
+            <ul>
+                <li>Your user name and hash of your password</li>
+                <li>Your email address if you provide one. This will only be used to provide you with a way to recover your password.</li>
+                <li>The date of your account creation and the end of your next payment interval.</li>
+            </ul>
+        </li>
+        <li>
+            Messages
+            <ul>
+                <li>Offline messages. If someone sends you a message while you are offline that message will be stored until you get back online.</li>
+                <li>Archive. By default we will be keeping an archive of your messages for later retrieval by yourself. This can come in handy if you log in with a new device and want access to your message history and is also required if you want to use the OMEMO encryption with multiple devices. You can opt-out of this by setting your server-side archiving preferences with your XMPP client.</li>
+            </ul>
+        </li>
+        <li>Files. Every file you share with a contact or a conference will be uploaded and stored for later retrieval by the recipients.</li>
+        <li>Other data
+            <ul>
+                <li>A list of your contacts (Roster, Buddylist). This list is maintained by you. You decide who goes on that list and who gets deleted.</li>
+                <li>Semi public data you are publishing for your contacts to see like your avatar or the OMEMO public keys.</li>
+                <li>Other private data your XMPP client might upload like a list of conference bookmarks.</li>
+            </ul>
+        </li>
+    </ul>
+    What we don’t store
+    <ul>
+        <li>Your IP address or any information that could be inferred by that address like your location.</li>
+        <li>The time when you login. - Or more general the times when you use our services.</li>
+        <li>A correlation between your account and your payment information for longer than it is necessary to fulfil our return policy.</li>
+    </ul>
+</blockquote>
+Regarding the above information, even with OMEMO enabled the following is unencrypted on the server:
+<ul>
+<li>Archiving of messages on the server is a concern.  Even if the messages are OMEMO encrypted it is only the message contents that are encrypted.  Other meta data with the message is not encrypted.  Some goes for the files which are uploaded encrypted.</li>
+<li>All your contacts are stored unencrypted.</li>
+<li>Avatar</li>
+<li>Bookmarks</li>
+</ul>
+When XMPP was first developed there was no encryption implemented in the design.  OMEMO adds encryption to the message contents, but the underlying system of XMPP remains unencrypted.  It is just the nature of this system that confidentiality is only available for message contents.  In many ways it is very similar to PGP which only added encryption to the message contents of emails.<br>
+<br>
+The verifying of a contact's OMEMO keys is done through the exchange of QR codes that are scanned.  Once verified any messages from the contact will show a shield icon.  If a contact has multiple devices then a key for each device will need to be individually verified.  Also if you have more than one device verifying a key on one device does not make that key verified on other devices.  You will need to scan the QR code for each of your contact's devices on all of your devices.<br>
+<br>
+Another aspect of security is that photos are automatically saved to your phone's photo gallery where they are saved unencrypted.  And if you have any backup or cloud syncing setup for your photos then these photos from Conversations wil also show up in your online storage. You can turn off Storage access for the app, thus preventing any photos or files from being able to be saved to the device, but that also prevents them from being downloaded and viewed in the app as well, essentially making Conversations a text only messenger.  Photos are saved in Local Storage/Device Storage/Conversations/Media.<br>
+<br>
+My Verdict: The best XMPP app, but security is a fundamental afterthought in the XMPP system.<br>
+<br>
+XMPP was not designed with security at it's core.  Therefore be careful of data leakage.    I would only recommend this app to people who have a full understanding of the limitations of XMPP.  It is not foolproof at all and is very easy to leak information by mistake.<br>

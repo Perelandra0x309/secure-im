@@ -595,8 +595,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
   notes_file: conversations_notes.html
-  version_tested: 2.2.3
-  last_update: 6/20/2018
+  version_tested: 2.3.5
+  last_update: 11/11/2018
 
 - name: riot
   category: 3
@@ -1652,7 +1652,7 @@
   recommendation: 1
   platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
   business_model: Enterprise version of the platform
-  communication_types: Text, group chat, video, files, video chat
+  communication_types: Text, group chat, videos, files, audio message, voice calls
   country_origin: USA
   requires_phone_number: No
   requires_email: No
@@ -2031,3 +2031,10 @@
   display_name: Cellcrypt
   recommendation: 3
   notes_text: (https://www.cellcrypt.com)- Looks like a good product but enterprise focused, lowest cost is $90/month
+
+- name: onionmessenger
+  category: 11
+  display_name: OnionMessenger
+  recommendation: 3
+  notes_text: Defunct project
+  

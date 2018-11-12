@@ -16,6 +16,7 @@ Features Matrix:
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
 <table id="featurestable">
 <thead><tr>
+<th>&nbsp;&nbsp;&nbsp;</th>
 <th>Name</th>
 <th>P2P or Other</th>
 <th>Open or Closed Source</th>
@@ -37,12 +38,19 @@ Features Matrix:
 {% assign final_platforms = 'Android' %}
 {% assign final_trackers = 'Google Firebase Analytics' %}
 {% for application in applications %}
-{% if application.recommendation == 1 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
-{% elsif application.recommendation == 2 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img src="images/checkmark.gif">{% endcapture %}
-{% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
+{% if application.recommendation == 1 %}
+  {% capture htmlimage %}<img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+  {% capture recdiv %}<div style="display:none;">recommended</div>{% endcapture %}
+{% elsif application.recommendation == 2 %}
+  {% capture htmlimage %}<img src="images/checkmark.gif">{% endcapture %}
+  {% capture recdiv %}<div style="display:none;">recommended</div>{% endcapture %}
+{% else %}
+  {% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
+  {% capture recdiv %}{% endcapture %}
 {% endif %}
 <tr>
-	<td>{{ htmlimage }}{% include generate_app_link.html app_name="application.name" %}</td>
+	<td>{{ htmlimage }}</td>
+	<td>{{ recdiv }}{% include generate_app_link.html app_name="application.name" %}</td>
 
 {% if application.category == 1 or application.category == 2 or application.category == 6 %}
 	<td>P2P</td>
@@ -205,11 +213,11 @@ Features Matrix:
       rows_counter: true,
       mark_active_columns: true,
       btn_reset: true,
-      col_0: "select",
-      col_1: "checklist",
+      col_0: "none",
+      col_1: "select",
       col_2: "checklist",
-      col_3: "select",
-      col_4: "checklist",
+      col_3: "checklist",
+      col_4: "select",
       col_5: "checklist",
       col_6: "checklist",
       col_7: "checklist",
@@ -218,9 +226,10 @@ Features Matrix:
       col_10: "checklist",
       col_11: "checklist",
       col_12: "checklist",
-      col_13: "select",
+      col_13: "checklist",
+      col_14: "select",
       custom_slc_options: {
-        cols:[0,3,13],
+        cols:[1,4,14],
         texts: {{ texts_values }},
         values: {{ values_values }},
         sorts: [false,false,false]
