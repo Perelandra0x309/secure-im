@@ -259,7 +259,7 @@
   recommendation: 1
   platforms: Android, iOS
   business_model: Self funded by entrepreneurs Michel Gien and Christian Jacquernot
-  communication_types: Text, voice, video
+  communication_types: Text, group chat, voice, photos, video, files, streaming music
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
@@ -280,8 +280,8 @@
   exodus_privacy_trackers_description: Google Firebase Analytics
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
   notes_file: twinme_notes.html
-  version_tested: 8.3.0
-  last_update: 9/17/2018
+  version_tested: 9.1.1
+  last_update: 11/28/2018
 
 - name: skred
   category: 2
@@ -545,11 +545,11 @@
   business_model: Nonprofit <a href="https://xmpp.org/about/xmpp-standards-foundation.html">XMPP Standards Foundation</a>
   communication_types: Text, group chat
   country_origin: Various
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
+  requires_phone_number: Depends on the client
+  requires_email: Depends on the client
+  id_contains_contact_info: Depends on the client
+  android_requires_google_play: Depends on the client
+  is_locally_encrypted: Depends on the client
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: No
@@ -558,10 +558,10 @@
   puddle_test_note: Messages are saved on the server
   hammer_test: Recoverable
   hammer_test_note: You can leave a conversation but this does not delete it.  Some clients also leak files.
-  has_contact_verification: Yes
+  has_contact_verification: Depends on the client
   leaks_files: Depends on the client
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: 
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Depends on the client
   websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
   notes_file: xmpp_notes.html
   version_tested: 2.2.8
@@ -598,6 +598,68 @@
   version_tested: 2.3.5
   last_update: 11/11/2018
 
+- name: pixart
+  category: 3
+  display_name: Pix-Art (XMPP)
+  url: https://jabber.pix-art.de
+  recommendation: 2
+  platforms: Android
+  business_model: <a href="https://jabber.pix-art.de/privacy/">This service is privately financed</a>
+  communication_types: Text, group chat, video, files, images
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://jabber.pix-art.de/privacy/">Privacy Policy</a>, <a href="https://github.com/kriztan/Pix-Art-Messenger">source code</a>
+  notes_file: pix-art_notes.html
+  version_tested: 2.1.4
+  last_update: 11/23/2018
+
+- name: quicksy
+  category: 3
+  display_name: Quicksy (XMPP)
+  url: https://quicksy.im
+  recommendation: 2
+  platforms: Android
+  business_model: Funded through the the quicksy.im directory service
+  communication_types: Text, group chat, video, files, images
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: 
+  notes_file: quicksy_notes.html
+  version_tested: 2.3.6+pcr
+  last_update: 11/23/2018
+
 - name: riot
   category: 3
   display_name: Riot
@@ -632,7 +694,7 @@
 
 - name: kontalk
   category: 3
-  display_name: Kontalk (XMPP)
+  display_name: Kontalk
   url: http://www.kontalk.org
   recommendation: 3
   platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
@@ -752,12 +814,12 @@
   hammer_test_note: Wire has an option to delete messages from all participant's devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp, MixPanel
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
   websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
   notes_file: wire_notes.html
-  version_tested: 3.6.391
-  last_update: 1/28/2018
+  version_tested: 3.22.666
+  last_update: 11/28/2018
 
 - name: xtorchat
   category: 3
@@ -887,37 +949,6 @@
   version_tested: 1.5
   last_update: 8/21/2018
 
-- name: freemessage
-  category: 4
-  display_name: FreeMessage
-  url: https://freemessage.com
-  recommendation: 2
-  platforms: Android, iOS
-  business_model: A <a href="https://www.gmx.net/produkte/freemessage/">product</a> of GMX
-  communication_types: Text, group chat, photos, files
-  country_origin: Germany
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: Messages are stored encrypted on the server, so as long as your FreeMessage ID is backed up somewhere you can recreate your key.
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices. Also if you destroy all partners chat keys messages remaining on server can not be decrypted.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: HockeyApp
-  websites: <a href="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
-  notes_file: freemessage_notes.html
-  version_tested: 1.22.20
-  last_update: 2/5/2018
-
 - name: mysudo
   category: 4
   display_name: MySudo
@@ -1043,37 +1074,6 @@
   notes_file: soma_notes.html
   version_tested: 1.9.0
   last_update: 1/27/2018
-
-- name: squealock
-  category: 4
-  display_name: Squealock
-  url: https://www.squealock.com
-  recommendation: 2
-  platforms: Android, iOS
-  business_model: <a href="https://www.squealock.com/donate.html">Investors and donations</a>?
-  communication_types: Chat, images, video, audio
-  country_origin: USA
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Message are automatically deleted once read. Any unread messages stored on the device are lost.
-  hammer_test: Not Recoverable
-  hammer_test_note: Message are automatically deleted once read.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Analytics
-  websites: <a href="https://www.squealock.com/faq.html">FAQ</a>
-  notes_file: squealock_notes.html
-  version_tested: 9.0
-  last_update: 9/3/2018
 
 - name: tungsten
   category: 4
@@ -1642,8 +1642,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
   notes_file: threema_notes.html
-  version_tested: 3.41
-  last_update: 1/28/2018
+  version_tested: 3.55
+  last_update: 11/24/2018
 
 - name: wickrme
   category: 5
@@ -1806,6 +1806,38 @@
   last_update: 6/24/2018
   notes_text: "(https://about.conclave.global) This messenger seems to have gone offline sometime before 10/21/2018"
 
+- name: freemessage
+  category: 11
+  display_name: FreeMessage
+  url: https://freemessage.com
+  recommendation: 3
+  platforms: Android, iOS
+  business_model: A <a href="https://www.gmx.net/produkte/freemessage/">product</a> of GMX
+  communication_types: Text, group chat, photos, files
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored encrypted on the server, so as long as your FreeMessage ID is backed up somewhere you can recreate your key.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices. Also if you destroy all partners chat keys messages remaining on server can not be decrypted.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: HockeyApp
+  websites: <a href="https://newsroom.gmx.net/wp-content/uploads/sites/19/2016/09/20160407_FreeMessage_Encryption_final.pdf">Encryption White Paper</a>
+  notes_file: freemessage_notes.html
+  version_tested: 1.22.20
+  last_update: 11/24/2018
+  notes_text: FreeMessage has now been integrated into the GMX mail app, however now if you send a message to a non-FreeMessage user it gets converted into a regular SMS message.
+
 - name: nettalk
   category: 11
   display_name: NetTalk Duo/Connect
@@ -1870,6 +1902,38 @@
   version_tested: 1.0.7
   last_update: 3/8/2018
   notes_text: App has been discontinued (<a href="https://www.gdata-software.com/faq/consumer/g-data-secure-chat-is-discontinued">G DATA Secure Chat is discontinued</a>)
+
+- name: squealock
+  category: 11
+  display_name: Squealock
+  url: https://www.squealock.com
+  recommendation: 3
+  platforms: Android, iOS
+  business_model: <a href="https://www.squealock.com/donate.html">Investors and donations</a>?
+  communication_types: Chat, images, video, audio
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Message are automatically deleted once read. Any unread messages stored on the device are lost.
+  hammer_test: Not Recoverable
+  hammer_test_note: Message are automatically deleted once read.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Analytics
+  websites: <a href="https://www.squealock.com/faq.html">FAQ</a>
+  notes_file: squealock_notes.html
+  version_tested: 9.0
+  last_update: 11/24/2018
+  notes_text: App has been removed from iOS and Play stores, cannot log into app.
 
 - name: cypher
   category: 11

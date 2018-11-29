@@ -26,30 +26,30 @@ SMS:
     If you don't want to use Signal as a messaging app then I recommend getting Silence just for SMS messages.  It will locally encrypt the SMS database on your phone.  You can also send encrypted SMS messages to other Silence users.  Since Silence only uses SMS it is not dependent on any servers like Signal is.
 </ul>
 <br>
-Messaging apps to use without giving out your phone number:
+Messaging apps listed here do not expose you phone number or email address.  Notes within [brackets] are potential negative attributes:
 <ul>
   <li>Top Tier Recommendations:</li>
   <ul>
-    <li>{% include generate_app_link.html app_name="wire" %}- Beware of possible high battery usage on older Android versions or Android forks without Play Services</li>
-    <li>{% include generate_app_link.html app_name="wickrme" %}- Based in USA, all messages expire</li>
+    <li>{% include generate_app_link.html app_name="wire" %}- [Beware of possible high battery usage on older Android versions or Android forks without Play Services]</li>
+    <li>{% include generate_app_link.html app_name="wickrme" %}- All messages expire [Based in USA]</li>
     <li>{% include generate_app_link.html app_name="safeswiss" %}- P2P, based in Switzerland</li>
   </ul>
   <li>Second Tier (misses some criteria):</li>
   <ul>
     <li>{% include generate_app_link.html app_name="threema" %}- P2P, based in Switzerland [No PFS or ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="briar" %}- P2P, Android only, can use Tor, text only [No ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="ricochet" %}- P2P, desktop only, text only, uses Tor [No contact verification]</li>
-    <li>{% include generate_app_link.html app_name="keybase" %}- Based in USA [Only &quot;exploding&quot; messages are PFS, no contact verification]</li>
-     <li>{% include generate_app_link.html app_name="eleet" %}- Based in the UK [No contact verification]</li>
+    <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No ephemeral messages or contact verification]</li>
+     <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li>
   </ul>
 
   <li>Third Tier (keep an eye on these):</li>
   <ul>
-    <li>{% include generate_app_link.html app_name="riot" %}- E2EE still in beta, based in the UK [No ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No group chats, ephemeral messages or contact verification]</li>
+    <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="ricochet" %}- P2P, uses Tor [Desktop only, text only, no contact verification]</li>
+    <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification]</li>
+    <li>{% include generate_app_link.html app_name="riot" %}- [E2EE still in beta, Based in the UK, no ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification]</li>
-    <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with Android]</li>
-    <li>{% include generate_app_link.html app_name="conversations" %}- Android Only, based in Germany [No ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS]</li>
+    <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Android Only, based in Germany [No ephemeral messages]</li>
   </ul>
 </ul>
 <br>
@@ -158,16 +158,16 @@ The following scoring table includes messaging apps used on a single device:<br>
     <td>1</td><td>1</td><td>1</td><td>.5 (OMEMO only)</td><td>0</td><td>1</td><td>0</td><td>.5 (Germany)</td><td>5</td>
   </tr>
   <tr>
+    <td>{% include generate_app_link.html app_name="twinme" %}</td>
+    <td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>4.5</td>
+  </tr>
+  <tr>
     <td>{% include generate_app_link.html app_name="tungsten" %}</td>
     <td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>4.5</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="ricochet" %}</td>
     <td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1 (No central servers)</td><td>4</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="twinme" %}</td>
-    <td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>3.5</td>
   </tr>
 
 </table>
@@ -196,9 +196,8 @@ The following scoring table includes messaging apps used on a single device:<br>
 I test on iOS, Android, MacOS and web applications.  Keep in mind that even though you may be using one platform, the other person you are communicating with may be using a different platform.  iOS is generally more secure than Android, simply because the application data is very well segregated at the OS level, so that apps cannot access the data of other apps.  However this is not the case with Android, each application written for Android must ensure it does not save any data to globally accessible local storage.  So when I test apps I scrutinize the Android version very closely to looks for any data leakage. So even if an iOS version of an app does not leak data, if the Android version does I consider the entire app system compromised.<br>
 My test devices:
 <ul>
-  <li>Samsung Galaxy S5 with Android 6.0.1</li>
-  <li>LG L22C with Android 5.0.1</li>
-  <li>iPhone 5S with iOS 11.4</li>
+  <li>Motorola G4 Play with stock Android 7.1.1</li>
+  <li>iPhone 5S with iOS 12.1</li>
 </ul>
 For apps that require a phone number I use two VOIP numbers that have SMS capability so I don't use my primary phone number.  One is through the MySudo app on iOS, and the other is through <a target="_blank" href="https://jmp.chat">JMP.chat</a>.  These are only available in the US/Canada.<br>
 <br>

@@ -1,0 +1,44 @@
+Quicksy is based on the same code as the {% include generate_app_link.html app_name="conversations" %} app, so all notes on Conversations also applies to this app. Additionally there are a few other unique features:<br>
+<br>
+Quicksy.im also offers a <a href="https://quicksy.im/enter/">Quicksy Directory</a> service which allows other non Quicksy users to add their own XMPP ID and their phone number so that Quicksy users can look them up using a phone number.  This service requires a one time fee to register, which helps provide the Quicksy app for free.<br>
+<br>
+Note that a phone number is required to sign up for an account in Quicksy (which automatically uses the quicksy.im server) and the phone number will be your ID for the service.  So this does make it easier to signup in the app instead of having to go search for an XMPP server to use. It also makes it easier to find other Quicksy users (or other XMPP users who registered in the directory) by looking up their phone number.  However that does mean that you are exposing your phone number so you lose some anonymity.  Also the app will at regular intervals upload the phone numbers from your address book to search for matches with other registered Quicksy users or directory entries.<br>
+<br>
+This app does not allow you to add other XMPP accounts that you may own, it can only be used by one quicksy.im account.  However you can add contacts that use any other XMPP server as well as Quicksy.im users.<br>
+<br>
+My verdict: Worth a try for beginners<br>
+<br>
+This app is a way for those new to encrypted messaging to get started without much hassle.  Using this app gives them access to contact anyone in the entire XMPP federated system.  The compromise for ease of use however is the exposure of a phone number as part of the XMPP ID.  Just about all other features of the app are exactly the same as Conversations which would make it easier to transition to a non-phone number XMPP ID in the future.<br>
+<br>
+Comparisons to the {% include generate_app_link.html app_name="signal" %} app are apt since the target audience is very similar, mainly those who may be just getting into secure messaging but are used to the concept of using a phone number as an identifier.  Both apps are simple to use and signup for an account.  There are some differences however:<br>
+<br>
+Signal:
+<ul>
+<li>Advantages:</li>
+<ul>
+<li>Also acts as the standard SMS app and encrypts messages at rest</li>
+<li>Most metadata is now encrypted</li>
+<li>Messages are stored on mobile devices, not a server</li>
+<li>Encryption to other Signal users is automatic, less likely to send a message unencrypted by mistake</li>
+</ul>
+<li>Disadvantages:</li>
+<ul>
+<li>Can only connect to Signal users</li>
+</ul>
+</ul>
+
+Quicksy:
+<ul>
+<li>Advantages:</li>
+<ul>
+<li>Access to the entire XMPP system and users</li>
+</ul>
+<li>Disadvantages:</li>
+<ul>
+<li>You still need a separate SMS app</li>
+<li>Messages are stored on XMPP servers</li>
+<li>Metadata and contacts may be stored unencrypted on servers</li>
+<li>Concepts of encryption and using OMEMO correctly still requires some attention, it is possible to send unencrypted messages if someone is not careful</li>
+</ul>
+</ul>
+

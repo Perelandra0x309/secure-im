@@ -62,6 +62,8 @@ The verifying of a contact's OMEMO keys is done through the exchange of QR codes
 <br>
 Another aspect of security is that photos are automatically saved to your phone's photo gallery where they are saved unencrypted.  And if you have any backup or cloud syncing setup for your photos then these photos from Conversations wil also show up in your online storage. You can turn off Storage access for the app, thus preventing any photos or files from being able to be saved to the device, but that also prevents them from being downloaded and viewed in the app as well, essentially making Conversations a text only messenger.  Photos are saved in Local Storage/Device Storage/Conversations/Media.<br>
 <br>
+The application does have Google analytics trackers listed in its manifest file however these look to be disabled since May 2018. This is just something to be aware of that a change in the default settings could turn these back on.  See <a href="https://github.com/siacs/Conversations/blob/master/src/playstore/AndroidManifest.xml">Conversations/src/playstore/AndroidManifest.xml</a>.<br>
+<br>
 My Verdict: The best XMPP app, but security is a fundamental afterthought in the XMPP system.<br>
 <br>
 XMPP was not designed with security at it's core.  Therefore be careful of data leakage.    I would only recommend this app to people who have a full understanding of the limitations of XMPP.  It is not foolproof at all and is very easy to leak information by mistake.<br>

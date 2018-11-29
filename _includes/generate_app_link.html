@@ -1,10 +1,10 @@
-{% assign applications = site.data.applications | where_exp: "item","item.name == include.app_name" %}
-{% assign application = applications[0] %}
-{% if application.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2popen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2pclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otheropen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 4 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% assign applications_gen = site.data.applications | where_exp: "item","item.name == include.app_name" %}
+{% assign application_gen = applications_gen[0] %}
+{% if application_gen.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2popen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2pclosed.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otheropen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 4 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherclosed.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
 {% endif %}
 {{ htmllink }}

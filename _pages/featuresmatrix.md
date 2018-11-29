@@ -50,7 +50,7 @@ Features Matrix:
 {% endif %}
 <tr>
 	<td>{{ htmlimage }}</td>
-	<td>{{ recdiv }}{% include generate_app_link.html app_name="application.name" %}</td>
+	<td>{{ recdiv }}{% include generate_app_link.html app_name=application.name %}</td>
 
 {% if application.category == 1 or application.category == 2 or application.category == 6 %}
 	<td>P2P</td>

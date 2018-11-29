@@ -110,7 +110,7 @@ Show apps that have:<br>
 <tr>
   <td>{{ htmlimage }}</td>
 
-	<td>{% include generate_app_link.html app_name="application.name" %}</td>
+	<td>{% include generate_app_link.html app_name=application.name %}</td>
 	<td>{{ application.platforms }}</td>
 
 {% capture classname %}{% endcapture %}
