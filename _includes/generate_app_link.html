@@ -6,5 +6,9 @@
 {% elsif application_gen.category == 4 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherclosed.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
 {% elsif application_gen.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
 {% elsif application_gen.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.html %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.html %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 12 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link protocols.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% else %}{% capture htmllink %}{{ application_gen.display_name }}{% endcapture %}
 {% endif %}
 {{ htmllink }}

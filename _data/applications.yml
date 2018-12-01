@@ -33,6 +33,37 @@
 
 #  Category 1- P2P open source
 
+- name: antox
+  category: 1
+  display_name: Antox
+  url: https://github.com/Antox/Antox
+  recommendation: 3
+  platforms: Android
+  business_model: Free open source project
+  communication_types: "Text, files, avatars, partial A/V support"
+  country_origin: No centralized servers
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: 
+  notes_file: antox_notes.html
+  version_tested: 0.25.515
+  last_update: 12/01/2018
+
 - name: silence
   category: 1
   display_name: Silence
@@ -95,36 +126,6 @@
   version_tested: 1.1.4
   last_update: 1/18/2018
 
-- name: tox
-  category: 1
-  display_name: Tox
-  url: https://tox.chat/
-  recommendation: 3
-  platforms: <a href="https://tox.chat/download.html">Windows, MacOS, Linux, FreeBSD, iOS, Android</a>
-  business_model: Free open source project
-  communication_types: Text, voice, video, screen sharing, file sharing
-  country_origin: No centralized servers
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: "? (May depend on the client)"
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Recoverable
-  hammer_test_note: Some clients on Android leak files
-  has_contact_verification: No
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: "(Antox app): None"
-  websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
-  notes_file: tox_notes.html
-  last_update: 1/23/2018
-  
 - name: ring
   category: 1
   display_name: Ring
@@ -536,37 +537,6 @@
   version_tested: 4.14.10
   last_update: 1/28/2018
   
-- name: xmpp
-  category: 3
-  display_name: XMPP with OTR or OMEMO
-  url: https://xmpp.org
-  recommendation: 3
-  platforms: Android, iOS, MacOS, Windows, Linux
-  business_model: Nonprofit <a href="https://xmpp.org/about/xmpp-standards-foundation.html">XMPP Standards Foundation</a>
-  communication_types: Text, group chat
-  country_origin: Various
-  requires_phone_number: Depends on the client
-  requires_email: Depends on the client
-  id_contains_contact_info: Depends on the client
-  android_requires_google_play: Depends on the client
-  is_locally_encrypted: Depends on the client
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: No (Unless OMEMO Encyption is set to Always in some clients)
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Recoverable
-  hammer_test_note: You can leave a conversation but this does not delete it.  Some clients also leak files.
-  has_contact_verification: Depends on the client
-  leaks_files: Depends on the client
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Depends on the client
-  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
-  notes_file: xmpp_notes.html
-  version_tested: 2.2.8
-  last_update: 1/28/2018
-    
 - name: conversations
   category: 3
   display_name: Conversations (XMPP)
@@ -1850,7 +1820,7 @@
   recommendation: 3
   notes_text: (messenger.klinkerapps.com)- This app doesn't offer E2EE, what it does offer is using SMS on multiple devices using your phone by connecting each device to an encrypted cloud server.  Which is very cool!  But once your message leaves your phone it is sent over standard open SMS channels unencrypted.
 
-- name: tor_messenger
+- name: tormessenger
   category: 11
   display_name: Tor Messenger
   url: https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger
@@ -2101,4 +2071,72 @@
   display_name: OnionMessenger
   recommendation: 3
   notes_text: Defunct project
-  
+
+- name: nextcloudtalk
+  category: 11
+  display_name: Nextcloud Talk
+  recommendation: 3
+  notes_text: (https://nextcloud.com/talk/)- Enterprise product, audio and video are E2EE but not chat.
+
+# Category 12- Protocols
+
+- name: tox
+  category: 12
+  display_name: Tox
+  url: https://tox.chat/
+  recommendation: 3
+  platforms: <a href="https://tox.chat/download.html">Windows, MacOS, Linux, FreeBSD, iOS, Android</a>
+  business_model: Free open source project
+  communication_types: Text, voice, video, screen sharing, file sharing
+  country_origin: No centralized servers
+  requires_phone_number: Depends on the client
+  requires_email: Depends on the client
+  id_contains_contact_info: Depends on the client
+  android_requires_google_play: Depends on the client
+  is_locally_encrypted: Depends on the client
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: Depends on the client
+  encypted_by_default: Depends on the client
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Some clients on Android leak files
+  has_contact_verification: Depends on the client
+  leaks_files: Depends on the client
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Depends on the client
+  websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
+  notes_file: tox_notes.html
+  last_update: 12/01/2018
+
+- name: xmpp
+  category: 12
+  display_name: XMPP with OTR or OMEMO
+  url: https://xmpp.org
+  recommendation: 2
+  platforms: Android, iOS, MacOS, Windows, Linux
+  business_model: Nonprofit <a href="https://xmpp.org/about/xmpp-standards-foundation.html">XMPP Standards Foundation</a>
+  communication_types: Text, group chat, photos, files
+  country_origin: Various
+  requires_phone_number: Depends on the client
+  requires_email: Depends on the client
+  id_contains_contact_info: Depends on the client
+  android_requires_google_play: Depends on the client
+  is_locally_encrypted: Depends on the client
+  perfect_forward_secrecy: OTR and OMEMO encrypted messages
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Depends on the client
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always in some clients)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Some clients also leak files.
+  has_contact_verification: Depends on the client
+  leaks_files: Depends on the client
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Depends on the client
+  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
+  notes_file: xmpp_notes.html
+  version_tested: 
+  last_update: 12/01/2018
