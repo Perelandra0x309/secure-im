@@ -1054,6 +1054,7 @@
   business_model: Future <a href="https://tungsten-labs.com/faq/general#how-do-you-make-money">paid version or subscription</a>
   communication_types: Chat, group chat, photos, files
   country_origin: Germany
+  country_origin_source: https://tungsten-labs.com/imprint
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No

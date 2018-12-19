@@ -38,7 +38,6 @@ Messaging apps listed here do not expose you phone number or email address.  Not
   <ul>
     <li>{% include generate_app_link.html app_name="threema" %}- P2P, based in Switzerland [No PFS or ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No ephemeral messages or contact verification]</li>
-     <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li>
   </ul>
 
   <li>Third Tier (keep an eye on these):</li>
@@ -46,10 +45,19 @@ Messaging apps listed here do not expose you phone number or email address.  Not
     <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="ricochet" %}- P2P, uses Tor [Desktop only, text only, no contact verification]</li>
     <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification]</li>
-    <li>{% include generate_app_link.html app_name="riot" %}- [E2EE still in beta, Based in the UK, no ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification]</li>
     <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS]</li>
     <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Based in Germany [Android Only, no ephemeral messages]</li>
+  </ul>
+  <a name="caution"></a>
+  <li>Use with caution:<br>
+  December 2018: Recently there have been some troubling laws passed and articles written in the UK and Australia (part of the <a href="https://www.privacytools.io/#ukusa">5 eyes countries</a>) that may cause issues with trust in applications developed in those countries.  Both countries now seem to be pushing for backdoor access for government surveillance to be built into secure messaging applications.  Not only will this weaken or break End to End security, but apps that are not open source from those countries may no longer be trusted and may be used for a mass surveillance program.  Here are some recent articles and a list of applications which I would now consider using with caution.<br>
+  <a href="https://www.lawfareblog.com/principles-more-informed-exceptional-access-debate">Principles for a More Informed Exceptional Access Debate</a><br>
+  <a href="https://arstechnica.com/tech-policy/2018/12/australia-passes-new-law-to-thwart-strong-encryption/">Australia passes new law to thwart strong encryption</a><br>
+  </li>
+  <ul>
+     <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li>
+    <li>{% include generate_app_link.html app_name="riot" %}- [E2EE still in beta, Based in the UK, no ephemeral messages]</li>
   </ul>
 </ul>
 <br>
@@ -83,16 +91,16 @@ The following scoring table includes messaging apps that can be used across mult
     <td>{% include generate_app_link.html app_name="wickrme" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>1</td><td>1</td><td>0 (USA)</td><td>7.5</td>
   </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="riot" %}</td>
+  <tr style='background: black'>
+    <td>{% include generate_app_link.html app_name="riot" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>7</td>
   </tr>
   <tr>
     <td>{% include generate_app_link.html app_name="keybase" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>0 (USA)</td><td>6.5</td>
   </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="eleet" %}</td>
+  <tr style='background: black'>
+    <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0 (UK)</td><td>6</td>
   </tr>
   <tr>
@@ -137,8 +145,8 @@ The following scoring table includes messaging apps used on a single device:<br>
     <td>{% include generate_app_link.html app_name="threema" %}</td>
     <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>0</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>6</td>
   </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="riot" %} (encrypted messages)</td>
+  <tr style='background: black'>
+    <td>{% include generate_app_link.html app_name="riot" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
   </tr>
   <tr>
@@ -149,8 +157,8 @@ The following scoring table includes messaging apps used on a single device:<br>
     <td>{% include generate_app_link.html app_name="briar" %}</td>
     <td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>5</td>
   </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="eleet" %}</td>
+  <tr style='background: black'>
+    <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
   </tr>
   <tr>
