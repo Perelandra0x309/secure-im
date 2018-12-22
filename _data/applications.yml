@@ -888,6 +888,38 @@
   version_tested: 7.6.1 (Android), 3.7.0 (MacOS)
   last_update: 8/12/2018
 
+- name: brosix
+  category: 4
+  display_name: Brosix
+  url: https://www.brosix.com
+  recommendation: 2
+  platforms: Android, iOS, MacOS, Windows, Linux
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, files, voice, video, location
+  country_origin: Bulgaria
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.brosix.com/blog/encrypted-communication-yes-its-important/
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: There does not seem to be any way to delete messages or your account.  The only way to really delete your messages is to uninstall the app.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://www.brosix.com/security/">Security</a>
+  notes_file: brosix_notes.html
+  version_tested: 4.0.94
+  last_update: 12/19/2018
+  
 - name: crypviser
   category: 4
   display_name: Crypviser
@@ -1107,38 +1139,6 @@
   notes_file: whispeer_notes.html
   version_tested: 0.3.11
   last_update: 2/3/2018
-
-- name: brosix
-  category: 4
-  display_name: Brosix
-  url: https://www.brosix.com
-  recommendation: 3
-  platforms: Android, iOS, MacOS, Windows, Linux
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, files, voice, video
-  country_origin: Bulgaria
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://www.brosix.com/blog/encrypted-communication-yes-its-important/
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages are saved on the device only.
-  hammer_test: Not Recoverable
-  hammer_test_note: There does not seem to be any way to delete messages or your account.  The only way to really delete your messages is to uninstall the app.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://www.brosix.com/security/">Security</a>
-  notes_file: brosix_notes.html
-  version_tested: 3.4.5
-  last_update: 1/27/2018
 
 - name: cashew
   category: 4
