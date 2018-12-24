@@ -920,37 +920,6 @@
   version_tested: 4.0.94
   last_update: 12/19/2018
   
-- name: crypviser
-  category: 4
-  display_name: Crypviser
-  url: https://crypviser.network
-  recommendation: 2
-  platforms: iOS
-  business_model: CV Secure Business and CVCore SaaS enterprise subscriptions
-  communication_types: Chat, files, videos, location, voice calls
-  country_origin: Germany
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: N/A
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: "?"
-  message_stored_on_server: "?"
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: Features multi-device synchronization
-  hammer_test: Not Recoverable
-  hammer_test_note: Able to destroy messages on both ends of chat.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: N/A
-  websites: <a href="https://crypviser.network/files/CrypViser_Whitepaper_v.1.2.pdf">Whitepaper</a>, <a href="https://medium.com/@crypviser/the-nitty-gritty-of-it-all-crypviser-unleased-f493df1f54a0">Medium- The Nitty Gritty of It All. Crypviser Unleased.</a>
-  notes_file: crypvisor_notes.html
-  version_tested: 1.5
-  last_update: 8/21/2018
-
 - name: mysudo
   category: 4
   display_name: MySudo
@@ -1201,6 +1170,38 @@
   notes_file: confide_notes.html
   version_tested: 5.3.5
   last_update: 1/25/2018
+
+- name: crypviser
+  category: 4
+  display_name: Crypviser
+  url: https://crypviser.network
+  recommendation: 3
+  platforms: Android, iOS
+  business_model: CV Secure Business and CVCore SaaS enterprise subscriptions
+  communication_types: Chat, files, videos, location, voice calls
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://crypviser.network/CrypViser_Whitepaper.pdf
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Features multi-device synchronization
+  hammer_test: Not Recoverable
+  hammer_test_note: Able to destroy messages on both ends of chat.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 
+  exodus_privacy_trackers_description: N/A
+  websites: <a href="https://crypviser.network/CrypViser_Whitepaper.pdf ">Whitepaper</a>, <a href="https://medium.com/@crypviser/the-nitty-gritty-of-it-all-crypviser-unleased-f493df1f54a0">Medium- The Nitty Gritty of It All. Crypviser Unleased.</a>
+  notes_file: crypviser_notes.html
+  version_tested: Android- 1.2.3, iOS- 1.9.5
+  last_update: 12/22/2018
 
 - name: foilchat
   category: 4
