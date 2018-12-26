@@ -126,9 +126,9 @@
   version_tested: 1.1.4
   last_update: 1/18/2018
 
-- name: ring
+- name: jami
   category: 1
-  display_name: Ring
+  display_name: Jami
   url: https://ring.cx
   recommendation: 3
   platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
@@ -153,9 +153,9 @@
   exodus_privacy_trackers_count: 1
   exodus_privacy_trackers_description: Google Firebase Analytics
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
-  notes_file: ring_notes.html
+  notes_file: jami_notes.html
   version_tested: 200180629
-  last_update: 7/1/2018
+  last_update: 12/26/2018
   
 - name: briar
   category: 1
