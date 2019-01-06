@@ -23,6 +23,20 @@ Security Analysis of Telegram<br>
 Hayk Saribekyan, Akaki Margvelashvili (May 2017)<br>
 <a href="https://courses.csail.mit.edu/6.857/2017/project/19.pdf">https://courses.csail.mit.edu/6.857/2017/project/19.pdf</a><br>
 <br>
+Link Previews:<br>
+Telegram provides previews (pictures, text) of website links that you send in messages.  The app actively monitors what you type when writing a message and will send a request to the Telegram servers when it detects a URL has been typed.  The Telegram servers pull data from the typed URL so that only the server IP is exposed, not your device IP.  This been verified by myself by typing in the URL of this website in a Telgram chat and looking at the web server's access log files:<br>
+<blockquote>
+149.154.161.8 - - [05/Jan/2019:19:48:44 -0500] "GET / HTTP/1.1" 200 21112 "-" "TelegramBot (like TwitterBot)"<br>
+149.154.161.17 - - [05/Jan/2019:19:49:41 -0500] "GET /test HTTP/1.1" 404 202 "-" "TelegramBot (like TwitterBot)"<br>
+149.154.161.12 - - [05/Jan/2019:19:50:04 -0500] "GET /testq HTTP/1.1" 404 203 "-" "TelegramBot (like TwitterBot)"<br>
+149.154.161.12 - - [05/Jan/2019:19:50:13 -0500] "GET /testqfghfd HTTP/1.1" 404 208 "-" "TelegramBot (like TwitterBot)"
+</blockquote>
+I paused a few times as I was typing and so several URL were retrieved.<br>
+This feature is even available in Secret Chats.  When I opened a new secret chat and typed in a URL I was prompted if I wanted to enable this feature:<br>
+<img src="images/telegram_link_preview.png"><br>
+So what this means is the link preview feature is available for use in Secret Chats, and so this would leak data to the Telegram server.  It ALSO means that in Secret Chats the functionality that actively monitors what you type is fully functional.  This is a concern because it might be possible to abuse this feature to monitor secret chats.<br>
+See this article for for information: <a href="https://blog.0day.rocks/link-previews-in-im-apps-and-privacy-d32e6056095b">Link previews in IM apps and privacy</a><br>
+<br>
 <blockquote>
 [Information provided by JR]<br>
 <br>
@@ -49,5 +63,6 @@ Jakobsen, Jakob B. (Published September 2015)<br>
 </blockquote>
 <br>
 My verdict: Too many problems with the protocol and data storage!<br>
+<br>
 There are many issues with the protocol as shown by the referenced papers above.  Rolling your own crypto is hard and MTProto has many problems.<br>
-Also all your phone contacts are stored on their servers, and non-secret chats are accessible to Telegram.  Photos are stored in the system wide accessible local device storage even for secret chats.<br>
+Also all your phone contacts are stored on their servers, link previews get retrieved through the servers and non-secret chats are accessible to Telegram.  Photos are stored in the system wide accessible local device storage even for secret chats.<br>

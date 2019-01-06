@@ -38,6 +38,13 @@ Threema doesn't log who is communicating with whom (which Threema IDs are commun
 <br>
 <a href="https://eprint.iacr.org/2017/713.pdf">More is Less: On the End-to-End Security of Group Chats in Signal, WhatsApp, and Threema</a><br>
 <br>
+Encryption process (from the whitepaper):<br>
+<img src="images/threema_encryption.png"><br>
+This process uses the <a href="https://nacl.cr.yp.to/box.html">Box model</a> of the NaCl cryptography library.<br>
+A shared secret is generated using both the private key of one chat participant and the public key of the other participant.  So both participants are able to generate the same shared secret without the need for any negotiations over the internet or transmitting any information at all, except for initially acquiring the other participant's public key. This also has the advantage of being able to generate the secret while the other participant is offline. This shared secret cannot change, unless one of the participants changes their Threema ID (and thus their key pair).<br>
+Each message has a random nonce generated for it, this acts as a salt value, and is combined with the shared secret to encrypt the message. This does not provide perfect forward secrecy, but it does insert an element of randomness so that analysis of Threema encrypted messages is made more difficult than a series of messages encrypted with Public Key Infrastructure methods that use the same symmetric key for every message.<br>
+For group chats when a message is send the message is encrypted separately for every member of the group using the same method as a one to one chat.  So if there are 12 participants in a group, a message will be encrypted 11 times, once for each of the other group members, and each message will have a different nonce.<br>
+<br>
 My Verdict: Almost perfect<br>
 <br>
 Truly this is an app that provides almost a perfect secured messaging system.  Limited meta data, very easy to use, foolproof encryption.  The only features missing are perfect forward secrecy on message encryption (data in transit is additionally encrypted with TLS) and ephemeral messages.  Oh and being able to use it on multiple devices would be nice as well.  But the simplicity of use and low cost are what make this app a top choice for me.
