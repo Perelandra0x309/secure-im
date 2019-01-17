@@ -8,6 +8,9 @@ If you log out or restart your device, you must first put in your phone number t
 <br>
 The website has many misspelled or obviously missing words on the website, especially on the FAQ page.<br>
 <br>
+Encryption:<br>
+Key pairs are negotiated using Curve25519 with Diffie-Hellman, and a shared secret is derived.  Data is then encrypted using AES 256.  Message authentication is ensured using HMAC-SHA512.<br>
+<br>
 My verdict: Too many problems with Android<br>
 <br>
 While the iOS app works very well, the Android app has a few bugs and also leaks data.  While it is meant as a P2P app you can log in with multiple devices and that may be the reason for messages not being properly synced between devices.<br>

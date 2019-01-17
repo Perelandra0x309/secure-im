@@ -1,6 +1,14 @@
 toxcore was <a href="https://tox.chat/download.html#toktok-c-toxcore">forked</a> to continue development<br>
 Several clients are available and are developed independently of the core: <a href="https://tox.chat/clients.html">Clients list</a>.<br>
 <br>
+Tox uses the <a href="https://linkcast.me/en/faq.php#qs-127">NaCl Box model</a> for encryption:<br>
+<ul>
+<li>Diffie-Hellman key exchange using Curve25519</li>
+<li>These keys are hashed to derive a shared secret</li>
+<li>The shared secret is combined with a unique nonce to encrypt the message</li>
+<li>Poly1305 is used to create a message authentication code</li>
+</ul>
+<br>
 <blockquote>
 Information provided by JR<br>
 <br>

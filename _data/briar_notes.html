@@ -12,6 +12,10 @@ Transferring to another Android phone: There does not seem to be a possible way 
 On Copperhead, the battery optimization settings need to be set to Off so that it will remain connected.<br>
 Android battery use is very high, even with battery optimization turned on.<br>
 <br>
+Encryption:<br>
+Public/private key pairs are generated on the device.  Key exchange is performed in person by scanning the QRCode of the other person's public key on their device. (alternatively you can send an electronic version of the QRCode over the internet, but that is not the intended use)  This establishes a trusted key pairing between devices.<br>
+A shared secret is calculated from a hash of the key pair (using Diffie-Hellman) which is then used to generate a master key.  The shared secret is then erased.<br>
+<br>
 My verdict: Good option for specific use case.<br>
 By that I mean it is good if:
 <ul>

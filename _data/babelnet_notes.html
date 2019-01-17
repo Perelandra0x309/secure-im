@@ -52,6 +52,14 @@ be used
 – checks of integrity, authenticity and message sequence
 – strictly before any attempt to decrypt messages
 </pre></blockquote>
+Encryption protocol <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">(Whitepaper section 3.5)</a>:<br>
+Diffie-Hellman key exchange using 2048 bit MODP<br>
+The shared secret is derived from the negotiated keys<br>
+A 128 bit random message key is generated<br>
+AES-128 encryption using the message key encrypts the message<br>
+A 128 bit "Contact Key" is generated from a hash of the shared secret and other info<br>
+The message key is encrypted by the contact key using AES-128<br>
+A message authentication code is generated using SHA-256<br>
 <br>
 My verdict: I am liking it, some UI or FAQ clarifications are still needed!<br>
 <br>

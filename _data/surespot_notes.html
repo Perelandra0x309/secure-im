@@ -25,6 +25,22 @@ Surespot stores the following data on its servers:<br>
 <li>If voice messaging is purchased, a purchase token given to us by Google or Apple which is related to the username in the surespot database.</li>
 <li>Server logs may contain any of the above information and are in a 20 log - 5MB per log rotation.</li>
 </ul>
+Encryption:<br>
+From <a href="https://www.surespot.me/documents/how_surespot_works.html">how surespot works</a><br>
+<blockquote>
+Sending a message<br>
+After two users invite then accept each other the users are now friends, the two friends can access each other's public keys, which allows key derivation and message exchange. The scenario plays out as follows at a high level glance:<br>
+<br>
+alice wants to send bob a message<br>
+alice asks the server for the latest version of bob's public key<br>
+alice verifies bob's public key (which is signed by the bob and the server) against the hard coded server public key in the app, and also verifies the client signature using bob's previous key, then proceeds if valid<br>
+alice derives the shared secret<br>
+alice encrypts the message using AES 256bit GCM using the derived shared secret as the key and sends it to bob, the to and from key version used to generate the message are included as part of the message<br>
+bob receives the encrypted message<br>
+bob downloads and verifies the version of alice's public key needed to derive the shared secret for the message
+bob derives the (same) shared secret<br>
+bob decrypts the message using the shared secret<br>
+</blockquote>
 <br>
 My verdict:<br>
 Definitely there are several concerns with this application (see linked article above).  Some concerns are the lack of updates, amount of meta data stored on the server, and that the company is based in the US.  Also the client leaks files on Android.<br>

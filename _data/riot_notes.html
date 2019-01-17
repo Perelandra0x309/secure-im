@@ -1,6 +1,15 @@
 Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)<br>
 The web app can be used over Tor (thanks lwinch2006)<br>
 <br>
+Encryption:<br>
+<br>
+Riot uses <a href="https://matrix.org/git/olm/about/docs/olm.rst">Olm</a> for one on one chats and <a href="https://matrix.org/git/olm/about/docs/megolm.rst">Megolm</a> for group chats. It implements a double ratchet key algorithm similar to Signal but is a distinct product.<br>
+<ul>
+<li>The setup takes four Curve25519 inputs: Identity keys for Alice and Bob, IA and IB, and one-time keys for Alice and Bob, EA and EB.</li>
+<li>A shared secret, S, is generated using Triple Diffie-Hellman.</li>
+<li>The initial 256 bit root key, R0, and 256 bit chain key, C0, 0, are derived from the shared secret using an HMAC-based Key Derivation Function using SHA-256 as the hash function (HKDF-SHA-256) with default salt and "OLM_ROOT" as the info.</li>
+</ul>
+<br>
 My verdict: Great social platform<br>
 Riot/Matrix is a great way to meet new people, and with E2EE (in beta) for individual and group chats it offers a way to go dark for private conversations.<br>
 E2EE is still in the works and takes a bit of manual effort to get setup in chats, but that should be improving with time.

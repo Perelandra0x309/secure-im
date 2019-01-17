@@ -21,6 +21,9 @@ Features Matrix:
 <th>P2P or Other</th>
 <th>Open or Closed Source</th>
 <th width="15%">Platforms</th>
+<th>Encryption Protocol</th>
+<th>Shared Secret Exchange</th>
+<th>Message Encryption Cipher</th>
 <th>Country of Origin</th>
 <th>Requires Phone# or Email</th>
 <th>ID contains personal info</th>
@@ -77,6 +80,12 @@ Features Matrix:
 	  {% assign final_platforms = final_platforms | append: ',' | append: clean %}
 	{% endfor %}
 	{% assign final_platforms = final_platforms | replace: ',,',',' | split:',' | uniq | join: ',' %}
+
+<td>{{ application.encryption_protocol }}</td>
+
+<td>{{ application.shared_secret_exchange }}</td>
+
+<td>{{ application.message_encryption_cipher }}</td>
 
 {% capture classname %}{% endcapture %}
 {% if application.country_origin == "Australia"
@@ -227,9 +236,12 @@ Features Matrix:
       col_11: "checklist",
       col_12: "checklist",
       col_13: "checklist",
-      col_14: "select",
+      col_14: "checklist",
+      col_15: "checklist",
+      col_16: "checklist",
+      col_17: "select",
       custom_slc_options: {
-        cols:[1,4,14],
+        cols:[1,4,17],
         texts: {{ texts_values }},
         values: {{ values_values }},
         sorts: [false,false,false]

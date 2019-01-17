@@ -4,6 +4,12 @@ Self destruct messages, perfect forward secrecy<br>
 <br>
 Encryption process (from the <a href="https://safeswiss.com/faq">FAQ</a>):<br>
 SafeSwiss uses the <a href="https://nacl.cr.yp.to/box.html">Box</a> model of the NaCl Networking and Cryptography Library.<br>
+<ul>
+<li>Diffie-Hellman key exchange using Curve25519</li>
+<li>These keys are hashed to derive a shared secret</li>
+<li>The shared secret is combined with a unique nonce to encrypt the message</li>
+<li>Poly1305 is used to create a message authentication code</li>
+</ul>
 The asymmetric keys used in SafeSwiss have a length of 256 bits, and their effective ECC strength is 255 bits.<br>
 The shared secrets, which are used as symmetric keys for end-to-end message encryption (derived from the sender’s private key and the recipient’s public key using ECDH, and combined with a 192 bit nonce), have a length of 256 bits.<br>
 A unique session key is generated for each communication, which is used as input to the NaCl Box function to generate the encryption key.  Thus SafeSwiss is able to create ephemeral messages that have perfect forward secrecy.<br>
