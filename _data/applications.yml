@@ -180,9 +180,9 @@
   platforms: Android (via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>)
   business_model: Free open source project, Bitcoin donations, <a href="https://briarproject.org/about.html">other funding</a>
   communication_types: Text and forums
-  encryption_protocol: <a href="https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BQP.md">Bramble</a>
+  encryption_protocol: <a href="https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BQP.md">Bramble</a>, SpongyCastle
   shared_secret_exchange: ECDHC brainpoolp256r1
-  message_encryption_cipher: 
+  message_encryption_cipher: <a hrf="https://code.briarproject.org/briar/briar/blob/master/bramble-core/src/main/java/org/briarproject/bramble/crypto/MessageEncrypter.java">AES-256</a>
   country_origin: None
   requires_phone_number: No
   requires_email: No
@@ -252,7 +252,7 @@
   communication_types: Text, group chat, voice, pictures, video, location
   encryption_protocol: <a href="https://safeswiss.com/faq">NaCl</a>
   shared_secret_exchange: ECDH25519
-  message_encryption_cipher: 
+  message_encryption_cipher: XSalsa20
   country_origin: Switzerland
   country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
   requires_phone_number: No
