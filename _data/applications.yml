@@ -79,8 +79,8 @@
   business_model: Free open source project, Bitcoin donations
   communication_types: SMS, MMS
   encryption_protocol: <a href="https://github.com/SilenceIM/Silence">Signal</a>
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
   country_origin: No centralized servers
   requires_phone_number: Yes
   requires_email: No
@@ -147,7 +147,7 @@
   business_model: Open source, side project of Savoir-faire Linux
   communication_types: Text, group chat, voice, video, files, photos
   encryption_protocol: <a href="https://git.ring.cx/savoirfairelinux/ring-project/wikis/technical/Technical-overview">GnuTLS</a>
-  shared_secret_exchange: RSA 4096
+  shared_secret_exchange: RSA 4096 PKI
   message_encryption_cipher: AES-256
   country_origin: Canada
   requires_phone_number: No
@@ -283,12 +283,12 @@
   url: https://twin.me
   recommendation: 1
   platforms: Android, iOS
-  business_model: Self funded by entrepreneurs Michel Gien and Christian Jacquernot
+  business_model: <a href="https://twin.life/business-solutions/">Pro version of the platform</a>
   communication_types: Text, group chat, voice, photos, video, files, streaming music
   encryption_protocol: <a href="https://twin.me/en/support/twinme-protect-data/">WebRTC/TLS</a>
   shared_secret_exchange: 
-  message_encryption_cipher: 
-  country_origin: Germany
+  message_encryption_cipher: AES-256
+  country_origin: France
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
@@ -305,7 +305,7 @@
   has_contact_verification: No
   leaks_files: No
   exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
+  exodus_privacy_trackers_description: Google Firebase Analytics??
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
   notes_file: twinme_notes.html
   version_tested: 9.1.1
@@ -321,7 +321,7 @@
   communication_types: Text, image, sound, music, video
   encryption_protocol: <a href="https://twin.me/en/support/twinme-protect-data/">WebRTC/TLS</a>
   shared_secret_exchange: 
-  message_encryption_cipher: 
+  message_encryption_cipher: AES-256
   country_origin: France
   requires_phone_number: No
   requires_email: No
@@ -339,7 +339,7 @@
   has_contact_verification: No
   leaks_files: No
   exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
+  exodus_privacy_trackers_description: Google Firebase Analytics??
   websites: 
   notes_file: skred_notes.html
   version_tested: 0.6.5
@@ -354,8 +354,8 @@
   business_model: Various <a href="https://www.opengarden.com/team/">investors</a>??
   communication_types: Text, private group chat, public chatrooms, photos
   encryption_protocol: <a href="https://www.opengarden.com/protocol/">Open Garden</a>?
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: USA
   requires_phone_number: No
   requires_email: Yes
@@ -387,9 +387,9 @@
   platforms: Android
   business_model: "?"
   communication_types: Text, voice, pictures, files, location
-  encryption_protocol: <a href="https://kripter.io/faqs.php">AES-256</a>
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: <a href="https://kripter.io/messenger.php">OTR</a>
+  shared_secret_exchange: <a href="https://www.ietf.org/rfc/rfc3526.txt">DH MODP1536</a>
+  message_encryption_cipher: AES-256
   country_origin: UK
   requires_phone_number: No
   requires_email: No
@@ -421,8 +421,8 @@
   platforms: Android, iOS
   business_model: Purchasing of coins and stickers in the app
   communication_types: Text, group chat, video chat, photos, videos, files, location
-  encryption_protocol: <a href="https://linkcast.me/en/faq.php#qs-127">?</a>
-  shared_secret_exchange: ECDH
+  encryption_protocol: "?"
+  shared_secret_exchange: <a href="https://linkcast.me/en/faq.php#qs-127">ECDH</a>
   message_encryption_cipher: AES-256
   country_origin: Japan
   requires_phone_number: Yes
@@ -524,9 +524,9 @@
   platforms: Android, iOS (MacOS, Windows and web coming soon)
   business_model: Enterprise <a href="https://zangi.com/about">messenger solutions</a>
   communication_types: Text, VOIP, photos, video, audio, files, location
-  encryption_protocol: <a href="https://zangi.com/features/security">RC4+</a>
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: <a href="https://zangi.com/features/security">RSA 2048 PKI</a>
+  message_encryption_cipher: RC4+
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
@@ -769,8 +769,8 @@
   business_model: Free open source project
   communication_types: Text, voice, video, email, file sharing
   encryption_protocol: <a href="https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/">OpenPGP</a>
-  shared_secret_exchange: RSA 2048
-  message_encryption_cipher: RSA 2048
+  shared_secret_exchange: RSA 2048 PKI
+  message_encryption_cipher: "?"
   country_origin: None
   requires_phone_number: No
   requires_email: No
@@ -913,7 +913,7 @@
   business_model: Enterprise version of the platform
   communication_types: Text, photos, files, voice messages
   encryption_protocol: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">Babelnet</a>
-  shared_secret_exchange: DH-2048
+  shared_secret_exchange: DH MODP2048
   message_encryption_cipher: AES-128
   country_origin: Czech Republic
   requires_phone_number: No
@@ -946,9 +946,9 @@
   platforms: Android, iOS, MacOS, Windows, Linux
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, files, voice, video, location
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: Bulgaria
   requires_phone_number: No
   requires_email: Yes
@@ -981,8 +981,8 @@
   platforms: iOS
   business_model: Monthly subscription fee
   communication_types: text, voice call, photos, contacts, location
-  encryption_protocol: 
-  shared_secret_exchange: RSA 2048
+  encryption_protocol: <a href="https://support.mysudo.com/hc/en-us/articles/360006719314-How-does-MySudo-use-encryption-keys-">Anonyome Cloud Platform</a>
+  shared_secret_exchange: <a href="https://support.mysudo.com/hc/en-us/articles/360006600373-What-is-the-general-encryption-method-used-in-MySudo-">RSA 2048 PKI</a>
   message_encryption_cipher: AES-256
   country_origin: USA
   requires_phone_number: No
@@ -1015,9 +1015,9 @@
   platforms: Android, iOS, Web
   business_model: "?"
   communication_types: Text, photos, group chat
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: UK
   requires_phone_number: No
   requires_email: No
@@ -1049,15 +1049,15 @@
   platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, images, videos, location, contacts
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: Germany
   requires_phone_number: Yes
   requires_email: No
   id_contains_contact_info: Phone
   android_requires_google_play: No
-  is_locally_encrypted: "?"
+  is_locally_encrypted: Yes
   perfect_forward_secrecy: No
   message_stored_on_server: Temporarily
   message_stored_on_server_source: https://www.sims.me/data-protection
@@ -1084,9 +1084,9 @@
   platforms: Android, iOS, Web
   business_model: Supported by ads
   communication_types: Text, group chat, images, video, audio, location
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: RSA 2048 PKI
+  message_encryption_cipher: AES-256
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
@@ -1119,9 +1119,9 @@
   platforms: Android, iOS (MacOS/Windows/Linux coming soon)
   business_model: Future <a href="https://tungsten-labs.com/faq/general#how-do-you-make-money">paid version or subscription</a>
   communication_types: Chat, group chat, photos, files
-  encryption_protocol: <a href="https://github.com/TungstenLabs">Tungsten</a>
-  shared_secret_exchange: "?"
-  message_encryption_cipher: "?"
+  encryption_protocol: <a href="https://tungstenapp.com/tungsten-whitepaper-v1.pdf">NaCl, BouncyCastle, OpenSSL</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
   country_origin: Germany
   country_origin_source: https://tungsten-labs.com/imprint
   requires_phone_number: No
@@ -1154,9 +1154,9 @@
   platforms: Android, iOS, Web
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, files, audio recordings
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
@@ -1188,9 +1188,9 @@
   platforms: Android, iOS
   business_model: Enterprise version of the platform
   communication_types: text messaging, pictures, voice notes, audio, video, media files, documents
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: <a href="https://github.com/loment">Cashew SDK</a>
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: USA
   requires_phone_number: No
   requires_email: Yes
@@ -1222,9 +1222,9 @@
   platforms: <a href="https://getconfide.com/download">Android, iOS, MacOS, Windows</a>
   business_model: Subscription plans for premium features or enterprise
   communication_types: Text, group messaging, voice and video messages, file sharing
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: USA
   requires_phone_number: Either
   requires_email: Either
@@ -1291,8 +1291,8 @@
   platforms: Android, iOS, Web
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, video, audio messages
-  encryption_protocol: <a href="https://www.foilchat.com/privacy/">foilChat</a>
-  shared_secret_exchange: RSA 4096
+  encryption_protocol: "?"
+  shared_secret_exchange: <a href="https://www.foilchat.com/privacy/">RSA 4096 PKI</a>
   message_encryption_cipher: AES-256
   country_origin: Finland
   requires_phone_number: No
@@ -1359,9 +1359,9 @@
   platforms: <a href="https://hoccer.com/#section-download">Android, iOS</a>
   business_model: <a href="https://www.handelsblatt.com/technik/it-internet/50-millionen-euro-investiert-stroeer-uebernimmt-whatsapp-alternative-hoccer/9658512.html">Investors</a>
   communication_types: Text, file sharing
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: <a href="http://hoccer.com/hoccer-xo-privacy-security-statement/">RSA 2048 PKI</a>
+  message_encryption_cipher: AES-256
   country_origin: Germany
   requires_phone_number: No
   requires_email: No
@@ -1396,9 +1396,9 @@
   platforms: Android, iOS
   business_model: "?"
   communication_types: Text, photos, files, video, stickers
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: AES-256
   country_origin: Canada
   requires_phone_number: Yes
   requires_email: No
@@ -1417,7 +1417,7 @@
   leaks_files: Android
   exodus_privacy_trackers_count: 2
   exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
-  websites: <a href="https://www.hoopmessenger.com/privacy-policy/">Privacy Policy</a>
+  websites: <a href="https://hoopmessenger.com/faq/">FAQ</a>
   notes_file: hoopmessenger_notes.html
   version_tested: 2.6.1311
   last_update: 4/10/2018
@@ -1430,9 +1430,9 @@
   platforms: Android, iOS (MacOS and Windows coming soon)
   business_model: Who knows, it's China
   communication_types:  Text, pictures, voice, video, files
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: <a href="https://secems.com/encrypted-messenger/">AES-256</a>
   country_origin: China
   requires_phone_number: No
   requires_email: No
@@ -1465,9 +1465,9 @@
   platforms: Android, iOS
   business_model: It's Yahoo!
   communication_types: text, photos, group chat, files
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: USA
   requires_phone_number: Yes
   requires_email: No
@@ -1499,9 +1499,9 @@
   platforms: Android, iOS
   business_model: "?"
   communication_types: Text, group chat, photos, videos, audio
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: Canada
   requires_phone_number: Either
   requires_email: Either
@@ -1533,9 +1533,9 @@
   platforms: Android, iOS
   business_model: "?"
   communication_types: text, photos, video and audio calls
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: Vanish
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
   country_origin: Canada
   requires_phone_number: No
   requires_email: No
@@ -1567,9 +1567,9 @@
   platforms: Android, iOS, MacOS, Windows, Linux
   business_model: VoIP calling plans
   communication_types: Text, group messaging, voice and video calls, photos
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: Salsa20
   country_origin: Japan
   requires_phone_number: Yes
   requires_email: No
@@ -1589,7 +1589,7 @@
   leaks_files: Android
   exodus_privacy_trackers_count: 9
   exodus_privacy_trackers_description: Adjust, App Nexus, Apptimize, Braze, Google Ads, Google CrashLytics, Google DoubleClick, Google Firebase Analytics, MixPanel
-  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security/">Security Overview</a>
+  websites: <a href="https://support.viber.com">Support</a>, <a href="https://www.viber.com/security/">Security Overview</a>, <a href="https://www.viber.com/app/uploads/viber-encryption-overview.pdf>Encryption Overview</a>
   notes_file: viber_notes.html
   version_tested: 8.6.0
   last_update: 4/3/2018
@@ -1602,9 +1602,9 @@
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
   business_model: Subscription plans for premium features
   communication_types: Text, files, photos, video, location, contacts, audio
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: RSA 3072 PKI
+  message_encryption_cipher: AES-256
   country_origin: UK
   requires_phone_number: Either
   requires_email: Either
@@ -1637,9 +1637,9 @@
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
   business_model: Enterprise version of the platform
   communication_types: Text, files, photos, video, location, contacts, audio
-  encryption_protocol: 
-  shared_secret_exchange: 
-  message_encryption_cipher: 
+  encryption_protocol: "?"
+  shared_secret_exchange: RSA 3072 PKI
+  message_encryption_cipher: AES-256
   country_origin: UK
   requires_phone_number: Either
   requires_email: Either
@@ -1779,7 +1779,7 @@
   business_model: <a href="https://www.bloomberg.com/news/articles/2017-12-12/cryptic-russian-crusader-says-his-5-billion-app-can-t-be-bought">Self funded</a> by <a href="https://telegram.org/faq#q-who-are-the-people-behind-telegram">Pavel Durov</a>
   communication_types: Text, voice, file sharing
   encryption_protocol: <a href="https://core.telegram.org/api/end-to-end">MProto</a>
-  shared_secret_exchange: DH-2048
+  shared_secret_exchange: DH MODP2048
   message_encryption_cipher: AES-256
   country_origin: UK
   requires_phone_number: Yes
