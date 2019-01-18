@@ -1128,7 +1128,7 @@
   requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
-  is_locally_encrypted: "?"
+  is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   message_stored_on_server: No
   has_ephemeral_messages: No
@@ -1141,7 +1141,7 @@
   leaks_files: No
   exodus_privacy_trackers_count: 2
   exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp
-  websites: <a href="https://tungsten-labs.com/faq">FAQ</a>
+  websites: <a href="https://tungsten-labs.com/faq">FAQ</a>, <a href="https://tungstenapp.com/tungsten-whitepaper-v1.pdf">Whitepaper</a>
   notes_file: tungsten_notes.html
   version_tested: 1.1.0
   last_update: 5/25/2018
