@@ -4,6 +4,9 @@ The web application connects to your phone with a QR code, new messages sync to 
 There are ads dispersed throughout the application.<br>
 One tester had the app freeze up on iOS after it asked for a rating at the app store and even a reinstall of the app could not restore functionality.<br>
 <br>
+Encryption (<a href="https://soma.im/faq?lang=en#q-how-do-you-encrypt-data">FAQ</a>):<br>
+When a user starts a new message, the sending device generates a random 256-bit key and encrypts the message with it using AES in CBC mode. The dynamically generated public RSA 2048-bit encryption keys are then retrieved from the server to encrypt this per-message AES key. The retrieve public keys will be further verified on the sending device to prevent man-in-the-middle attack. The combination of the encrypted message and the encrypted message key is then hashed with SHA-1 to ensure the integrity of the message body.<br>
+<br>
 My verdict: Too many ads and data trackers<br>
 Overall the app works well and is very functional.  The ads are a disappointment, and there are a total of 13 trackers used in this app.<br>
 Requires people to know your phone number for connecting with people, there are better apps to use if this is how you choose to identify yourself.<br>

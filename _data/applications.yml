@@ -113,7 +113,7 @@
   business_model: Free open source project
   communication_types: Text
   encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services</a>
-  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">DH RSA1024</a>
+  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
   message_encryption_cipher: AES-128
   country_origin: No centralized servers
   requires_phone_number: No

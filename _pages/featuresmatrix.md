@@ -4,12 +4,51 @@ title: Features Matrix
 permalink: /featuresmatrix.html
 ---
 <br>
-Country Key:
+Country Key:<br>
 <table style="width:15%">
 	<tr><td class="fiveeyes">5 Eyes Member</td></tr>
 	<tr><td class="nineeyes">9 Eyes Member</td></tr>
 	<tr><td class="fourteeneyes">14 Eyes Member</td></tr>
 </table>
+
+<br>
+Encryption Methods:
+<table border="2">
+<tr><th></th><th>Shared Secret Exchange</th><th>Message Encryption Cipher</th></tr>
+<tr>
+<td>Best:</td>
+<td>
+<a href="https://www.signal.org/docs/specifications/x3dh/">X3DH Curve25519, X3DH Curve448</a><br>
+ECDH25519, ECDHC brainpoolp256r1, ECDH P256, ECDH P521 (Diffie-Hellman Elliptical Curves)<br>
+RSA 4096 PKI and higher
+</td>
+<td>
+<a href="https://download.libsodium.org/doc/advanced/stream_ciphers/xsalsa20">XSalsa20</a>, <a href="https://download.libsodium.org/doc/advanced/stream_ciphers/xchacha20">XChaCha20</a><br>
+AES-192, AES-256
+</td>
+</tr>
+
+<tr>
+<td>Good:</td>
+<td>
+DH MODP1536 through MODP8192 (Diffie-Hellman Modular Exponential)<br>
+RSA 2048 PKI
+</td>
+<td>
+<a href="https://download.libsodium.org/doc/advanced/stream_ciphers/salsa20">Salsa20</a>, <a href="https://download.libsodium.org/doc/advanced/stream_ciphers/chacha20">ChaCha20</a><br>
+AES-128
+</td>
+</tr>
+
+<tr>
+<td>Not Recommended:</td>
+<td>
+RSA 1024 PKI
+</td>
+<td>RC4+</td>
+</tr>
+</table>
+
 <br>
 Features Matrix:
 <br>
@@ -39,7 +78,7 @@ Features Matrix:
 <tbody>
 
 {% assign final_platforms = 'Android' %}
-{% assign final_trackers = 'Google Firebase Analytics' %}
+
 {% for application in applications %}
 {% if application.recommendation == 1 %}
   {% capture htmlimage %}<img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
@@ -73,13 +112,13 @@ Features Matrix:
 	<td>?</td>
 {% endif %}
 
-	<td>{{ application.platforms }}</td>
-	{% assign platforms_scrubbing = application.platforms | strip_html | split: '(' %}
-	{% for element in platforms_scrubbing %}
-	  {% assign clean = element | append: ' ' | split: ')' | last | strip | replace: ' ,',',' | replace: ', ',',' %}
-	  {% assign final_platforms = final_platforms | append: ',' | append: clean %}
-	{% endfor %}
-	{% assign final_platforms = final_platforms | replace: ',,',',' | split:',' | uniq | join: ',' %}
+<td>{{ application.platforms }}</td>
+{% assign platforms_scrubbing = application.platforms | strip_html | split: '(' %}
+{% for element in platforms_scrubbing %}
+  {% assign clean = element | append: ' ' | split: ')' | last | strip | replace: ' ,',',' | replace: ', ',',' %}
+  {% assign final_platforms = final_platforms | append: ',' | append: clean %}
+{% endfor %}
+{% assign final_platforms = final_platforms | replace: ',,',',' | split:',' | uniq | join: ',' %}
 
 <td>{{ application.encryption_protocol }}</td>
 
@@ -201,9 +240,6 @@ Features Matrix:
 
 
 	<td>{{ application.exodus_privacy_trackers_description }}</td>
-{% assign clean = application.exodus_privacy_trackers_description | replace: ' ,',',' | replace: ', ',',' %}
-{% assign final_trackers = final_trackers | append: ',' | append: clean %}
-{% assign final_trackers = final_trackers | replace: ',,',',' | split:',' | uniq | sort | join: ',' %}
 
   <td>{{ application.business_model }}</td>
 </tr>
@@ -211,8 +247,12 @@ Features Matrix:
 </tbody>
 </table>
 
-{% capture texts_values %}[['Only recommended'],['{{ final_platforms | split: ',' | sort | join: "','" }}'],['{{ final_trackers | split: ',' | join: "','"}}']]{% endcapture %}
-{% capture values_values %}[['*recommended'],['*{{ final_platforms | split: ',' | sort | join: "','*" }}'],['*{{ final_trackers | split: ',' | join: "','*"}}']]{% endcapture %}
+{% assign protocols = site.data.applications | map: "encryption_protocol" | join: ',' | strip_html | replace: ' ,',',' | replace: ', ',',' | split:',' | uniq | sort %}
+
+{% assign trackers = site.data.applications | map: "exodus_privacy_trackers_description" | join: ',' | replace: ' ,',',' | replace: ', ',',' | split:',' | uniq | sort %}
+
+{% capture texts_values %}[['Only recommended'],['{{ final_platforms | split: ',' | sort | join: "','" }}'],['{{ protocols | join: "','"}}'],['{{ trackers | join: "','"}}']]{% endcapture %}
+{% capture values_values %}[['*recommended'],['*{{ final_platforms | split: ',' | sort | join: "','*" }}'],['*{{ protocols | join: "','*"}}'],['*{{ trackers | join: "','*"}}']]{% endcapture %}
 
 <script language="javascript" type="text/javascript"> 
     // http://tablefilter.free.fr 
@@ -227,7 +267,7 @@ Features Matrix:
       col_2: "checklist",
       col_3: "checklist",
       col_4: "select",
-      col_5: "checklist",
+      col_5: "select",
       col_6: "checklist",
       col_7: "checklist",
       col_8: "checklist",
@@ -241,10 +281,10 @@ Features Matrix:
       col_16: "checklist",
       col_17: "select",
       custom_slc_options: {
-        cols:[1,4,17],
+        cols:[1,4,5,17],
         texts: {{ texts_values }},
         values: {{ values_values }},
-        sorts: [false,false,false]
+        sorts: [false,false,false,false]
       },
       help_instructions_html: "Use the filters above each column to filter and limit table data.<hr/>",
       
