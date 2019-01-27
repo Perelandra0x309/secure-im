@@ -7,7 +7,7 @@ Table of Contents:<br>
 <table>
 <tr><td>
 <ul>
-  {% capture htmllink %}{% link index.html %}{% endcapture %}
+  {% capture htmllink %}{% link index.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">Home</a></li>
   {% capture htmllink %}{% link _pages/app_list.md %}{% endcapture %}
   <li class="{% if htmllink == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ htmllink }}">List of Applications</a></li>

@@ -1,5 +1,5 @@
 ---
-layout: featuresmatrix_layout
+layout: single_full
 title: Features Matrix
 permalink: /featuresmatrix.html
 ---

@@ -1,6 +1,6 @@
 ---
 
-title: Peer to Peer Closed Source
+title: Centralized Applications
 which_category: 2
 ---
 

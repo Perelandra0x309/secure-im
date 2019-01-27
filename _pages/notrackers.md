@@ -1,5 +1,5 @@
 ---
-layout: default
+
 title: No Trackers Hall of Fame
 permalink: /notrackers.html
 ---

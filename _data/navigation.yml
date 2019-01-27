@@ -1,0 +1,50 @@
+main:
+#  - title: "Applications Index"
+#    url: /applist.html
+#  - title: "EFF Guide to Choosing a Messenger"
+#    url: /effguide.html
+#  - title: "Features Matrix"
+#    url: /featuresmatrix.html
+#  - title: "No Trackers Hall of Fame!"
+#    url: /notrackers.html
+  - title: "About"
+    url: /about.html
+
+docs:
+  - title: Guides
+    children:
+      - title: "Introduction"
+        url: /guideintro.html
+      - title: "1- Install Signal"
+        url: /docs/quick-start-guide/
+      - title: "2- Single Device Apps"
+        url: /docs/structure/
+      - title: "3- Multiple Device Apps"
+        url: /docs/installation/
+#      - title: "Upgrading"
+#        url: /docs/upgrading/
+
+  - title: App Reviews
+    children:
+      - title: "Application Index"
+        url: /applist.html
+      - title: "P2P Applications"
+        url: /p2papps.html
+      - title: "Centralized Applications"
+        url: /centralizedapps.html
+      - title: "Decentralized Applications"
+        url: /decentralizedapps.html
+      - title: "Rejected Applications"
+        url: /rejectedapps.html
+      - title: "No Trackers! List"
+        url: /notrackers.html
+      - title: "Messaging Protocols"
+        url: protocols.html
+
+  - title: Charts
+    children:
+      - title: "EFF Guide to Choosing a Messenger"
+        url: /effguide.html
+      - title: "Features Matrix"
+        url: /featuresmatrix.html
+

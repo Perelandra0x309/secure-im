@@ -5,6 +5,7 @@
 #  url: 
 #  recommendation: (1- highly, 2- worth a try, 3- not recommended)
 #  platforms: Android/iOS/MacOS/Windows/Linux/Web
+#  source_type: open/closed/partialopen
 #  business_model: 
 #  communication_types: 
 #  encryption_protocol: 
@@ -34,7 +35,7 @@
 #  last_update: 
 
 
-#  Category 1- P2P open source
+#  Category 1- P2P
 
 - name: antox
   category: 1
@@ -42,6 +43,7 @@
   url: https://github.com/Antox/Antox
   recommendation: 3
   platforms: Android
+  source_type: open
   business_model: Free open source project
   communication_types: "Text, files, avatars, partial A/V support"
   encryption_protocol: <a href="https://wiki.tox.chat/users/techfaq">NaCl</a>
@@ -76,6 +78,7 @@
   url: https://silence.im
   recommendation: 1
   platforms: Android
+  source_type: open
   business_model: Free open source project, Bitcoin donations
   communication_types: SMS, MMS
   encryption_protocol: <a href="https://github.com/SilenceIM/Silence">Signal</a>
@@ -108,11 +111,12 @@
   category: 1
   display_name: Ricochet
   url: https://ricochet.im
-  recommendation: 1
+  recommendation: 2
   platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux</a>
+  source_type: open
   business_model: Free open source project
   communication_types: Text
-  encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services</a>
+  encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services/TLS</a>
   shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
   message_encryption_cipher: AES-128
   country_origin: No centralized servers
@@ -144,6 +148,7 @@
   url: https://ring.cx
   recommendation: 3
   platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
+  source_type: open
   business_model: Open source, side project of Savoir-faire Linux
   communication_types: Text, group chat, voice, video, files, photos
   encryption_protocol: <a href="https://git.ring.cx/savoirfairelinux/ring-project/wikis/technical/Technical-overview">GnuTLS</a>
@@ -178,6 +183,7 @@
   url: https://briarproject.org
   recommendation: 1
   platforms: Android (via Google Play, <a href="https://briarproject.org/fdroid.html">F-Droid repo</a> or <a href="https://briarproject.org/apk.html">APK</a>)
+  source_type: open
   business_model: Free open source project, Bitcoin donations, <a href="https://briarproject.org/about.html">other funding</a>
   communication_types: Text and forums
   encryption_protocol: <a href="https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BQP.md">Bramble</a>, SpongyCastle
@@ -212,6 +218,7 @@
   url: https://github.com/ssbc/patchwork
   recommendation: 2
   platforms: Linux, MacOS, Windows
+  source_type: open
   business_model: Free open source project
   communication_types: Text
   encryption_protocol: <a href="https://ssbc.github.io/scuttlebutt-protocol-guide/">Scuttlebutt</a>
@@ -240,14 +247,13 @@
   version_tested: 3.8.10
   last_update: 4/24/2018
 
-# Category 2- P2P closed source
-
 - name: safeswiss
-  category: 2
+  category: 1
   display_name: SafeSwiss
   url: https://safeswiss.com
   recommendation: 1
   platforms: Android, iOS, Windows
+  source_type: closed
   business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
   communication_types: Text, group chat, voice, pictures, video, location
   encryption_protocol: <a href="https://safeswiss.com/faq">NaCl</a>
@@ -278,11 +284,12 @@
   last_update: 1/23/2018
 
 - name: twinme
-  category: 2
+  category: 1
   display_name: TwinMe
   url: https://twin.me
   recommendation: 1
   platforms: Android, iOS
+  source_type: closed
   business_model: <a href="https://twin.life/business-solutions/">Pro version of the platform</a>
   communication_types: Text, group chat, voice, photos, video, files, streaming music
   encryption_protocol: <a href="https://twin.me/en/support/twinme-protect-data/">WebRTC/TLS</a>
@@ -312,11 +319,12 @@
   last_update: 11/28/2018
 
 - name: skred
-  category: 2
+  category: 1
   display_name: Skred
   url: https://skred.mobi
   recommendation: 2
   platforms: Android, iOS
+  source_type: closed
   business_model: <a href="https://skred.mobi/fr/cgu/">Operated by SKRED SAS with a capital of €1,387,000</a>
   communication_types: Text, image, sound, music, video
   encryption_protocol: <a href="https://twin.me/en/support/twinme-protect-data/">WebRTC/TLS</a>
@@ -346,11 +354,12 @@
   last_update: 8/12/2018
 
 - name: firechat
-  category: 2
+  category: 1
   display_name: FireChat
   url: https://www.opengarden.com/firechat/
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: Various <a href="https://www.opengarden.com/team/">investors</a>??
   communication_types: Text, private group chat, public chatrooms, photos
   encryption_protocol: <a href="https://www.opengarden.com/protocol/">Open Garden</a>?
@@ -380,11 +389,12 @@
   last_update: 1/23/2018
 
 - name: kripter
-  category: 2
+  category: 1
   display_name: Kripter
   url: https://kripter.io
   recommendation: 3
   platforms: Android
+  source_type: closed
   business_model: "?"
   communication_types: Text, voice, pictures, files, location
   encryption_protocol: <a href="https://kripter.io/messenger.php">OTR</a>
@@ -414,11 +424,12 @@
   last_update: 11/26/2017
 
 - name: linkcast
-  category: 2
+  category: 1
   display_name: LinkCast
   url: https://linkcast.me
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: Purchasing of coins and stickers in the app
   communication_types: Text, group chat, video chat, photos, videos, files, location
   encryption_protocol: "?"
@@ -448,11 +459,12 @@
   last_update: 11/03/2018
 
 - name: sid
-  category: 2
+  category: 1
   display_name: Sid
   url: https://sid.co
   recommendation: 3
   platforms: Android, iOS, MacOS, Windows, Linux
+  source_type: closed
   business_model: Sid is a demonstration of <a href="http://www.spherebox.com">Spherebox</a> technology
   communication_types: Text, group chat, pictures, audio, files
   encryption_protocol: <a href="https://sid.co/security-by-design">NaCl</a>
@@ -483,11 +495,12 @@
   last_update: 1/23/2018
 
 - name: stealthchat
-  category: 2
+  category: 1
   display_name: StealthChat
   url: http://stealthchat.com
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: A project of <a href="http://www.rockliffe.com">Rockliffe</a> software.
   communication_types: Text, group chat, voice, pictures
   encryption_protocol: <a href="http://stealthchat.com/technology.html">OTR</a>
@@ -517,11 +530,12 @@
   last_update: 2/2/2018
 
 - name: zangi
-  category: 2
+  category: 1
   display_name: Zangi
   url: http://zangi.com
   recommendation: 3
   platforms: Android, iOS (MacOS, Windows and web coming soon)
+  source_type: closed
   business_model: Enterprise <a href="https://zangi.com/about">messenger solutions</a>
   communication_types: Text, VOIP, photos, video, audio, files, location
   encryption_protocol: "?"
@@ -551,14 +565,15 @@
   last_update: 1/27/2018
 
 
-# Category 3- Other open source
+# Category 2- Centralized
 
 - name: signal
-  category: 3
+  category: 2
   display_name: Signal
   url: https://www.signal.org
   recommendation: 1
   platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iOS, MacOS, Windows, Linux
+  source_type: open
   business_model: Free open source project supported by grants and donations
   communication_types: Text, voice, video, files, images
   encryption_protocol: <a href="https://www.signal.org/docs/">Signal</a>
@@ -594,6 +609,7 @@
   url: https://conversations.im
   recommendation: 2
   platforms: Android
+  source_type: open
   business_model: Funded through one time purchase of app and subscriptions to the conversations.im xmpp server
   communication_types: Text, group chat, video, files, images
   encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
@@ -628,6 +644,7 @@
   url: https://jabber.pix-art.de
   recommendation: 2
   platforms: Android
+  source_type: open
   business_model: <a href="https://jabber.pix-art.de/privacy/">This service is privately financed</a>
   communication_types: Text, group chat, video, files, images
   encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
@@ -662,6 +679,7 @@
   url: https://quicksy.im
   recommendation: 2
   platforms: Android
+  source_type: open
   business_model: Funded through the the quicksy.im directory service
   communication_types: Text, group chat, video, files, images
   encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
@@ -696,6 +714,7 @@
   url: https://about.riot.im
   recommendation: 1
   platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux, Web
+  source_type: open
   business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
   communication_types: Text, voice, video, file sharing
   encryption_protocol: <a href="https://about.riot.im/security/">Matrix</a>
@@ -726,11 +745,12 @@
   last_update: 1/28/2018
 
 - name: kontalk
-  category: 3
+  category: 2
   display_name: Kontalk
   url: http://www.kontalk.org
   recommendation: 3
   platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
+  source_type: open
   business_model: Free open source project, servers run by volunteers
   communication_types: Text, photo, video, audio, files, location, contacts
   encryption_protocol: <a href="https://github.com/kontalk/specs/blob/master/encryption.md">OpenPGP</a>
@@ -766,6 +786,7 @@
   url: http://retroshare.net
   recommendation: 2
   platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux, FreeBSD</a>
+  source_type: open
   business_model: Free open source project
   communication_types: Text, voice, video, email, file sharing
   encryption_protocol: <a href="https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/">OpenPGP</a>
@@ -794,11 +815,12 @@
   notes_file: retroshare_notes.html
 
 - name: surespot
-  category: 3
+  category: 2
   display_name: Surespot
   url: https://www.surespot.me
   recommendation: 3
   platforms: Android, iOS
+  source_type: open
   business_model: Free open source project, Bitcoin donations
   communication_types: Text, voice, images
   encryption_protocol: <a href="https://github.com/surespot/cryptopp">Crypto++</a>
@@ -831,11 +853,12 @@
   last_update: 1/24/2018
 
 - name: wire
-  category: 3
+  category: 2
   display_name: Wire
   url: https://wire.com
   recommendation: 1
   platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux, Web
+  source_type: open
   business_model: Enterprise version of the platform
   communication_types: Text, voice, video, file sharing
   encryption_protocol: <a href="https://github.com/wireapp/proteus">NaCl</a>
@@ -870,11 +893,12 @@
 # Category 4- Other closed source
 
 - name: eleet
-  category: 4
+  category: 2
   display_name: Eleet
   url: https://eleet.im
   recommendation: 1
   platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux, Web
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, videos, audio files
   encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
@@ -905,11 +929,12 @@
   last_update: 1/28/2018
 
 - name: babelnet
-  category: 4
+  category: 3
   display_name: BabelNet
   url: https://www.babelnet.com
   recommendation: 2
   platforms: Android, iOS, MacOS, Windows
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, photos, files, voice messages
   encryption_protocol: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">Babelnet</a>
@@ -939,11 +964,12 @@
   last_update: 8/12/2018
 
 - name: brosix
-  category: 4
+  category: 2
   display_name: Brosix
   url: https://www.brosix.com
   recommendation: 2
   platforms: Android, iOS, MacOS, Windows, Linux
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, files, voice, video, location
   encryption_protocol: "?"
@@ -974,11 +1000,12 @@
   last_update: 12/19/2018
   
 - name: mysudo
-  category: 4
+  category: 2
   display_name: MySudo
   url: https://mysudo.com
   recommendation: 2
   platforms: iOS
+  source_type: closed
   business_model: Monthly subscription fee
   communication_types: text, voice call, photos, contacts, location
   encryption_protocol: <a href="https://support.mysudo.com/hc/en-us/articles/360006719314-How-does-MySudo-use-encryption-keys-">Anonyome Cloud Platform</a>
@@ -1008,11 +1035,12 @@
   last_update: 6/26/2018
 
 - name: safetext
-  category: 4
+  category: 2
   display_name: SafeText
   url: https://safe-text.com
   recommendation: 2
   platforms: Android, iOS, Web
+  source_type: closed
   business_model: "?"
   communication_types: Text, photos, group chat
   encryption_protocol: "?"
@@ -1042,11 +1070,12 @@
   last_update: 10/27/2018
 
 - name: simsme
-  category: 4
+  category: 2
   display_name: SIMSme
   url: https://www.sims.me
   recommendation: 2
   platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, images, videos, location, contacts
   encryption_protocol: "?"
@@ -1077,11 +1106,12 @@
   last_update: 3/8/2018
 
 - name: soma
-  category: 4
+  category: 2
   display_name: Soma
   url: https://soma.im
   recommendation: 3
   platforms: Android, iOS, Web
+  source_type: closed
   business_model: Supported by ads
   communication_types: Text, group chat, images, video, audio, location
   encryption_protocol: "?"
@@ -1112,11 +1142,12 @@
   last_update: 1/27/2018
 
 - name: tungsten
-  category: 4
+  category: 2
   display_name: Tungsten
   url: https://tungsten-labs.com
   recommendation: 2
   platforms: Android, iOS (MacOS/Windows/Linux coming soon)
+  source_type: closed
   business_model: Future <a href="https://tungsten-labs.com/faq/general#how-do-you-make-money">paid version or subscription</a>
   communication_types: Chat, group chat, photos, files
   encryption_protocol: <a href="https://tungstenapp.com/tungsten-whitepaper-v1.pdf">NaCl, BouncyCastle, OpenSSL</a>
@@ -1147,11 +1178,12 @@
   last_update: 5/25/2018
 
 - name: whispeer
-  category: 4
+  category: 2
   display_name: Whispeer
   url: https://whispeer.de
   recommendation: 2
   platforms: Android, iOS, Web
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, files, audio recordings
   encryption_protocol: "?"
@@ -1181,11 +1213,12 @@
   last_update: 2/3/2018
 
 - name: cashew
-  category: 4
+  category: 2
   display_name: Cashew
   url: https://loment.net
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: text messaging, pictures, voice notes, audio, video, media files, documents
   encryption_protocol: <a href="https://github.com/loment">Cashew SDK</a>
@@ -1215,11 +1248,12 @@
   last_update: 9/6/2018
 
 - name: confide
-  category: 4
+  category: 2
   display_name: Confide
   url: https://getconfide.com
   recommendation: 3
   platforms: <a href="https://getconfide.com/download">Android, iOS, MacOS, Windows</a>
+  source_type: closed
   business_model: Subscription plans for premium features or enterprise
   communication_types: Text, group messaging, voice and video messages, file sharing
   encryption_protocol: "?"
@@ -1249,11 +1283,12 @@
   last_update: 1/25/2018
 
 - name: crypviser
-  category: 4
+  category: 2
   display_name: Crypviser
   url: https://crypviser.network
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: CV Secure Business and CVCore SaaS enterprise subscriptions
   communication_types: Chat, files, videos, location, voice calls
   encryption_protocol: <a href="http://crypviser.network/CrypViser_Whitepaper.pdf">CSMP</a>
@@ -1284,11 +1319,12 @@
   last_update: 12/22/2018
 
 - name: foilchat
-  category: 4
+  category: 2
   display_name: foilChat
   url: https://www.foilchat.com
   recommendation: 3
   platforms: Android, iOS, Web
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, video, audio messages
   encryption_protocol: "?"
@@ -1318,11 +1354,12 @@
   last_update: 1/25/2018
 
 - name: fortknoxster
-  category: 4
+  category: 2
   display_name: FortKnoxster
   url: https://fortknoxster.com
   recommendation: 3
   platforms: Android, iOS, Web
+  source_type: closed
   business_model: Purchasing additional cloud storage, future enterprise platform
   communication_types: Chat, group chat, cloud file storage, video chat, screen sharing, voice, calendar, notes
   encryption_protocol: <a href="https://fortknoxster.com/whitepaper.pdf">FortKnoxster</a>
@@ -1352,11 +1389,12 @@
   last_update: 7/16/2018
 
 - name: hoccer
-  category: 4
+  category: 2
   display_name: Hoccer
   url: https://hoccer.com
   recommendation: 3
   platforms: <a href="https://hoccer.com/#section-download">Android, iOS</a>
+  source_type: closed
   business_model: <a href="https://www.handelsblatt.com/technik/it-internet/50-millionen-euro-investiert-stroeer-uebernimmt-whatsapp-alternative-hoccer/9658512.html">Investors</a>
   communication_types: Text, file sharing
   encryption_protocol: "?"
@@ -1389,11 +1427,12 @@
   last_update: 3/8/2018
 
 - name: hoopmessenger
-  category: 4
+  category: 2
   display_name: HoopMessenger
   url: https://www.hoopmessenger.com
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: "?"
   communication_types: Text, photos, files, video, stickers
   encryption_protocol: "?"
@@ -1423,11 +1462,12 @@
   last_update: 4/10/2018
 
 - name: secems
-  category: 4
+  category: 2
   display_name: SecEMS
   url: https://secems.com
   recommendation: 3
   platforms: Android, iOS (MacOS and Windows coming soon)
+  source_type: closed
   business_model: Who knows, it's China
   communication_types:  Text, pictures, voice, video, files
   encryption_protocol: "?"
@@ -1458,11 +1498,12 @@
   last_update: 8/25/2018
 
 - name: together
-  category: 4
+  category: 2
   display_name: Together
   url: https://squirrel.yahoo.com
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: It's Yahoo!
   communication_types: text, photos, group chat, files
   encryption_protocol: "?"
@@ -1492,11 +1533,12 @@
   last_update: 10/21/2018
 
 - name: twicie
-  category: 4
+  category: 2
   display_name: Twicie
   url: http://www.twicie.com
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: "?"
   communication_types: Text, group chat, photos, videos, audio
   encryption_protocol: "?"
@@ -1526,11 +1568,12 @@
   last_update: 8/26/2018
 
 - name: vanish
-  category: 4
+  category: 2
   display_name: Vanish Messenger
   url: https://www.disappears.com
   recommendation: 3
   platforms: Android, iOS
+  source_type: closed
   business_model: "?"
   communication_types: text, photos, video and audio calls
   encryption_protocol: Vanish
@@ -1560,11 +1603,12 @@
   last_update: 7/11/2018
 
 - name: viber
-  category: 4
+  category: 2
   display_name: Viber
   url: https://www.viber.com
   recommendation: 3
   platforms: Android, iOS, MacOS, Windows, Linux
+  source_type: closed
   business_model: VoIP calling plans
   communication_types: Text, group messaging, voice and video calls, photos
   encryption_protocol: "?"
@@ -1595,11 +1639,12 @@
   last_update: 4/3/2018
 
 - name: vipolefree
-  category: 4
+  category: 2
   display_name: VIPole (Free version)
   url: https://www.vipole.com
   recommendation: 3
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
+  source_type: closed
   business_model: Subscription plans for premium features
   communication_types: Text, files, photos, video, location, contacts, audio
   encryption_protocol: "?"
@@ -1630,11 +1675,12 @@
   last_update: 1/28/2018
 
 - name: vipolepro
-  category: 4
+  category: 2
   display_name: VIPole (Pro version)
   url: https://www.vipole.com
   recommendation: 3
   platforms: <a href="https://www.vipole.com/en/download">Android, iOS, MacOS, Windows, Linux</a>
+  source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, files, photos, video, location, contacts, audio
   encryption_protocol: "?"
@@ -1668,11 +1714,12 @@
 # Category 5- Other partially open Source
 
 - name: keybase
-  category: 5
+  category: 2
   display_name: Keybase
   url: https://www.keybase.io
   recommendation: 1
   platforms: Android, iOS, MacOS, Windows, Linux
+  source_type: partialopen
   business_model: <a href="https://keybase.io/jobs">Investors?</a>
   communication_types: Text, group chat, file sharing
   encryption_protocol: <a href="https://keybase.io/docs/crypto/overview">NaCl</a>
@@ -1702,11 +1749,12 @@
   last_update: 7/1/2018
 
 - name: threema
-  category: 5
+  category: 2
   display_name: Threema
   url: https://threema.ch
   recommendation: 1
   platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
+  source_type: partialopen
   business_model: One time app purchase fee
   communication_types: Text, group chat, voice, files, voice chat
   encryption_protocol: <a href="https://threema.ch/en/faq/why_secure">NaCl</a>
@@ -1737,11 +1785,12 @@
   last_update: 11/24/2018
 
 - name: wickrme
-  category: 5
+  category: 2
   display_name: Wickr Me
   url: https://wickr.com/products/personal/
   recommendation: 1
   platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
+  source_type: partialopen
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, videos, files, audio message, voice calls
   encryption_protocol: <a href="https://github.com/WickrInc/wickr-crypto-c/wiki">Wickr Messaging Protocol</a>
@@ -1771,11 +1820,12 @@
   last_update: 10/30/2018
 
 - name: telegram
-  category: 5
+  category: 2
   display_name: Telegram
   url: https://telegram.org
   recommendation: 3
   platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, Web</a>
+  source_type: partialopen
   business_model: <a href="https://www.bloomberg.com/news/articles/2017-12-12/cryptic-russian-crusader-says-his-5-billion-app-can-t-be-bought">Self funded</a> by <a href="https://telegram.org/faq#q-who-are-the-people-behind-telegram">Pavel Durov</a>
   communication_types: Text, voice, file sharing
   encryption_protocol: <a href="https://core.telegram.org/api/end-to-end">MProto</a>
@@ -1805,7 +1855,6 @@
   version_tested: 4.9.1
   last_update: 1/5/2019
 
-# Category 6- P2P partially open Source
 
 # Category 10- Not E2EE
 
@@ -2170,7 +2219,7 @@
   category: 11
   display_name: Line
   recommendation: 3
-  notes_text: "(https://line.me) No information about security on website, does not seem to be a focus at all although there are articles online claiming they are E2EE."
+  notes_text: "(https://line.me) No information about security on main website, does not seem to be a focus at all although there are articles online claiming they are E2EE (https://linecorp.com/en/security/encryption_report)."
 
 - name: wechat
   category: 11

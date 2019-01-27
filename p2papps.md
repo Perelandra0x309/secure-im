@@ -1,6 +1,6 @@
 ---
 
-title: Peer to Peer Open Source Applications
+title: Peer to Peer Applications
 which_category: 1
 ---
 

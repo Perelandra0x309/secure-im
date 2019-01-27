@@ -1,6 +1,6 @@
 ---
-layout: single
-title: Other Open Source
+
+title: Decentralized Applications
 which_category: 3
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: effguide_layout
-title: EFF Messenger choosing Guide
+layout: single_full
+title: "Electronic Frontier Foundation:<br>Guide to Choosing a Messenger"
 permalink: /effguide.html
 ---
 
@@ -77,16 +77,17 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
   </li>
 </ul>
 <br>
-<input type="checkbox" id="onlyRec" onchange="setFilters()" name="onlyRec" value="false"> <label for="onlyRec">Show only recommended apps</label><br>
-<br>
-Show apps that have:<br>
-<input type="checkbox" id="ephemCB" onchange="setFilters()" name="ephemCB" value="false"> <label for="ephemCB">Ephemeral Messages</label><br>
-<input type="checkbox" id="idCB" onchange="setFilters()" name="idCB" value="false"> <label for="idCB">ID contains no personal info</label><br>
-<input type="checkbox" id="foolproofCB" onchange="setFilters()" name="foolproofCB" value="false"> <label for="foolproofCB">Foolproof encryption</label><br>
-<input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false"> <label for="puddleCB">Puddle test: Data not recoverable</label><br>
-<input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false"> <label for="hammerCB">Hammer test: Data not recoverable</label><br>
-<input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false"> <label for="verifyCB">Has contact verification</label><br>
+<table border="0">
+<tr><td><input type="checkbox" id="onlyRec" onchange="setFilters()" name="onlyRec" value="false"></td><td><label for="onlyRec">Show only recommended apps</label></td></tr>
+<tr><td colspan="2">Show apps that have:</td></tr>
 
+<tr><td><input type="checkbox" id="ephemCB" onchange="setFilters()" name="ephemCB" value="false"></td><td><label for="ephemCB">Ephemeral Messages</label></td></tr>
+<tr><td><input type="checkbox" id="idCB" onchange="setFilters()" name="idCB" value="false"></td><td><label for="idCB">ID contains no personal info</label></td></tr>
+<tr><td><input type="checkbox" id="foolproofCB" onchange="setFilters()" name="foolproofCB" value="false"></td><td><label for="foolproofCB">Foolproof encryption</label></td></tr>
+<tr><td><input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false"></td><td><label for="puddleCB">Puddle test: Data not recoverable</label></td></tr>
+<tr><td><input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false"></td><td><label for="hammerCB">Hammer test: Data not recoverable</label></td></tr>
+<tr><td><input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false"></td><td><label for="verifyCB">Has contact verification</label></td></tr>
+</table>
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
 <table id="myTable">
 <th>&nbsp;&nbsp;&nbsp;</th>
