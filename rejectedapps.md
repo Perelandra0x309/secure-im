@@ -1,13 +1,14 @@
 ---
 
-title: Rejected Applications
+title: Rejected Apps
 ---
-
-<p>Apps that are not E2EE:</p>
+These apps are strongly not recommended for various reasons, including not being end-to-end encrypted (E2EE), abondoned projects, geared towards enterprise environments, cost too much or have serious security problems.<br>
+<br>
+<p id="note2ee">Apps that are not E2EE:</p>
 <ul>
   {% assign applications = site.data.applications | where_exp: "item","item.category == 10" | sort: 'name' %}
   {% for application in applications %}
-  <li><a name="{{ application.name }}"></a>{{ application.display_name }}</li>
+  <li id="{{ application.name }}">{{ application.display_name }}</li>
   {% endfor %}
 </ul>
 <br>
@@ -15,6 +16,6 @@ title: Rejected Applications
 <ul>
   {% assign applications = site.data.applications | where_exp: "item","item.category == 11" | sort: 'name' %}
   {% for application in applications %}
-  <li><a name="{{ application.name }}"></a>{{ application.display_name }}- {{ application.notes_text }}
+  <li id="{{ application.name }}">{{ application.display_name }}- {{ application.notes_text }}
     {% endfor %}
 </ul>

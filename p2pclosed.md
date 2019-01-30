@@ -1,7 +1,0 @@
----
-
-title: Peer to Peer Closed Source
-which_category: 2
----
-
-{% include appdetails.html %}

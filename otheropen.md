@@ -1,7 +1,0 @@
----
-layout: single
-title: Other Open Source
-which_category: 3
----
-
-{% include appdetails.html %}

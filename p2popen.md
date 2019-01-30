@@ -1,7 +1,0 @@
----
-
-title: Peer to Peer Open Source Applications
-which_category: 1
----
-
-{% include appdetails.html %}

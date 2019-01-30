@@ -1,12 +1,7 @@
 ---
 layout: single
-title: My list of secure messaging apps
+title: My list of favorite secure messaging apps
 ---
-My list of secure messaging apps.  Below are applications that offer end to end encryption.<br>
-<br>
-Corrections and additions are welcome, either by an Issue ticket or a Pull Request on the <a href="https://github.com/Perelandra0x309/secure-im">github project page</a>.<br>
-<br>
-
 <h2>My current top picks:</h2><br>
 Criteria:
 <ul>
@@ -49,8 +44,7 @@ Messaging apps listed here do not expose you phone number or email address.  Not
     <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS]</li>
     <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Based in Germany [Android Only, no ephemeral messages]</li>
   </ul>
-  <a name="caution"></a>
-  <li>Use with caution:<br>
+  <li id="caution">Use with caution:<br>
   <ul>
      <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li>
     <li>{% include generate_app_link.html app_name="riot" %}- [E2EE still in beta, Based in the UK, no ephemeral messages]</li>
@@ -104,7 +98,7 @@ The following scoring table includes messaging apps that can be used across mult
     <td>{% include generate_app_link.html app_name="wickrme" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>1</td><td>1</td><td>0 (USA)</td><td>7.5</td>
   </tr>
-  <tr style='background: black'>
+  <tr style='background: pink'>
     <td>{% include generate_app_link.html app_name="riot" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>7</td>
   </tr>
@@ -112,7 +106,7 @@ The following scoring table includes messaging apps that can be used across mult
     <td>{% include generate_app_link.html app_name="keybase" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>0 (USA)</td><td>6.5</td>
   </tr>
-  <tr style='background: black'>
+  <tr style='background: pink'>
     <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0 (UK)</td><td>6</td>
   </tr>
@@ -158,7 +152,7 @@ The following scoring table includes messaging apps used on a single device:<br>
     <td>{% include generate_app_link.html app_name="threema" %}</td>
     <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>0</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>6</td>
   </tr>
-  <tr style='background: black'>
+  <tr style='background: pink'>
     <td>{% include generate_app_link.html app_name="riot" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
   </tr>
@@ -170,7 +164,7 @@ The following scoring table includes messaging apps used on a single device:<br>
     <td>{% include generate_app_link.html app_name="briar" %}</td>
     <td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>5</td>
   </tr>
-  <tr style='background: black'>
+  <tr style='background: pink'>
     <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
   </tr>

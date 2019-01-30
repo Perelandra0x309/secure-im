@@ -1,13 +1,10 @@
 {% assign applications_gen = site.data.applications | where_exp: "item","item.name == include.app_name" %}
 {% assign application_gen = applications_gen[0] %}
-{% if application_gen.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2popen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2pclosed.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otheropen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 4 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherclosed.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.html %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
-{% elsif application_gen.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.html %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% if application_gen.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2papps.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link centralizedapps.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link decentralizedapps.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
 {% elsif application_gen.category == 12 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link protocols.md %}#{{ application_gen.name }}">{{ application_gen.display_name }}</a>{% endcapture %}
 {% else %}{% capture htmllink %}{{ application_gen.display_name }}{% endcapture %}
 {% endif %}

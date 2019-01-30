@@ -1,6 +1,6 @@
 ---
 
-title: Decentralized Applications
+title: Decentralized Apps
 which_category: 3
 ---
 

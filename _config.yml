@@ -108,7 +108,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Supernova"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
@@ -301,12 +301,12 @@ defaults:
       classes: wide
       excerpt: "Warning: This site is under heavy construction.  Please visit <a href='https://tycho.im'>tycho.im</a> for the last stable version of the website."
       header:
-        overlay_color: "#333"
+        overlay_color: "#444"
         actions:
         - label: "Start Here"
           url: "/guideintro.html"
-        - label: "Application Index"
-          url: "/applist.html"
+#        - label: "Application Index"
+#          url: "/applist.html"
       sidebar:
         nav: "docs"
   # _docs

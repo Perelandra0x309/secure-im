@@ -1,6 +1,6 @@
 ---
 
-title: Centralized Applications
+title: Centralized Apps
 which_category: 2
 ---
 

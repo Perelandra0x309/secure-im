@@ -1,8 +1,9 @@
 ---
 layout: single_full
-title: Features Matrix
+title: App Features Matrix
 permalink: /featuresmatrix.html
 ---
+<em>Note: this page is best viewed on a desktop computer with a large screen!</em><br>
 <br>
 Country Key:<br>
 <table style="width:15%">

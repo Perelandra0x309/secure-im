@@ -1,6 +1,6 @@
 ---
 
-title: Peer to Peer Applications
+title: Peer to Peer Apps
 which_category: 1
 ---
 

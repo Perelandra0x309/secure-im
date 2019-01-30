@@ -1,8 +1,9 @@
 ---
 layout: single
-title: Applications list
+title: Apps Index
 permalink: /applist.html
 ---
+
 Recommendation key:<br>
 <ul>
   <li><img src="images/checkmark.gif"><img src="images/checkmark.gif">- Highly recommended</li>
@@ -15,14 +16,11 @@ Index of applications:
 {% assign applications = site.data.applications | sort: 'name' %}
 
 {% for application in applications %}
-{% if application.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2popen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2pclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otheropen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 4 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherclosed.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 5 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link otherpartialopen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 6 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2ppartialopen.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
-{% elsif application.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link index.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% if application.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2papps.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% elsif application.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link centralizedapps.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% elsif application.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link decentralizedapps.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
+{% elsif application.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#note2ee">{{ application.display_name }}</a>{% endcapture %}
+{% elsif application.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 12 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link protocols.md %}#{{ application.name }}">{{ application.display_name }}</a> (Messaging Protocol){% endcapture %}
 {% else %}{% capture htmllink %}{{ application.display_name }}{% endcapture %}
 {% endif %}

@@ -51,6 +51,7 @@ function setFilters() {
 }
 </script>
 
+<em>Note: this page is best viewed on a desktop computer with a large screen!</em><br>
 <br>
 Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-you-need-secure-messenger">Thinking About What You Need In A Secure Messenger</a>.
 <br>

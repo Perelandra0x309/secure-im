@@ -1,50 +1,47 @@
 main:
-#  - title: "Applications Index"
-#    url: /applist.html
-#  - title: "EFF Guide to Choosing a Messenger"
-#    url: /effguide.html
-#  - title: "Features Matrix"
-#    url: /featuresmatrix.html
-#  - title: "No Trackers Hall of Fame!"
-#    url: /notrackers.html
   - title: "About"
     url: /about.html
 
 docs:
-  - title: Guides
+  - title: "Introduction"
     children:
-      - title: "Introduction"
+      - title: "Welcome!"
         url: /guideintro.html
+        
+  - title: Step-by-step Guides
+    children:
       - title: "1- Install Signal"
-        url: /docs/quick-start-guide/
+        url: /guide_signal.html
       - title: "2- Single Device Apps"
-        url: /docs/structure/
+        url: /guide_single_device.html
       - title: "3- Multiple Device Apps"
-        url: /docs/installation/
-#      - title: "Upgrading"
-#        url: /docs/upgrading/
+        url: /guide_multiple_devices.html
+
+  - title: Charts and Lists
+    children:
+      - title: "App Index"
+        url: /applist.html
+      - title: "EFF Guide to Choosing a Messenger"
+        url: /effguide.html
+      - title: "App Features Matrix"
+        url: /featuresmatrix.html
+      - title: "No Trackers! Hall of Fame"
+        url: /notrackers.html
 
   - title: App Reviews
     children:
-      - title: "Application Index"
-        url: /applist.html
-      - title: "P2P Applications"
+      - title: "My Favorite Apps"
+        url: /favorites.html
+      - title: "Peer-to-Peer Apps"
         url: /p2papps.html
-      - title: "Centralized Applications"
+      - title: "Centralized Apps"
         url: /centralizedapps.html
-      - title: "Decentralized Applications"
+      - title: "Decentralized Apps"
         url: /decentralizedapps.html
-      - title: "Rejected Applications"
+      - title: "Rejected Apps"
         url: /rejectedapps.html
-      - title: "No Trackers! List"
-        url: /notrackers.html
       - title: "Messaging Protocols"
-        url: protocols.html
+        url: /protocols.html
 
-  - title: Charts
-    children:
-      - title: "EFF Guide to Choosing a Messenger"
-        url: /effguide.html
-      - title: "Features Matrix"
-        url: /featuresmatrix.html
+
 
