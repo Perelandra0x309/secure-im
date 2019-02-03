@@ -17,3 +17,5 @@ My test devices:
   <li>iPhone 5S with iOS 12.1</li>
 </ul>
 For apps that require a phone number I use two VOIP numbers that have SMS capability so I don't expose my primary phone number.  One is through the MySudo app on iOS, and the other is through <a target="_blank" href="https://jmp.chat">JMP.chat</a>.  These are only available in the US/Canada.<br>
+<br>
+Track changes to this website using <a href="https://github.com/perelandra0x309/secure-im/commits/master.atom">this Atom feed</a>.

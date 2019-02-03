@@ -20,6 +20,6 @@ Here you can see links to the pages that will give you more detailed information
 <br>
 <a href="{% link decentralizedapps.md %}" class="btn btn--info btn--x-large">Decentralized Apps</a>&nbsp;&nbsp;Detailed reviews of apps that connect in a decentralized way (mesh, federated, etc.)<br>
 <br>
-<a href="{% link rejectedapps.md %}" class="btn btn--info btn--x-large">Rejected Apps List</a>&nbsp;&nbsp;See which apps are strongly not recommended<br>
-<br>
 <a href="{% link protocols.md %}" class="btn btn--info btn--x-large">Messaging Protocols</a>&nbsp;&nbsp;Detailed reviews of some messaging protocols that are commonly used by several apps<br>
+<br>
+<a href="{% link rejectedapps.md %}" class="btn btn--info btn--x-large">Rejected Apps List</a>&nbsp;&nbsp;See which apps are strongly not recommended<br>

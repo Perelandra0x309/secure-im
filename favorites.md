@@ -20,6 +20,7 @@ SMS:
   </li>
   <li>Runner up: {% include generate_app_link.html app_name="silence" %}<br>
     If you don't want to use Signal as a messaging app then I recommend getting Silence just for SMS messages.  It will locally encrypt the SMS database on your phone.  You can also send encrypted SMS messages to other Silence users.  Since Silence only uses SMS it is not dependent on any servers like Signal is.
+  </li>
 </ul>
 <br>
 Messaging apps listed here do not expose you phone number or email address.  Notes within [brackets] are potential negative attributes:

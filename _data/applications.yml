@@ -1786,7 +1786,7 @@
 
 - name: wickrme
   category: 2
-  display_name: Wickr Me
+  display_name: WickrMe
   url: https://wickr.com/products/personal/
   recommendation: 1
   platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>

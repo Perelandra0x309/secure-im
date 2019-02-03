@@ -6,7 +6,7 @@ docs:
   - title: "Introduction"
     children:
       - title: "Welcome!"
-        url: /guideintro.html
+        url: /index.html
         
   - title: Step-by-step Guides
     children:
@@ -38,10 +38,12 @@ docs:
         url: /centralizedapps.html
       - title: "Decentralized Apps"
         url: /decentralizedapps.html
-      - title: "Rejected Apps"
-        url: /rejectedapps.html
       - title: "Messaging Protocols"
         url: /protocols.html
+      - title: "Rejected Apps"
+        url: /rejectedapps.html
+      - title: "Other Similar Websites"
+        url: /otherwebsites.html
 
 
 

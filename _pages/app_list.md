@@ -1,9 +1,10 @@
 ---
 layout: single
-title: Apps Index
+title: App Index
 permalink: /applist.html
 ---
-
+This is an alphabetical index of all the apps reviewed on this site.<br>
+<br>
 Recommendation key:<br>
 <ul>
   <li><img src="images/checkmark.gif"><img src="images/checkmark.gif">- Highly recommended</li>
@@ -11,7 +12,6 @@ Recommendation key:<br>
   <li><img src="images/x.gif">- Stay away!</li>
 </ul>
 <br>
-Index of applications:
 <ul>
 {% assign applications = site.data.applications | sort: 'name' %}
 
