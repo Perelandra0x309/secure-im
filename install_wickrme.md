@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Install WickrMe
+permalink: /install_wickrme.html
 ---
 
 You do not need to provide any personal information to signup for a WickrMe account.<br>

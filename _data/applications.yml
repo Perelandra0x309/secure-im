@@ -112,7 +112,7 @@
   display_name: Ricochet
   url: https://ricochet.im
   recommendation: 2
-  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux</a>
+  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux (many)</a>
   source_type: open
   business_model: Free open source project
   communication_types: Text
@@ -217,7 +217,7 @@
   display_name: Patchwork
   url: https://github.com/ssbc/patchwork
   recommendation: 2
-  platforms: Linux, MacOS, Windows
+  platforms: Linux (AppImage), MacOS, Windows
   source_type: open
   business_model: Free open source project
   communication_types: Text
@@ -463,7 +463,7 @@
   display_name: Sid
   url: https://sid.co
   recommendation: 3
-  platforms: Android, iOS, MacOS, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux (Ubuntu)
   source_type: closed
   business_model: Sid is a demonstration of <a href="http://www.spherebox.com">Spherebox</a> technology
   communication_types: Text, group chat, pictures, audio, files
@@ -572,7 +572,7 @@
   display_name: Signal
   url: https://www.signal.org
   recommendation: 1
-  platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iOS, MacOS, Windows, Linux
+  platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iOS, MacOS, Windows, Linux (Debian)
   source_type: open
   business_model: Free open source project supported by grants and donations
   communication_types: Text, voice, video, files, images
@@ -713,7 +713,7 @@
   display_name: Riot
   url: https://about.riot.im
   recommendation: 1
-  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux, Web
+  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux (Debian, Ubuntu), Web
   source_type: open
   business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
   communication_types: Text, voice, video, file sharing
@@ -785,7 +785,7 @@
   display_name: RetroShare
   url: http://retroshare.net
   recommendation: 2
-  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux, FreeBSD</a>
+  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux (many), FreeBSD</a>
   source_type: open
   business_model: Free open source project
   communication_types: Text, voice, video, email, file sharing
@@ -857,7 +857,7 @@
   display_name: Wire
   url: https://wire.com
   recommendation: 1
-  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux, Web
+  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux (Ubuntu, Debian, AppImage), Web
   source_type: open
   business_model: Enterprise version of the platform
   communication_types: Text, voice, video, file sharing
@@ -897,7 +897,7 @@
   display_name: Eleet
   url: https://eleet.im
   recommendation: 1
-  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux, Web
+  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
   source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, photos, videos, audio files
@@ -968,7 +968,7 @@
   display_name: Brosix
   url: https://www.brosix.com
   recommendation: 2
-  platforms: Android, iOS, MacOS, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux (many)
   source_type: closed
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, files, voice, video, location
@@ -1718,7 +1718,7 @@
   display_name: Keybase
   url: https://www.keybase.io
   recommendation: 1
-  platforms: Android, iOS, MacOS, Windows, Linux
+  platforms: Android, iOS, MacOS, Windows, Linux (many)
   source_type: partialopen
   business_model: <a href="https://keybase.io/jobs">Investors?</a>
   communication_types: Text, group chat, file sharing
@@ -1789,7 +1789,7 @@
   display_name: WickrMe
   url: https://wickr.com/products/personal/
   recommendation: 1
-  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux</a>
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux (Ubuntu 16.04)</a>
   source_type: partialopen
   business_model: Enterprise version of the platform
   communication_types: Text, group chat, videos, files, audio message, voice calls

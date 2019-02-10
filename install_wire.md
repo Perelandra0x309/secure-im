@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Install Wire
+permalink: /install_wire.html
 ---
 
 You can signup with Wire using either an email address or a phone number.  This information is only used by you to login to the app, this information is not shared with any of your contacts.  If you are not comfortable giving out this information to Wire, then I would recommend that you instead <a class="btn btn--info btn--x-large" href="/install_wickrme.html">Install WickrMe</a><br>
