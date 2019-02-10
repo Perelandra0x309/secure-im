@@ -42,7 +42,10 @@ docs:
         url: /protocols.html
       - title: "Rejected Apps"
         url: /rejectedapps.html
-      - title: "Other Similar Websites"
+
+  - title: ""
+    children:
+      - title: "Other Websites and Resources"
         url: /otherwebsites.html
 
 

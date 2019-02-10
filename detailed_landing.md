@@ -23,3 +23,5 @@ Here you can see links to the pages that will give you more detailed information
 <a href="{% link protocols.md %}" class="btn btn--info btn--x-large">Messaging Protocols</a>&nbsp;&nbsp;Detailed reviews of some messaging protocols that are commonly used by several apps<br>
 <br>
 <a href="{% link rejectedapps.md %}" class="btn btn--info btn--x-large">Rejected Apps List</a>&nbsp;&nbsp;See which apps are strongly not recommended<br>
+<br>
+<a href="{% link otherwebsites.md %}" class="btn btn--info btn--x-large">Other Websites and Resources</a>&nbsp;&nbsp;Links to other recommended reading and privacy oriented websites<br>
