@@ -32,3 +32,42 @@ $type-size-5 : .5em;      // ~16px
 $type-size-6 : 0.25em;   // ~12px
 $type-size-7 : 0.1875em; // ~11px
 $type-size-8 : 0.125em;  // ~10px
+
+
+table tr td.fiveeyes {
+   background-color: rgba(255, 0, 0, .8);
+}
+table tr td.nineeyes {
+	background-color: orange;
+	color: black;
+}
+table tr td.fourteeneyes {
+	background-color: rgba(255, 255, 0, .8);
+	color: black;
+}
+table tr td.yellow {
+	background-color: rgba(255, 255, 0, .8);
+	color: black;
+}
+table tr td.red {
+   background-color: rgba(255, 0, 0, .8);
+}
+table tr td.green {
+   background-color: rgba(0, 255, 0, .7);
+}
+span.green {
+  background-color: rgba(0, 255, 0, .7);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+span.red {
+  background-color: rgba(255, 0, 0, .8);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+span.yellow {
+  background-color: rgba(255, 255, 0, .8);
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+}

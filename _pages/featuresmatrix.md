@@ -14,7 +14,7 @@ Country Key:<br>
 
 <br>
 Encryption Methods:
-<table border="2">
+<table border="2" style="width:75%">
 <tr><th></th><th>Shared Secret Exchange</th><th>Message Encryption Cipher</th></tr>
 <tr>
 <td>Best:</td>
@@ -152,40 +152,40 @@ Features Matrix:
 {% endif %}
 
 {% if application.requires_phone_number == "Either" %}
-	<td bgcolor="red">Phone or Email</td>
+	<td class="red">Phone or Email</td>
 {% elsif application.requires_phone_number == true and application.requires_email == true %}
-	<td bgcolor="red">Phone and Email</td>
+	<td class="red">Phone and Email</td>
 {% elsif application.requires_phone_number == false and application.requires_email == false %}
-	<td bgcolor="green">No</td>
+	<td class="green">No</td>
 {% elsif application.requires_phone_number == true %}
-	<td bgcolor="red">Phone</td>
+	<td class="red">Phone</td>
 {% elsif application.requires_email == true %}
-	<td bgcolor="red">Email</td>
+	<td class="red">Email</td>
 {% else %}
 	<td>{{ application.requires_phone_number }}</td>
 {% endif %}
 
 {% if application.id_contains_contact_info == false %}
-	<td bgcolor="green">No</td>
+	<td class="green">No</td>
 {% elsif application.id_contains_contact_info == "Email" %}
-	<td bgcolor="red">Email</td>
+	<td class="red">Email</td>
 {% elsif application.id_contains_contact_info == "Phone" %}
-	<td bgcolor="red">Phone</td>
+	<td class="red">Phone</td>
 {% else %}
 	<td>{{ application.id_contains_contact_info }}</td>
 {% endif %}
 
 {% if application.is_locally_encrypted == true %}
   {% if application.is_locally_encrypted_source %}
-	<td bgcolor="green"><a href="{{ application.is_locally_encrypted_source }}">Yes</a></td>
+	<td class="green"><a href="{{ application.is_locally_encrypted_source }}">Yes</a></td>
 	{% else %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 	{% endif %}
 {% elsif application.is_locally_encrypted == false %}
   {% if application.is_locally_encrypted_source %}
-	<td bgcolor="red"><a href="{{ application.is_locally_encrypted_source }}">No</a></td>
+	<td class="red"><a href="{{ application.is_locally_encrypted_source }}">No</a></td>
 	{% else %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 	{% endif %}
 {% else %}
 	<td>{{ application.is_locally_encrypted }}</td>
@@ -193,50 +193,50 @@ Features Matrix:
 
 {% if application.perfect_forward_secrecy == true %}
   {% if application.perfect_forward_secrecy_source %}
-	<td bgcolor="green"><a href="{{ application.perfect_forward_secrecy_source }}">Yes</a></td>
+	<td class="green"><a href="{{ application.perfect_forward_secrecy_source }}">Yes</a></td>
 	{% else %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 	{% endif %}
 {% elsif application.perfect_forward_secrecy == false %}
   {% if application.is_locally_encrypted_source %}
-	<td bgcolor="red"><a href="{{ application.perfect_forward_secrecy_source }}">No</a></td>
+	<td class="red"><a href="{{ application.perfect_forward_secrecy_source }}">No</a></td>
 	{% else %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 	{% endif %}
 {% else %}
 	<td>{{ application.perfect_forward_secrecy }}</td>
 {% endif %}
 
 {% if application.has_ephemeral_messages == true %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 {% elsif application.has_ephemeral_messages == false %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 {% else %}
 	<td>{{ application.has_ephemeral_messages }}</td>
 {% endif %}
 
 {% if application.encypted_by_default == true %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 {% elsif application.encypted_by_default == false %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 {% else %}
 	<td>{{ application.encypted_by_default }}</td>
 {% endif %}
 
 {% if application.has_contact_verification == true %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 {% elsif application.has_contact_verification == false %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 {% else %}
 	<td>{{ application.has_contact_verification }}</td>
 {% endif %}
 
 {% if application.leaks_files == true %}
-	<td bgcolor="red">Yes</td>
+	<td class="red">Yes</td>
 {% elsif application.leaks_files == false %}
-	<td bgcolor="green">No</td>
+	<td class="green">No</td>
 {% else %}
-	<td bgcolor="red">{{ application.leaks_files }}</td>
+	<td class="red">{{ application.leaks_files }}</td>
 {% endif %}
 
 

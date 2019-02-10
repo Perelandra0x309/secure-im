@@ -140,33 +140,33 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
 {% endif %}
 
 {% if application.has_ephemeral_messages == true %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 {% elsif application.has_ephemeral_messages == false %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 {% else %}
 	<td>{{ application.has_ephemeral_messages }}</td>
 {% endif %}
 
 {% if application.id_contains_contact_info == false %}
-	<td bgcolor="green">No</td>
+	<td class="green">No</td>
 {% elsif application.id_contains_contact_info == "Email" %}
-	<td bgcolor="red">Email</td>
+	<td class="red">Email</td>
 {% elsif application.id_contains_contact_info == "Phone" %}
-	<td bgcolor="red">Phone</td>
+	<td class="red">Phone</td>
 {% else %}
 	<td>{{ application.id_contains_contact_info }}</td>
 {% endif %}
 
 {% if application.encypted_by_default == true %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 {% elsif application.encypted_by_default == false %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 {% else %}
 	<td>{{ application.encypted_by_default }}</td>
 {% endif %}
 
 {% if application.puddle_test == "Not Recoverable" %}
-	<td bgcolor="green">Data not recoverable</td>
+	<td class="green">Data not recoverable</td>
 {% elsif application.puddle_test == "Recoverable" %}
 	<td class="yellow">Data recoverable</td>
 {% else %}
@@ -174,17 +174,17 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
 {% endif %}
 
 {% if application.hammer_test == "Not Recoverable" %}
-	<td bgcolor="green">Data not recoverable</td>
+	<td class="green">Data not recoverable</td>
 {% elsif application.hammer_test == "Recoverable" %}
-	<td bgcolor="red">Data recoverable</td>
+	<td class="red">Data recoverable</td>
 {% else %}
 	<td>{{ application.hammer_test }}</td>
 {% endif %}
 
 {% if application.has_contact_verification == true %}
-	<td bgcolor="green">Yes</td>
+	<td class="green">Yes</td>
 {% elsif application.has_contact_verification == false %}
-	<td bgcolor="red">No</td>
+	<td class="red">No</td>
 {% else %}
 	<td>{{ application.has_contact_verification }}</td>
 {% endif %}
