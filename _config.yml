@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air"#"default" # "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SecureMy.Chat"
+title                    : "SecureChatGuide.org"
 name                     : "Supernova"
 title_separator          : "-"
 description              : "My list of secure messaging apps"
