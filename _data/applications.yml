@@ -1,6 +1,6 @@
 # Template:
 #- name: 
-#  category: (1- P2P open source, 2- P2P closed source, 3- Other open source, 4- Other closed source, 5- Other partially open Source, 6- P2P partially open source)
+#  category: (1- P2P, 2- Centralized, 3- Decentralized)
 #  display_name: 
 #  url: 
 #  recommendation: (1- highly, 2- worth a try, 3- not recommended)
@@ -293,7 +293,7 @@
   business_model: <a href="https://twin.life/business-solutions/">Pro version of the platform</a>
   communication_types: Text, group chat, voice, photos, video, files, streaming music
   encryption_protocol: <a href="https://twin.me/en/support/twinme-protect-data/">WebRTC/TLS</a>
-  shared_secret_exchange: 
+  shared_secret_exchange: ECDH
   message_encryption_cipher: AES-256
   country_origin: France
   requires_phone_number: No
@@ -311,8 +311,8 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: No
   leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics??
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
   websites: <a href="https://twin.me/en/support/twinme-protect-data/">Encryption</a>
   notes_file: twinme_notes.html
   version_tested: 9.1.1
@@ -328,7 +328,7 @@
   business_model: <a href="https://skred.mobi/fr/cgu/">Operated by SKRED SAS with a capital of €1,387,000</a>
   communication_types: Text, image, sound, music, video
   encryption_protocol: <a href="https://twin.me/en/support/twinme-protect-data/">WebRTC/TLS</a>
-  shared_secret_exchange: 
+  shared_secret_exchange: ECDH
   message_encryption_cipher: AES-256
   country_origin: France
   requires_phone_number: No
@@ -346,8 +346,8 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: No
   leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics??
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: none
   websites: 
   notes_file: skred_notes.html
   version_tested: 0.6.5
@@ -889,8 +889,6 @@
   version_tested: 3.22.666
   last_update: 11/28/2018
 
-
-# Category 4- Other closed source
 
 - name: eleet
   category: 2
@@ -1709,9 +1707,6 @@
   notes_file: vipole_notes.html
   version_tested: 1.8.73
   last_update: 1/28/2018
-
-
-# Category 5- Other partially open Source
 
 - name: keybase
   category: 2

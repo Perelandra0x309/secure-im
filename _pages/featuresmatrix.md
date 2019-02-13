@@ -5,6 +5,10 @@ permalink: /featuresmatrix.html
 ---
 <em>Note: this page is best viewed on a desktop computer with a large screen!</em><br>
 <br>
+This matrix shows many of the features of each app I have reviewed in detail.  There is a lot of data to display so I have tried to make it possible for you to hide columns in the table and show only the columns you wish to compare.  Javascript is required for this feature.<br>
+<br>
+In the top right corner of the features table is a menu titled "Columns".  Click on this to show a menu where you can hide the columns you do not wish to see.  If the table is still too large to view all at once after removing some columns you can also use your web browser's zoom setting to shrink the entire page.  A zoom setting of 80% may be enough to view the entire table.<br>
+<br>
 Country Key:<br>
 <table border="1" cellpadding="5" style="border-collapse: collapse;">
 	<tr><td class="fiveeyes">5 Eyes Member</td></tr>
@@ -58,8 +62,8 @@ Features Matrix:
 <thead><tr>
 <th>&nbsp;&nbsp;&nbsp;</th>
 <th>Name</th>
-<th>P2P or Other</th>
-<th>Open or Closed Source</th>
+<th>Infrastructure</th>
+<th>Source Code</th>
 <th width="15%">Platforms</th>
 <th>Encryption Protocol</th>
 <th>Shared Secret Exchange</th>
@@ -95,23 +99,17 @@ Features Matrix:
 	<td>{{ htmlimage }}</td>
 	<td>{{ recdiv }}{% include generate_app_link.html app_name=application.name %}</td>
 
-{% if application.category == 1 or application.category == 2 or application.category == 6 %}
+{% if application.category == 1 %}
 	<td>P2P</td>
-{% elsif application.category == 3 or application.category == 4 or application.category == 5 %}
-	<td>Other</td>
+{% elsif application.category == 2 %}
+	<td>Centralized</td>
+{% elsif application.category == 3 %}
+	<td>Decentralized</td>
 {% else %}
 	<td>?</td>
 {% endif %}
-	
-{% if application.category == 1 or application.category == 3 %}
-	<td>Open</td>
-{% elsif application.category == 5 or application.category == 6 %}
-  <td>Partially Open</td>
-{% elsif application.category == 2 or application.category == 4 %}
-	<td>Closed</td>
-{% else %}
-	<td>?</td>
-{% endif %}
+
+<td>{{ application.source_type }}</td>
 
 <td>{{ application.platforms }}</td>
 {% assign platforms_scrubbing = application.platforms | strip_html | split: '(' %}
