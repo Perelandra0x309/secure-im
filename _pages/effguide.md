@@ -78,17 +78,18 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
   </li>
 </ul>
 <br>
-<table border="0">
-<tr><td><input type="checkbox" id="onlyRec" onchange="setFilters()" name="onlyRec" value="false"></td><td><label for="onlyRec">Show only recommended apps</label></td></tr>
-<tr><td colspan="2">Show apps that have:</td></tr>
 
-<tr><td><input type="checkbox" id="ephemCB" onchange="setFilters()" name="ephemCB" value="false"></td><td><label for="ephemCB">Ephemeral Messages</label></td></tr>
-<tr><td><input type="checkbox" id="idCB" onchange="setFilters()" name="idCB" value="false"></td><td><label for="idCB">ID contains no personal info</label></td></tr>
-<tr><td><input type="checkbox" id="foolproofCB" onchange="setFilters()" name="foolproofCB" value="false"></td><td><label for="foolproofCB">Foolproof encryption</label></td></tr>
-<tr><td><input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false"></td><td><label for="puddleCB">Puddle test: Data not recoverable</label></td></tr>
-<tr><td><input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false"></td><td><label for="hammerCB">Hammer test: Data not recoverable</label></td></tr>
-<tr><td><input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false"></td><td><label for="verifyCB">Has contact verification</label></td></tr>
-</table>
+<input type="checkbox" id="onlyRec" onchange="setFilters()" name="onlyRec" value="false">&nbsp;Show only recommended apps<br>
+
+<h3>Show apps that have:</h3>
+
+<input type="checkbox" id="ephemCB" onchange="setFilters()" name="ephemCB" value="false">&nbsp;Ephemeral Messages<br>
+<input type="checkbox" id="idCB" onchange="setFilters()" name="idCB" value="false">&nbsp;ID contains no personal info<br>
+<input type="checkbox" id="foolproofCB" onchange="setFilters()" name="foolproofCB" value="false">&nbsp;Foolproof encryption<br>
+<input type="checkbox" id="puddleCB" onchange="setFilters()" name="puddleCB" value="false">&nbsp;Puddle test: Data not recoverable<br>
+<input type="checkbox" id="hammerCB" onchange="setFilters()" name="hammerCB" value="false">&nbsp;Hammer test: Data not recoverable<br>
+<input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false">&nbsp;Has contact verification<br>
+
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
 <table id="myTable">
 <th>&nbsp;&nbsp;&nbsp;</th>

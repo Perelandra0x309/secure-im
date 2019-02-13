@@ -1,12 +1,12 @@
 ---
-layout: single_full
+layout: chart
 title: App Features Matrix
 permalink: /featuresmatrix.html
 ---
 <em>Note: this page is best viewed on a desktop computer with a large screen!</em><br>
 <br>
 Country Key:<br>
-<table style="width:15%">
+<table border="1" cellpadding="5" style="border-collapse: collapse;">
 	<tr><td class="fiveeyes">5 Eyes Member</td></tr>
 	<tr><td class="nineeyes">9 Eyes Member</td></tr>
 	<tr><td class="fourteeneyes">14 Eyes Member</td></tr>
@@ -14,16 +14,16 @@ Country Key:<br>
 
 <br>
 Encryption Methods:
-<table border="2" style="width:75%">
+<table border="1" cellpadding="3" style="border-collapse: collapse;">
 <tr><th></th><th>Shared Secret Exchange</th><th>Message Encryption Cipher</th></tr>
 <tr>
-<td>Best:</td>
-<td>
+<td style="width:15%">Best:</td>
+<td style="width:50%">
 <a href="https://www.signal.org/docs/specifications/x3dh/">X3DH Curve25519, X3DH Curve448</a><br>
 ECDH25519, ECDHC brainpoolp256r1, ECDH P256, ECDH P521 (Diffie-Hellman Elliptical Curves)<br>
 RSA 4096 PKI and higher
 </td>
-<td>
+<td style="width:35%">
 <a href="https://download.libsodium.org/doc/advanced/stream_ciphers/xsalsa20">XSalsa20</a>, <a href="https://download.libsodium.org/doc/advanced/stream_ciphers/xchacha20">XChaCha20</a><br>
 AES-192, AES-256
 </td>
@@ -54,7 +54,7 @@ RSA 1024 PKI
 Features Matrix:
 <br>
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
-<table id="featurestable">
+<table id="featurestable" style="border-collapse: collapse;">
 <thead><tr>
 <th>&nbsp;&nbsp;&nbsp;</th>
 <th>Name</th>
