@@ -256,6 +256,7 @@ Features Matrix:
 <script language="javascript" type="text/javascript"> 
     // http://tablefilter.free.fr 
     var tableFilters = {
+      remember_grid_values: true,
       status_bar: true,
       display_all_text: "Show all",
       rows_counter: true,
