@@ -301,5 +301,4 @@ Features Matrix:
     var tf01 = setFilterGrid("featurestable",1,tableFilters);  
 </script>
 
-<!--Page updated {{ page.date }}-->
-<br>
+
