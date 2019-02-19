@@ -14,7 +14,7 @@ I have chosen Signal as the first step towards protecting your chats because it 
 <br>
 First head on over to the official Signal install guide and install the app on your Android or Apple iOS phone.  Then return here and I will give you some additional tips.<br>
 <br>
-<a href="https://support.signal.org/hc/en-us/articles/360008216551-Installing-Signal" class="btn btn--success btn--x-large" target="_blank">Follow the official Signal install guide</a><br>
+<a href="https://support.signal.org/hc/en-us/articles/360007318691-Register-a-phone-number" class="btn btn--success btn--x-large" target="_blank">Follow the official Signal install guide</a><br>
 <br>
 OK now that you have Signal installed you can invite others to install Signal to chat securely with you.  Open one of the previous SMS chat sessions you have with someone and there will be a message at the top prompting you to invite this person to Signal.  Click on this prompt and a link will be created to send to them (using SMS for now).  Maybe send them a link to this website too!<br>
 <br>
@@ -24,16 +24,33 @@ Here are some additional features in Signal:<br>
 <ul>
 <li>The Safety Number<br>
 Every conversation in Signal is assigned a unique "Safety Number".  If this number ever changes, that means that either the person did something like get a new phone, or it could mean someone has tried to break into your secured conversation.  Reach out to this person using a method <em>other than through Signal</em> (because your Signal connection may be compromised) and verify with them if they had made some change.<br>
-To view the safety number assigned to a conversation go into that conversation in Signal, touch on the 3 dots on the top right corner and select "Conversation settings".  Scroll down until you see an option to "View safety number" and select it.  This is the unique number that only this conversation has.  To verify this number you will need to compare the number on your phone with the number that your conversation partner has on their phone.  If you are with the person you can tap on the QR barcode to scan their barcode with your phone to verify the number.  If you are not able to meet in person then have them send you their number through another communications channel such as email.  Then you can compare the number they send you with what is on your phone, and if they are the same swipe on the "Verified" toggle to mark it.  If this number ever changes then you will be notified.<br>
+To view the safety number assigned to a conversation go into that conversation in Signal, touch on the 3 dots on the top right corner and select "Conversation settings".<br>
+<img src="/images/signal_safety1.png"><br>
+<br>
+Scroll down until you see an option to "View safety number" and select it.<br>
+<img src="/images/signal_safety2.png"><br>
+<br>
+This is the unique number that only this conversation has.<br>
+<img src="/images/signal_safety3.png"><br>
+<br>
+To verify this number you will need to compare the number on your phone with the number that your conversation partner has on their phone.  If you are with the person you can tap on the QR barcode to scan their barcode with your phone to verify the number.  If you are not able to meet in person then have them send you their number through another communications channel such as email.  Then you can compare the number they send you with what is on your phone, and if they are the same swipe on the "Verified" toggle to mark it.  If this number ever changes then you will be notified.<br>
+For more details see: <a href="https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-#safety_number_view" class="btn btn--success btn--large" target="_blank">Signal's Support page on Safety Numbers</a><br>
 <br></li>
 <li>Signal message/Unsecured SMS indicator for Android<br>
 On Android phones Signal can be used as your SMS messenger as well.  This makes sending messages easy since you only need one app for both Signal message and SMS messages.  You may forget which people use Signal or SMS, but there is an easy way to know this.  When you go to send a message the box where you type your message will say either "Signal message" or "Unsecured SMS" in it before you have started typing anything.  This is a good thing to check before typing your message so you know what type of message you are sending.<br>
-<br></li>
+<img style="padding:2px" src="/images/signal_mtype2.png"><img style="padding:2px" src="/images/signal_mtype1.png"><br>
+<br>
+</li>
 <li>Disappearing messages<br>
-setting up disappearing messages<br>
-<br></li>
+The "Disappearing Messages" setting will cause messages to be automatically deleted from all devices after the specified time.  This setting is good to use if you want to be sure your messages do not stay on any device for very long.  Unfortunately the longest time frame is one week, I would prefer to have something like 1 or 2 months also as an option but you can only choose from the option that are given.<br>
+<br>
+To enable this feature touch on the 3 dots on the top right corner of a Signal secured chat.  Select "Disappearing Messages", then select a time from the options and touch "OK"<br>
+<img style="padding:2px"  src="/images/signal_disappearing1.png">
+<img style="padding:2px"  src="/images/signal_disappearing2.png"><br>
+<br>
+</li>
 <li>Video chat!<br>
-Video chat too!<br>
+You can create a Signal to Signal video chat too! In an existing Signal chat session touch on the phone icon in the top right corner of the screen.  This will start a call to your chat partner.  It does take a couple seconds to initiate a connection but be patient and hopefully the other side will pick up.<br>
 </li>
 </ul>
 <br>

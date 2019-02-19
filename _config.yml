@@ -302,7 +302,7 @@ defaults:
     values:
       layout: single
       classes: wide
-      excerpt: "Warning: This site is under heavy construction.  Please visit <a href='https://tycho.im'>tycho.im</a> for the last stable version of the website."
+      excerpt: "Step-by-step guides and detailed information on secure messaging apps for Android, iOS, Windows, Mac and Linux."
       header:
         overlay_color: "#444"
 #        actions:

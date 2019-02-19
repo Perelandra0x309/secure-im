@@ -11,9 +11,9 @@ Criteria:
   <li>Does not leak data (pictures or other data saved unencrypted in browseable folders)</li>
   <li>Has ephemeral messages (encryption keys destroyed after a set time)</li>
   <li>Has contact verification</li>
-  <li>Testing done on both Android and iOS when possible.  See my <a href="#testing">testing setup</a></li>
+  <li>Testing done on both Android and iOS when possible.  See my <a href="/about.html#testsetup">testing setup</a></li>
 </ul>
-SMS:
+SMS Apps:
 <ul>
   <li>{% include generate_app_link.html app_name="signal" %}<br>
     OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number, but for people you are comfortable knowing your phone number that is fine.<br>
@@ -23,7 +23,7 @@ SMS:
   </li>
 </ul>
 <br>
-Messaging apps listed here do not expose you phone number or email address.  Notes within [brackets] are potential negative attributes:
+Messaging apps listed here do not expose your phone number or email address.  Notes within [brackets] are potential negative attributes:
 <ul>
   <li>Top Tier Recommendations:</li>
   <ul>
