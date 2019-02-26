@@ -229,10 +229,10 @@ Features Matrix:
 	<td>{{ application.has_contact_verification }}</td>
 {% endif %}
 
-{% if application.leaks_files == true %}
-	<td class="red">Yes</td>
-{% elsif application.leaks_files == false %}
+{% if application.leaks_files == false %}
 	<td class="green">No</td>
+{% elsif application.leaks_files contains "?" %}
+	<td>{{ application.leaks_files }}</td>
 {% else %}
 	<td class="red">{{ application.leaks_files }}</td>
 {% endif %}

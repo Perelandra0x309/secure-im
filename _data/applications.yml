@@ -37,146 +37,7 @@
 
 #  Category 1- P2P
 
-- name: antox
-  category: 1
-  display_name: Antox
-  url: https://github.com/Antox/Antox
-  recommendation: 3
-  platforms: Android
-  source_type: open
-  business_model: Free open source project
-  communication_types: "Text, files, avatars, partial A/V support"
-  encryption_protocol: <a href="https://wiki.tox.chat/users/techfaq">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: XSalsa20
-  country_origin: No centralized servers
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Recoverable
-  hammer_test_note: Client leaks files
-  has_contact_verification: No
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: 
-  notes_file: antox_notes.html
-  version_tested: 0.25.515
-  last_update: 12/01/2018
 
-- name: silence
-  category: 1
-  display_name: Silence
-  url: https://silence.im
-  recommendation: 1
-  platforms: Android
-  source_type: open
-  business_model: Free open source project, Bitcoin donations
-  communication_types: SMS, MMS
-  encryption_protocol: <a href="https://github.com/SilenceIM/Silence">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-256
-  country_origin: No centralized servers
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: No
-  encypted_by_default: No
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: 
-  notes_file: silence_notes.html
-  version_tested: 0.15.12
-  last_update: 4/3/2018
-
-- name: ricochet
-  category: 1
-  display_name: Ricochet
-  url: https://ricochet.im
-  recommendation: 2
-  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux (many)</a>
-  source_type: open
-  business_model: Free open source project
-  communication_types: Text
-  encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services/TLS</a>
-  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
-  message_encryption_cipher: AES-128
-  country_origin: No centralized servers
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: N/A
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: N/A
-  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
-  notes_file: ricochet_notes.html
-  version_tested: 1.1.4
-  last_update: 1/18/2018
-
-- name: jami
-  category: 1
-  display_name: Jami
-  url: https://ring.cx
-  recommendation: 3
-  platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
-  source_type: open
-  business_model: Open source, side project of Savoir-faire Linux
-  communication_types: Text, group chat, voice, video, files, photos
-  encryption_protocol: <a href="https://git.ring.cx/savoirfairelinux/ring-project/wikis/technical/Technical-overview">GnuTLS</a>
-  shared_secret_exchange: RSA 4096 PKI
-  message_encryption_cipher: AES-256
-  country_origin: Canada
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Recoverable
-  hammer_test_note: MacOS leaks files
-  has_contact_verification: No
-  leaks_files: MacOS
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
-  websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
-  notes_file: jami_notes.html
-  version_tested: 200180629
-  last_update: 12/26/2018
-  
 - name: briar
   category: 1
   display_name: Briar Project
@@ -211,41 +72,6 @@
   notes_file: briar_notes.html
   version_tested: 1.0.4
   last_update: 5/19/2018
-
-- name: patchwork
-  category: 1
-  display_name: Patchwork
-  url: https://github.com/ssbc/patchwork
-  recommendation: 2
-  platforms: Linux (AppImage), MacOS, Windows
-  source_type: open
-  business_model: Free open source project
-  communication_types: Text
-  encryption_protocol: <a href="https://ssbc.github.io/scuttlebutt-protocol-guide/">Scuttlebutt</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: Salsa20
-  country_origin: None
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: N/A
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: "?"
-  has_ephemeral_messages: No
-  encypted_by_default: No
-  puddle_test: Recoverable
-  puddle_test_note: 
-  hammer_test: Recoverable
-  hammer_test_note: "Your data is saved in multiple feeds.  https://www.scuttlebutt.nz/faq/basics/data-live.html https://www.scuttlebutt.nz/faq/basics/delete.html"
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: N/A
-  websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
-  notes_file: patchwork_notes.html
-  version_tested: 3.8.10
-  last_update: 4/24/2018
 
 - name: safeswiss
   category: 1
@@ -283,6 +109,41 @@
   version_tested: 1.3.03
   last_update: 1/23/2018
 
+- name: silence
+  category: 1
+  display_name: Silence
+  url: https://silence.im
+  recommendation: 1
+  platforms: Android
+  source_type: open
+  business_model: Free open source project, Bitcoin donations
+  communication_types: SMS, MMS
+  encryption_protocol: <a href="https://github.com/SilenceIM/Silence">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: No centralized servers
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: No
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: 
+  notes_file: silence_notes.html
+  version_tested: 0.15.12
+  last_update: 4/3/2018
+
 - name: twinme
   category: 1
   display_name: TwinMe
@@ -317,6 +178,76 @@
   notes_file: twinme_notes.html
   version_tested: 9.1.1
   last_update: 11/28/2018
+
+- name: patchwork
+  category: 1
+  display_name: Patchwork
+  url: https://github.com/ssbc/patchwork
+  recommendation: 2
+  platforms: Linux (AppImage), MacOS, Windows
+  source_type: open
+  business_model: Free open source project
+  communication_types: Text
+  encryption_protocol: <a href="https://ssbc.github.io/scuttlebutt-protocol-guide/">Scuttlebutt</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: Salsa20
+  country_origin: None
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: "?"
+  has_ephemeral_messages: No
+  encypted_by_default: No
+  puddle_test: Recoverable
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: "Your data is saved in multiple feeds.  https://www.scuttlebutt.nz/faq/basics/data-live.html https://www.scuttlebutt.nz/faq/basics/delete.html"
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 
+  exodus_privacy_trackers_description: N/A
+  websites: <a href="https://www.scuttlebutt.nz/">Scuttlebutt</a>
+  notes_file: patchwork_notes.html
+  version_tested: 3.8.10
+  last_update: 4/24/2018
+
+- name: ricochet
+  category: 1
+  display_name: Ricochet
+  url: https://ricochet.im
+  recommendation: 2
+  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux (many)</a>
+  source_type: open
+  business_model: Free open source project
+  communication_types: Text
+  encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services/TLS</a>
+  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
+  message_encryption_cipher: AES-128
+  country_origin: No centralized servers
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 
+  exodus_privacy_trackers_description: N/A
+  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
+  notes_file: ricochet_notes.html
+  version_tested: 1.1.4
+  last_update: 1/18/2018
 
 - name: skred
   category: 1
@@ -353,6 +284,41 @@
   version_tested: 0.6.5
   last_update: 8/12/2018
 
+- name: antox
+  category: 1
+  display_name: Antox
+  url: https://github.com/Antox/Antox
+  recommendation: 3
+  platforms: Android
+  source_type: open
+  business_model: Free open source project
+  communication_types: "Text, files, avatars, partial A/V support"
+  encryption_protocol: <a href="https://wiki.tox.chat/users/techfaq">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: No centralized servers
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: 
+  notes_file: antox_notes.html
+  version_tested: 0.25.515
+  last_update: 12/01/2018
+
 - name: firechat
   category: 1
   display_name: FireChat
@@ -387,6 +353,41 @@
   notes_file: firechat_notes.html
   version_tested: 8.0.58
   last_update: 1/23/2018
+
+- name: jami
+  category: 1
+  display_name: Jami
+  url: https://ring.cx
+  recommendation: 3
+  platforms: <a href="https://ring.cx/en/download">Android, iOS, Linux, MacOS, Windows</a>
+  source_type: open
+  business_model: Open source, side project of Savoir-faire Linux
+  communication_types: Text, group chat, voice, video, files, photos
+  encryption_protocol: <a href="https://git.ring.cx/savoirfairelinux/ring-project/wikis/technical/Technical-overview">GnuTLS</a>
+  shared_secret_exchange: RSA 4096 PKI
+  message_encryption_cipher: AES-256
+  country_origin: Canada
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: MacOS leaks files
+  has_contact_verification: No
+  leaks_files: MacOS
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
+  notes_file: jami_notes.html
+  version_tested: 200180629
+  last_update: 12/26/2018
 
 - name: kripter
   category: 1
@@ -567,6 +568,77 @@
 
 # Category 2- Centralized
 
+- name: eleet
+  category: 2
+  display_name: Eleet
+  url: https://eleet.im
+  recommendation: 1
+  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, photos, videos, audio files
+  encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
+  hammer_test: Not Recoverable
+  hammer_test_note:  When messages are deleted on all devices
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
+  websites: 
+  notes_file: eleet_notes.html
+  version_tested: 2.0.29
+  last_update: 1/28/2018
+
+- name: keybase
+  category: 2
+  display_name: Keybase
+  url: https://www.keybase.io
+  recommendation: 1
+  platforms: Android, iOS, MacOS, Windows, Linux (many)
+  source_type: partialopen
+  business_model: <a href="https://keybase.io/jobs">Investors?</a>
+  communication_types: Text, group chat, file sharing
+  encryption_protocol: <a href="https://keybase.io/docs/crypto/overview">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Only for &quot;exploding&quot; messages
+  message_stored_on_server: 
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: 
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://github.com/keybase">Source code</a>
+  notes_file: keybase_notes.html
+  version_tested: 2.2.1
+  last_update: 7/1/2018
+
 - name: signal
   category: 2
   display_name: Signal
@@ -602,255 +674,77 @@
   notes_file: signal_notes.html
   version_tested: 4.14.10
   last_update: 1/28/2018
-  
-- name: conversations
-  category: 3
-  display_name: Conversations (XMPP)
-  url: https://conversations.im
-  recommendation: 2
-  platforms: Android
-  source_type: open
-  business_model: Funded through one time purchase of app and subscriptions to the conversations.im xmpp server
-  communication_types: Text, group chat, video, files, images
-  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-128
-  country_origin: Germany
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Recoverable
-  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
-  has_contact_verification: Yes
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
-  notes_file: conversations_notes.html
-  version_tested: 2.3.5
-  last_update: 11/11/2018
 
-- name: pixart
-  category: 3
-  display_name: Pix-Art (XMPP)
-  url: https://jabber.pix-art.de
-  recommendation: 2
-  platforms: Android
-  source_type: open
-  business_model: <a href="https://jabber.pix-art.de/privacy/">This service is privately financed</a>
-  communication_types: Text, group chat, video, files, images
-  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-128
-  country_origin: Germany
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Recoverable
-  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
-  has_contact_verification: Yes
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://jabber.pix-art.de/privacy/">Privacy Policy</a>, <a href="https://github.com/kriztan/Pix-Art-Messenger">source code</a>
-  notes_file: pix-art_notes.html
-  version_tested: 2.1.4
-  last_update: 11/23/2018
-
-- name: quicksy
-  category: 3
-  display_name: Quicksy (XMPP)
-  url: https://quicksy.im
-  recommendation: 2
-  platforms: Android
-  source_type: open
-  business_model: Funded through the the quicksy.im directory service
-  communication_types: Text, group chat, video, files, images
-  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-128
-  country_origin: Germany
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Recoverable
-  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
-  has_contact_verification: Yes
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: 
-  notes_file: quicksy_notes.html
-  version_tested: 2.3.6+pcr
-  last_update: 11/23/2018
-
-- name: riot
-  category: 3
-  display_name: Riot
-  url: https://about.riot.im
+- name: threema
+  category: 2
+  display_name: Threema
+  url: https://threema.ch
   recommendation: 1
-  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux (Debian, Ubuntu), Web
-  source_type: open
-  business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
-  communication_types: Text, voice, video, file sharing
-  encryption_protocol: <a href="https://about.riot.im/security/">Matrix</a>
-  shared_secret_exchange: X3DH Curve25519
-  message_encryption_cipher: AES-256
-  country_origin: UK
+  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
+  source_type: partialopen
+  business_model: One time app purchase fee
+  communication_types: Text, group chat, voice, files, voice chat
+  encryption_protocol: <a href="https://threema.ch/en/faq/why_secure">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: Switzerland
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
-  is_locally_encrypted: N/A (Android app is a web app)
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  perfect_forward_secrecy_source: https://threema.ch/en/faq/why_secure
+  message_stored_on_server: 
   has_ephemeral_messages: No
-  encypted_by_default: No
+  encypted_by_default: Yes
   puddle_test: Not Recoverable
-  puddle_test_note: Messages are saved on the server, however if the session keys are lost then they cannot be decrypted.
+  puddle_test_note: Messages are saved on the device only.
   hammer_test: Not Recoverable
-  hammer_test_note: When you delete all session keys from all your devices and chat partners' devices.  Messages may remain in encrypted form on the servers.
+  hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google Firebase Analytics, Matomo (Piwik)
-  perfect_forward_secrecy_source: https://about.riot.im/security/
-  websites: <a href="https://github.com/vector-im">Source code</a>
-  notes_file: riot_notes.html
-  version_tested: 0.7.03
-  last_update: 1/28/2018
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
+  notes_file: threema_notes.html
+  version_tested: 3.55
+  last_update: 11/24/2018
 
-- name: kontalk
+- name: wickrme
   category: 2
-  display_name: Kontalk
-  url: http://www.kontalk.org
-  recommendation: 3
-  platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
-  source_type: open
-  business_model: Free open source project, servers run by volunteers
-  communication_types: Text, photo, video, audio, files, location, contacts
-  encryption_protocol: <a href="https://github.com/kontalk/specs/blob/master/encryption.md">OpenPGP</a>
-  shared_secret_exchange: <a href="https://github.com/kontalk/androidclient/blob/master/app/src/main/java/org/kontalk/crypto/PGP.java">ECDH P256</a>
-  message_encryption_cipher: <a href="https://github.com/kontalk/androidclient/blob/master/app/src/main/java/org/kontalk/crypto/PGPCoder.java">AES-192</a>
-  country_origin: None
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: No
-  is_locally_encrypted: No
-  is_locally_encrypted_source: https://github.com/kontalk/androidclient/issues/951
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: "?"
-  puddle_test_note: 
-  hammer_test: Recoverable
-  hammer_test_note: Android client leaks files
-  has_contact_verification: Yes
-  leaks_files: Android
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google CrashLytics
-  websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
-  notes_file: kontalk_notes.html
-  version_tested: 4.1.5
-  last_update: 6/22/2018
-
-- name: retroshare
-  category: 3
-  display_name: RetroShare
-  url: http://retroshare.net
-  recommendation: 2
-  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux (many), FreeBSD</a>
-  source_type: open
-  business_model: Free open source project
-  communication_types: Text, voice, video, email, file sharing
-  encryption_protocol: <a href="https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/">OpenPGP</a>
-  shared_secret_exchange: RSA 2048 PKI
-  message_encryption_cipher: "?"
-  country_origin: None
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: N/A
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: "Recoverable?"
-  puddle_test_note: 
-  hammer_test: "Recoverable?"
-  hammer_test_note: 
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: N/A
-  websites: <a href="https://github.com/RetroShare/RetroShare">Source code</a>
-  notes_file: retroshare_notes.html
-
-- name: surespot
-  category: 2
-  display_name: Surespot
-  url: https://www.surespot.me
-  recommendation: 3
-  platforms: Android, iOS
-  source_type: open
-  business_model: Free open source project, Bitcoin donations
-  communication_types: Text, voice, images
-  encryption_protocol: <a href="https://github.com/surespot/cryptopp">Crypto++</a>
+  display_name: WickrMe
+  url: https://wickr.com/products/personal/
+  recommendation: 1
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux (Ubuntu 16.04)</a>
+  source_type: partialopen
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, videos, files, audio message, voice calls
+  encryption_protocol: <a href="https://github.com/WickrInc/wickr-crypto-c/wiki">Wickr Messaging Protocol</a>
   shared_secret_exchange: ECDH P521
   message_encryption_cipher: AES-256
   country_origin: USA
-  country_origin_source: https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
-  android_requires_google_play: Yes
+  android_requires_google_play: No
   is_locally_encrypted: Yes
-  is_locally_encrypted_source: https://www.surespot.me/documents/how_surespot_works.html
-  perfect_forward_secrecy: No
-  perfect_forward_secrecy_source: https://www.surespot.me/documents/how_surespot_works.html
-  message_stored_on_server: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
-  puddle_test: "?"
-  puddle_test_note: 
-  hammer_test: Recoverable
-  hammer_test_note: Android client leaks files
-  has_contact_verification: No
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
-  notes_file: surespot_notes.html
-  version_tested: 72
-  last_update: 1/24/2018
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
+  hammer_test: Not Recoverable
+  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Countly, Google Firebase Analytics
+  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
+  notes_file: wickrme_notes.html
+  version_tested: 4.62.0
+  last_update: 10/30/2018
 
 - name: wire
   category: 2
@@ -888,78 +782,6 @@
   notes_file: wire_notes.html
   version_tested: 3.22.666
   last_update: 11/28/2018
-
-
-- name: eleet
-  category: 2
-  display_name: Eleet
-  url: https://eleet.im
-  recommendation: 1
-  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, photos, videos, audio files
-  encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-256
-  country_origin: UK
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
-  hammer_test: Not Recoverable
-  hammer_test_note:  When messages are deleted on all devices
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
-  websites: 
-  notes_file: eleet_notes.html
-  version_tested: 2.0.29
-  last_update: 1/28/2018
-
-- name: babelnet
-  category: 3
-  display_name: BabelNet
-  url: https://www.babelnet.com
-  recommendation: 2
-  platforms: Android, iOS, MacOS, Windows
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, photos, files, voice messages
-  encryption_protocol: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">Babelnet</a>
-  shared_secret_exchange: DH MODP2048
-  message_encryption_cipher: AES-128
-  country_origin: Czech Republic
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server.
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.  You can remotely delete messages from devices.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
-  websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
-  notes_file: babelnet_notes.html
-  version_tested: 7.6.1 (Android), 3.7.0 (MacOS)
-  last_update: 8/12/2018
 
 - name: brosix
   category: 2
@@ -1102,42 +924,6 @@
   notes_file: simsme_notes.html
   version_tested: 2.00.002.193784
   last_update: 3/8/2018
-
-- name: soma
-  category: 2
-  display_name: Soma
-  url: https://soma.im
-  recommendation: 3
-  platforms: Android, iOS, Web
-  source_type: closed
-  business_model: Supported by ads
-  communication_types: Text, group chat, images, video, audio, location
-  encryption_protocol: "?"
-  shared_secret_exchange: RSA 2048 PKI
-  message_encryption_cipher: AES-256
-  country_origin: USA
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device.
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 13
-  exodus_privacy_trackers_description: AccountKit, AdColony, AppLovin, Facebook Ads, Flurry, Google Ads, Google Analytics, Google CrashLytics, Google DoubleClick, Google Firebase Analytics, Inmobi, Twitter MoPub, Unity3d Ads
-  websites: 
-  notes_file: soma_notes.html
-  version_tested: 1.9.0
-  last_update: 1/27/2018
 
 - name: tungsten
   category: 2
@@ -1459,6 +1245,42 @@
   version_tested: 2.6.1311
   last_update: 4/10/2018
 
+- name: kontalk
+  category: 2
+  display_name: Kontalk
+  url: http://www.kontalk.org
+  recommendation: 3
+  platforms: Android (<a href="https://f-droid.org/app/org.kontalk">on F-Droid</a>), Java client
+  source_type: open
+  business_model: Free open source project, servers run by volunteers
+  communication_types: Text, photo, video, audio, files, location, contacts
+  encryption_protocol: <a href="https://github.com/kontalk/specs/blob/master/encryption.md">OpenPGP</a>
+  shared_secret_exchange: <a href="https://github.com/kontalk/androidclient/blob/master/app/src/main/java/org/kontalk/crypto/PGP.java">ECDH P256</a>
+  message_encryption_cipher: <a href="https://github.com/kontalk/androidclient/blob/master/app/src/main/java/org/kontalk/crypto/PGPCoder.java">AES-192</a>
+  country_origin: None
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: No
+  is_locally_encrypted_source: https://github.com/kontalk/androidclient/issues/951
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google CrashLytics
+  websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
+  notes_file: kontalk_notes.html
+  version_tested: 4.1.5
+  last_update: 6/22/2018
+
 - name: secems
   category: 2
   display_name: SecEMS
@@ -1494,6 +1316,116 @@
   notes_file: secems_notes.html
   version_tested: 6.0.10
   last_update: 8/25/2018
+
+- name: soma
+  category: 2
+  display_name: Soma
+  url: https://soma.im
+  recommendation: 3
+  platforms: Android, iOS, Web
+  source_type: closed
+  business_model: Supported by ads
+  communication_types: Text, group chat, images, video, audio, location
+  encryption_protocol: "?"
+  shared_secret_exchange: RSA 2048 PKI
+  message_encryption_cipher: AES-256
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://soma.im/faq?lang=en#q-why-should-i-trust-you-with-my-data
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 13
+  exodus_privacy_trackers_description: AccountKit, AdColony, AppLovin, Facebook Ads, Flurry, Google Ads, Google Analytics, Google CrashLytics, Google DoubleClick, Google Firebase Analytics, Inmobi, Twitter MoPub, Unity3d Ads
+  websites: 
+  notes_file: soma_notes.html
+  version_tested: 1.9.0
+  last_update: 1/27/2018
+
+- name: surespot
+  category: 2
+  display_name: Surespot
+  url: https://www.surespot.me
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: open
+  business_model: Free open source project, Bitcoin donations
+  communication_types: Text, voice, images
+  encryption_protocol: <a href="https://github.com/surespot/cryptopp">Crypto++</a>
+  shared_secret_exchange: ECDH P521
+  message_encryption_cipher: AES-256
+  country_origin: USA
+  country_origin_source: https://www.surespot.me/documents/surespot_law_enforcement_guidelines.html
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://www.surespot.me/documents/how_surespot_works.html
+  perfect_forward_secrecy: No
+  perfect_forward_secrecy_source: https://www.surespot.me/documents/how_surespot_works.html
+  message_stored_on_server: "?"
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
+  notes_file: surespot_notes.html
+  version_tested: 72
+  last_update: 1/24/2018
+
+- name: telegram
+  category: 2
+  display_name: Telegram
+  url: https://telegram.org
+  recommendation: 3
+  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, Web</a>
+  source_type: partialopen
+  business_model: <a href="https://www.bloomberg.com/news/articles/2017-12-12/cryptic-russian-crusader-says-his-5-billion-app-can-t-be-bought">Self funded</a> by <a href="https://telegram.org/faq#q-who-are-the-people-behind-telegram">Pavel Durov</a>
+  communication_types: Text, voice, file sharing
+  encryption_protocol: <a href="https://core.telegram.org/api/end-to-end">MProto</a>
+  shared_secret_exchange: DH MODP2048
+  message_encryption_cipher: AES-256
+  country_origin: UK
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Optional aliases
+  android_requires_google_play: Yes
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://core.telegram.org/techfaq#q-how-does-end-to-end-encryption-work-in-mtproto
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: No
+  puddle_test: Recoverable
+  puddle_test_note: Messages stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp
+  websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
+  notes_file: telegram_notes.html
+  version_tested: 4.9.1
+  last_update: 1/5/2019
 
 - name: together
   category: 2
@@ -1708,147 +1640,253 @@
   version_tested: 1.8.73
   last_update: 1/28/2018
 
-- name: keybase
-  category: 2
-  display_name: Keybase
-  url: https://www.keybase.io
-  recommendation: 1
-  platforms: Android, iOS, MacOS, Windows, Linux (many)
-  source_type: partialopen
-  business_model: <a href="https://keybase.io/jobs">Investors?</a>
-  communication_types: Text, group chat, file sharing
-  encryption_protocol: <a href="https://keybase.io/docs/crypto/overview">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: XSalsa20
-  country_origin: USA
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Only for &quot;exploding&quot; messages
-  message_stored_on_server: 
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: 
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://github.com/keybase">Source code</a>
-  notes_file: keybase_notes.html
-  version_tested: 2.2.1
-  last_update: 7/1/2018
 
-- name: threema
-  category: 2
-  display_name: Threema
-  url: https://threema.ch
+# Category 3- Decentralized
+
+- name: riot
+  category: 3
+  display_name: Riot
+  url: https://about.riot.im
   recommendation: 1
-  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
-  source_type: partialopen
-  business_model: One time app purchase fee
-  communication_types: Text, group chat, voice, files, voice chat
-  encryption_protocol: <a href="https://threema.ch/en/faq/why_secure">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: XSalsa20
-  country_origin: Switzerland
+  platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux (Debian, Ubuntu), Web
+  source_type: open
+  business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
+  communication_types: Text, voice, video, file sharing
+  encryption_protocol: <a href="https://about.riot.im/security/">Matrix</a>
+  shared_secret_exchange: X3DH Curve25519
+  message_encryption_cipher: AES-256
+  country_origin: UK
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  perfect_forward_secrecy_source: https://threema.ch/en/faq/why_secure
-  message_stored_on_server: 
+  is_locally_encrypted: N/A (Android app is a web app)
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
   has_ephemeral_messages: No
-  encypted_by_default: Yes
+  encypted_by_default: No
   puddle_test: Not Recoverable
-  puddle_test_note: Messages are saved on the device only.
+  puddle_test_note: Messages are saved on the server, however if the session keys are lost then they cannot be decrypted.
   hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.
+  hammer_test_note: When you delete all session keys from all your devices and chat partners' devices.  Messages may remain in encrypted form on the servers.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
-  notes_file: threema_notes.html
-  version_tested: 3.55
-  last_update: 11/24/2018
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google Firebase Analytics, Matomo (Piwik)
+  perfect_forward_secrecy_source: https://about.riot.im/security/
+  websites: <a href="https://github.com/vector-im">Source code</a>
+  notes_file: riot_notes.html
+  version_tested: 0.7.03
+  last_update: 1/28/2018
 
-- name: wickrme
-  category: 2
-  display_name: WickrMe
-  url: https://wickr.com/products/personal/
-  recommendation: 1
-  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux (Ubuntu 16.04)</a>
-  source_type: partialopen
+- name: babelnet
+  category: 3
+  display_name: BabelNet
+  url: https://www.babelnet.com
+  recommendation: 2
+  platforms: Android, iOS, MacOS, Windows
+  source_type: closed
   business_model: Enterprise version of the platform
-  communication_types: Text, group chat, videos, files, audio message, voice calls
-  encryption_protocol: <a href="https://github.com/WickrInc/wickr-crypto-c/wiki">Wickr Messaging Protocol</a>
-  shared_secret_exchange: ECDH P521
-  message_encryption_cipher: AES-256
-  country_origin: USA
+  communication_types: Text, photos, files, voice messages
+  encryption_protocol: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">Babelnet</a>
+  shared_secret_exchange: DH MODP2048
+  message_encryption_cipher: AES-128
+  country_origin: Czech Republic
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
-  android_requires_google_play: No
+  android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
   puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
+  puddle_test_note: Messages not saved on the server.
   hammer_test: Not Recoverable
-  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
+  hammer_test_note: When messages are deleted on all devices.  You can remotely delete messages from devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Countly, Google Firebase Analytics
-  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
-  notes_file: wickrme_notes.html
-  version_tested: 4.62.0
-  last_update: 10/30/2018
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://www.babelnet.com/download/Babelnet_whitepaper_en">White paper</a>
+  notes_file: babelnet_notes.html
+  version_tested: 7.6.1 (Android), 3.7.0 (MacOS)
+  last_update: 8/12/2018
 
-- name: telegram
-  category: 2
-  display_name: Telegram
-  url: https://telegram.org
-  recommendation: 3
-  platforms: <a href="https://telegram.org/apps">Android, iOS, Windows, MacOS, Web</a>
-  source_type: partialopen
-  business_model: <a href="https://www.bloomberg.com/news/articles/2017-12-12/cryptic-russian-crusader-says-his-5-billion-app-can-t-be-bought">Self funded</a> by <a href="https://telegram.org/faq#q-who-are-the-people-behind-telegram">Pavel Durov</a>
-  communication_types: Text, voice, file sharing
-  encryption_protocol: <a href="https://core.telegram.org/api/end-to-end">MProto</a>
-  shared_secret_exchange: DH MODP2048
-  message_encryption_cipher: AES-256
-  country_origin: UK
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Optional aliases
-  android_requires_google_play: Yes
-  is_locally_encrypted: No
+- name: conversations
+  category: 3
+  display_name: Conversations (XMPP)
+  url: https://conversations.im
+  recommendation: 2
+  platforms: Android
+  source_type: open
+  business_model: Funded through one time purchase of app and subscriptions to the conversations.im xmpp server
+  communication_types: Text, group chat, video, files, images
+  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://core.telegram.org/techfaq#q-how-does-end-to-end-encryption-work-in-mtproto
   message_stored_on_server: Yes
-  has_ephemeral_messages: Yes
-  encypted_by_default: No
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
   puddle_test: Recoverable
-  puddle_test_note: Messages stored on the server.
+  puddle_test_note: Messages are saved on the server
   hammer_test: Recoverable
-  hammer_test_note: Android app leaks files.
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
   has_contact_verification: Yes
   leaks_files: Android
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp
-  websites: <a href="https://telegram.org/faq#q-how-secure-is-telegram">Security</a>
-  notes_file: telegram_notes.html
-  version_tested: 4.9.1
-  last_update: 1/5/2019
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
+  notes_file: conversations_notes.html
+  version_tested: 2.3.5
+  last_update: 11/11/2018
+
+- name: pixart
+  category: 3
+  display_name: Pix-Art (XMPP)
+  url: https://jabber.pix-art.de
+  recommendation: 2
+  platforms: Android
+  source_type: open
+  business_model: <a href="https://jabber.pix-art.de/privacy/">This service is privately financed</a>
+  communication_types: Text, group chat, video, files, images
+  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://jabber.pix-art.de/privacy/">Privacy Policy</a>, <a href="https://github.com/kriztan/Pix-Art-Messenger">source code</a>
+  notes_file: pix-art_notes.html
+  version_tested: 2.1.4
+  last_update: 11/23/2018
+
+- name: quicksy
+  category: 3
+  display_name: Quicksy (XMPP)
+  url: https://quicksy.im
+  recommendation: 2
+  platforms: Android
+  source_type: open
+  business_model: Funded through the the quicksy.im directory service
+  communication_types: Text, group chat, video, files, images
+  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: 
+  notes_file: quicksy_notes.html
+  version_tested: 2.3.6+pcr
+  last_update: 11/23/2018
+
+- name: retroshare
+  category: 3
+  display_name: RetroShare
+  url: http://retroshare.net
+  recommendation: 2
+  platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux (many), FreeBSD</a>
+  source_type: open
+  business_model: Free open source project
+  communication_types: Text, voice, video, email, file sharing
+  encryption_protocol: <a href="https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/">OpenPGP</a>
+  shared_secret_exchange: RSA 2048 PKI
+  message_encryption_cipher: "?"
+  country_origin: None
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: "Recoverable?"
+  puddle_test_note: 
+  hammer_test: "Recoverable?"
+  hammer_test_note: 
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 
+  exodus_privacy_trackers_description: N/A
+  websites: <a href="https://github.com/RetroShare/RetroShare">Source code</a>
+  notes_file: retroshare_notes.html
+
+- name: adamant
+  category: 3
+  display_name: Adamant
+  url: https://adamant.im/
+  recommendation: 3
+  platforms: iOS, Web
+  source_type: open
+  business_model: Per message cryptocurrency fee
+  communication_types: Text, cryptocurrency
+  encryption_protocol: NaCl
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: Salsa20
+  country_origin: Republic of Ireland
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: "N/A"
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: All messages stored on public blockchain
+  hammer_test: Recoverable
+  hammer_test_note: All messages stored on public blockchain
+  has_contact_verification: No
+  leaks_files: "?"
+  exodus_privacy_trackers_count: "N/A"
+  exodus_privacy_trackers_description: "N/A"
+  websites: <a href="https://adamant.im/roadmap/">Roadmap</a>
+  notes_file: adamant_notes.html
+  version_tested: 
+  last_update: 
 
 
 # Category 10- Not E2EE

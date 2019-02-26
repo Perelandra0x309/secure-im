@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "SecureChatGuide.org"
 name                     : "Supernova"
 title_separator          : "-"
-description              : "My list of secure messaging apps"
+description              : "Guides and reviews of secure encrypted messaging apps for Android, iOS, Mac, Windows and Linux"
 url                      : https://securechatguide.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # enforce_ssl:             : securechatguide.org
 baseurl                  : # the subpath of your site, e.g. "/blog"
