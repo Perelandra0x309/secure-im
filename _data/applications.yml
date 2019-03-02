@@ -1784,6 +1784,41 @@
   version_tested: 2.3.5
   last_update: 11/11/2018
 
+- name: cwtch
+  category: 3
+  display_name: Cwtch
+  url: https://cwtch.im
+  recommendation: 3
+  platforms: Android, Windows, Linux
+  source_type: open
+  business_model: Free open source project
+  communication_types: Text, group chat
+  encryption_protocol: Tor hidden services/TLS
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: Canada
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Never
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device.
+  hammer_test: Not Recoverable
+  hammer_test_note: Messages saved only on device.
+  has_contact_verification: "?"
+  leaks_files: "? Needs more testing"
+  exodus_privacy_trackers_count: "?"
+  exodus_privacy_trackers_description: "?"
+  websites: <a href="https://git.openprivacy.ca/cwtch.im/ui/releases">Releases</a>
+  notes_file: cwtch_notes.html
+  version_tested: Alpha 0.1.1
+  last_update: 3/1/2019
+
 - name: pixart
   category: 3
   display_name: Pix-Art (XMPP)
