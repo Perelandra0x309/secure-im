@@ -1961,27 +1961,9 @@
 
 # Category 10- Not E2EE
 
-- name: googlemessengers
-  category: 10
-  display_name: Google Hangouts, Allo, Duo
-  recommendation: 3
-  notes_text: 
-
-- name: yahoomesssenger
-  category: 10
-  display_name: Yahoo Messenger
-  recommendation: 3
-  notes_text: 
-
 - name: aim
   category: 10
   display_name: AOL Instant Messenger
-  recommendation: 3
-  notes_text: 
-
-- name: trello
-  category: 10
-  display_name: Trello
   recommendation: 3
   notes_text: 
 
@@ -1990,6 +1972,14 @@
   display_name: Blackberry Messenger
   recommendation: 3
   notes_text: 
+
+- name: disa
+  category: 10
+  display_name: Disa
+  url: https://discordapp.com
+  recommendation: 3
+  notes_text: Disa unifies several messaging platforms under one app for convenience, but does not offer encryption.
+
 
 - name: discord
   category: 10
@@ -2009,6 +1999,25 @@
   notes_file: discord_notes.html
   version_tested: 
   last_update: 3/24/2018
+
+- name: googlemessengers
+  category: 10
+  display_name: Google Hangouts, Allo, Duo
+  recommendation: 3
+  notes_text: 
+
+- name: trello
+  category: 10
+  display_name: Trello
+  recommendation: 3
+  notes_text: 
+
+- name: yahoomesssenger
+  category: 10
+  display_name: Yahoo Messenger
+  recommendation: 3
+  notes_text: 
+
 
 # Category 11- Not recommended other reasons
 
