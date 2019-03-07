@@ -27,10 +27,10 @@ repository               : Perelandra0x309/secure-im # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-head_scripts:
-  - /TableFilter/tablefilter.js
-  - https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
-  - https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js
+#head_scripts:
+#  - /TableFilter/tablefilter.js
+#  - https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+#  - https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js
 breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
