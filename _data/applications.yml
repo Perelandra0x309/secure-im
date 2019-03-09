@@ -1316,6 +1316,41 @@
   version_tested: "Android: 3.4, iOS: 4.0"
   last_update: 2/27/2019
 
+- name: ravn
+  category: 2
+  display_name: Ravn
+  url: https://ravnapp.com
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: Selling decoy apps (icons) that hide the real app, crypto currency transaction fees
+  communication_types: Text, photos, video, voice notes, files, location
+  encryption_protocol: "?"
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: Dominican Republic
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 6
+  exodus_privacy_trackers_description: Google Ads, Analytics, Crashlytics, DoubleClick, Firebase Analytics; MixPanel
+  websites: <a href="https://ravnapp.com/wp-content/uploads/2018/10/RAVN-KORRAX-WHITE-PAPER.pdf">Whitepaper</a>
+  notes_file: ravn_notes.html
+  version_tested: "Android: 3.4.22, iOS: 1.0.4"
+  last_update: 3/9/2019
+
 - name: secems
   category: 2
   display_name: SecEMS
@@ -1566,6 +1601,41 @@
   notes_file: vanish_notes.html
   version_tested: 2.04 (Android), 2.1 (iOS)
   last_update: 7/11/2018
+
+- name: vega
+  category: 2
+  display_name: Vega
+  url: https://vega-messenger.com
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, voice calls, video chat, files, contact, location
+  encryption_protocol: "?"
+  shared_secret_exchange: DH MODP1536
+  message_encryption_cipher: AES-128
+  country_origin: Belgium
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: "?"
+  exodus_privacy_trackers_description: "?"
+  websites: <a href="https://vega-messenger.com/wp-content/uploads/2018/12/VEGA-Security-Whitepaper-1.0.1.pdf">Whitepaper</a>
+  notes_file: vega_notes.html
+  version_tested: 1.3.7 (iOS), 1.4.0 (Android)
+  last_update: 3/9/2019
 
 - name: viber
   category: 2
