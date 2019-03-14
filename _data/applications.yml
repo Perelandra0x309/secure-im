@@ -818,7 +818,7 @@
   notes_file: brosix_notes.html
   version_tested: 4.0.94
   last_update: 12/19/2018
-  
+
 - name: mysudo
   category: 2
   display_name: MySudo
@@ -1065,6 +1065,41 @@
   notes_file: confide_notes.html
   version_tested: 5.3.5
   last_update: 1/25/2018
+
+- name: crypho
+  category: 2
+  display_name: Crypho
+  url: https://www.crypho.com
+  recommendation: 3
+  platforms: Android, iOS, Mac, Windows, Web
+  source_type: partialopen
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, photos, files, location
+  encryption_protocol: "?"
+  shared_secret_exchange: El-Gamal EC384
+  message_encryption_cipher: AES-256
+  country_origin: Norway
+  requires_phone_number: Yes
+  requires_email: Yes
+  id_contains_contact_info: Email
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://github.com/Crypho">Source code</a>, <a href="https://www.crypho.com/downloads/crypho_security_whitepaper.pdf">Whitepaper</a>
+  notes_file: crypho_notes.html
+  version_tested: 3.4.2
+  last_update: 3/14/2019
 
 - name: crypviser
   category: 2
@@ -1833,7 +1868,7 @@
   message_encryption_cipher: AES-128
   country_origin: Germany
   requires_phone_number: No
-  requires_email: Yes
+  requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes

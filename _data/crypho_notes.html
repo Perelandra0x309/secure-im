@@ -1,0 +1,13 @@
+Crypho is a multi-device secure communications platform based in Norway.  They offer enterprise level subscriptions but also a free personal level option.<br>
+<br>
+When signing up for an account you must first give an email address and verify it is yours by clicking on a link they will send you.  This email will become part of your profile so it cannot be a temporary or throw away address.  Once your email is verified, then you must give them your phone number to use for their 2 factor authentication.  Their website claims you can use an authenticator application but I never saw a way to make that choice.  You will be sent an SMS message when logging in as a 2 factor authentication.<br>
+<br>
+To add a contact of another Crypho user you must enter their email address to send them an invite.  This is why you need to use a real email address, an invite will come through email to be able to complete the contact connection process.<br>
+<br>
+When sending an image from my Android device a copy of it showed up in /Android/com.crypho.app/files/Pictures.  I did not see any copies of photos received in chats on the Android however.  When opening photos in the chat session it did take a second for them to open up, indicating to me that they were being decrypted on the fly from an encrypted storage location.  So having a copy of a photo sent stored in public storage seems like an unfortunate slip-up.<br>
+<br>
+The use of El-Gamal keys is questionable.  This algorithm is vulnerable to message malliability- which means that the encrypted cyphertext can be altered and it will change the plain text that is decrypted.  Without message integrity checks this manipulation could be missed.  In this case what is encrypted is the actual message encryption key, so if the encrypted key's cipher text is altered, the decrypted key would also be altered but it would be unable to decrypt the actual message ciphertext.  So there isn't really a risk of the message being exposed, it will just become undecipherable.<br>
+<br>
+My verdict: Too much personal info required<br>
+<br>
+The fact you must give both a valid email and phone number is too much I think.  And for others to contact you they must know your email.  There are other apps that are better and expose less personal information.
