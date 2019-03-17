@@ -9,6 +9,8 @@ This matrix shows many of the features of each app I have reviewed in detail.  T
 <br>
 In the top right corner of the features table is a menu titled "Columns".  Click on this to show a menu where you can hide the columns you do not wish to see.  If the table is still too large to view all at once after removing some columns you can also use your web browser's zoom setting to shrink the entire page.  A zoom setting of 80% may be enough to view the entire table.<br>
 <br>
+To prevent some level of infomation overload, I have not included applications in this matrix that are not recommended for obvious reasons (cost, not E2EE, enterprise only) as listed on my <a href="{% link rejectedapps.md %}">Rejected Apps page</a>.<br>
+<br>
 Country Key:<br>
 <table border="1" cellpadding="5" style="border-collapse: collapse;">
 	<tr><td class="fiveeyes">5 Eyes Member</td></tr>

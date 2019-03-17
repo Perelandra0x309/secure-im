@@ -1207,6 +1207,41 @@
   version_tested: 1.0.9
   last_update: 7/16/2018
 
+- name: get2clouds
+  category: 2
+  display_name: get2clouds
+  url: https://www.get2clouds.com
+  recommendation: 3
+  platforms: Android, iOS, Windows
+  source_type: open/closed/partialopen
+  business_model: Enterprise version of the platform
+  communication_types: Text, photos, audio, files, appointments
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: AES-256
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes/No
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Never/Temporarily/Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: No
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: Recoverable
+  hammer_test_note: Android leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 4
+  exodus_privacy_trackers_description: Facebook Analytics, Facebook Login, Facebook Places, Facebook Share
+  websites: 
+  notes_file: get2clouds_notes.html
+  version_tested: 0.9.177
+  last_update: 3/16/2019
+
 - name: hoccer
   category: 2
   display_name: Hoccer
