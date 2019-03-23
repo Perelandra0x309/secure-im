@@ -214,41 +214,6 @@
   version_tested: 3.8.10
   last_update: 4/24/2018
 
-- name: ricochet
-  category: 1
-  display_name: Ricochet
-  url: https://ricochet.im
-  recommendation: 2
-  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux (many)</a>
-  source_type: open
-  business_model: Free open source project
-  communication_types: Text
-  encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services/TLS</a>
-  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
-  message_encryption_cipher: AES-128
-  country_origin: No centralized servers
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: N/A
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: N/A
-  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
-  notes_file: ricochet_notes.html
-  version_tested: 1.1.4
-  last_update: 1/18/2018
-
 - name: skred
   category: 1
   display_name: Skred
@@ -458,6 +423,41 @@
   notes_file: linkcast_notes.html
   version_tested: Android- 3.0.5, iOS- 3.1.0
   last_update: 11/03/2018
+
+- name: ricochet
+  category: 1
+  display_name: Ricochet
+  url: https://ricochet.im
+  recommendation: 3
+  platforms: <a href="https://ricochet.im/releases/latest/">Windows, MacOS, Linux (many)</a>
+  source_type: open
+  business_model: Free open source project
+  communication_types: Text
+  encryption_protocol: <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/protocol.md">Tor hidden services/TLS</a>
+  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
+  message_encryption_cipher: AES-128
+  country_origin: No centralized servers
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: N/A
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 
+  exodus_privacy_trackers_description: N/A
+  websites: <a href="https://github.com/ricochet-im/ricochet">Source Code</a>, <a href="https://github.com/ricochet-im/ricochet/blob/master/doc/design.md">Technical design</a>
+  notes_file: ricochet_notes.html
+  version_tested: 1.1.4
+  last_update: 3/23/2019
 
 - name: sid
   category: 1
@@ -2203,6 +2203,12 @@
   version_tested: 1.18 (iOS), 1.37.0 (Android)
   last_update: 6/24/2018
   notes_text: "(https://about.conclave.global) This messenger seems to have gone offline sometime before 10/21/2018"
+
+- name: cryptocat
+  category: 11
+  display_name: Cryptocat
+  recommendation: 3
+  notes_text: "<blockquote>Note from Nadim Kobeissi:<br>Cryptocat began in 2011 as an experiment in making secure messaging more accessible. In the eight ensuing years, Cryptocat served hundreds of thousands of users and developed a great story to tell.<br>Now, I have moved on in my life to other things and no longer have time to maintain this project.<br>Cryptocat users deserve a maintained secure messenger, which is why I recommend Wire.<br>The Cryptocat <a href=\"https://github.com/cryptocat\">source code</a> is still published on GitHub under the GPL version 3 license.</blockquote>"
 
 - name: freemessage
   category: 11
