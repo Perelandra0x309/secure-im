@@ -572,7 +572,7 @@
   category: 2
   display_name: Eleet
   url: https://eleet.im
-  recommendation: 1
+  recommendation: 3
   platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
   source_type: closed
   business_model: Enterprise version of the platform

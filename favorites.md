@@ -47,7 +47,7 @@ Messaging apps listed here do not expose your phone number or email address.  No
   </ul>
   <li id="caution">Use with caution:<br>
   <ul>
-     <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li>
+<!--     <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li> -->
     <li>{% include generate_app_link.html app_name="riot" %}- [E2EE still in beta, Based in the UK, no ephemeral messages]</li>
   </ul>
   December 2018: Recently there have been some troubling laws passed and articles written in the UK and Australia (part of the <a href="https://www.privacytools.io/#ukusa">5 eyes countries</a>) that may cause issues with trust in applications developed in those countries.  Both countries now seem to be pushing for backdoor access for government surveillance to be built into secure messaging applications.  Not only will this weaken or break End to End security, but apps that are not open source from those countries may no longer be trusted and may be used for a mass surveillance program.  Here are some recent articles.<br>
@@ -107,10 +107,10 @@ The following scoring table includes messaging apps that can be used across mult
     <td>{% include generate_app_link.html app_name="keybase" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>0 (USA)</td><td>6.5</td>
   </tr>
-  <tr style='background: pink'>
+<!--  <tr style='background: pink'>
     <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0 (UK)</td><td>6</td>
-  </tr>
+  </tr> -->
   <tr>
     <td>{% include generate_app_link.html app_name="tungsten" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>.5 (Germany)</td><td>5.5</td>
@@ -165,10 +165,10 @@ The following scoring table includes messaging apps used on a single device:<br>
     <td>{% include generate_app_link.html app_name="briar" %}</td>
     <td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>5</td>
   </tr>
-  <tr style='background: pink'>
+<!--  <tr style='background: pink'>
     <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
     <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
-  </tr>
+  </tr> -->
   <tr>
     <td>{% include generate_app_link.html app_name="conversations" %}</td>
     <td>1</td><td>1</td><td>1</td><td>.5 (OMEMO only)</td><td>0</td><td>1</td><td>0</td><td>.5 (Germany)</td><td>5</td>
