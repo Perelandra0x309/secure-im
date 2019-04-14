@@ -106,8 +106,8 @@
   exodus_privacy_trackers_description: Google CrashLytics, HockeyApp
   websites: <a href="https://safeswiss.com/encryption">Encryption</a>
   notes_file: safeswiss_notes.html
-  version_tested: 1.3.03
-  last_update: 1/23/2018
+  version_tested: 1.4.10
+  last_update: 4/10/2019
 
 - name: silence
   category: 1
@@ -672,8 +672,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
   notes_file: signal_notes.html
-  version_tested: 4.14.10
-  last_update: 1/28/2018
+  version_tested: 4.37.2
+  last_update: 4/10/2019
 
 - name: threema
   category: 2
@@ -706,7 +706,7 @@
   leaks_files: No
   exodus_privacy_trackers_count: 0
   exodus_privacy_trackers_description: None
-  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>
+  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>, <a href="https://threema.ch/en/blog/posts/audit19en">Threema Audit</a>
   notes_file: threema_notes.html
   version_tested: 3.55
   last_update: 11/24/2018
@@ -922,8 +922,8 @@
   exodus_privacy_trackers_description: Adjust, Google Ads, Google DoubleClick
   websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
   notes_file: simsme_notes.html
-  version_tested: 2.00.002.193784
-  last_update: 3/8/2018
+  version_tested: "2.05.001.227635 (Android), 2.5 (iOS)"
+  last_update: 4/10/2019
 
 - name: tungsten
   category: 2
@@ -958,8 +958,8 @@
   exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp
   websites: <a href="https://tungsten-labs.com/faq">FAQ</a>, <a href="https://tungstenapp.com/tungsten-whitepaper-v1.pdf">Whitepaper</a>
   notes_file: tungsten_notes.html
-  version_tested: 1.1.0
-  last_update: 5/25/2018
+  version_tested: 1.4.1
+  last_update: 4/10/2019
 
 - name: whispeer
   category: 2

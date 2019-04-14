@@ -16,6 +16,7 @@ Here are some other resources that contain information about online privacy:<br>
 <a href="https://tutanota.com/blog/posts/how-to-leave-google-gmail/" target="_blank">How to leave Google behind: Quick guide to take back your privacy online</a><br>
 
 <h3>About Facebook and WhatsApp:</h3><br>
+<a href="https://www.eff.org/deeplinks/2019/04/facebook-got-caught-phishing-friends">Facebook Got Caught Phishing For Friends</a><br>
 <a href="https://www.careersinfosecurity.com/apple-slams-facebook-for-monitoring-app-given-to-minors-a-11984" target="_blank">Apple Slams Facebook for Monitoring App Given to Minors</a><br>
 <a href="https://techcrunch.com/2019/02/01/facebook-google-scandal/" target="_blank">Everything you need to know about Facebook, Google’s app scandal</a><br>
 <a href="https://medium.com/@gzanon/no-end-to-end-encryption-does-not-prevent-facebook-from-accessing-whatsapp-chats-d7c6508731b2" target="_blank">No, end-to-end encryption does not prevent Facebook from accessing WhatsApp chats</a><br>
@@ -34,6 +35,7 @@ Here are some other resources that contain information about online privacy:<br>
 <a href="https://www.securemessagingapps.com" target="_blank">Secure Messaging Apps Comparison</a><br>
 <a href="https://hackernoon.com/encrypted-instant-messaging-recommendations-january-2017-711c03af02cc" target="_blank">Marcel Ackermann's recommendations</a><br>
 <a href="https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients#Messengers_with_client-to-client_encryption" target="_blank">Wikipedia- Comparison of IM Clients</a><br>
+<a href="https://switching.social">switching.social</a><br>
 <a href="https://thatoneprivacysite.net" target="_blank">ThatOnePrivacySite.net</a><br>
 <a href="https://privacyheroes.io" target="_blank">privacyheroes.io</a><br>
 <a href="https://reports.exodus-privacy.eu.org/" target="_blank">Exodus Privacy</a><br>
