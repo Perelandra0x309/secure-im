@@ -1,6 +1,6 @@
 ---
 layout: single_full
-title: "Electronic Frontier Foundation:<br>Guide to Choosing a Messenger"
+title: "Practical Application of EFF's Guide to Choosing a Messenger"
 permalink: /effguide.html
 ---
 
@@ -53,7 +53,7 @@ function setFilters() {
 
 <em>Note: this page is best viewed on a desktop computer with a large screen!</em><br>
 <br>
-Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-you-need-secure-messenger">Thinking About What You Need In A Secure Messenger</a>.
+Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-you-need-secure-messenger">Thinking About What You Need In A Secure Messenger</a>.  Then return here and select the features you are looking for with a secure messenger.  Each of the points below is described in depth in the EFF article.
 <br>
 <ul>
   <li>Are you worried about your messages being intercepted by governments or service providers?<br>
