@@ -424,6 +424,41 @@
   version_tested: Android- 3.0.5, iOS- 3.1.0
   last_update: 11/03/2018
 
+- name: pinngle
+  category: 1
+  display_name: Pinngle
+  url: https://pinngle.me
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: "Fee for calling out to phone numbers"
+  communication_types: Text, group chat, voice, photos, audio clips, files, location
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: Latvia
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: 
+  leaks_files: Android
+  exodus_privacy_trackers_count: 6
+  exodus_privacy_trackers_description: Facebook Analytics, Facebook Login, Facebook Share, Google Analytics, Google Crashlytics, Google Firebase Analytics
+  websites: 
+  notes_file: pinngle_notes.html
+  version_tested: 2.1.9
+  last_update: 4/21/2019
+
 - name: ricochet
   category: 1
   display_name: Ricochet
