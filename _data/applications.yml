@@ -243,7 +243,7 @@
   has_contact_verification: No
   leaks_files: No
   exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: none
+  exodus_privacy_trackers_description: None
   websites: 
   notes_file: skred_notes.html
   version_tested: 0.6.5
@@ -450,10 +450,10 @@
   puddle_test_note: Messages saved only on device
   hammer_test: Recoverable
   hammer_test_note: Android client leaks files
-  has_contact_verification: 
+  has_contact_verification: No
   leaks_files: Android
   exodus_privacy_trackers_count: 6
-  exodus_privacy_trackers_description: Facebook Analytics, Facebook Login, Facebook Share, Google Analytics, Google Crashlytics, Google Firebase Analytics
+  exodus_privacy_trackers_description: Facebook Analytics, Facebook Login, Facebook Share, Google Analytics, Google CrashLytics, Google Firebase Analytics
   websites: 
   notes_file: pinngle_notes.html
   version_tested: 2.1.9
@@ -697,6 +697,7 @@
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: No
+  encypted_by_default_source: "/centralizedapps.html#signal_foolproof"
   puddle_test: Not Recoverable
   puddle_test_note: Messages saved only on device
   hammer_test: Not Recoverable
@@ -1450,7 +1451,7 @@
   has_contact_verification: No
   leaks_files: No
   exodus_privacy_trackers_count: 6
-  exodus_privacy_trackers_description: Google Ads, Analytics, Crashlytics, DoubleClick, Firebase Analytics; MixPanel
+  exodus_privacy_trackers_description: Google Ads, Google Analytics, Google CrashLytics, DoubleClick, Google Firebase Analytics, MixPanel
   websites: <a href="https://ravnapp.com/wp-content/uploads/2018/10/RAVN-KORRAX-WHITE-PAPER.pdf">Whitepaper</a>
   notes_file: ravn_notes.html
   version_tested: "Android: 3.4.22, iOS: 1.0.4"

@@ -216,9 +216,17 @@ Features Matrix:
 {% endif %}
 
 {% if application.encypted_by_default == true %}
+  {% if application.encypted_by_default_source %}
+	<td class="green"><a href="{{ application.encypted_by_default_source }}">Yes</a></td>
+	{% else %}
 	<td class="green">Yes</td>
+	{% endif %}
 {% elsif application.encypted_by_default == false %}
+  {% if application.encypted_by_default_source %}
+	<td class="red"><a href="{{ application.encypted_by_default_source }}">No</a></td>
+	{% else %}
 	<td class="red">No</td>
+	{% endif %}
 {% else %}
 	<td>{{ application.encypted_by_default }}</td>
 {% endif %}
