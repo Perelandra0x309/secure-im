@@ -2581,6 +2581,18 @@
   recommendation: 3
   notes_text: (https://nextcloud.com/talk/)- Enterprise product, audio and video are E2EE but not chat.
 
+- name: zyptonite
+  category: 11
+  display_name: Ziptonite
+  recommendation: 3
+  notes_text: "Website certificate says: &quot;Expires on: Aug 4, 2018&quot;  so I'm not even going to bother if they can't keep basic website security practices."
+
+- name: peerio
+  category: 11
+  display_name: Peerio
+  recommendation: 3
+  notes_text: "Peerio is closing: https://support.peerio.com/hc/en-us/articles/360021688172-Peerio-Service-Closure-FAQs"
+
 # Category 12- Protocols
 
 - name: tox
