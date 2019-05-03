@@ -13,6 +13,7 @@
   <li>Video chat is not available in the personal free version</li>
   <li>The 6 day maximum retention period for messages may be too short if you like to be able to go back to old messages</li>
   <li>Based in the USA, if you are worried about using something from a <a href="https://www.privacytools.io/#ukusa" target="_blank">5 eyes country</a></li>
+    <li>No web app. You must install the desktop application on work or public computers to chat. This may be an issue if you do not have permissions to install the application.</li>
   </ul>
   Other features:
   <ul>
