@@ -12,7 +12,7 @@
   Cons:
   <ul>
   <li>You need to provide an email or phone number to create an account. But this information is never given to any of your contacts.</li>
-  <li>On some small number of Android devices notifications are an issue. The Wire support page [lists a number of possible solutions](https://support.wire.com/hc/en-us/articles/203624294-What-can-I-do-if-I-m-not-getting-any-notifications-on-Android-) that require user intervention that other messenger apps don't seem to have. The Android app issue tracker consistently has notification bugs for Android opened.<li>
+  <li>On some small number of Android devices notifications are an issue. The Wire support page <a href="https://support.wire.com/hc/en-us/articles/203624294-What-can-I-do-if-I-m-not-getting-any-notifications-on-Android-">lists a number of possible solutions</a> that require user intervention that other messenger apps don't seem to have. The Android app issue tracker consistently has notification bugs for Android opened.</li>
   </ul>
   Other features:
   <ul>
