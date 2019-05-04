@@ -611,7 +611,7 @@
   platforms: Android, iOS, MacOS, Windows, BlackBerry
   source_type: closed
   business_model: Subscriptions
-  communication_types: Text, group chat, photos, audio, files, location, contacts
+  communication_types: Text, group chat, audio and video chat, photos, audio clips, files, location, contacts, screen sharing
   encryption_protocol: <a href="https://www.certicom.com/content/certicom/en/products-and-services/security-libraries.html">BlackBerry Certicom</a>
   shared_secret_exchange: ECDH P521
   message_encryption_cipher: AES-256
