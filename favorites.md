@@ -41,6 +41,7 @@ Messaging apps listed here do not expose your phone number or email address.  No
   <ul>
     <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification]</li>
+    <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, no ephemeral messages, PFS or contact verification]</li>
     <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification]</li>
     <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS]</li>
     <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Based in Germany [Android Only, no ephemeral messages]</li>
@@ -115,6 +116,10 @@ The following scoring table includes messaging apps that can be used across mult
     <td>{% include generate_app_link.html app_name="tungsten" %}</td>
     <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>.5 (Germany)</td><td>5.5</td>
   </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="bbme" %}</td>
+    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0 (Canada)</td><td>5.0</td>
+  </tr>
 
 </table>
 
@@ -180,6 +185,10 @@ The following scoring table includes messaging apps used on a single device:<br>
   <tr>
     <td>{% include generate_app_link.html app_name="tungsten" %}</td>
     <td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>4.5</td>
+  </tr>
+  <tr>
+    <td>{% include generate_app_link.html app_name="bbme" %}</td>
+    <td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0 (Canada)</td><td>4.0</td>
   </tr>
 
 </table>

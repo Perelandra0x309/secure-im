@@ -603,6 +603,41 @@
 
 # Category 2- Centralized
 
+- name: bbme
+  category: 2
+  display_name: Blackberry Messenger Enterprise
+  url: https://www.blackberry.com/us/en/products/messaging/bbm-enterprise/bbme
+  recommendation: 1
+  platforms: Android, iOS, MacOS, Windows, BlackBerry
+  source_type: closed
+  business_model: Subscriptions
+  communication_types: Text, group chat, photos, audio, files, location, contacts
+  encryption_protocol: <a href="https://www.certicom.com/content/certicom/en/products-and-services/security-libraries.html">BlackBerry Certicom</a>
+  shared_secret_exchange: ECDH P521
+  message_encryption_cipher: AES-256
+  country_origin: Canada
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google Firebase Analytics, MixPanel
+  websites: <a href="https://docs.blackberry.com/content/dam/docs-blackberry-com/release-pdfs/en/bbm-enterprise/BBM_Enterprise_Security_Note.pdf">BBM Enterprise Security Note</a>
+  notes_file: bbme_notes.html
+  version_tested: 1.7.0.11 (Android), 1.7.0.13 (iOS), 1.6.0.15 (MacOS)
+  last_update: 5/3/2019
+
 - name: eleet
   category: 2
   display_name: Eleet
@@ -2082,7 +2117,7 @@
   id_contains_contact_info: No
   android_requires_google_play: Yes
   is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes/No
+  perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: No
   encypted_by_default: Yes
@@ -2178,11 +2213,11 @@
   recommendation: 3
   notes_text: 
 
-- name: blackberrymesssenger
+- name: blackberrymessengerc
   category: 10
-  display_name: Blackberry Messenger
+  display_name: Blackberry Messenger Consumer
   recommendation: 3
-  notes_text: 
+  notes_text: (and the service is closing down)
 
 - name: disa
   category: 10
