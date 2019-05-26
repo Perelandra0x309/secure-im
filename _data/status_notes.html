@@ -1,0 +1,18 @@
+Status does not require any personal information to signup.  Once your account is created you are assigned a 3 word phrase that can be given to other contacts as a verification phrase.<br>
+<br>
+Adding another contact is a little different than most messengers.  You must either scan their QR code or acquire their code in text form which they can send to you in another messaging app or through email.  To find your code go to your profile, then select &quot;Share my profile&quot; and select &quot;Share link&quot;.  To connect another Status user start a new chat then scan their QR code or enter the long code that they ent you.  When first connected you will see their 3 word verification phrase, which you should confirm is correct.  Note that their profile name will not appear yet.  Once confirmed and a chat is started then you will see their chosen profile name.<br>
+<br>
+Status sends messages by connecting directly to the devices of other Status users directly, creating a very large mesh network. When you send a message, it gets encrypted for only the recipients, but the encrypted message gets broadcast to all devices in the entire Status mesh network.  Eventually all devices receive the message, but only those that have the right private keys can decrypt it.  Status claims this strategy prevents anyone monitoring the network from knowing exactly who is communicating since all devices get all messages.<br>
+This is an interesting setup, however I see some potential issues with it:<br>
+<ul>
+<li>Scale: What kind of network traffic will this produce if Status becomes popular and there are many users?  Any single device will be receiving every single message sent to all other users in the network, which could put a strain on endpoint networks or use up lots of data on mobile plans.</li>
+<li>Related to the first point, every message needs to be tried to be decrypted by each device.  This could use up a lot of CPU time and battery power on mobile devices.</li>
+<li>Since every device receives every message, recording and saving every encrypted message will be easy, and a flaw in the cryptographic protocol could have widespread consequences.</li>
+</ul>
+<br>
+I did not find any files saved directly into public file storage on my Android device (good).  But sending files and photos isn't even a feature in chats yet so it remains to be seen if this is true when and if those items can be sent in chats.<br>
+<br>
+My Verdict: Very basic right now, concerns about encrypted data distribution<br>
+<br>
+From a usability standpoint this app is very basic with only text in chats (no photos, videos, audio or files).  Other secure apps have so many more features.<br>
+Security-wise, my concerns are with the fact that all messages, while encrypted, do get sent to every single device.  Also this could cause issues with network congestion, lots of wasted mobile data, and increased CPU usage.

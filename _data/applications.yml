@@ -530,6 +530,41 @@
   version_tested: 0.9.4
   last_update: 1/23/2018
 
+- name: status
+  category: 1
+  display_name: Status
+  url: https://status.im
+  recommendation: 3
+  platforms: Android, iOS, MacOS, Windows, Linux
+  source_type: open
+  business_model: Self-funded, grants
+  communication_types: Text, group chat
+  encryption_protocol: Signal
+  shared_secret_exchange: ECDH P256
+  message_encryption_cipher: AES-256
+  country_origin: Switzerland
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: multi-device message and contact sync is currently in development
+  hammer_test: Not Recoverable
+  hammer_test_note: Messages saved only on device
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://status.im/get-involved/developers/">Status Developers Portal</a>
+  notes_file: status_notes.html
+  version_tested: 0.12.2
+  last_update: 5/26/2019
+
 - name: stealthchat
   category: 1
   display_name: StealthChat
@@ -847,8 +882,8 @@
   hammer_test_note: Wire has an option to delete messages from all participant's devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
   websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
   notes_file: wire_notes.html
   version_tested: 3.22.666
