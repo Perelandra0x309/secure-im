@@ -1,0 +1,115 @@
+---
+layout:
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+	<title>{{ page.title }}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	{% if page.name == "featuresmatrix.md" %}
+    <script src="/TableFilter/tablefilter.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  {% endif %}
+	<style>
+	
+	body{color:#222831;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;line-height:1.5}
+	.mySlides {display: none}
+	</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+<!--    <div class="w3-dropdown-hover w3-hide-medium w3-hide-large w3-right">
+      <button class="w3-padding-large w3-button" title="More"><i class="fa fa-bars"></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="{% link guide_signal.md %}" class="w3-bar-item w3-button">Install Signal</a>
+        <a href="{% link guide_single_device.md %}" class="w3-bar-item w3-button">Single Device Apps</a>
+        <a href="{% link guide_multiple_devices.md %}" class="w3-bar-item w3-button">Multiple Device Apps</a>
+      </div>
+    </div> -->
+    <a href="{{ site.url }}" class="w3-bar-item w3-button w3-padding-large">{{ site.title }}</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">STEP-BY-STEP GUIDES <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="{% link guide_signal.md %}" class="w3-bar-item w3-button">Install Signal</a>
+        <a href="{% link guide_single_device.md %}" class="w3-bar-item w3-button">Single Device Apps</a>
+        <a href="{% link guide_multiple_devices.md %}" class="w3-bar-item w3-button">Multiple Device Apps</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CHARTS AND LISTS <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="applist.html" class="w3-bar-item w3-button">App Index</a>
+        <a href="effguide.html" class="w3-bar-item w3-button">EFF Guide</a>
+        <a href="featuresmatrix.html" class="w3-bar-item w3-button">App Features Matrix</a>
+        <a href="notrackers.html" class="w3-bar-item w3-button">No Trackers! Hall of Fame</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">APP REVIEWS <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="{% link favorites.md %}" class="w3-bar-item w3-button">My Favorite Apps</a>
+        <a href="{% link p2papps.md %}" class="w3-bar-item w3-button">Peer-to-Peer Apps</a>
+        <a href="{% link centralizedapps.md %}" class="w3-bar-item w3-button">Centralized Apps</a>
+        <a href="{% link decentralizedapps.md %}" class="w3-bar-item w3-button">Decentralized Apps</a>
+        <a href="{% link protocols.md %}" class="w3-bar-item w3-button">Messaging Protocols</a>
+        <a href="{% link rejectedapps.md %}" class="w3-bar-item w3-button">Rejected Apps</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="{% link about.md %}" class="w3-bar-item w3-button">About This Website</a>
+        <a href="{% link otherwebsites.md %}" class="w3-bar-item w3-button">Other Websites and Resources</a>
+      </div>
+    </div>
+<!--    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navSmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-dark-grey w3-center" style="margin-top:46px;padding:32px 16px">
+<div class="w3-left-align">
+  <h1>{{ page.title }}</h1>
+  <p>Step-by-step guides and detailed information on secure messaging apps for Android, iOS, Windows, Mac and Linux.</p>
+</div>
+</header>
+
+<div class="w3-content" style="max-width:2000px;margin-top:50px;margin-left:5px;margin-right:5px">
+  {{ content }}
+</div>
+
+<br>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navSmall");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+<footer>
+  {% include footer.html %}
+</footer>
+</body>
+</html>
