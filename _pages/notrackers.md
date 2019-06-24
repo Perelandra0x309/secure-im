@@ -1,5 +1,5 @@
 ---
-
+layout: single
 title: No Trackers Hall of Fame
 permalink: /notrackers.html
 ---

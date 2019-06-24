@@ -1,5 +1,5 @@
 ---
-
+layout: single
 title: Rejected Apps
 ---
 These apps are strongly not recommended for various reasons, including not being end-to-end encrypted (E2EE), abondoned projects, geared towards enterprise environments, cost too much or have serious security problems.<br>

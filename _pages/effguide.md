@@ -1,5 +1,5 @@
 ---
-layout: single_full
+layout: single
 title: "Practical Application of EFF's Guide to Choosing a Messenger"
 permalink: /effguide.html
 ---

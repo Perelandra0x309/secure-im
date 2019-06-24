@@ -1,5 +1,5 @@
 ---
-layout: chart
+layout: single
 title: App Features Matrix
 permalink: /featuresmatrix.html
 ---

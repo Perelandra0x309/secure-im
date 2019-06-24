@@ -1,5 +1,5 @@
 ---
-
+layout: single
 title: Messaging Protocols
 which_category: 12
 ---
