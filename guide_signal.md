@@ -14,7 +14,7 @@ I have chosen Signal as the first step towards protecting your chats because it 
 <br>
 First head on over to the official Signal install guide and install the app on your Android or Apple iOS phone.  Then return here and I will give you some additional tips.<br>
 <br>
-<a href="https://support.signal.org/hc/en-us/articles/360007318691-Register-a-phone-number" class="btn btn--success btn--x-large" target="_blank">Follow the official Signal install guide</a><br>
+<a href="https://support.signal.org/hc/en-us/articles/360007318691-Register-a-phone-number" {{ site.class_button_external }} target="_blank">Follow the official Signal install guide</a><br>
 <br>
 OK now that you have Signal installed you can invite others to install Signal to chat securely with you.  Open one of the previous SMS chat sessions you have with someone and there will be a message at the top prompting you to invite this person to Signal.  Click on this prompt and a link will be created to send to them (using SMS for now).  Maybe send them a link to this website too!<br>
 <br>
@@ -64,6 +64,6 @@ So to continue on there is one important question you must think about.  Will yo
 <br>
 Some apps can only be used on a single device while others can be used on multiple devices.  The selection of apps for multiple devices is smaller, but this option is more convienient if you are switching between desktop computers and phones throughout your day.<br>
 <br>
-<a href="guide_single_device.html" class="btn btn--info btn--x-large">I will only use one device</a><br>
-<a href="guide_multiple_devices.html" class="btn btn--info btn--x-large">I want to use multiple devices</a><br>
+<a href="guide_single_device.html" {{ site.class_button_internal }}>I will only use one device</a><br>
+<a href="guide_multiple_devices.html" {{ site.class_button_internal }}>I want to use multiple devices</a><br>
 

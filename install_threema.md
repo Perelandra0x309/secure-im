@@ -5,7 +5,7 @@ permalink: /install_threema.html
 ---
 You do not need to provide any personal information to signup for a Threema account.<br>
 <br>
-Visit the <a href="https://threema.ch/en/download" class="btn btn--success btn--x-large" target="_blank">Threema download page</a> where you can get it for iOS, Android or Windows phone.  It does cost a one time fee of $2.95 or &euro;2,60 but this is well worth it to support the work of this group.  There are no further costs after installing this app. If you are using Android also install the free QR Scanner plugin.<br>
+Visit the <a href="https://threema.ch/en/download" {{ site.class_button_external }} target="_blank">Threema download page</a> where you can get it for iOS, Android or Windows phone.  It does cost a one time fee of $2.95 or &euro;2,60 but this is well worth it to support the work of this group.  There are no further costs after installing this app. If you are using Android also install the free QR Scanner plugin.<br>
 
 <h2>Threema Setup</h2>
 <table width="75%">
@@ -54,4 +54,4 @@ Visit the <a href="https://threema.ch/en/download" class="btn btn--success btn--
 
 <br>
 
-If you have any questions Threema has a comprehensive <a href="https://threema.ch/en/faq" class="btn btn--success btn--x-large" target="_blank">FAQ section</a>.  Also in Threema you can subscribe to the Threema announcement channel by searching for the ID "*THREEMA".  Once or twice a month there may be announcements in this channel for new features or updates.
+If you have any questions Threema has a comprehensive <a href="https://threema.ch/en/faq" {{ site.class_button_external }} target="_blank">FAQ section</a>.  Also in Threema you can subscribe to the Threema announcement channel by searching for the ID "*THREEMA".  Once or twice a month there may be announcements in this channel for new features or updates.

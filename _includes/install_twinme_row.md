@@ -20,7 +20,7 @@
   <li>Manually delete a message including from all participants' devices</li>
   <li>Delivery and read receipts in individual chats</li>
   </ul>
-  <a href="/install_twinme.html" class="btn btn--info btn--x-large">Install TwinMe</a><br>
+  <a href="/install_twinme.html" {{ site.class_button_internal }}>Install TwinMe</a><br>
   <br>
 </td>
 </tr>

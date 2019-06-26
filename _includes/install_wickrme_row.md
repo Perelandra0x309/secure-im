@@ -26,7 +26,7 @@
   <li>Online status indicator</li>
   <li>Contact verification through a recorded video</li>
   </ul>
-  <a href="/install_wickrme.html" class="btn btn--info btn--x-large">Install WickrMe</a><br>
+  <a href="/install_wickrme.html" {{ site.class_button_internal }}>Install WickrMe</a><br>
   <br>
 </td>
 </tr>

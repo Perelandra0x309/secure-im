@@ -12,5 +12,5 @@ If you want the convenience of being able to move from one device to another and
 <br>
 Did you change your mind?  Do you want to use a messaging app on only one device?  Then you can follow this guide:<br>
 <br>
-<a href="guide_single_device.html" class="btn btn--info btn--x-large">Apps for use with one device</a><br>
+<a href="guide_single_device.html" {{ site.class_button_internal }}>Apps for use with one device</a><br>
 

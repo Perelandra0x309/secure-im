@@ -25,7 +25,7 @@
   <li>Up to 100 participants per group chat</li>
   <li>Contact verification through key fingerprint comparison</li>
   </ul>
-  <a href="/install_threema.html" class="btn btn--info btn--x-large">Install Threema</a><br>
+  <a href="/install_threema.html" {{ site.class_button_internal }}>Install Threema</a><br>
   <br>
 </td>
 </tr>

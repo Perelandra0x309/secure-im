@@ -17,14 +17,14 @@ How do you protect your chat messages?  That is what I will help you to do.  The
 <br>
 One quick note about the buttons that you can click in this guide:
 <ul>
-<li>Any buttons that are blue will <a class="w3-btn w3-blue w3-round-large">link to other parts of this website</a></li>
-<li>Any buttons that are green will <a class="w3-btn w3-green w3-round-large">link to another website</a> and these will open in another browser tab.</li>
+<li>Any buttons that are blue will <a {{ site.class_button_internal }}>link to other parts of this website</a></li>
+<li>Any buttons that are green will <a {{ site.class_button_external }}>link to another website</a> and these will open in another browser tab.</li>
 </ul>
 <br>
 So let's start!  Choose your path:<br>
 
-Please guide me: <a href="/guide_signal.html" class="w3-btn w3-blue w3-round-large">Proceed to the &quot;Install Signal&quot; guide</a><br>
+Please guide me: <a href="/guide_signal.html" {{ site.class_button_internal }}>Proceed to the &quot;Install Signal&quot; guide</a><br>
 <br>
 &nbsp;&nbsp;OR<br>
 <br>
-I want to explore: <a href="/detailed_landing.html" class="w3-btn w3-blue w3-round-large">See my app reviews, charts and lists</a><br>
+I want to explore: <a href="/detailed_landing.html" {{ site.class_button_internal }}>See my app reviews, charts and lists</a><br>

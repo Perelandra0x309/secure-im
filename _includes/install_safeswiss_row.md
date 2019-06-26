@@ -22,7 +22,7 @@
   <li>Delivery and read receipts in individual chats??</li>
   <li>Contact verification through key fingerprint comparison</li>
   </ul>
-  <a href="/install_safeswiss.html" class="btn btn--info btn--x-large">Install SafeSwiss</a><br>
+  <a href="/install_safeswiss.html" {{ site.class_button_internal }}>Install SafeSwiss</a><br>
   <br>
 </td>
 </tr>

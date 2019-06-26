@@ -29,7 +29,7 @@
   <li>Pings</li>
   <li>Contact verification through device fingerprint comparison</li>
   </ul>
-  <a href="/install_wire.html" class="btn btn--info btn--x-large">Install Wire</a><br>
+  <a href="/install_wire.html" {{ site.class_button_internal }}>Install Wire</a><br>
   <br>
 </td>
 </tr>
