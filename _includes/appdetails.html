@@ -1,6 +1,6 @@
 Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/checkmark.gif" />&quot;Highly Recommended&quot; first, then <img src="images/checkmark.gif" />&quot;Worth a Try&quot;, then <img src="images/x.gif" />&quot;Not Recommended&quot; last.  Apps within the same recommendation level are ordered alphabetically.<br>
-<table>
-  <tr><td><b>Application</b></td>
+<table class="w3-table w3-striped w3-bordered">
+  <tr class="w3-dark-grey"><td><b>Application</b></td>
   <td><b>Platforms</b></td>
   <td><b>Communication types</b></td></tr>
 {% assign applications = site.data.applications | where_exp: "item","item.category == page.which_category" | sort: 'name' | sort: 'recommendation' %}
@@ -112,6 +112,28 @@ Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/c
 	{% endif %}
 {% else %}
 	Perfect forward secrecy: {{ application.perfect_forward_secrecy }}<br>
+{% endif %}
+
+{% if application.message_stored_on_server == "Never" %}
+  {% if application.message_stored_on_server_source %}
+	Messages stored on server: <span class="green"><a href="{{ application.message_stored_on_server_source }}">Never</a></span><br>
+	{% else %}
+	Messages stored on server: <span class="green">Never</span><br>
+	{% endif %}
+{% elsif application.message_stored_on_server == true %}
+  {% if application.message_stored_on_server_source %}
+	Messages stored on server: <span class="red"><a href="{{ application.message_stored_on_server_source }}">Yes</a></span><br>
+	{% else %}
+	Messages stored on server: <span class="red">Yes</span><br>
+	{% endif %}
+{% elsif application.message_stored_on_server == "Temporarily" %}
+  {% if application.message_stored_on_server_source %}
+	Messages stored on server: <span class="yellow"><a href="{{ application.message_stored_on_server_source }}">Temporarily</a></span><br>
+	{% else %}
+	Messages stored on server: <span class="yellow">Temporarily</span><br>
+	{% endif %}
+{% else %}
+	Messages stored on server: {{ application.message_stored_on_server }}<br>
 {% endif %}
 
 {% if application.has_ephemeral_messages == true %}

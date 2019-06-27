@@ -91,6 +91,7 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
 <input type="checkbox" id="verifyCB" onchange="setFilters()" name="verifyCB" value="false">&nbsp;Has contact verification<br>
 
 {% assign applications = site.data.applications | where_exp: "item","item.category < 7" | sort: 'name' %}
+<div class="w3-responsive">
 <table id="myTable">
 <th>&nbsp;&nbsp;&nbsp;</th>
 <th>Name</th>
@@ -195,4 +196,5 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
 {% endfor %}
 
 </table>
+</div>
 <!-- Page updated {{ page.date }}<br> -->
