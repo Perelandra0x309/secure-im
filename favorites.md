@@ -53,6 +53,7 @@ Messaging apps listed here do not expose your phone number or email address.  No
   </ul>
   December 2018: Recently there have been some troubling laws passed and articles written in the UK and Australia (part of the <a href="https://www.privacytools.io/#ukusa">5 eyes countries</a>) that may cause issues with trust in applications developed in those countries.  Both countries now seem to be pushing for backdoor access for government surveillance to be built into secure messaging applications.  Not only will this weaken or break End to End security, but apps that are not open source from those countries may no longer be trusted and may be used for a mass surveillance program.  Here are some recent articles.<br>
   <a href="https://www.lawfareblog.com/principles-more-informed-exceptional-access-debate">Principles for a More Informed Exceptional Access Debate</a><br>
+<div class="w3-panel w3-orange">
   <blockquote>
   In a world of encrypted services, a potential solution could be to go back a few decades. It’s relatively easy for a <u>service provider to silently add a law enforcement participant to a group chat or call</u>. The service provider usually controls the identity system and so really decides who’s who and which devices are involved - they’re usually involved in introducing the parties to a chat or call. You end up with everything still being end-to-end encrypted, but there’s an extra ‘end’ on this particular communication. This sort of solution seems to be no more intrusive than the virtual crocodile clips that our democratically elected representatives and judiciary authorise today in traditional voice intercept solutions and certainly doesn’t give any government power they shouldn’t have.<br>
 <br>
@@ -60,21 +61,24 @@ We’re not talking about weakening encryption or defeating the end-to-end natur
 &nbsp;&nbsp;-Ian Levy is the technical director of the National Cyber Security Centre, a part of GCHQ.<br>
 &nbsp;&nbsp;-Crispin Robinson is the technical director for cryptanalysis at GCHQ.
 </blockquote>
+</div>
 <br>
   <a href="https://arstechnica.com/tech-policy/2018/12/australia-passes-new-law-to-thwart-strong-encryption/">Australia passes new law to thwart strong encryption</a><br>
+  <div class="w3-panel w3-orange">
   <blockquote>
   The new law, which has been pushed for since at least 2017, requires that companies provide a way to get at encrypted communications and data via a warrant process. It also imposes fines of up to A$10 million for companies that do not comply and A$50,000 for individuals who do not comply. In short, the law thwarts (or at least tries to thwart) strong encryption.<br>
 <br>
   Companies who receive one of these warrants have the option of either complying with the government or waiting for a court order. However, by default, the orders are secret, so companies would not be able to tell the public that they had received one.
   </blockquote>
+  </div>
   </li>
 </ul>
 <br>
 <br>
 <h2>How about some rankings?</h2><br>
 The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
-<table>
-  <tr>
+<table class="w3-table w3-striped w3-bordered">
+  <tr class="w3-dark-grey">
     <th>Application</th>
     <th width="8%">Additional sharing features- files, photos, etc</th>
     <th width="8%">Group chats</th>
@@ -124,8 +128,8 @@ The following scoring table includes messaging apps that can be used across mult
 </table>
 
 The following scoring table includes messaging apps used on a single device:<br>
-<table>
-  <tr>
+<table class="w3-table w3-striped w3-bordered">
+  <tr class="w3-dark-grey">
     <th>Application</th>
     <th width="8%">Additional sharing features- files, photos, etc</th>
     <th width="8%">Group chats</th>
