@@ -1,7 +1,7 @@
 # SecureChatGuide.org
 View the full site at <a href="https://securechatguide.org">https://securechatguide.org</a>
 
-This site is built with Jekyll and hosted on GitHub pages.  The theme used is <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a>.
+This site is built with Jekyll and hosted on GitHub pages.  The theme used is a custom theme I wrote using <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.
 Javascript is used sparingly, on the two pages with charts it allows for dynamic filtering of the data.  I use the HTML Table Filter Generator from <a href="http://tablefilter.free.fr">http://tablefilter.free.fr</a>.
 
 If you find errors or wish to contribute data please create an Issue or a Pull Request with your updates.  Any information that improves this list is greatly appreciated.
