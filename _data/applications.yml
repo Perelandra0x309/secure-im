@@ -600,6 +600,41 @@
   version_tested: 1.3.7
   last_update: 2/2/2018
 
+- name: tok
+  category: 1
+  display_name: Tok
+  url: https://www.tok.life
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: open
+  business_model: Open source project
+  communication_types: Text, group chat, photos, videos, files
+  encryption_protocol: <a href="https://wiki.tox.chat/users/techfaq">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: None
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: No
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: 
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: 
+  leaks_files: Android
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Bugly
+  websites: <a href="https://github.com/InsightIM">Source</a>
+  notes_file: tok_notes.html
+  version_tested: 1.5.2
+  last_update: 6/30/2019
+
 - name: zangi
   category: 1
   display_name: Zangi
