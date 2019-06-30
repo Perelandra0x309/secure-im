@@ -995,15 +995,15 @@
   version_tested: "Android: 1.1.79, iOS: 1.0.118"
   last_update: 10/27/2018
 
-- name: simsme
+- name: ginlo
   category: 2
-  display_name: SIMSme
-  url: https://www.sims.me
+  display_name: Ginlo
+  url: https://www.ginlo.net/en/consumer/
   recommendation: 2
-  platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
+  platforms: <a href="https://www.ginlo.net/en/consumer/download/">Android, iOS</a>
   source_type: closed
   business_model: Enterprise version of the platform
-  communication_types: Text, group chat, images, videos, location, contacts
+  communication_types: Text, group chat, images, videos, location, contacts, files
   encryption_protocol: "?"
   shared_secret_exchange: "?"
   message_encryption_cipher: "?"
@@ -1011,11 +1011,10 @@
   requires_phone_number: Yes
   requires_email: No
   id_contains_contact_info: Phone
-  android_requires_google_play: No
+  android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: No
   message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://www.sims.me/data-protection
   has_ephemeral_messages: Yes
   encypted_by_default: Yes
   puddle_test: Not Recoverable
@@ -1024,12 +1023,12 @@
   hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Adjust, Google Ads, Google DoubleClick
-  websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
-  notes_file: simsme_notes.html
-  version_tested: "2.05.001.227635 (Android), 2.5 (iOS)"
-  last_update: 4/10/2019
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites:
+  notes_file: ginlo_notes.html
+  version_tested: "3.0.0.292474 (Android), 3.0 (iOS)"
+  last_update: 6/30/2019
 
 - name: tungsten
   category: 2
@@ -2447,6 +2446,43 @@
   version_tested: 1.0.7
   last_update: 3/8/2018
   notes_text: App has been discontinued (<a href="https://www.gdata-software.com/faq/consumer/g-data-secure-chat-is-discontinued">G DATA Secure Chat is discontinued</a>)
+
+- name: simsme
+  category: 11
+  display_name: SIMSme
+  url: https://www.sims.me
+  recommendation: 2
+  platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, images, videos, location, contacts
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://www.sims.me/data-protection
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Adjust, Google Ads, Google DoubleClick
+  websites: <a href="https://www.sims.me/data-protection">Data Protection</a>
+  notes_file: simsme_notes.html
+  version_tested: "2.05.001.227635 (Android), 2.5 (iOS)"
+  last_update: 4/10/2019
+  notes_text: SIMSme has been <a href="https://www.ginlo.net/en/simsme/">replaced by Brabbler Ginlo</a>
 
 - name: squealock
   category: 11
