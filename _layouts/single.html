@@ -7,13 +7,14 @@ layout:
 	<title>{{ page.title }}</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="me" href="https://keybase.io/super_nova">
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="stylesheet" href="/assets/css/w3.css">
 	{% if page.name == "featuresmatrix.md" %}
     <script src="/TableFilter/tablefilter.js"></script>
     <script src="/TableFilter/jquery.min.js"></script>
     <script src="/TableFilter/bootstrap.min.js"></script>
-    {% endif %}
+  {% endif %}
 </head>
 <body>
 
@@ -21,11 +22,10 @@ layout:
 <div class="w3-top w3-hide-small">
   {% include top_menu.html %}
 </div>
-
+<!-- Mobile navbar -->
 <div class="w3-hide-medium w3-hide-large">
   {% include top_menu.html %}
 </div>
-
 
 <!-- Header -->
 <header class="w3-container w3-dark-grey w3-center" style="padding:32px 16px">
@@ -36,10 +36,12 @@ layout:
 </div>
 </header>
 
+<!-- Content -->
 <div class="w3-content" style="max-width:2000px;margin-top:50px;margin-left:5px;margin-right:5px">
   {{ content }}
 </div>
 
+<!-- Footer -->
 <br>
 <footer class="w3-container w3-cyan w3-center">
   {% include footer.html %}
