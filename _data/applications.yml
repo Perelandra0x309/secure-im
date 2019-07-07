@@ -70,8 +70,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
-  version_tested: 1.0.4
-  last_update: 5/19/2018
+  version_tested: 1.2.3
+  last_update: 7/7/2019
 
 - name: safeswiss
   category: 1

@@ -35,11 +35,11 @@ Messaging apps listed here do not expose your phone number or email address.  No
   <ul>
     <li>{% include generate_app_link.html app_name="threema" %}- Based in Switzerland [No PFS or ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No ephemeral messages or contact verification]</li>
+    <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
   </ul>
 
   <li>Third Tier (keep an eye on these):</li>
   <ul>
-    <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification]</li>
     <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, no ephemeral messages, PFS or contact verification]</li>
     <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification]</li>

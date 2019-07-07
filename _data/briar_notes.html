@@ -1,3 +1,7 @@
+7/7/2019- Update: You can now add remote contacts by exchanging Briar URLs.  In the contacts list choose the &quot;Add contact at a distance&quot; option and enter the Briar URL of your remote contact which they will need to send you via another channel.  This is also where you will see your own Briar URL to send to others.<br>
+In some places like Forums, you will see three ### symbols next to a contact's name which signifies their level of trust for you.  One red # means that this contact is not known to you and was added to someplace like a forum by another member.  Two yellow ## means that the person was added to your contacts remotely (at a distance).  Three green ### means that you added the contact in person by scanning QR codes.<br>
+Now that the restriction of having to meet someone in person to create contacts has been removed, I think this app will have a much broader use than just small local groups.<br>
+<br>
 Pros:<br>
 Secure P2P encryption<br>
 On F-Droid<br>
@@ -6,20 +10,15 @@ Works over <a href="https://briarproject.org/how-it-works.html">wifi, bluetooth 
 Cons:<br>
 Android only<br>
 Pro or Con:<br>
-Requires physical presence of contacts for initial verification (by design)<br>
 Transferring to another Android phone: There does not seem to be a possible way to preserve your account or data, you can recreate another account with the same name on the new phone.<br>
 <br>
 On Copperhead, the battery optimization settings need to be set to Off so that it will remain connected.<br>
-Android battery use is very high, even with battery optimization turned on.<br>
+Android battery use is somewhat high, even with battery optimization turned on.<br>
 <br>
 Encryption:<br>
-Public/private key pairs are generated on the device.  Key exchange is performed in person by scanning the QRCode of the other person's public key on their device. (alternatively you can send an electronic version of the QRCode over the internet, but that is not the intended use)  This establishes a trusted key pairing between devices.<br>
+Public/private key pairs are generated on the device.  Key exchange is performed in person by scanning the QRCode of the other person's public key on their device or by exchanging your Briar URLs. This establishes a trusted key pairing between devices.<br>
 A shared secret is calculated from a hash of the key pair (using Diffie-Hellman) which is then used to generate a master key.  The shared secret is then erased.<br>
 <br>
-My verdict: Good option for specific use case.<br>
-By that I mean it is good if:
-<ul>
-  <li>You can meet your contacts in person</li>
-  <li>You and your contacts all use Android</li>
-  <li>You want the option to be able to communicate outside the standard internet</li>
-</ul>
+My verdict: Great option for peer to peer communication.<br>
+<br>
+There are still some limitations, such as being Android only and text only (though sending photos is being worked on).  However being peer to peer, open source and able to be used without an internet connection makes this app very attractive.  In my testing it has been very reliable, with the understanding of the nature of peer to peer communications.
