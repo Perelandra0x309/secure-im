@@ -523,12 +523,12 @@
   hammer_test_note: Android and Mac clients leak files
   has_contact_verification: No
   leaks_files: Android, Mac
-  exodus_privacy_trackers_count: 4
-  exodus_privacy_trackers_description: Facebook Login, Facebook Share, Google Firebase Analytics, Matomo (Piwik)
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Matomo (Piwik)
   websites: <a href="https://sid.co/security-by-design">Security by Design</a>
   notes_file: sid_notes.html
-  version_tested: 0.9.4
-  last_update: 1/23/2018
+  version_tested: 0.9.7
+  last_update: 7/14/2019
 
 - name: status
   category: 1
