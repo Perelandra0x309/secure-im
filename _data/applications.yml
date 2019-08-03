@@ -960,6 +960,41 @@
   version_tested: 4.0.94
   last_update: 12/19/2018
 
+- name: kedr
+  category: 2
+  display_name: Kedr
+  url: https://kedr.io/
+  recommendation: 2
+  platforms: Android, iOS
+  source_type: closed
+  business_model: "?"
+  communication_types: Text, group chat, photos, files, voice, video, audio chat, video chat
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: "?"
+  hammer_test_note: 
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Matomo (Piwik), Googl Firebase Analytics
+  websites: 
+  notes_file: kedr_notes.html
+  version_tested: Android 1.8.2, iOS 2.13
+  last_update: 8/3/2019
+
 - name: mysudo
   category: 2
   display_name: MySudo
@@ -2768,6 +2803,19 @@
   display_name: Peerio
   recommendation: 3
   notes_text: "Peerio is closing: https://support.peerio.com/hc/en-us/articles/360021688172-Peerio-Service-Closure-FAQs"
+
+- name: unsendit
+  category: 11
+  display_name: unSend.it
+  recommendation: 3
+  notes_text: Last update was in 2017, website is now accupied by squatters with sponsored links
+
+- name: silentcircle
+  category: 11
+  display_name: Silent Circle
+  recommendation: 3
+  notes_text: Enterprise product, $9.95/mo
+
 
 # Category 12- Protocols
 
