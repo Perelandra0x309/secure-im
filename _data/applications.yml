@@ -1632,6 +1632,41 @@
   version_tested: 6.0.10
   last_update: 8/25/2018
 
+- name: sensechat
+  category: 2
+  display_name: Sense Chat
+  url: https://www.sense.chat/
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: "EOS token fees?"
+  communication_types: Text, video chat, send EOS tokens
+  encryption_protocol: "?"
+  shared_secret_exchange: ECDH P256
+  message_encryption_cipher: "?"
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: "?"
+  hammer_test_note:
+  has_contact_verification: No
+  leaks_files: "?"
+  exodus_privacy_trackers_count: 5
+  exodus_privacy_trackers_description: Branch, Google CrashLytics, Google Firebase Analytics, Instabug, OneSignal
+  websites: <a href="https://medium.com/sensechat/sense-chat-tech-c91295caf632">Technical details</a>
+  notes_file: sensechat_notes.html
+  version_tested: 1.5.8
+  last_update: 8/3/2019
+
 - name: soma
   category: 2
   display_name: Soma
