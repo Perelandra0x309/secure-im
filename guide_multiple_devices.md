@@ -3,10 +3,11 @@ layout: single
 title: Apps to use on multiple devices
 ---
 
-If you want the convenience of being able to move from one device to another and continue your chats where you left off, then there are only two apps that I feel have excellent quality and security.  These are:<br>
+If you want the convenience of being able to move from one device to another and continue your chats where you left off, then there are only three apps that I feel have excellent quality and security.  These are:<br>
 <table>
 {% include install_wire_row.md %}
 {% include install_wickrme_row.md %}
+{% include install_keybase_row.md %}
 </table>
 
 <br>

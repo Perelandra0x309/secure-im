@@ -28,22 +28,22 @@ Messaging apps listed here do not expose your phone number or email address.  No
   <li>Top Tier Recommendations:</li>
   <ul>
     <li>{% include generate_app_link.html app_name="wire" %}- [Beware of possible high battery usage on older Android versions or Android forks without Play Services]</li>
-    <li>{% include generate_app_link.html app_name="wickrme" %}- All messages expire [Based in USA]</li>
-    <li>{% include generate_app_link.html app_name="safeswiss" %}- P2P, based in Switzerland</li>
   </ul>
   <li>Second Tier (misses some criteria):</li>
   <ul>
     <li>{% include generate_app_link.html app_name="threema" %}- Based in Switzerland [No PFS or ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No ephemeral messages or contact verification]</li>
     <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="safeswiss" %}- P2P, based in Switzerland [2 trackers]</li>
+    <li>{% include generate_app_link.html app_name="wickrme" %}- All messages expire [Based in USA, 3 trackers]</li>
   </ul>
 
   <li>Third Tier (keep an eye on these):</li>
   <ul>
-    <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification]</li>
-    <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, no ephemeral messages, PFS or contact verification]</li>
-    <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification]</li>
-    <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS]</li>
+    <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification, 1 tracker]</li>
+    <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, no ephemeral messages, PFS or contact verification, 2 trackers]</li>
+    <li>{% include generate_app_link.html app_name="tungsten" %}- New app still in beta but this shows lots of promise.  Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification, 2 trackers]</li>
+    <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS, 1 tracker]</li>
     <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Based in Germany [Android Only, no ephemeral messages]</li>
   </ul>
   <li id="caution">Use with caution:<br>

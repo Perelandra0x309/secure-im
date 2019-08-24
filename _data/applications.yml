@@ -772,8 +772,8 @@
   hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: No
   leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
   websites: <a href="https://github.com/keybase">Source code</a>
   notes_file: keybase_notes.html
   version_tested: 2.2.1
@@ -880,8 +880,8 @@
   hammer_test_note: Every message is ephemeral, chats can be manually deleted.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Countly, Google Firebase Analytics
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Bugsnag, Countly, Google Firebase Analytics
   websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
   notes_file: wickrme_notes.html
   version_tested: 4.62.0
@@ -1093,8 +1093,8 @@
   hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
   websites:
   notes_file: ginlo_notes.html
   version_tested: "3.0.0.292474 (Android), 3.0 (iOS)"
@@ -1305,8 +1305,8 @@
   hammer_test_note: Able to destroy messages on both ends of chat.
   has_contact_verification: No
   leaks_files: No
-  exodus_privacy_trackers_count: 
-  exodus_privacy_trackers_description: N/A
+  exodus_privacy_trackers_count: 4
+  exodus_privacy_trackers_description: AppsFlyer, Flurry, Google CrashLytics, Google Firebase Analytics
   websites: <a href="https://crypviser.network/CrypViser_Whitepaper.pdf ">Whitepaper</a>, <a href="https://medium.com/@crypviser/the-nitty-gritty-of-it-all-crypviser-unleased-f493df1f54a0">Medium- The Nitty Gritty of It All. Crypviser Unleased.</a>
   notes_file: crypviser_notes.html
   version_tested: Android- 1.2.3, iOS- 1.9.5
@@ -1519,8 +1519,8 @@
   hammer_test_note: Android client leaks files
   has_contact_verification: Yes
   leaks_files: Android
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google CrashLytics
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
   websites: <a href="https://github.com/kontalk/desktopclient-java">Java Client source</a>, <a href="https://github.com/kontalk/androidclient">Android client source</a>
   notes_file: kontalk_notes.html
   version_tested: 4.1.5
@@ -1554,8 +1554,8 @@
   hammer_test_note: Android client leaks files
   has_contact_verification: No
   leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
   websites: <a href="https://www.kryptochat.com/encryption/">Encryption</a>
   notes_file: kryptochat_notes.html
   version_tested: "Android: 3.4, iOS: 4.0"
@@ -1734,8 +1734,8 @@
   hammer_test_note: Android client leaks files
   has_contact_verification: No
   leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
+  exodus_privacy_trackers_count: 4
+  exodus_privacy_trackers_description: Google Analytics, Google Firebase Analytics, Google Tag Manager, uACRA
   websites: <a href="https://github.com/surespot">Source code</a>, <a href="https://www.surespot.me/documents/how_surespot_works.html">How SureSpot Works</a>
   notes_file: surespot_notes.html
   version_tested: 72
@@ -1910,8 +1910,8 @@
   hammer_test_note: Android app leaks files.
   has_contact_verification: No
   leaks_files: Android
-  exodus_privacy_trackers_count: "?"
-  exodus_privacy_trackers_description: "?"
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
   websites: <a href="https://vega-messenger.com/wp-content/uploads/2018/12/VEGA-Security-Whitepaper-1.0.1.pdf">Whitepaper</a>
   notes_file: vega_notes.html
   version_tested: 1.3.7 (iOS), 1.4.0 (Android)

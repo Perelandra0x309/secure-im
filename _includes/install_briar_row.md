@@ -1,0 +1,34 @@
+<tr>
+<td style="vertical-align:top"><h1>{% include generate_app_link.html app_name="briar" %}</h1></td>
+<td>
+  Pros:
+  <ul>
+  <li>Communicate with text in one-on-one chats, private groups, forums and post on your own blog</li>
+  <li>Connections are made directly between your device and your chat partner's device, no server acts as the middle man</li>
+  <li>Uses the Tor secure network protocol</li>
+  <li>No personal information such as an email address or phone number is needed to run Briar.  There is not even any controlling server where you need to create any account.</li>
+  <li>Available on F-Droid</li>
+  <li>Does not require Google Play Services</li>
+  <li>Can communicate with other Briar users over WiFi, BlueTooth and Tor</li>
+  </ul>
+  Cons:
+  <ul>
+  <li>Android only</li>
+  <li>Text only right now but sending photos is being worked on</li>
+  <li>Higher battery usage than most messengers</li>
+  <li>No option for automatic deletion of messages</li>
+  <li>You can't make a backup or export your keys or messages to move to another device</li>
+  </ul>
+  Other features:
+  <ul>
+  <li>Private Groups are chat rooms which are invite-only by the group creator</li>
+  <li>Forums are chat rooms where any members can add any of their own contacts</li>
+  <li>You have your own blog where you can write posts, and your contacts will see these posts in a blog feed</li>
+  <li>&quot;Introductions&quot; lets you give two people in your contact list each other's contact info so they can make their own connection in Briar</li>
+  <li>Online status indicator</li>
+  <li>Delivery and read receipts in individual chats</li>
+  </ul>
+  <a href="/install_briar.html" {{ site.class_button_internal }}>Install Briar</a><br>
+  <br>
+</td>
+</tr>
