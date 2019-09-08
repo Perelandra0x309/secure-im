@@ -2487,6 +2487,18 @@
   last_update: 11/24/2018
   notes_text: FreeMessage has now been integrated into the GMX mail app, however now if you send a message to a non-FreeMessage user it gets converted into a regular SMS message.
 
+- name: mega
+  category: 11
+  display_name: MEGA
+  recommendation: 3
+  notes_text: (mega.nz)- Android leaks files, it is questionable as to who controls the company (<a href="https://www.zdnet.com/article/mega-denies-claims-by-kim-dotcom-of-nz-government-control-of-company/">https://www.zdnet.com/article/mega-denies-claims-by-kim-dotcom-of-nz-government-control-of-company/</a>
+  
+- name: bridgefy
+  category: 11
+  display_name: Bridgefy
+  recommendation: 3
+  notes_text: (bridgefy.me)- Broadcast messages are not encrypted, your phone number is your ID, users of the app can be discovered by loading a phone with phone numbers and doing a contact search again Bridgefy.
+  
 - name: nettalk
   category: 11
   display_name: NetTalk Duo/Connect
