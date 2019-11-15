@@ -352,7 +352,7 @@
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
   notes_file: jami_notes.html
   version_tested: 200180629
-  last_update: 12/26/2018
+  last_update: 10/10/2019
 
 - name: kripter
   category: 1
@@ -886,43 +886,6 @@
   notes_file: wickrme_notes.html
   version_tested: 4.62.0
   last_update: 10/30/2018
-
-- name: wire
-  category: 2
-  display_name: Wire
-  url: https://wire.com
-  recommendation: 1
-  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux (Ubuntu, Debian, AppImage), Web
-  source_type: open
-  business_model: Enterprise version of the platform
-  communication_types: Text, voice, video, file sharing
-  encryption_protocol: <a href="https://github.com/wireapp/proteus">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: ChaCha20
-  country_origin: Switzerland
-  requires_phone_number: Either
-  requires_email: Either
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
-  perfect_forward_secrecy: Yes
-  perfect_forward_secrecy_source: https://wire.com/en/security/
-  message_stored_on_server: Yes
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Not Recoverable
-  hammer_test_note: Wire has an option to delete messages from all participant's devices.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
-  notes_file: wire_notes.html
-  version_tested: 3.22.666
-  last_update: 11/28/2018
 
 - name: brosix
   category: 2
@@ -2025,6 +1988,43 @@
   version_tested: 1.8.73
   last_update: 1/28/2018
 
+- name: wire
+  category: 2
+  display_name: Wire
+  url: https://wire.com
+  recommendation: 3
+  platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux (Ubuntu, Debian, AppImage), Web
+  source_type: open
+  business_model: Enterprise version of the platform
+  communication_types: Text, voice, video, file sharing
+  encryption_protocol: <a href="https://github.com/wireapp/proteus">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: ChaCha20
+  country_origin: Switzerland
+  requires_phone_number: Either
+  requires_email: Either
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  is_locally_encrypted_source: https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://wire.com/en/security/
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Not Recoverable
+  hammer_test_note: Wire has an option to delete messages from all participant's devices.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
+  notes_file: wire_notes.html
+  version_tested: 3.41.848
+  last_update: 11/14/2019
+
 
 # Category 3- Decentralized
 
@@ -2306,7 +2306,7 @@
   websites: <a href="https://adamant.im/roadmap/">Roadmap</a>
   notes_file: adamant_notes.html
   version_tested: 
-  last_update: 
+  last_update: 2/26/2019
 
 - name: cwtch
   category: 3
@@ -2497,7 +2497,7 @@
   category: 11
   display_name: Bridgefy
   recommendation: 3
-  notes_text: (bridgefy.me)- Broadcast messages are not encrypted, your phone number is your ID, users of the app can be discovered by loading a phone with phone numbers and doing a contact search again Bridgefy.
+  notes_text: (bridgefy.me)- Broadcast messages are not encrypted, your phone number is your ID, users of the app can be discovered by loading a phone with phone numbers and doing a contact search against Bridgefy.
   
 - name: nettalk
   category: 11

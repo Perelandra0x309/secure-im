@@ -1,3 +1,14 @@
+<b>Update on 11/14/2019:</b><br>
+It is very unfortunate news that Wire is now owned by a U.S. holding company and has been added into a venture capitalist company's portfolio.  Wire has also announced that they are focusing their future on enterprise deployments of their messaging system and turning away from personal users of Wire.  Therefore I have revoked my recommendation of Wire, because of concerns about U.S. control of the company and the shift in focus.<br>
+<br>
+Some information to reference:<br>
+<a href="https://forum.privacytools.io/t/wire-swiss-gmbh-is-now-owned-by-a-usa-holding-company/1932">PrivacyTools.io discussion started on Nov 4, 2019</a><br>
+<a href="https://wire.com/en/blog/wire_business_update/">Wire releases statement on blog on Nov 12, 2019</a><br>
+<a href="https://techcrunch.com/2019/11/13/messaging-app-wire-confirms-8-2m-raise-responds-to-privacy-concerns-after-moving-holding-company-to-the-us/">TechCrunch article with more info on Nov 13, 2019</a><br>
+<a href="https://morpheus.com/portfolio/">Morpheus Capital Ventures portfolio claiming ownership of Wire</a><br>
+<br>
+<b>Review notes prior to 11/14/2019 are below for reference:</b><br>
+<blockquote>
 <a href="https://medium.com/@wireapp/open-sourcing-wire-server-code-ef7866a731d5">Server code open sourced</a><br>
 <br>
 <a href="https://crysp.uwaterloo.ca/opinion/wire/">CrySP Wire analysis</a>:
@@ -64,7 +75,9 @@ Encryption process (from the whitepaper):<br>
 Wire uses <a href="https://github.com/wireapp/proteus">Proteus</a>, &quot;an independent implementation of the Axolotl/Double Ratchet protocol&quot;<br>
 Every client (a chat participant may have multiple clients, or devices) generates a set of pre-keys for others to use for encryption to the client.  The pre-keys are uploaded to the Wire server.  To create a new key pair with a chat participant's client one of their pre-keys is downloaded from the server.  That pre-key is then removed from the server so that each pre-key is used only once.  The sender generates their own pre-key, then the combination of the two pre-keys are used to generate the encryption key for that client.  The message is encrypted using that key, and if this is the first transaction with the client the sender's pre-key is bundled with the message so that the recipient's client can generate the decryption key.  When sending the message to multiple clients the message is encrypted once for each client, and the bundle is sent to the Wire server for delivery to each one.<br>
 Once an initial message is sent to establish the key used between two clients, ratcheting is used to automatically advance to new keys during multiple message exchanges.  This provides forward secrecy for the encrypted message and also allows messages to be ephemeral.<br>
+</blockquote>
 <br>
-My verdict: Very solid app with great interface<br>
+My verdict: <strike>Very solid app with great interface</strike> Wire no longer caters to the free personal messaging sector, controlled by U.S. ownership<br>
 <br>
-This is one of the best apps as far as features and usability, and while not perfect gives you great security as well.  With apps that sync across multiple devices it is also great at keeping a conversation going no matter what device you are using.<br>
+<strike>This is one of the best apps as far as features and usability, and while not perfect gives you great security as well.  With apps that sync across multiple devices it is also great at keeping a conversation going no matter what device you are using.</strike><br>
+Wire is now focused on delivering enterprise services, has removed all references to personal use of Wire from its website.  They claim to perhaps deliver a &quot;freemium&quot; level in the future.  Wire has taken a huge business risk/reward gamble by selling to venture capitalists in the hopes of accelerated growth in the enterprise market.  Say goodbye to meeting the needs of personal users.
