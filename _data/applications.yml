@@ -347,8 +347,8 @@
   hammer_test_note: MacOS leaks files
   has_contact_verification: No
   leaks_files: MacOS
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
   notes_file: jami_notes.html
   version_tested: 200180629
