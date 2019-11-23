@@ -351,7 +351,7 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://github.com/savoirfairelinux/">Source Code</a>
   notes_file: jami_notes.html
-  version_tested: 200180629
+  version_tested: 1.49 (MacOS), 20190824-01 (Android)
   last_update: 11/23/2019
 
 - name: kripter
