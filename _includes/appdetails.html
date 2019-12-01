@@ -23,7 +23,14 @@ Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/c
   Shared Secret exchange: {{ application.shared_secret_exchange }}<br>
   Message Encryption Cipher: {{ application.message_encryption_cipher }}<br>
   Business model: {{ application.business_model }}<br>
-  Android app requires Google Play Services: {{ application.android_requires_google_play }}<br>
+
+{% if application.android_requires_google_play == true %}
+  Android app requires Google Play Services: Yes<br>
+{% elsif application.android_requires_google_play == false %}
+  Android app requires Google Play Services: No<br>
+{% else %}
+	Android app requires Google Play Services: {{ application.android_requires_google_play }}<br>
+{% endif %}
   
 {% if application.requires_phone_number == true %}
   {% if application.requires_phone_number_source %}

@@ -37,7 +37,6 @@
 
 #  Category 1- P2P
 
-
 - name: briar
   category: 1
   display_name: Briar Project
@@ -708,42 +707,6 @@
   version_tested: 1.7.0.11 (Android), 1.7.0.13 (iOS), 1.6.0.15 (MacOS)
   last_update: 5/3/2019
 
-- name: eleet
-  category: 2
-  display_name: Eleet
-  url: https://eleet.im
-  recommendation: 3
-  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, photos, videos, audio files
-  encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-256
-  country_origin: UK
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
-  hammer_test: Not Recoverable
-  hammer_test_note:  When messages are deleted on all devices
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
-  websites: 
-  notes_file: eleet_notes.html
-  version_tested: 2.0.29
-  last_update: 1/28/2018
-
 - name: keybase
   category: 2
   display_name: Keybase
@@ -1274,6 +1237,42 @@
   notes_file: crypviser_notes.html
   version_tested: Android- 1.2.3, iOS- 1.9.5
   last_update: 12/22/2018
+
+- name: eleet
+  category: 2
+  display_name: Eleet
+  url: https://eleet.im
+  recommendation: 3
+  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, photos, videos, audio files
+  encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
+  hammer_test: Not Recoverable
+  hammer_test_note:  When messages are deleted on all devices
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
+  websites: 
+  notes_file: eleet_notes.html
+  version_tested: 2.0.29
+  last_update: 1/28/2018
 
 - name: foilchat
   category: 2
@@ -2028,6 +2027,41 @@
 
 # Category 3- Decentralized
 
+- name: bcm
+  category: 3
+  display_name: BCM Messenger
+  url: https://bcm.social
+  recommendation: 2
+  platforms: Android, iOS
+  source_type: closed (soon to be open source)
+  business_model: Independant developers
+  communication_types: Text, photos, videos, audio, files, location, group chat
+  encryption_protocol: <a href="https://bcm.social/faq.html">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: Singapore
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Whitepaper says yes, I have not found a way to do it in the app
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Umeng Analytics
+  websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
+  notes_file: bcm_notes.html
+  version_tested: 2.3.5-1783
+  last_update: 12/1/2019
+
 - name: riot
   category: 3
   display_name: Riot
@@ -2037,12 +2071,12 @@
   source_type: open
   business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
   communication_types: Text, voice, video, file sharing
-  encryption_protocol: <a href="https://about.riot.im/security/">Matrix</a>
+  encryption_protocol: <a href="https://matrix.org">Matrix</a>
   shared_secret_exchange: X3DH Curve25519
   message_encryption_cipher: AES-256
   country_origin: UK
   requires_phone_number: No
-  requires_email: No
+  requires_email: Depends on server
   id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: N/A (Android app is a web app)
@@ -2056,13 +2090,13 @@
   hammer_test_note: When you delete all session keys from all your devices and chat partners' devices.  Messages may remain in encrypted form on the servers.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google Firebase Analytics, Matomo (Piwik)
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Matomo (Piwik)
   perfect_forward_secrecy_source: https://about.riot.im/security/
   websites: <a href="https://github.com/vector-im">Source code</a>
   notes_file: riot_notes.html
-  version_tested: 0.7.03
-  last_update: 1/28/2018
+  version_tested: 0.9.8
+  last_update: 12/1/2019
 
 - name: babelnet
   category: 3
@@ -2875,6 +2909,8 @@
   business_model: Free open source project
   communication_types: Text, voice, video, screen sharing, file sharing
   encryption_protocol: <a href="https://wiki.tox.chat/users/techfaq">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
   country_origin: No centralized servers
   requires_phone_number: Depends on the client
   requires_email: Depends on the client
@@ -2899,20 +2935,22 @@
 
 - name: xmpp
   category: 12
-  display_name: XMPP with OTR or OMEMO
+  display_name: XMPP with OMEMO
   url: https://xmpp.org
   recommendation: 2
   platforms: Android, iOS, MacOS, Windows, Linux
   business_model: Nonprofit <a href="https://xmpp.org/about/xmpp-standards-foundation.html">XMPP Standards Foundation</a>
   communication_types: Text, group chat, photos, files
   encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
   country_origin: Various
   requires_phone_number: Depends on the client
   requires_email: Depends on the client
   id_contains_contact_info: Depends on the client
   android_requires_google_play: Depends on the client
   is_locally_encrypted: Depends on the client
-  perfect_forward_secrecy: OTR and OMEMO encrypted messages
+  perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: Depends on the client
   encypted_by_default: No (Unless OMEMO Encyption is set to Always in some clients)

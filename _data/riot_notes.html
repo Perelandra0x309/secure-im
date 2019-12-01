@@ -1,4 +1,4 @@
-Riot <a href="https://about.riot.im/security/">Security</a> (E2EE still in beta)<br>
+Riot <a href="https://about.riot.im/features#security">Security</a><br>
 The web app can be used over Tor (thanks lwinch2006)<br>
 <br>
 Encryption:<br>
@@ -10,6 +10,22 @@ Riot uses <a href="https://matrix.org/git/olm/about/docs/olm.rst">Olm</a> for on
 <li>The initial 256 bit root key, R0, and 256 bit chain key, C0, 0, are derived from the shared secret using an HMAC-based Key Derivation Function using SHA-256 as the hash function (HKDF-SHA-256) with default salt and "OLM_ROOT" as the info.</li>
 </ul>
 <br>
-My verdict: Great social platform<br>
-Riot/Matrix is a great way to meet new people, and with E2EE (in beta) for individual and group chats it offers a way to go dark for private conversations.<br>
-E2EE is still in the works and takes a bit of manual effort to get setup in chats, but that should be improving with time.
+<a href="https://github.com/Perelandra0x309/secure-im/issues/64">Muppeth from Github notes</a>:<br>
+<blockquote>
+<ul>
+<li>All files can be obtained if you know URL. No need to be part of the room. Also no files by default are encrypted.</li>
+<li>All contact are stored on the server in plain text</li>
+<li>Server keeps track of every time you login/logout/open client without any retention time indefinatelly since the moment you created an account (that data consists of timestamp, user agent, your ip and your token</li>
+<li>Server keeps track of your activity in each room indefinatelly. Each server is aware of all room participants since the inception of the room. Even if the room was not originally created on the server (as soon as user of another server joins in, the state of the room such as member list, joins and leaves etc is synced to that server)</li>
+<li>Server keeps indefinatelly even things like which line/post you have read last time.</li>
+<li>Server keeps indefinatelly every IP address you have used since you created account</li>
+</ul>
+</blockquote>
+<br>
+My verdict: Great social platform, I have concerns about meta data and UK privacy laws<br>
+<br>
+Riot/Matrix is a great way to meet new people, and with E2EE for individual and group chats it offers a way to go dark for private conversations.  Be careful though because E2EE is not on by default, it must be enabled.<br>
+<br>
+While Matrix is designed as a decentralized system where anyone can choose their own server there currently aren't very many choices.  Most people choose the default Matrix home server, so there is not a lot of decentralization going on yet.  Even if you do choose a different server, conversations are synced to all the servers of all the room participants.  So that means that pretty much all rooms will be synced to the Matrix home server since there is most likely to be at least one person in each room from the Matrix server.<br>
+<br>
+Validating other user's devices is still not completely smooth, the new system does not always work.  Sometimes it is necessary to go back to the old manual verification method.
