@@ -2066,7 +2066,7 @@
   category: 3
   display_name: Riot
   url: https://about.riot.im
-  recommendation: 1
+  recommendation: 2
   platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.alpha">on F-Droid</a>), iOS, MacOS, Windows, Linux (Debian, Ubuntu), Web
   source_type: open
   business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
