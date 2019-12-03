@@ -72,42 +72,6 @@
   version_tested: 1.2.3
   last_update: 7/7/2019
 
-- name: safeswiss
-  category: 1
-  display_name: SafeSwiss
-  url: https://safeswiss.com
-  recommendation: 1
-  platforms: Android, iOS, Windows
-  source_type: closed
-  business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
-  communication_types: Text, group chat, voice, pictures, video, location
-  encryption_protocol: <a href="https://safeswiss.com/faq">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: XSalsa20
-  country_origin: Switzerland
-  country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google CrashLytics, HockeyApp
-  websites: <a href="https://safeswiss.com/encryption">Encryption</a>
-  notes_file: safeswiss_notes.html
-  version_tested: 1.4.10
-  last_update: 4/10/2019
-
 - name: silence
   category: 1
   display_name: Silence
@@ -741,6 +705,42 @@
   notes_file: keybase_notes.html
   version_tested: 2.2.1
   last_update: 7/1/2018
+
+- name: safeswiss
+  category: 2
+  display_name: SafeSwiss
+  url: https://safeswiss.com
+  recommendation: 1
+  platforms: Android, iOS, Windows
+  source_type: closed
+  business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
+  communication_types: Text, group chat, voice, pictures, video, location
+  encryption_protocol: <a href="https://safeswiss.com/faq">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: Switzerland
+  country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google CrashLytics, HockeyApp
+  websites: <a href="https://safeswiss.com/encryption">Encryption</a>
+  notes_file: safeswiss_notes.html
+  version_tested: 1.4.10
+  last_update: 4/10/2019
 
 - name: signal
   category: 2
