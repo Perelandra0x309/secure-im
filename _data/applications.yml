@@ -710,7 +710,7 @@
   category: 2
   display_name: SafeSwiss
   url: https://safeswiss.com
-  recommendation: 1
+  recommendation: 2
   platforms: Android, iOS, Windows
   source_type: closed
   business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
@@ -735,12 +735,12 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google CrashLytics, HockeyApp
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics, HockeyApp
   websites: <a href="https://safeswiss.com/encryption">Encryption</a>
   notes_file: safeswiss_notes.html
-  version_tested: 1.4.10
-  last_update: 4/10/2019
+  version_tested: 1.4.20
+  last_update: 12/5/2019
 
 - name: signal
   category: 2
@@ -2039,7 +2039,7 @@
   encryption_protocol: <a href="https://bcm.social/faq.html">Signal</a>
   shared_secret_exchange: ECDH25519
   message_encryption_cipher: AES-256
-  country_origin: Singapore
+  country_origin: British Virgin Islands
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
@@ -2059,8 +2059,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
   notes_file: bcm_notes.html
-  version_tested: 2.3.5-1783
-  last_update: 12/1/2019
+  version_tested: 2.4.0-1810
+  last_update: 12/5/2019
 
 - name: riot
   category: 3

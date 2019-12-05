@@ -33,7 +33,6 @@ Messaging apps listed here do not expose your phone number or email address.  No
   <li>Second Tier (misses some criteria):</li>
   <ul>
     <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="safeswiss" %}- P2P, based in Switzerland [2 trackers]</li>
     <li>{% include generate_app_link.html app_name="wickrme" %}- All messages expire [Based in USA, 3 trackers]</li>
     <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Based in Germany [Android Only, no ephemeral messages]</li>
     <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification, 1 tracker]</li>
