@@ -11,12 +11,12 @@ Based in Canada<br>
 Encryption:<br>
 Uses the GnuTLS library with RSA keys and X.509 certificates.<br>
 <br>
-Since my last review in 2018 this app has improved.  Using multiple devices is much less confusing, messages seem to sync up much better.  The process for adding multiple devices to an account is all new and very easy to complete.  One strange thing though is I could add myself as a contact and send myself messages.<br>
+Since my last review in 2018 this app has improved.  Using multiple devices is much less confusing, the process for adding multiple devices to an account is all new and very easy to complete.  Messages seem to sync up a little better but there are still problems when using the same account on multiple devices.  Messages you send out do not get synced to your other devices, and messages are not always received on every device. One strange thing though is I could add myself as a contact and send myself messages.<br>
 On the Mac, pictures are no longer saved directly in your Documents folder as they were in previous versions, they are somewhat more hidden in your user Library but still not encrypted.  Any files sent to you are saved in /Users/[your account]/Library/Containers/com.savoirfairelinux.ring.macos/Data/Documents/.  If you delete your Jami account the files are not deleted.  If you then add a new account, any files sent to the new account are also saved in this same directory.  So you now have files sent to multiple Jami accounts saved in the same directory together, with no encryption or other controls to prevent access.<br>
 <br>
 Battery usage on a LineageOS based Android device is very high, over 1% per hour.  On iOS this is not the case, battery usage was too low to measure.<br>
 <br>
 My verdict: Pass<br>
 This is being developed as a side project by Savoir-faire Linux so they know open source!  The clients have a unified experience and are available for most platforms.<br>
-This was designed as a P2P app, however multiple clients can be used and recently the syncronization of messages between all devices has improved.  Having an app be P2P yet also able to be on multiple devices is really an achievement.<br>
+This was designed as a P2P app, and multiple clients can be linked to one account but the messages are not synced up properly to all devices.  So this app really is only usable with a separate account for each device.<br>
 While the Android client does not appear to leak files (none that I could find) the Mac version saves files sent to you in your user Library. This makes this app insecure for anyone using the Mac version or sending to someone else who is.<br>

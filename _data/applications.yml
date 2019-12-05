@@ -991,41 +991,6 @@
   version_tested: "Android: 1.1.79, iOS: 1.0.118"
   last_update: 10/27/2018
 
-- name: ginlo
-  category: 2
-  display_name: Ginlo
-  url: https://www.ginlo.net/en/consumer/
-  recommendation: 2
-  platforms: <a href="https://www.ginlo.net/en/consumer/download/">Android, iOS</a>
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, images, videos, location, contacts, files
-  encryption_protocol: "?"
-  shared_secret_exchange: "?"
-  message_encryption_cipher: "?"
-  country_origin: Germany
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: Phone
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device.
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites:
-  notes_file: ginlo_notes.html
-  version_tested: "3.0.0.292474 (Android), 3.0 (iOS)"
-  last_update: 6/30/2019
-
 - name: tungsten
   category: 2
   display_name: Tungsten
@@ -1378,6 +1343,41 @@
   notes_file: get2clouds_notes.html
   version_tested: 0.9.177
   last_update: 3/16/2019
+
+- name: ginlo
+  category: 2
+  display_name: Ginlo
+  url: https://www.ginlo.net/en/consumer/
+  recommendation: 3
+  platforms: <a href="https://www.ginlo.net/en/consumer/download/">Android, iOS</a>
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, images, videos, location, contacts, files
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: Germany
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: No
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites:
+  notes_file: ginlo_notes.html
+  version_tested: "3.0.0.292474 (Android), 3.0 (iOS)"
+  last_update: 6/30/2019
 
 - name: hoccer
   category: 2
@@ -2055,8 +2055,8 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Whitepaper says yes, I have not found a way to do it in the app
   leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Umeng Analytics
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
   websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
   notes_file: bcm_notes.html
   version_tested: 2.3.5-1783
@@ -2457,7 +2457,7 @@
   category: 11
   display_name: Conclave
   url: https://about.conclave.global
-  recommendation: 2
+  recommendation: 3
   platforms: Android, iOS, Web
   communication_types: text, photos, Conclave Events, files
   country_origin: USA
