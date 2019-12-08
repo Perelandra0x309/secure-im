@@ -19,17 +19,10 @@ layout:
 <body>
 
 <!-- Navbar -->
-<div class="w3-top w3-hide-small">
-  {% include top_menu.html %}
-</div>
-<!-- Mobile navbar -->
-<div class="w3-hide-medium w3-hide-large">
-  {% include top_menu.html %}
-</div>
+{% include top_menu.html %}
 
 <!-- Header -->
-<header class="w3-container w3-dark-grey w3-center" style="padding:32px 16px">
-<div class="w3-hide-small" style="margin-top:46px"></div>
+<header class="w3-container w3-dark-grey w3-center" style="padding:16px 16px">
 <div class="w3-left-align">
   <h1>{{ page.title }}</h1>
   <p>Step-by-step guides and detailed information on secure messaging apps for Android, iOS, Windows, Mac and Linux.</p>

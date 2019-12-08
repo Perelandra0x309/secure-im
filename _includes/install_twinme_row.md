@@ -1,6 +1,4 @@
-<tr>
-<td style="vertical-align:top"><h1>{% include generate_app_link.html app_name="twinme" %}</h1></td>
-<td>
+
   Pros:
   <ul>
   <li>Communicate with text, voice, video and group text chat</li>
@@ -22,5 +20,4 @@
   </ul>
   <a href="/install_twinme.html" {{ site.class_button_internal }}>Install TwinMe</a><br>
   <br>
-</td>
-</tr>
+

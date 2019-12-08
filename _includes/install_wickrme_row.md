@@ -1,6 +1,3 @@
-<tr>
-<td style="vertical-align:top"><h1>{% include generate_app_link.html app_name="wickrme" %}</h1></td>
-<td>
   Pros:
   <ul>
   <li>Communicate with text, voice and group text chat</li>
@@ -28,5 +25,4 @@
   </ul>
   <a href="/install_wickrme.html" {{ site.class_button_internal }}>Install WickrMe</a><br>
   <br>
-</td>
-</tr>
+

@@ -3,52 +3,331 @@ layout: single
 title: My list of favorite secure messaging apps
 ---
 <h2>My current top picks:</h2><br>
-Criteria:
+Here is a list of the criteria I use to pick the best options. Each app may not have all of these characteristics, but the more that the app has of these in the list the better it will score. Testing is done on both Android and iOS when possible.  See my <a href="/about.html#testsetup">testing setup</a>.
 <ul>
   <li>This list is focused on instant messaging and chatting as the primary usage of the app</li>
+  <li>Apps without trackers given preference</li>
   <li>Clients on multiple platforms preferred</li>
-  <li>Does not expose your phone number or email address to other users</li>
+  <li>Does not expose personal information (for example phone number or email) to other users</li>
   <li>Does not leak data (pictures or other data saved unencrypted in browseable folders)</li>
   <li>Has ephemeral messages (encryption keys destroyed after a set time)</li>
-  <li>Has contact verification</li>
-  <li>Testing done on both Android and iOS when possible.  See my <a href="/about.html#testsetup">testing setup</a></li>
+  <li>Has contact verification through key fingerprint or other method</li>
 </ul>
-SMS Apps:
-<ul>
-  <li>{% include generate_app_link.html app_name="signal" %}<br>
-    OK let's get this one out of the way first.  If you have a phone, there's almost no way to get away from SMS.  So the best thing you can do is protect your SMS messages at rest with encryption.  Signal also offers excellent end to end encryption between Signal users.  One draw back of Signal is that everyone you connect with will know your phone number, but for people you are comfortable knowing your phone number that is fine.<br>
-  </li>
-  <li>Runner up: {% include generate_app_link.html app_name="silence" %}<br>
-    If you don't want to use Signal as a messaging app then I recommend getting Silence just for SMS messages.  It will locally encrypt the SMS database on your phone.  You can also send encrypted SMS messages to other Silence users.  Since Silence only uses SMS it is not dependent on any servers like Signal is.
-  </li>
-</ul>
-<br>
-Messaging apps listed here do not expose your phone number or email address.  Notes within [brackets] are potential negative attributes:
-<ul>
-  <li>Top Tier Recommendations:</li>
-  <ul>
-    <li>{% include generate_app_link.html app_name="threema" %}- Based in Switzerland [No PFS or ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="twinme" %}- P2P, based in Germany [No ephemeral messages or contact verification]</li>
-  </ul>
-  <li>Second Tier (misses some criteria):</li>
-  <ul>
-    <li>{% include generate_app_link.html app_name="briar" %}- P2P, can use Tor [Android only, text only, no ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="wickrme" %}- All messages expire [Based in USA, 3 trackers]</li>
-    <li>{% include generate_app_link.html app_name="conversations" %} or {% include generate_app_link.html app_name="pixart" %}- Based in Germany [Android Only, no ephemeral messages]</li>
-    <li>{% include generate_app_link.html app_name="keybase" %}- [Based in USA, only &quot;exploding&quot; messages are PFS, no contact verification, 1 tracker]</li>
-  </ul>
 
-  <li>Third Tier (keep an eye on these):</li>
+<h2>Scoring system:</h2>
+Beside each application you will see 4 numbers in colored boxes.  The meaning of these numbers follows:<br>
+
+<span class="w3-tag w3-xlarge w3-round-large w3-red ">1</span>
+ This is the lowest score, which means the application does not provide any protection in this category.
+<br>
+<span class="w3-tag w3-xlarge w3-round-large w3-orange ">2</span>
+ This score means the application provides some protection in this category.
+<br>
+<span class="w3-tag w3-xlarge w3-round-large w3-yellow ">3</span>
+ This score means the application provides protection for many items in this category.
+<br>
+<span class="w3-tag w3-xlarge w3-round-large w3-green ">4</span>
+ This score means the application provides complete or almost complete protection in this category.
+<br>
+<br>
+The 4 categories used are:
+<ul>
+<li>Privacy of your messages: This means that the contents of your encrypted message are safe from being decrypted by anyone who does not have the decryption key, and they are protected from future brute force decryption.</li>
+<li>Privacy of your identity: Information which may reveal your true identity is not exposed by using the application.</li>
+<li>Integrity of the system: The infrastructure that the application runs on is trustworthy and messages can be verified to be unaltered.</li>
+<li>Resistance to disruption: It would be difficult for any one agent to disable the messaging system, for example by targeting the system's servers.</li>
+</ul>
+
+<div class="w3-row">
+	<h2><strong>Level 1: Beginner</strong></h2>
+	<p>Welcome to your new journey into privacy.  Everyone should install Signal as the first step towards a more private lifestyle.</p>
+</div>
+<div class="w3-row-padding">
+  {% include favorites_card.html app_name="signal" %}
+</div>
+
+<br>
+<div class="w3-row">
+  <h2><strong>Level 2: More anonymous, but centralized</strong></h2>
+</div>
+<div class="w3-row-padding">
+  {% include favorites_card.html app_name="threema" %}
+  {% include favorites_card.html app_name="wickrme" %}
+  {% include favorites_card.html app_name="keybase" %}
+</div>
+
+<br>
+<div class="w3-row">
+	<h2><strong>Level 3: Peer to Peer or Decentralized</strong></h2>
+</div>
+<div class="w3-row-padding">
+  {% include favorites_card.html app_name="twinme" %}
+  {% include favorites_card.html app_name="conversations" %}
+</div>
+
+<br>
+<div class="w3-row">
+	<h2><strong>Level 4: Alternative Networks</strong></h2>
+</div>
+<div class="w3-row-padding">
+  {% include favorites_card.html app_name="briar" %}
+  {% include favorites_card.html app_name="bcm" %}
+</div>
+
+
+<p>
+<h2>Details on scores for each app:</h2>
+<table class="w3-table-all w3-small w3-centered">
+<tr>
+<th></th>
+<th colspan="6" class="w3-grey">Privacy of Messages</th>
+<th colspan="4">Privacy of Identity</th>
+<th colspan="5" class="w3-grey">Integrity of the System</th>
+<th colspan="5">Resistance to Disruption</th>
+</tr>
+<tr>
+ <th class="w3-left-align">App</th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">EM</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Ephemeral messages</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">FP</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Foolproof</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">DL</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">No data leaks</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">DR</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Data not recoverable</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">PFS</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Perfect Forward Secrecy</span>
+ </span>
+ </th>
+ <th width="4%">Total</th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">ID</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">ID doesn't have personal info</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">EP</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Does not require email/phone</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">NT</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">No trackers</span>
+ </span>
+ </th>
+ <th width="4%">Total</th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">Au</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Audits done</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">CV</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Contact Verification</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">GC</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Good Country</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">GB</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Good Business Model</span>
+ </span>
+ </th>
+ <th width="4%">Total</th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">PD</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">P2P or Decentralized</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">OS</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Open Source</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">SH</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Self Hosted</span>
+ </span>
+ </th>
+ <th width="4%">
+ <span class="w3-tooltip">
+		<span class="w3-round">NP</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Number of platforms</span>
+ </span>
+ </th>
+ <th width="4%">Total</th>
+ </tr>
+ 
+ 
+{% assign applications = site.data.ratings %}
+{% for application in applications %}
+
+{% if application.privacy_message_score == 1 %}
+  {% capture message_color %}w3-red{% endcapture %}
+{% elsif application.privacy_message_score == 2 %}
+  {% capture message_color %}w3-orange{% endcapture %}
+{% elsif application.privacy_message_score == 3 %}
+  {% capture message_color %}w3-yellow{% endcapture %}
+{% elsif application.privacy_message_score == 4 %}
+  {% capture message_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% if application.privacy_id_score == 1 %}
+  {% capture id_color %}w3-red{% endcapture %}
+{% elsif application.privacy_id_score == 2 %}
+  {% capture id_color %}w3-orange{% endcapture %}
+{% elsif application.privacy_id_score == 3 %}
+  {% capture id_color %}w3-yellow{% endcapture %}
+{% elsif application.privacy_id_score == 4 %}
+  {% capture id_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% if application.integrity_score == 1 %}
+  {% capture integrity_color %}w3-red{% endcapture %}
+{% elsif application.integrity_score == 2 %}
+  {% capture integrity_color %}w3-orange{% endcapture %}
+{% elsif application.integrity_score == 3 %}
+  {% capture integrity_color %}w3-yellow{% endcapture %}
+{% elsif application.integrity_score == 4 %}
+  {% capture integrity_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% if application.resistance_score == 1 %}
+  {% capture resistance_color %}w3-red{% endcapture %}
+{% elsif application.resistance_score == 2 %}
+  {% capture resistance_color %}w3-orange{% endcapture %}
+{% elsif application.resistance_score == 3 %}
+  {% capture resistance_color %}w3-yellow{% endcapture %}
+{% elsif application.resistance_score == 4 %}
+  {% capture resistance_color %}w3-green{% endcapture %}
+{% endif %}
+
+<tr>
+ <td class="w3-left-align">{{ application.display_name }}</td>
+ <td>{{ application.pm_ephemeral }}</td>
+ <td>{{ application.pm_foolproof }}</td>
+ <td>{{ application.pm_no_leaks }}</td>
+ <td>{{ application.pm_not_recoverable }}</td>
+ <td>{{ application.pm_pfs }}</td>
+ <td>
+   <span class="w3-tooltip">
+		 <span class="w3-tag w3-round {{ message_color }} ">{{ application.privacy_message_score }}</span>
+   </span>
+ </td>
+ <td>{{ application.pi_no_info }}</td>
+ <td>{{ application.pi_no_ph_em }}</td>
+ <td>{{ application.pi_no_trackers }}</td>
+ <td>
+   <span class="w3-tooltip">
+			<span class="w3-tag w3-round {{ id_color }} ">{{ application.privacy_id_score }}</span>
+	 </span>
+ </td>
+ <td>{{ application.i_audits }}</td>
+ <td>{{ application.i_cont_ver }}</td>
+ <td>{{ application.i_good_country }}</td>
+ <td>{{ application.i_good_business }}</td>
+ <td>
+   <span class="w3-tooltip">
+		 <span class="w3-tag w3-round {{ integrity_color }} ">{{ application.integrity_score }}</span>
+	 </span>
+ </td>
+ <td>{{ application.r_p2p_dec }}</td>
+ <td>{{ application.r_opensource }}</td>
+ <td>{{ application.r_selfhost }}</td>
+ <td>{{ application.r_platforms }}</td>
+ <td>
+   <span class="w3-tooltip">
+		 <span class="w3-tag w3-round {{ resistance_color }} ">{{ application.resistance_score }}</span>
+	 </span>
+ </td>
+</tr>
+{% endfor %}
+<tr>
+  <td>Key to columns:</td>
+  <td colspan="6" class="w3-left-align">
+    <ul class="w3-small">
+    <li>EM - Ephemeral messages</li>
+    <li>FP - Foolproof</li>
+    <li>DL - No data leaks</li>
+    <li>DR - Data not recoverable</li>
+    <li>PFS - Perfect Forward Secrecy</li>
+    </ul>
+  </td>
+  <td colspan="4" class="w3-left-align">
+  <ul class="w3-small">
+  <li>ID - ID doesn't have personal info</li>
+<li>EP - Does not require email/phone</li>
+<li>NT - No trackers</li>
+</ul>
+  </td>
+  <td colspan="6" class="w3-left-align">
+  <ul class="w3-small">
+  <li>Au - Audits</li>
+<li>CV - Contact Verification</li>
+<li>GC - Good Country</li>
+<li>GB - Good Business Model</li>
+  </ul>
+  </td>
+  <td colspan="5" class="w3-left-align">
+  <ul class="w3-small">
+  <li>PD - P2P or Decentralized</li>
+<li>OS - Open Source</li>
+<li>SH - Self Hosted</li>
+<li>NP - Number of platforms</li>
+</ul>
+</td>
+</tr>
+ </table>
+
+
+
+<p>
+<h2>Some other apps that are worth considering:</h2>
+Notes within [brackets] are potential negative attributes
   <ul>
     <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, no ephemeral messages, PFS or contact verification, 2 trackers]</li>
     <li>{% include generate_app_link.html app_name="tungsten" %}- Uses the TOR network for anonymous profiles, synchronizes across multiple devices, multiple personas, based in Germany. [No ephemeral messages or contact verification, 2 trackers]</li>
     <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS, 1 tracker]</li>
+    <li>{% include generate_app_link.html app_name="pixart" %}- A fork of Conversations that has a simpler interface</li>
+    <li>{% include generate_app_link.html app_name="quicksy" %}- A fork of Conversations that makes it easy to signup, your phone number is used as your ID.</li>
+    <li>{% include generate_app_link.html app_name="silence" %}- An app that encrypts SMS messages</li>
+    
   </ul>
-  <li id="caution">Use with caution:<br>
-  <ul>
-<!--     <li>{% include generate_app_link.html app_name="eleet" %}- [Based in the UK, no contact verification]</li> -->
+Use with caution:<br>
+<ul>
     <li>{% include generate_app_link.html app_name="riot" %}- [E2EE not enabled by default, connects to non-encrypted message systems, Based in the UK, no ephemeral messages]</li>
-  </ul>
+</ul>
   December 2018: Recently there have been some troubling laws passed and articles written in the UK and Australia (part of the <a href="https://www.privacytools.io/#ukusa">5 eyes countries</a>) that may cause issues with trust in applications developed in those countries.  Both countries now seem to be pushing for backdoor access for government surveillance to be built into secure messaging applications.  Not only will this weaken or break End to End security, but apps that are not open source from those countries may no longer be trusted and may be used for a mass surveillance program.  Here are some recent articles.<br>
   <a href="https://www.lawfareblog.com/principles-more-informed-exceptional-access-debate">Principles for a More Informed Exceptional Access Debate</a><br>
 <div class="w3-panel w3-orange">
@@ -69,120 +348,3 @@ We’re not talking about weakening encryption or defeating the end-to-end natur
   Companies who receive one of these warrants have the option of either complying with the government or waiting for a court order. However, by default, the orders are secret, so companies would not be able to tell the public that they had received one.
   </blockquote>
   </div>
-  </li>
-</ul>
-<br>
-<br>
-<h2>How about some rankings?</h2><br>
-The following scoring table includes messaging apps that can be used across multiple platforms that synchronize conversations to all devices:<br>
-<table class="w3-table w3-striped w3-bordered">
-  <tr class="w3-dark-grey">
-    <th>Application</th>
-    <th width="8%">Additional sharing features- files, photos, etc</th>
-    <th width="8%">Group chats</th>
-    <th width="8%">Unified UI across platforms</th>
-    <th width="8%">Messages sync to all devices</th>
-    <th width="8%">Open source</th>
-    <th width="8%">Perfect forward secrecy</th>
-    <th width="8%">Ephemeral Messages</th>
-    <th width="8%">Contact Verification</th>
-    <th width="8%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
-      Based outside the 14 eyes: +.5</th>
-    <th width="8%">Total score:</th>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="babelnet" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1 (Czech Republic)</td><td>8</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="wickrme" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>.5</td><td>1</td><td>1</td><td>1</td><td>0 (USA)</td><td>7.5</td>
-  </tr>
-  <tr style='background: pink'>
-    <td>{% include generate_app_link.html app_name="riot" %} (<a href="#caution">Use with Caution</a>)</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>7</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="keybase" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>0 (USA)</td><td>6.5</td>
-  </tr>
-<!--  <tr style='background: pink'>
-    <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0 (UK)</td><td>6</td>
-  </tr> -->
-  <tr>
-    <td>{% include generate_app_link.html app_name="tungsten" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>.5 (Germany)</td><td>5.5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="bbme" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0 (Canada)</td><td>5.0</td>
-  </tr>
-
-</table>
-
-The following scoring table includes messaging apps used on a single device:<br>
-<table class="w3-table w3-striped w3-bordered">
-  <tr class="w3-dark-grey">
-    <th>Application</th>
-    <th width="8%">Additional sharing features- files, photos, etc</th>
-    <th width="8%">Group chats</th>
-    <th width="8%">Open source</th>
-    <th width="8%">Perfect forward secrecy</th>
-    <th width="8%">Ephemeral Messages</th>
-    <th width="8%">Contact Verification</th>
-    <th width="8%">Clients on multiple platforms</th>
-    <th width="8%">Based outside the <a href="https://www.privacytools.io/#ukusa">5 eyes</a>: +.5<br>
-      Based outside the 14 eyes: +.5</th>
-    <th width="8%">Total score:</th>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="babelnet" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Czech Republic)</td><td>7</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="safeswiss" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>7</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="wickrme" %}</td>
-    <td>1</td><td>1</td><td>.5</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0 (USA)</td><td>6.5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="threema" %}</td>
-    <td>1</td><td>1</td><td>.5</td><td>.5 (only on the network layer)</td><td>0</td><td>1</td><td>1</td><td>1 (Switzerland)</td><td>6</td>
-  </tr>
-  <tr style='background: pink'>
-    <td>{% include generate_app_link.html app_name="riot" %} (<a href="#caution">Use with Caution</a>)</td>
-    <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0 (UK)</td><td>6</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="keybase" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>.5 (exploding messages)</td><td>1</td><td>0</td><td>1</td><td>0 (USA)</td><td>5.5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="briar" %}</td>
-    <td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>5</td>
-  </tr>
-<!--  <tr style='background: pink'>
-    <td>{% include generate_app_link.html app_name="eleet" %} (<a href="#caution">Use with Caution</a>)</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0 (UK)</td><td>5</td>
-  </tr> -->
-  <tr>
-    <td>{% include generate_app_link.html app_name="conversations" %}</td>
-    <td>1</td><td>1</td><td>1</td><td>.5 (OMEMO only)</td><td>0</td><td>1</td><td>0</td><td>.5 (Germany)</td><td>5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="twinme" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>4.5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="tungsten" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>.5 (Germany)</td><td>4.5</td>
-  </tr>
-  <tr>
-    <td>{% include generate_app_link.html app_name="bbme" %}</td>
-    <td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0 (Canada)</td><td>4.0</td>
-  </tr>
-
-</table>

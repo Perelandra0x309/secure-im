@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Install TwinMe
+title: Install Keybase
 permalink: /install_keybase.html
 ---
 

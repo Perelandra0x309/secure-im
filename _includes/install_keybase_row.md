@@ -10,6 +10,8 @@
   </ul>
   Cons:
   <ul>
+  <li>Based in USA</li>
+  <li>1 tracker (Google Firebase Analytics)</li>
   <li>Requires an email address</li>
   <li>Only &quot;Exploding Messages&quot; have perfect forward secrecy</li>
   <li>No contact verification</li>

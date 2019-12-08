@@ -1,16 +1,17 @@
-<tr><td style="vertical-align:top"><h1>{% include generate_app_link.html app_name="threema" %}</h1></td>
-<td>
+
   Pros:
   <ul>
-  <li>Very nice look, lots of features</li>
+  <li>Very nice look, lots of features, easy to use</li>
   <li>Communicate with text, voice or group text chat</li>
   <li>Based in Switzerland (great privacy laws)</li>
   <li>No personal information such as an email address or phone number is needed to create an account</li>
   </ul>
   Cons:
   <ul>
+  <li>No Perfect Forward Secrecy or ephemeral messages</li>
   <li>Video chat is not available</li>
   <li>No option for automatic deletion of messages</li>
+  <li>Can only be used on one device</li>
   </ul>
   Other features:
   <ul>
@@ -27,5 +28,4 @@
   </ul>
   <a href="/install_threema.html" {{ site.class_button_internal }}>Install Threema</a><br>
   <br>
-</td>
-</tr>
+

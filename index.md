@@ -21,10 +21,6 @@ One quick note about the buttons that you can click in this guide:
 <li>Any buttons that are green will <a {{ site.class_button_external }}>link to another website</a> and these will open in another browser tab.</li>
 </ul>
 <br>
-So let's start!  Choose your path:<br>
-
-Please guide me: <a href="/guide_signal.html" {{ site.class_button_internal }}>Proceed to the &quot;Install Signal&quot; guide</a><br>
-<br>
-&nbsp;&nbsp;OR<br>
-<br>
-I want to explore: <a href="/detailed_landing.html" {{ site.class_button_internal }}>See my app reviews, charts and lists</a><br>
+<center>
+<p>So let's start!</p>
+<p><h2><a href="/favorites.html" {{ site.class_button_internal }}>Click here to see which apps I recommend</a></h2></p>

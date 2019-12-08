@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Install TwinMe
+title: Install Briar
 permalink: /install_briar.html
 ---
 

@@ -60,10 +60,6 @@ Great job, if you made it this far you are doing very well!  Now you have taken 
 <br>
 Signal is a great app but it does have one major drawback.  To communicate you must give other people your phone number to connect with them over Signal.  That was part of the design of Signal to make it easy to use.  For friends and family that you already communicate with using your phone number that is fine.  But what if you don't want to give your phone number to someone but still want to communicate securely with them?  There are other great options available for doing this so you don't need to expose your phone number, and this is a site about protecting your information after all right?<br>
 <br>
-So to continue on there is one important question you must think about.  Will you be chatting using your phone exclusively, or would you like to be able to chat using multiple devices (even a desktop computer) and have all your chats available on all devices?  So think of this as being the difference between only being able to get SMS messages on your phone, and being able to log into a social network (like Facebook) from anywhere and being able to continue a conversation from multiple devices.<br>
+To see more apps that I recommend which have even better privacy protection, return to my list here: <a href="/favorites.html" {{ site.class_button_internal }}>My Favorite Apps</a><br>
 <br>
-Some apps can only be used on a single device while others can be used on multiple devices.  The selection of apps for multiple devices is smaller, but this option is more convienient if you are switching between desktop computers and phones throughout your day.<br>
-<br>
-<a href="guide_single_device.html" {{ site.class_button_internal }}>I will only use one device</a><br>
-<a href="guide_multiple_devices.html" {{ site.class_button_internal }}>I want to use multiple devices</a><br>
 
