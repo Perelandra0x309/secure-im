@@ -1,0 +1,86 @@
+{% assign applications_gen = site.data.ratings | where_exp: "item","item.name == include.app_name" %}
+{% assign application = applications_gen[0] %}
+
+
+{% if application.privacy_message_score == 1 %}
+  {% capture message_color %}w3-red{% endcapture %}
+{% elsif application.privacy_message_score == 2 %}
+  {% capture message_color %}w3-orange{% endcapture %}
+{% elsif application.privacy_message_score == 3 %}
+  {% capture message_color %}w3-yellow{% endcapture %}
+{% elsif application.privacy_message_score == 4 %}
+  {% capture message_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% if application.privacy_id_score == 1 %}
+  {% capture id_color %}w3-red{% endcapture %}
+{% elsif application.privacy_id_score == 2 %}
+  {% capture id_color %}w3-orange{% endcapture %}
+{% elsif application.privacy_id_score == 3 %}
+  {% capture id_color %}w3-yellow{% endcapture %}
+{% elsif application.privacy_id_score == 4 %}
+  {% capture id_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% if application.integrity_score == 1 %}
+  {% capture integrity_color %}w3-red{% endcapture %}
+{% elsif application.integrity_score == 2 %}
+  {% capture integrity_color %}w3-orange{% endcapture %}
+{% elsif application.integrity_score == 3 %}
+  {% capture integrity_color %}w3-yellow{% endcapture %}
+{% elsif application.integrity_score == 4 %}
+  {% capture integrity_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% if application.resistance_score == 1 %}
+  {% capture resistance_color %}w3-red{% endcapture %}
+{% elsif application.resistance_score == 2 %}
+  {% capture resistance_color %}w3-orange{% endcapture %}
+{% elsif application.resistance_score == 3 %}
+  {% capture resistance_color %}w3-yellow{% endcapture %}
+{% elsif application.resistance_score == 4 %}
+  {% capture resistance_color %}w3-green{% endcapture %}
+{% endif %}
+
+{% assign applications_gen = site.data.applications | where_exp: "item","item.name == include.app_name" %}
+{% assign application_gen = applications_gen[0] %}
+{% if application_gen.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2papps.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 2 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link centralizedapps.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 3 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link decentralizedapps.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 10 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
+{% elsif application_gen.category == 12 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link protocols.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
+{% else %}{% capture htmllink %}{{ application_gen.display_name }}{% endcapture %}
+{% endif %}
+
+  <div class="w3-col l6">
+    <h3>{{ application.tagline }}</h3>
+		<div class="w3-card-4">
+			<header class="w3-container w3-grey">
+				<h2>{{ application.display_name }}
+				<span class="w3-tooltip">
+				  <span class="w3-tag w3-xlarge w3-round-large {{ message_color }} ">{{ application.privacy_message_score }}</span>
+				  <span style="position:absolute;left:0;bottom:36px" class="w3-text w3-tag w3-round w3-large">Privacy of your messages</span>
+			  </span>
+				<span class="w3-tooltip">
+				  <span class="w3-tag w3-xlarge w3-round-large {{ id_color }} ">{{ application.privacy_id_score }}</span>
+				  <span style="position:absolute;left:0;bottom:36px" class="w3-text w3-tag w3-round w3-large">Privacy of your identity</span>
+				</span>
+				<span class="w3-tooltip">
+				  <span class="w3-tag w3-xlarge w3-round-large {{ integrity_color }} ">{{ application.integrity_score }}</span>
+				  <span style="position:absolute;left:0;bottom:36px" class="w3-text w3-tag w3-round w3-large">Integrity of the system</span>
+				</span>
+				<span class="w3-tooltip">
+				  <span class="w3-tag w3-xlarge w3-round-large {{ resistance_color }} ">{{ application.resistance_score }}</span>
+				  <span style="position:absolute;left:0;bottom:36px" class="w3-text w3-tag w3-round w3-large">Resistance to disruption</span>
+				</span>
+				</h2>
+			</header>
+			<div class="w3-container">
+				{% include_relative _data/{{ application.notes_file }} %}
+				<p><a href="{{ application.install_url }}" {{ site.class_button_internal }} >Install {{ application.display_name }}</a><br></p>
+			</div>
+			{{ htmllink }}
+		</div>
+  </div>
+
