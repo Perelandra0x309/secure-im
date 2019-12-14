@@ -79,14 +79,14 @@ The 4 categories used are:
 <h2>Details on scores for each app:</h2>
 <table class="w3-table-all w3-small w3-centered">
 <tr>
-<th></th>
+<th>App</th>
 <th colspan="6" class="w3-grey">Privacy of Messages</th>
 <th colspan="4">Privacy of Identity</th>
 <th colspan="5" class="w3-grey">Integrity of the System</th>
 <th colspan="5">Resistance to Disruption</th>
 </tr>
 <tr>
- <th class="w3-left-align">App</th>
+ <th width="10%" class="w3-right-align"></th>
  <th width="4%">
  <span class="w3-tooltip">
 		<span class="w3-round">EM</span>
@@ -157,8 +157,8 @@ The 4 categories used are:
  </th>
  <th width="4%">
  <span class="w3-tooltip">
-		<span class="w3-round">GB</span>
-		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Good Business Model</span>
+		<span class="w3-round">KC</span>
+		<span style="position:absolute;left:-40px;bottom:36px" class="w3-text w3-tag w3-round w3-large">Key Change Alerts</span>
  </span>
  </th>
  <th width="4%">Total</th>
@@ -234,7 +234,7 @@ The 4 categories used are:
 {% endif %}
 
 <tr>
- <td class="w3-left-align">{{ application.display_name }}</td>
+ <td class="w3-right-align">{{ application.display_name }}</td>
  <td>{{ application.pm_ephemeral }}</td>
  <td>{{ application.pm_foolproof }}</td>
  <td>{{ application.pm_no_leaks }}</td>
@@ -256,7 +256,7 @@ The 4 categories used are:
  <td>{{ application.i_audits }}</td>
  <td>{{ application.i_cont_ver }}</td>
  <td>{{ application.i_good_country }}</td>
- <td>{{ application.i_good_business }}</td>
+ <td>{{ application.i_key_changes }}</td>
  <td>
    <span class="w3-tooltip">
 		 <span class="w3-tag w3-round {{ integrity_color }} ">{{ application.integrity_score }}</span>
@@ -287,16 +287,17 @@ The 4 categories used are:
   <td colspan="4" class="w3-left-align">
   <ul class="w3-small">
   <li>ID - ID doesn't have personal info</li>
-<li>EP - Does not require email/phone</li>
+<li>EP - Does not require email or phone</li>
 <li>NT - No trackers</li>
 </ul>
   </td>
-  <td colspan="6" class="w3-left-align">
+  <td colspan="5" class="w3-left-align">
   <ul class="w3-small">
   <li>Au - Audits</li>
 <li>CV - Contact Verification</li>
 <li>GC - Good Country</li>
-<li>GB - Good Business Model</li>
+<li>KC - Key Change Alerts<br>
+(&quot;N/A&quot; means the key cannot change)</li>
   </ul>
   </td>
   <td colspan="5" class="w3-left-align">
