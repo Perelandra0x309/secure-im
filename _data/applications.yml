@@ -2446,6 +2446,12 @@
   recommendation: 3
   notes_text: (brax.me)- Looks to be a dead project, no app updates since April 2017.
 
+- name: bitchat
+  category: 11
+  display_name: BitChat
+  recommendation: 3
+  notes_text: BitChat is now mesh.im
+
 - name: chat.onion
   url: https://onionapps.github.io/Chat.onion/
   category: 11
@@ -2526,7 +2532,13 @@
   display_name: MEGA
   recommendation: 3
   notes_text: (mega.nz)- Android leaks files, it is questionable as to who controls the company (<a href="https://www.zdnet.com/article/mega-denies-claims-by-kim-dotcom-of-nz-government-control-of-company/">https://www.zdnet.com/article/mega-denies-claims-by-kim-dotcom-of-nz-government-control-of-company/</a>
-  
+
+- name: mesh
+  category: 11
+  display_name: Mesh
+  recommendation: 3
+  notes_text: "https://mesh.im- Windows only and alpha status for now (12/12/2019)"
+
 - name: bridgefy
   category: 11
   display_name: Bridgefy
