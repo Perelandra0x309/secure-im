@@ -2062,6 +2062,41 @@
   version_tested: 2.4.0-1810
   last_update: 12/5/2019
 
+- name: loki
+  category: 3
+  display_name: Loki Messenger
+  url: https://loki.network
+  recommendation: 2
+  platforms: Android, iOS, MacOS, Windows, Linux (Debian)
+  source_type: open
+  business_model: <a href="https://docs.loki.network/LokiServices/LokiServicesOverview/">Loki Services</a>
+  communication_types: Text, group chat, photos, files
+  encryption_protocol: NaCl
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: Australia
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: 
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google Crashlytics, Mixpanel
+  websites: <a href="https://docs.loki.network/FAQ/">FAQ</a>, <a href="hhttps://loki.network/wp-content/uploads/2018/10/LokiWhitepaperV3_1.pdf">Whitepaper</a>, <a href="https://github.com/loki-project/">Source</a>
+  notes_file: loki_notes.html
+  version_tested: "Android: 1.5.1, MacOS: v1.0.0-beta9, iOS: 1.5.1"
+  last_update: 12/14/2019
+
 - name: riot
   category: 3
   display_name: Riot
@@ -2614,7 +2649,7 @@
   category: 11
   display_name: SIMSme
   url: https://www.sims.me
-  recommendation: 2
+  recommendation: 3
   platforms: <a href="https://www.sims.me/en#Download">Android, iOS</a>
   source_type: closed
   business_model: Enterprise version of the platform
@@ -2908,6 +2943,12 @@
   display_name: Silent Circle
   recommendation: 3
   notes_text: Enterprise product, $9.95/mo
+
+- name: tamtam
+  category: 11
+  display_name: TamTam
+  recommendation: 3
+  notes_text: "(https://tamtam.chat)- 4 trackers (2 Google ones) and you can sign in using a Google or OK.ru account. Created by mail.ru group."
 
 
 # Category 12- Protocols

@@ -45,6 +45,8 @@ A shared secret is generated using both the private key of one chat participant 
 Each message has a random nonce generated for it, this acts as a salt value, and is combined with the shared secret to encrypt the message. This does not provide perfect forward secrecy, but it does insert an element of randomness so that analysis of Threema encrypted messages is made more difficult than a series of messages encrypted with Public Key Infrastructure methods that use the same symmetric key for every message.<br>
 For group chats when a message is send the message is encrypted separately for every member of the group using the same method as a one to one chat.  So if there are 12 participants in a group, a message will be encrypted 11 times, once for each of the other group members, and each message will have a different nonce.<br>
 <br>
+This looks interesting- an open source implimentation of the Threema client (not official): <a href="https://openmittsu.de/">openMittsu</a><br>
+<br>
 My Verdict: Almost perfect<br>
 <br>
 Truly this is an app that provides almost a perfect secured messaging system.  Limited meta data, very easy to use, foolproof encryption.  The only features missing are perfect forward secrecy on message encryption (data in transit is additionally encrypted with TLS) and ephemeral messages.  Oh and being able to use it on multiple devices would be nice as well.  But the simplicity of use and low cost are what make this app a top choice for me.
