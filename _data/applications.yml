@@ -850,6 +850,42 @@
   version_tested: 4.62.0
   last_update: 10/30/2018
 
+- name: bat
+  category: 2
+  display_name: Bat Messenger
+  url: https://www.batmessenger.com
+  recommendation: 2
+  platforms: Android, iOS
+  source_type: closed
+  business_model: 
+  communication_types: Text, group chat, files, photos, voice, video, location
+  encryption_protocol: "?"
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: Singapore
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.batmessenger.com/en/security.html
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="www.batmessenger.com/en/security.html">Security</a>, <a href="https://www.batmessenger.com/en/support/faq.html">FAQ</a>
+  notes_file: bat_notes.html
+  version_tested: 3.4.0
+  last_update: 12/28/2019
+
 - name: brosix
   category: 2
   display_name: Brosix
@@ -2949,6 +2985,24 @@
   display_name: TamTam
   recommendation: 3
   notes_text: "(https://tamtam.chat)- 4 trackers (2 Google ones) and you can sign in using a Google or OK.ru account. Created by mail.ru group."
+
+- name: meshenger
+  category: 11
+  display_name: Meshenger
+  recommendation: 3
+  notes_text: "(https://medium.com/@cole.obrien1996/introducing-meshenger-97f930ca7b1c)- Email, not instant messages: quot;The vision of Meshenger is to create decentralised platform for secure email and live chat on top of the IOTA Protocol.quot;"
+
+- name: deltachat
+  category: 11
+  display_name: Delta Chat
+  recommendation: 3
+  notes_text: "(https://delta.chat)- PGP encrypted email, not instant messages."
+
+- name: nandbox
+  category: 11
+  display_name: Nandbox
+  recommendation: 3
+  notes_text: "(https://nandbox.com)- 4 trackers: Facebook Analytics, Facebook Login, Facebook Share, Google Firebase Analytics."
 
 
 # Category 12- Protocols
