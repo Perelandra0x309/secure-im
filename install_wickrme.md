@@ -6,7 +6,7 @@ permalink: /install_wickrme.html
 
 You do not need to provide any personal information to signup for a WickrMe account.<br>
 <br>
-Go to the website to <a href="https://me-download.wickr.com" {{ site.class_button_external }} target="_blank">Download and install WickrMe</a><br>
+Go to the website to <a href="https://support.wickr.com/hc/en-us/articles/115002776333-Create-and-Register-a-Wickr-Me-Account" {{ site.class_button_external }} target="_blank">Download and install WickrMe</a><br>
 <br>
 The default settings of WickrMe are fine to use.  There are some extra security features like adding PIN numbers or fingerprint access which you can explore in the settings.<br>
 <br>
