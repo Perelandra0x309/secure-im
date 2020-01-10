@@ -2083,7 +2083,7 @@
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   message_stored_on_server: Temporarily
-  has_ephemeral_messages: No
+  has_ephemeral_messages: "1:1 chats only"
   encypted_by_default: Yes
   puddle_test: Not Recoverable
   puddle_test_note: Messages saved only on device
@@ -2095,8 +2095,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
   notes_file: bcm_notes.html
-  version_tested: 2.4.0-1810
-  last_update: 12/5/2019
+  version_tested: 2.7.0-1887
+  last_update: 1/8/2020
 
 - name: loki
   category: 3

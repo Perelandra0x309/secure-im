@@ -224,7 +224,7 @@
   display_name: BCM Messenger
   tagline: "Exciting newcomer:"
   privacy_message_score: 3
-  pm_ephemeral: 
+  pm_ephemeral: "only in 1:1 chats"
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
   pm_not_recoverable: "&#10004;"
