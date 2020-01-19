@@ -242,7 +242,7 @@
   i_key_changes: "&#10004;"
   resistance_score: 3
   r_p2p_dec: "&#10004;"
-  r_opensource: "soon"
+  r_opensource: "&#10004;"
   r_selfhost: "mesh"
   r_platforms: 2
   install_url: /install_bcm.html
