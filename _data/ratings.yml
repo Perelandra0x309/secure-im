@@ -229,10 +229,10 @@
   pm_no_leaks: "&#10004;"
   pm_not_recoverable: "&#10004;"
   pm_pfs: "&#10004;"
-  privacy_id_score: 4
+  privacy_id_score: 3
   pi_no_info: "&#10004;"
   pi_no_ph_em: "&#10004;"
-  pi_no_trackers: "&#10004;"
+  pi_no_trackers: 
   integrity_score: 3
   i_audits: 
   i_cont_ver: "?"

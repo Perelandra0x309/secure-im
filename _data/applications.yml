@@ -2091,8 +2091,8 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Whitepaper says yes, I have not found a way to do it in the app
   leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: AppsFlyer
   websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
   notes_file: bcm_notes.html
   version_tested: 2.7.0-1887
