@@ -91,7 +91,7 @@
   i_key_changes: "N/A"
   resistance_score: 1
   r_p2p_dec: 
-  r_opensource: "partial"
+  r_opensource: "crypto lib, API"
   r_selfhost: 
   r_platforms: 2
   install_url: /install_threema.html
@@ -121,7 +121,7 @@
   i_key_changes: "&#10004;"
   resistance_score: 1
   r_p2p_dec: 
-  r_opensource: partial
+  r_opensource: "crypto library"
   r_selfhost: 
   r_platforms: 5
   install_url: /install_wickrme.html
@@ -151,7 +151,7 @@
   i_key_changes: "&#10004;"
   resistance_score: 1
   r_p2p_dec: 
-  r_opensource: partial
+  r_opensource: "clients"
   r_selfhost: 
   r_platforms: 5
   install_url: /install_keybase.html
@@ -242,8 +242,8 @@
   i_key_changes: "&#10004;"
   resistance_score: 3
   r_p2p_dec: "&#10004;"
-  r_opensource: "&#10004;"
-  r_selfhost: "mesh"
+  r_opensource: "Android"
+  r_selfhost: 
   r_platforms: 2
   install_url: /install_bcm.html
   notes_file: bcm_card.html

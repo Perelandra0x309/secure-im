@@ -2069,7 +2069,7 @@
   url: https://bcm.social
   recommendation: 2
   platforms: Android, iOS
-  source_type: closed (soon to be open source)
+  source_type: open (Android only)
   business_model: Independant developers
   communication_types: Text, photos, videos, audio, files, location, group chat
   encryption_protocol: <a href="https://bcm.social/faq.html">Signal</a>
