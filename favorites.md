@@ -71,7 +71,6 @@ The 4 categories used are:
 </div>
 <div class="w3-row-padding">
   {% include favorites_card.html app_name="briar" %}
-  {% include favorites_card.html app_name="bcm" %}
 </div>
 
 
