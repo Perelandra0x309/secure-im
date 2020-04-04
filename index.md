@@ -2,6 +2,8 @@
 layout: single
 title: Welcome!
 ---
+<center><h2><a href="{% link videochat.md %}" {{ site.class_button_internal }}>New! Video chat options in these times of social distancing</a></h2></center>
+
 <center><H1>Welcome!</h1></center><br>
 If you are searching for information about the why's and how's of protecting the information you exchange every day with others through chat messages, I hope to give you some guidence.  You can follow the simple step by step guides I have written or you may delve into some fairly detailed analysis and reviews of many messaging applications.  My focus is mostly on Android and iOS messaging apps but I review some desktop apps as well.<br>
 <br>
