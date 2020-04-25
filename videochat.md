@@ -33,21 +33,6 @@ With most of the world now staying at home, many people are looking for ways to 
 				</ul>
 				<p><a href="https://whereby.com" {{ site.class_button_external }}>Whereby website</a></p>
 				<hr>
-				
-				<p><h3>infomaniak Meet</h3></p>
-				<p>Meet is based on the open source app Jitsi but is easier to use.</p>
-				<ul>
-					<li>Ability to password protect meetings</li>
-					<li>Guests join without needing to register or provide an email address</li>
-					<li>Use the kMeet mobile app or a web browser to join</li>
-					<li>Meetings are not time limited and there is no limit on the number of participants</li>
-					<li>Hosted in Europe</li>
-					<li>Data is encrypted from the clients to the servers</li>
-					<li>Screen sharing and private chat features</li>
-				</ul>
-				<p><a href="https://www.infomaniak.com/en/meet/" {{ site.class_button_external }}>infomaniak Meet website</a></p>
-				<hr>
-				
 			
 				<p><h3>Webex</h3></p>
 				<p>For creating video and audio gatherings for friends, family or for business where everyone agrees to meet at a specific time I recommend using Webex.  This is a well trusted product used mostly by businesses, but now they are opening up registration to anyone for free.  Here are some features and benefits of this product:</p>
@@ -102,6 +87,11 @@ With most of the world now staying at home, many people are looking for ways to 
 			</div>
 		</div>
 </div>
+
+<br />
+
+<h2>Other resources</h2>
+Are you now working from home and need advice on security? See the <a href="https://www.sans.org/security-awareness-training/sans-security-awareness-work-home-deployment-kit?msc=sans-free-lp" {{ site.class_button_external }}>SANS Security Awareness Work-from-Home Kit</a>
 
 <br />
 
