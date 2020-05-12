@@ -14,7 +14,7 @@ Here is a list of the criteria I use to pick the best options. Each app may not 
   <li>Has contact verification through key fingerprint or other method</li>
 </ul>
 
-<h2>Scoring system:</h2>
+<h3>Scoring system:</h3>
 Beside each application you will see 4 numbers in colored boxes.  The meaning of these numbers follows:<br>
 
 <span class="w3-tag w3-xlarge w3-round-large w3-red ">1</span>
@@ -37,6 +37,10 @@ The 4 categories used are:
 <li>Integrity of the system: The infrastructure that the application runs on is trustworthy and messages can be verified to be unaltered.</li>
 <li>Resistance to disruption: It would be difficult for any one agent to disable the messaging system, for example by targeting the system's servers.</li>
 </ul>
+
+<h3>Country of Jurisdiction:</h3>
+Another aspect of each messenger to consider is the legal jurisdiction each app is subject to.  This is usually determined by the incorporated status and country of the organization that controls the servers and codebase for the messaging system.  Physical server location is not always a factor, for example a server located anywhere in the world is still considered under the jurisdiction of the country where the controlling organization is incorporated.<br />
+There are various international intelligence sharing agreements, the most well known being the so called &quot;5 eyes&quot;, &quot;9 eyes&quot; and &quot;14 eyes&quot; countries.  If your data is protected well enough (encryption) and you are able to remain anonymous online then the country of jurisdiction may not be the primary deciding factor for everyday citizens.  But if you require extra security the jurisdiction may be more important.  You can read more about the &quot;eyes&quot; at <a href="https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/">https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/</a>.
 
 <div class="w3-row">
 	<h2><strong>Level 1: Beginner</strong></h2>

@@ -42,6 +42,26 @@
   {% capture resistance_color %}w3-green{% endcapture %}
 {% endif %}
 
+{% capture eyegroup %}{% endcapture %}
+{% if application.country_origin == "Australia"
+	or application.country_origin == "Canada"
+	or application.country_origin == "New Zealand"
+	or application.country_origin == "UK"
+	or application.country_origin == "USA" %}
+	{% capture eyegroup %}[5 Eyes]{% endcapture %}
+{% elsif application.country_origin == "Denmark"
+	or application.country_origin == "France"
+	or application.country_origin == "Netherlands"
+	or application.country_origin == "Norway" %}
+	{% capture eyegroup %}[9 Eyes]{% endcapture %}
+{% elsif application.country_origin == "Belgium"
+	or application.country_origin == "Germany"
+	or application.country_origin == "Italy"
+	or application.country_origin == "Spain"
+	or application.country_origin == "Sweden" %}
+	{% capture eyegroup %}[14 Eyes]{% endcapture %}
+{% endif %}
+
 {% assign applications_gen = site.data.applications | where_exp: "item","item.name == include.app_name" %}
 {% assign application_gen = applications_gen[0] %}
 {% if application_gen.category == 1 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link p2papps.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
@@ -52,6 +72,8 @@
 {% elsif application_gen.category == 12 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link protocols.md %}#{{ application_gen.name }}" class="w3-button w3-block w3-green">Detailed Review of {{ application.display_name }}</a>{% endcapture %}
 {% else %}{% capture htmllink %}{{ application_gen.display_name }}{% endcapture %}
 {% endif %}
+
+
 
   <div class="w3-col l6">
     <h3>{{ application.tagline }}</h3>
@@ -75,6 +97,11 @@
 				  <span style="position:absolute;left:0;bottom:36px" class="w3-text w3-tag w3-round w3-large">Resistance to disruption</span>
 				</span>
 				</h2>
+				{% if application.country_origin_source %}
+  <td>Country jurisdiction: <a href="{{ application.country_origin_source }}">{{ application.country_origin }}</a> {{ eyegroup }}</td>
+{% else %}
+	<td>Country jurisdiction: {{ application.country_origin }} {{ eyegroup }}</td>
+{% endif %}
 			</header>
 			<div class="w3-container">
 				{% include_relative _data/{{ application.notes_file }} %}

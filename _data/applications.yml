@@ -2063,58 +2063,23 @@
 
 # Category 3- Decentralized
 
-- name: bcm
+- name: session
   category: 3
-  display_name: BCM Messenger
-  url: https://bcm.social
-  recommendation: 2
-  platforms: Android, iOS
-  source_type: open (Android only)
-  business_model: Independant developers
-  communication_types: Text, photos, videos, audio, files, location, group chat
-  encryption_protocol: <a href="https://bcm.social/faq.html">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-256
-  country_origin: British Virgin Islands
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: "1:1 chats only"
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: Whitepaper says yes, I have not found a way to do it in the app
-  leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: AppsFlyer
-  websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
-  notes_file: bcm_notes.html
-  version_tested: 2.7.0-1887
-  last_update: 1/8/2020
-
-- name: loki
-  category: 3
-  display_name: Loki Messenger
+  display_name: Session Messenger
   url: https://loki.network
   recommendation: 2
   platforms: Android, iOS, MacOS, Windows, Linux (Debian)
   source_type: open
   business_model: <a href="https://docs.loki.network/LokiServices/LokiServicesOverview/">Loki Services</a>
   communication_types: Text, group chat, photos, files
-  encryption_protocol: NaCl
+  encryption_protocol: Signal
   shared_secret_exchange: "?"
   message_encryption_cipher: "?"
   country_origin: Australia
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
-  android_requires_google_play: 
+  android_requires_google_play: No
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   message_stored_on_server: Temporarily
@@ -2126,12 +2091,12 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google Crashlytics, Mixpanel
-  websites: <a href="https://docs.loki.network/FAQ/">FAQ</a>, <a href="hhttps://loki.network/wp-content/uploads/2018/10/LokiWhitepaperV3_1.pdf">Whitepaper</a>, <a href="https://github.com/loki-project/">Source</a>
-  notes_file: loki_notes.html
-  version_tested: "Android: 1.5.1, MacOS: v1.0.0-beta9, iOS: 1.5.1"
-  last_update: 12/14/2019
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://getsession.org/faq/">FAQ</a>, <a href="https://getsession.org/wp-content/uploads/2020/02/Session-Whitepaper.pdf">Whitepaper</a>, <a href="https://github.com/Loki-project">Source</a>
+  notes_file: session_notes.html
+  version_tested: "Android: 1.1.0, MacOS: v1.0.7, iOS: 1.2.0"
+  last_update: 05/11/2020
 
 - name: riot
   category: 3
@@ -2511,6 +2476,43 @@
 
 # Category 11- Not recommended other reasons
 
+- name: bcm
+  category: 11
+  display_name: BCM Messenger
+  url: https://bcm.social
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: open (Android only)
+  business_model: Independant developers
+  communication_types: Text, photos, videos, audio, files, location, group chat
+  encryption_protocol: <a href="https://bcm.social/faq.html">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: British Virgin Islands
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: "1:1 chats only"
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Whitepaper says yes, I have not found a way to do it in the app
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: AppsFlyer
+  websites: <a href="https://bcm.social/faq.html">FAQ</a>, <a href="https://arxiv.org/abs/1812.08017">Whitepaper</a>
+  notes_file: bcm_notes.html
+  notes_text: "February 2020 BCM shut down and no longer usable."
+  version_tested: 2.7.0-1887
+  last_update: 1/8/2020
+
+
 - name: braxme
   category: 11
   display_name: BraxMe
@@ -2810,7 +2812,7 @@
   notes_file: cypher_notes.html
   version_tested: 0.7.3
   last_update: 1/27/2018
-  notes_text: "December 2017: Golden Frog has no plans to provide further updates"
+  notes_text: "December 2017: Golden Frog has no plans to provide further updates. April 2020: Cyphr will retire in one week, on May 2, 2020, at which time all Cyphr services will end and your account will close."
 
 - name: anytalk
   category: 11

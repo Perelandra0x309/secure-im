@@ -41,6 +41,7 @@
   display_name: Signal
   tagline: 
   privacy_message_score: 3
+  country_origin: USA
   pm_ephemeral: "&#10004;"
   pm_foolproof: 
   pm_no_leaks: "&#10004;"
@@ -72,6 +73,7 @@
   display_name: Threema
   tagline: "Best choice:"
   privacy_message_score: 3
+  country_origin: Switzerland
   pm_ephemeral: 
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
@@ -103,6 +105,7 @@
   display_name: WickrMe
   tagline: "Alternative:"
   privacy_message_score: 4
+  country_origin: USA
   pm_ephemeral: "&#10004;"
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
@@ -133,6 +136,7 @@
   display_name: Keybase
   tagline: "For advanced users, encrypted storage, git and teams:"
   privacy_message_score: 4
+  country_origin: USA
   pm_ephemeral: "&#10004;"
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
@@ -163,6 +167,7 @@
   display_name: TwinMe
   tagline: "Easy to use:"
   privacy_message_score: 3
+  country_origin: France
   pm_ephemeral: 
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
@@ -193,6 +198,7 @@
   display_name: Conversations
   tagline: "For advanced users that self-host:"
   privacy_message_score: 2
+  country_origin: Depends on your server location
   pm_ephemeral: 
   pm_foolproof: 
   pm_no_leaks: 
@@ -224,6 +230,7 @@
   display_name: Briar Project
   tagline: "Android Only over Tor:"
   privacy_message_score: 3
+  country_origin: None (Tor peer to peer network)
   pm_ephemeral: 
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
