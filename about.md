@@ -13,8 +13,8 @@ I test on iOS, Android, MacOS and web applications.  Keep in mind that even thou
 <br id="testsetup">
 My test devices:
 <ul>
-  <li>Motorola G4 Play with stock Android 7.1.1</li>
-  <li>iPhone 5S with iOS 12.4.3</li>
+  <li>Motorola G4 Plus with stock Android 8.1</li>
+  <li>iPhone 5S with iOS 12.4.6</li>
 </ul>
 For apps that require a phone number I use two VOIP numbers that have SMS capability so I don't expose my primary phone number.  One is through the MySudo app on iOS, and the other is through <a target="_blank" href="https://jmp.chat">JMP.chat</a>.  These are only available in the US/Canada.<br>
 <br>

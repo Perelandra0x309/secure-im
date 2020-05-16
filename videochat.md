@@ -67,6 +67,7 @@ With most of the world now staying at home, many people are looking for ways to 
 					<li>Shares all other secure features with WickrMe, see <a href="/centralizedapps.html#wickrme" {{ site.class_button_internal }}>my WickrMe review</a></li>
 				</ul>
 				<p><a href="https://pro-download.wickr.com/#/version/pro" {{ site.class_button_external }}>Download Wickr Pro</a></p>
+				<p><a href="https://wickr.com/how-to-get-set-up-securely-with-video-conferencing/" {{ site.class_button_external }}>How to use Wickr Pro video conferencing</a></p>
 			</div>
 		</div>
 </div>
