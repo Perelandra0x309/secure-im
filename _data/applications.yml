@@ -2066,7 +2066,7 @@
 - name: session
   category: 3
   display_name: Session Messenger
-  url: https://loki.network
+  url: https://getsession.org
   recommendation: 2
   platforms: Android, iOS, MacOS, Windows, Linux (Debian)
   source_type: open
@@ -2093,7 +2093,7 @@
   leaks_files: No
   exodus_privacy_trackers_count: 1
   exodus_privacy_trackers_description: Google Firebase Analytics
-  websites: <a href="https://getsession.org/faq/">FAQ</a>, <a href="https://getsession.org/wp-content/uploads/2020/02/Session-Whitepaper.pdf">Whitepaper</a>, <a href="https://github.com/Loki-project">Source</a>
+  websites: <a href="https://getsession.org/faq/">FAQ</a>, <a href="https://getsession.org/whitepaper">Whitepaper</a>, <a href="https://github.com/Loki-project">Source</a>
   notes_file: session_notes.html
   version_tested: "Android: 1.1.0, MacOS: v1.0.7, iOS: 1.2.0"
   last_update: 05/11/2020
