@@ -1,24 +1,20 @@
 Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/checkmark.gif" />&quot;Highly Recommended&quot; first, then <img src="images/checkmark.gif" />&quot;Worth a Try&quot;, then <img src="images/x.gif" />&quot;Not Recommended&quot; last.  Apps within the same recommendation level are ordered alphabetically.<br>
-<table class="w3-table w3-striped w3-bordered">
-  <tr class="w3-dark-grey"><td><b>Application</b></td>
-  <td><b>Platforms</b></td>
-  <td><b>Communication types</b></td></tr>
+
+
 {% assign recgroups = site.data.applications | where_exp: "item","item.category == page.which_category" | group_by: 'recommendation' %}
 {% for recgroup in recgroups %}
 {% assign applications = recgroup.items | sort: 'name' %}
 {% for application in applications %}
-<tr id="{{ application.name }}" >
-  <td>
+<div id="{{ application.name }}" class="w3-dark-grey">
+    <h3>
     {% if application.recommendation == 1 %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">
     {% elsif application.recommendation == 2 %}<img src="images/checkmark.gif">
     {% else %}<img src="images/x.gif">{% endif %}
-    <a href="{{ application.url }}">{{ application.display_name }}</a>
-  </td>
-  <td>{{ application.platforms }}</td>
-  <td>{{ application.communication_types }}</td>
-</tr>
-<tr><td colspan="4">
-  Version tested: {{ application.version_tested }}<br>
+    <a href="{{ application.url }}">{{ application.display_name }}</a></h3>
+</div>
+<div>
+  Platforms: {{ application.platforms }}<br>
+  Communication types: {{ application.communication_types }}<br>
   Country of origin: {{ application.country_origin }}<br>
   Source code: {{ application.source_type }}<br>
   Encryption protocol: {{ application.encryption_protocol }}<br>
@@ -237,12 +233,13 @@ Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/c
 {% endif %}
 
   Websites: {{ application.websites }}<br>
+  Version tested: {{ application.version_tested }}<br>
   Last tested: {{ application.last_update }}<br>
   <b>Notes:</b><br>
   <br>
   {% include_relative _data/{{ application.notes_file }} %}
-</td></tr>
+</div>
 {% endfor %}
 {% endfor %}
 
-</table>
+
