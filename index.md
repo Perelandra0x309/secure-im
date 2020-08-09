@@ -6,7 +6,7 @@ title: Welcome!
 <center><h1>Welcome!</h1></center>
 <p>This site began as a project to document my research into secure instant messaging applications which started in 2018.  I hope you find these reviews and notes useful if you are also searching.</p>
 <center>
-<p><h2><a href="/favorites.html" {{ site.class_button_internal }}>Instant messaging apps I recommend</a></h2></p>
+<div><h2><a href="/favorites.html" {{ site.class_button_internal }}>Instant messaging apps I recommend</a></h2></div>
 <p><h2><a href="{% link videochat.md %}" {{ site.class_button_internal }}>Video chat options in these times of social distancing</a></h2></p>
 </center>
 
@@ -26,10 +26,15 @@ This is not a matter of hiding anything, you are being proactive about protectin
 <br>
 How do you protect your chat messages?  That is what I will help you to do.  There are some very easy things you can do, and you do not need to do everything suggested here.  Start with one or two changes, and start to get comfortable with being in the mindset of protecting your information.  Any little thing you do will make you more protected than you were before.<br>
 <br>
-One quick note about the buttons that you can click in this guide:
-<ul>
-<li>Any buttons that are blue will <a {{ site.class_button_internal }}>link to other parts of this website</a></li>
-<li>Any buttons that are green will <a {{ site.class_button_external }}>link to another website</a> and these will open in another browser tab.</li>
-</ul>
+<h2>Other pages on this website:</h2>
+<br>
+<a href="{% link _pages/effguide.md %}" {{ site.class_button_internal }}>EFF Guide</a>&nbsp;&nbsp;Select what features you want to see in a messenger and view the results<br>
+<br>
+<a href="{% link _pages/featuresmatrix.md %}" {{ site.class_button_internal }}>App Features Matrix</a>&nbsp;&nbsp;A chart with all the features of reviewed apps, which you can filter<br>
+<br>
+<a href="{% link _pages/notrackers.md %}" {{ site.class_button_internal }}>No Trackers! Hall of Fame</a>&nbsp;&nbsp;Kudos to these Android apps which include zero tracking libraries<br>
+<br>
+<a href="{% link otherwebsites.md %}" {{ site.class_button_internal }}>Other Websites and Resources</a>&nbsp;&nbsp;Links to other recommended reading and privacy oriented websites<br>
+
 
 
