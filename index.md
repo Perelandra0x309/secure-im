@@ -2,10 +2,19 @@
 layout: single
 title: Welcome!
 ---
-<center><h2><a href="{% link videochat.md %}" {{ site.class_button_internal }}>New! Video chat options in these times of social distancing</a></h2></center>
 
-<center><H1>Welcome!</h1></center><br>
-If you are searching for information about the why's and how's of protecting the information you exchange every day with others through chat messages, I hope to give you some guidence.  You can follow the simple step by step guides I have written or you may delve into some fairly detailed analysis and reviews of many messaging applications.  My focus is mostly on Android and iOS messaging apps but I review some desktop apps as well.<br>
+<center><h1>Welcome!</h1></center>
+<p>This site began as a project to document my research into secure instant messaging applications which started in 2018.  I hope you find these reviews and notes useful if you are also searching.</p>
+<center>
+<p><h2><a href="/favorites.html" {{ site.class_button_internal }}>Instant messaging apps I recommend</a></h2></p>
+<p><h2><a href="{% link videochat.md %}" {{ site.class_button_internal }}>Video chat options in these times of social distancing</a></h2></p>
+</center>
+
+<p>Here is a complete index of all the applications I have reviewed from 2018 to 2020.  I have pretty much decided on which are the best options so I don't review new applications much anymore unless I see a really compelling option.  As you can see from this list, there are a lot of applications that just are not worth using for various reasons.<p>
+<center>
+<p><h2><a href="{% link _pages/app_list.md %}" {{ site.class_button_internal }}>Index of all applications reviewed</a></h2></p>
+</center>
+
 <br>
 <h2>Why should I protect my chats?</h2>
 <br>
@@ -22,7 +31,5 @@ One quick note about the buttons that you can click in this guide:
 <li>Any buttons that are blue will <a {{ site.class_button_internal }}>link to other parts of this website</a></li>
 <li>Any buttons that are green will <a {{ site.class_button_external }}>link to another website</a> and these will open in another browser tab.</li>
 </ul>
-<br>
-<center>
-<p>So let's start!</p>
-<p><h2><a href="/favorites.html" {{ site.class_button_internal }}>Click here to see which apps I recommend</a></h2></p>
+
+

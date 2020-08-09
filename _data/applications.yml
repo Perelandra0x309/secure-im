@@ -675,7 +675,7 @@
   category: 2
   display_name: Keybase
   url: https://www.keybase.io
-  recommendation: 1
+  recommendation: 2
   platforms: Android, iOS, MacOS, Windows, Linux (many)
   source_type: partialopen
   business_model: <a href="https://keybase.io/jobs">Investors?</a>
@@ -704,7 +704,7 @@
   websites: <a href="https://github.com/keybase">Source code</a>
   notes_file: keybase_notes.html
   version_tested: 2.2.1
-  last_update: 7/1/2018
+  last_update: 8/9/2020
 
 - name: safeswiss
   category: 2

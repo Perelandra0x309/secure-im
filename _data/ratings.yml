@@ -131,37 +131,6 @@
   notes_file: wickrme_card.html
   last_update: 
 
-- name: keybase
-  level: 2
-  display_name: Keybase
-  tagline: "For advanced users, encrypted storage, git and teams:"
-  privacy_message_score: 4
-  country_origin: USA
-  pm_ephemeral: "&#10004;"
-  pm_foolproof: "&#10004;"
-  pm_no_leaks: "&#10004;"
-  pm_not_recoverable: "&#10004;"
-  pm_pfs: "&#10004;"
-  privacy_id_score: 2
-  pi_no_info: "&#10004;"
-  pi_no_ph_em: 
-  pi_no_trackers: 
-  integrity_score: 2
-  i_audits: 
-  i_cont_ver: 
-  i_strong_ciphers: "&#10004;"
-  i_good_country: 
-  i_good_business: "&#10004;"
-  i_key_changes: "&#10004;"
-  resistance_score: 1
-  r_p2p_dec: 
-  r_opensource: "clients"
-  r_selfhost: 
-  r_platforms: 5
-  install_url: /install_keybase.html
-  notes_file: keybase_card.html
-  last_update: 
-
 - name: twinme
   level: 3
   display_name: TwinMe

@@ -57,7 +57,6 @@ There are various international intelligence sharing agreements, the most well k
 <div class="w3-row-padding">
   {% include favorites_card.html app_name="threema" %}
   {% include favorites_card.html app_name="wickrme" %}
-  {% include favorites_card.html app_name="keybase" %}
 </div>
 
 <br>
