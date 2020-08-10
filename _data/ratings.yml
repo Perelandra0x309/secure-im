@@ -194,6 +194,36 @@
   last_update: 
   
 
+- name: tox
+  level: 4
+  display_name: Tox
+  tagline: "Multiple Operating Systems over Tor:"
+  privacy_message_score: 3
+  country_origin: None (Tor peer to peer network)
+  pm_ephemeral: 
+  pm_foolproof: "&#10004;"
+  pm_no_leaks: "&#10004;"
+  pm_not_recoverable: "&#10004;"
+  pm_pfs: "&#10004;"
+  privacy_id_score: 4
+  pi_no_info: "&#10004;"
+  pi_no_ph_em: "&#10004;"
+  pi_no_trackers: "&#10004;"
+  integrity_score: 3
+  i_audits: 
+  i_cont_ver: "&#10004;"
+  i_strong_ciphers: "&#10004;"
+  i_good_country: "&#10004;"
+  i_good_business: "&#10004;"
+  i_key_changes: "N/A"
+  resistance_score: 4
+  r_p2p_dec: "&#10004;"
+  r_opensource: "&#10004;"
+  r_selfhost: "&#10004;"
+  r_platforms: Many
+  install_url: https://tox.chat/download.html
+  notes_file: tox_card.html
+
 - name: briar
   level: 4
   display_name: Briar Project
@@ -223,4 +253,35 @@
   r_platforms: 1
   install_url: /install_briar.html
   notes_file: briar_card.html
+  last_update: 
+
+- name: cabal
+  level: 5
+  display_name: Cabal
+  tagline: "Built on DAT:"
+  privacy_message_score: 2
+  country_origin: None (Tor peer to peer network)
+  pm_ephemeral: 
+  pm_foolproof: "&#10004;"
+  pm_no_leaks: "&#63;"
+  pm_not_recoverable: "&#10004;"
+  pm_pfs: 
+  privacy_id_score: 4
+  pi_no_info: "&#10004;"
+  pi_no_ph_em: "&#10004;"
+  pi_no_trackers: "&#10004;"
+  integrity_score: 2
+  i_audits: 
+  i_cont_ver: 
+  i_strong_ciphers: "&#10004;"
+  i_good_country: "&#10004;"
+  i_good_business: "&#10004;"
+  i_key_changes: "N/A"
+  resistance_score: 4
+  r_p2p_dec: "&#10004;"
+  r_opensource: "&#10004;"
+  r_selfhost: "&#10004;"
+  r_platforms: 3
+  install_url: https://cabal.chat/download.html
+  notes_file: cabal_card.html
   last_update: 

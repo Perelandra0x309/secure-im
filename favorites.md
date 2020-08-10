@@ -73,9 +73,17 @@ There are various international intelligence sharing agreements, the most well k
 	<h2><strong>Level 4: Alternative Networks</strong></h2>
 </div>
 <div class="w3-row-padding">
+  {% include favorites_card.html app_name="tox" %}
   {% include favorites_card.html app_name="briar" %}
 </div>
 
+<br>
+<div class="w3-row">
+	<h2><strong>Level 5: Experimental (know what you're doing)</strong></h2>
+</div>
+<div class="w3-row-padding">
+  {% include favorites_card.html app_name="cabal" %}
+</div>
 
 <p>
 <h2>Details on scores for each app:</h2>

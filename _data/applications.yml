@@ -3013,7 +3013,7 @@
   category: 12
   display_name: Tox
   url: https://tox.chat/
-  recommendation: 3
+  recommendation: 2
   platforms: <a href="https://tox.chat/download.html">Windows, MacOS, Linux, FreeBSD, iOS, Android</a>
   business_model: Free open source project
   communication_types: Text, voice, video, screen sharing, file sharing
@@ -3040,7 +3040,7 @@
   exodus_privacy_trackers_description: Depends on the client
   websites: <a href="https://github.com/TokTok/c-toxcore">toxcore source</a>
   notes_file: tox_notes.html
-  last_update: 12/01/2018
+  last_update: 8/09/2020
 
 - name: xmpp
   category: 12
