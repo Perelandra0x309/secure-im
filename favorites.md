@@ -336,7 +336,7 @@ Notes within [brackets] are potential negative attributes
   </ul>
 Use with caution:<br>
 <ul>
-    <li>{% include generate_app_link.html app_name="riot" %}- [connects to non-encrypted message systems, Based in the UK, no ephemeral messages]</li>
+    <li>{% include generate_app_link.html app_name="element" %}- [connects to non-encrypted message systems, Based in the UK, no ephemeral messages]</li>
 </ul>
   December 2018: Recently there have been some troubling laws passed and articles written in the UK and Australia (part of the <a href="https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/">5 eyes countries</a>) that may cause issues with trust in applications developed in those countries.  Both countries now seem to be pushing for backdoor access for government surveillance to be built into secure messaging applications.  Not only will this weaken or break End to End security, but apps that are not open source from those countries may no longer be trusted and may be used for a mass surveillance program.  Here are some recent articles.<br>
   <a href="https://www.lawfareblog.com/principles-more-informed-exceptional-access-debate">Principles for a More Informed Exceptional Access Debate</a><br>
