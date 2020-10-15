@@ -2119,7 +2119,7 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: No
-  encypted_by_default: No
+  encypted_by_default: Yes
   puddle_test: Not Recoverable
   puddle_test_note: Messages are saved on the server, however if the session keys are lost then they cannot be decrypted.
   hammer_test: Not Recoverable
