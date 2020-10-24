@@ -2091,12 +2091,12 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
   websites: <a href="https://getsession.org/faq/">FAQ</a>, <a href="https://getsession.org/whitepaper">Whitepaper</a>, <a href="https://github.com/Loki-project">Source</a>
   notes_file: session_notes.html
-  version_tested: "Android: 1.1.0, MacOS: v1.0.7, iOS: 1.2.0"
-  last_update: 05/11/2020
+  version_tested: "Android: 1.6.1, MacOS: v1.4.0, iOS: 1.2.0"
+  last_update: 10/24/2020
 
 - name: element
   category: 3
