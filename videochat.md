@@ -34,17 +34,22 @@ With most of the world now staying at home, many people are looking for ways to 
 				<p><a href="https://whereby.com" {{ site.class_button_external }}>Whereby website</a></p>
 				<hr>
 			
-				<p><h3>Webex</h3></p>
-				<p>For creating video and audio gatherings for friends, family or for business where everyone agrees to meet at a specific time I recommend using Webex.  This is a well trusted product used mostly by businesses, but now they are opening up registration to anyone for free.  Here are some features and benefits of this product:</p>
+				<p><h3>Jitsi Meet</h3></p>
+				<p>Jitsi Meet is an open source video conferencing system that can be setup on your own server or you can use a server provided by one of many organizations.  Data is encrypted from your device to the server, however it is decrypted on the server so be sure to use a server you trust.  Here are some features and benefits of this product:</p>
 				<ul>
-					<li>Up to 100 participants in a meeting.</li>
-					<li>Only the host of the meeting needs to register an account on Webex.  Anyone invited to a meeting by the host does not need to register, however signing in without an account does require providing an email address.</li>
-					<li>You have a personal room web address that does not change.  If someone wants to start a chat with you they can send you a request if you are not logged into the room.  This makes it possible to meet outside of scheduled meeting times.</li>
-					<li>No software needs to be installed to join a meeting, just use your web browser.</li>
-					<li>Fully encrypted and secure.</li>
+					<li>No account needed</li>
+					<li>Screen sharing and presentations</li>
+					<li>Etherpad integration</li>
+					<li>Applications available for <A href="https://github.com/jitsi/jitsi-meet-electron/">desktop</a> and <a href="https://jitsi.org/#download">mobile devices</a>.  On Android using the <a href="https://f-droid.org/en/packages/org.jitsi.meet/">F-Droid</a> version is recommended.</li>
 					<li>Servers located all around the world.</li>
 				</ul>
-				<p><a href="https://www.webex.com" {{ site.class_button_external }}>Signup at Webex.com</a></p>
+				<p>Recommended servers:</p>
+				<ul>
+                    <li><a href="https://www.kuketz-meet.de">Kuketz Blog instance</a> (Germany)</li>
+                    <li><a href="https://meet.calyx.net">Calyx Institute</a> (USA)</li>
+                </ul>
+                <p>If you are setting up your own Meet server, here are <a href="https://www.kuketz-blog.de/jitsi-meet-server-einstellungen-fuer-einen-datenschutzfreundlichen-betrieb/">instructions from Mike Kuketz</a> on how to make your server even better for privacy.</p>
+				<p><a href="https://jitsi.org/jitsi-meet/" {{ site.class_button_external }}>Jitsi Meet website</a></p>
 			</div>
 		</div>
 </div>
