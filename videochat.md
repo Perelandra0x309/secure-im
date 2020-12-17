@@ -17,14 +17,14 @@ With most of the world now staying at home, many people are looking for ways to 
 <div class="w3-row-padding">
 		<div class="w3-card-4">
 			<header class="w3-container w3-grey">
-				<h2>I want a video and audio chat program with scheduled or spontaneous gatherings</h2>
+				<h2>Group video and audio calls (No account needed)</h2>
 			</header>
 			<div class="w3-container">
 			
 				<p><h3>Whereby</h3></p>
 				<p>This is a great choice for small groups of 4 or less.  Audio and video is end to end encrypted and either sent directly from device to device or through the Whereby TURN server.</p>
 				<ul>
-					<li>Up to 4 participants in a meeting</li>
+					<li>Up to 4 participants in a meeting (Temporarily up to 50 participants until Jan 8, 2021)</li>
 					<li>Guests do not need to sign up for an account or download any software</li>
 					<li>The meeting host can lock the room so any guests must "knock" and be let in before they can participate</li>
 					<li>You get a personal room address that does not change</li>
@@ -45,8 +45,9 @@ With most of the world now staying at home, many people are looking for ways to 
 				</ul>
 				<p>Recommended servers:</p>
 				<ul>
-                    <li><a href="https://www.kuketz-meet.de">Kuketz Blog instance</a> (Germany)</li>
+                    <li><a href="https://www.kuketz-meet.de">Kuketz Blog instance</a> (Germany) Note: Limit 8 persons per meeting</li>
                     <li><a href="https://meet.calyx.net">Calyx Institute</a> (USA)</li>
+                    <li><a href="https://talk.snopyta.org">Snopyta.org</a> (Finland)</li>
                 </ul>
                 <p>If you are setting up your own Meet server, here are <a href="https://www.kuketz-blog.de/jitsi-meet-server-einstellungen-fuer-einen-datenschutzfreundlichen-betrieb/">instructions from Mike Kuketz</a> on how to make your server even better for privacy.</p>
 				<p><a href="https://jitsi.org/jitsi-meet/" {{ site.class_button_external }}>Jitsi Meet website</a></p>
@@ -59,8 +60,21 @@ With most of the world now staying at home, many people are looking for ways to 
 <div class="w3-row-padding">
 		<div class="w3-card-4">
 			<header class="w3-container w3-grey">
-				<h2>I want video, audio and messaging to instantly contact people</h2>
+				<h2>Group video and audio calls and instant messaging (Account signup required)</h2>
 			</header>
+			<div class="w3-container">
+				<p><h3>Signal</h3></p>
+				<p>For communicating with people who already know your phone number Signal is a great option.  It can be used for individual instant messages that are fully encrypted as well.  Group calls are limited to 5 people.</p>
+				<ul>
+                    <li>Chat or call with other Signal users individually or in group rooms</li>
+                    <li>Up to 5 participants in groups calls, 150 participants in group text chats</li>
+                    <li>Works on mobile and desktop</li>
+                    <li>Fully end to end encrypted</li>
+                    <li>Be aware that your phone number is your ID and will be known to anyone you connect with on Signal</li>
+                </ul>
+                <p><a href="https://www.signal.org" {{ site.class_button_external }}>Signal website</a></p>
+				<p><a href="/centralizedapps.html#signal" {{ site.class_button_internal }}>My Signal review</a></p>
+            </div>
 			<div class="w3-container">
 				<p><h3>Wickr Pro</h3></p>
 				<p>Wickr Pro is normally used for businesses, but they are now offering <a href="https://wickr.com/wickr-extends-wickr-pro-service-offerings-for-free-amidst-urgent-spike-in-remote-work/" {{ site.class_button_external }}>free accounts for anyone</a>.  To use this product everyone must register themselves for an account using an email address.  Wickr Pro offers instant messages and instant calling and video chat to one or more other Wickr Pro users.</p>
@@ -82,14 +96,19 @@ With most of the world now staying at home, many people are looking for ways to 
 <div class="w3-row-padding">
 		<div class="w3-card-4">
 			<header class="w3-container w3-grey">
-				<h2>I only need one on one chats with other people on phones</h2>
+				<h2>One on one chats with other people on phones</h2>
 			</header>
 			<div class="w3-container">
-				<p>In this case these options may suit you:</p>
+				<p><h3>TwinMe</h3></p>
+				<p>TwinMe is another option that can do instant messaging with individuals or in groups, but it can only do video and audio calls with one person.</p>
 				<ul>
-					<li>For people who know your phone number use <a href="/centralizedapps.html#signal" {{ site.class_button_internal }}>Signal</a></li>
-					<li>For those who you don't want to give your phone number use <a href="/p2papps.html#twinme" {{ site.class_button_internal }}>TwinMe</a></li>
+                    <li>End to end encryption</li>
+                    <li>Chats and calls go directly from source device to target device.  The TwinMe servers are only used for devices to initially find each other.</li>
+                    <li>No personal information needs to be provided to use the app</li>
+					
 				</ul>
+				<p><a href="https://twin.me" {{ site.class_button_external }}>TwinMe website</a></p>
+				<p><a href="/p2papps.html#twinme" {{ site.class_button_internal }}>My TwinMe review</a></p>
 			</div>
 		</div>
 </div>
