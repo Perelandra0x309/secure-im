@@ -5,7 +5,7 @@ permalink: /notrackers.html
 ---
 Recommendation key:<br>
 <ul>
-  <li><img src="images/checkmark.gif"><img src="images/checkmark.gif">- Highly recommended</li>
+  <li><img src="images/checkmarkplus.gif">- Highly recommended</li>
   <li><img src="images/checkmark.gif">- Worth a try</li>
 </ul>
 <br>
@@ -21,7 +21,7 @@ Recommended Android apps that have no trackers (according to <a href="https://ex
 {% elsif application.category == 11 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link rejectedapps.md %}#{{ application.name }}">{{ application.display_name }}</a>{% endcapture %}
 {% elsif application.category == 12 %}{% capture htmllink %}<a href="{{ site.baseurl }}{% link protocols.md %}#{{ application.name }}">{{ application.display_name }}</a> (Messaging Protocol){% endcapture %}
 {% endif %}
-{% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+{% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmarkplus.gif">{% endcapture %}
 {% elsif application.recommendation == 2 %}{% capture htmlimage %}<img src="images/checkmark.gif">{% endcapture %}
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}

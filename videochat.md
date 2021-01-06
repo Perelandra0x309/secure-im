@@ -66,6 +66,7 @@ With most of the world now staying at home, many people are looking for ways to 
 				<p><h3>Signal</h3></p>
 				<p>For communicating with people who already know your phone number Signal is a great option.  It can be used for individual instant messages that are fully encrypted as well.  Group calls are limited to 5 people.</p>
 				<ul>
+                    <li>Available for Android and iOS with companion apps on MacOS, Windows and Linux (Debian)</li>
                     <li>Chat or call with other Signal users individually or in group rooms</li>
                     <li>Up to 5 participants in groups calls, 150 participants in group text chats</li>
                     <li>Works on mobile and desktop</li>
@@ -79,10 +80,12 @@ With most of the world now staying at home, many people are looking for ways to 
 				<p><h3>Wickr Pro</h3></p>
 				<p>Wickr Pro is normally used for businesses, but they are now offering <a href="https://wickr.com/wickr-extends-wickr-pro-service-offerings-for-free-amidst-urgent-spike-in-remote-work/" {{ site.class_button_external }}>free accounts for anyone</a>.  To use this product everyone must register themselves for an account using an email address.  Wickr Pro offers instant messages and instant calling and video chat to one or more other Wickr Pro users.</p>
 				<ul>
+                    <li>Available for Android, iOS, MacOS, Windows and Linux (via Snap)</li>
 					<li>Chat or call with other Wickr Pro users individually or in group rooms</li>
 					<li>Up to 30 participants in a video chat</li>
 					<li>Multiple people can be designated as admins to a room and fully control who can enter a room</li>
 					<li>Fully encrypted and secure</li>
+					<li>Be aware that the email you signed up with is your ID so anyone you connect with in WickrPro will know this email address</li>
 					<li>Shares all other secure features with WickrMe, see <a href="/centralizedapps.html#wickrme" {{ site.class_button_internal }}>my WickrMe review</a></li>
 				</ul>
 				<p><a href="https://pro-download.wickr.com/#/version/pro" {{ site.class_button_external }}>Download Wickr Pro</a></p>
@@ -96,12 +99,27 @@ With most of the world now staying at home, many people are looking for ways to 
 <div class="w3-row-padding">
 		<div class="w3-card-4">
 			<header class="w3-container w3-grey">
-				<h2>One on one chats with other people on phones</h2>
+				<h2>One on one video and audio calls on phones</h2>
 			</header>
+			<div class="w3-container">
+				<p><h3>Threema</h3></p>
+				<p>Threema is a very secure messenger based in Switzerland.  You can have individual and groups chats as well as one-on-one video calls.  This is a paid app, however the one time cost is very reasonable at about the price of one coffee.</p>
+				<ul>
+                    <li>Available for Android and iOS</li>
+                    <li>Chat with other Threema users individually or in group rooms</li>
+                    <li>Up to 100 participants in group text chats</li>
+                    <li>Fully end to end encrypted</li>
+                    <li>If purchased through the Play Store or Apple App Store no personal information is needed.  There is also an option to purchase directly on the website, which does require giving personal information and payment method.</li>
+                    <li>Depending on the level of trust between contacts video calls will be either relayed through a TURN server (unverified contacts) or relayed directly between devices (verified contacts).</li>
+                </ul>
+                <p><a href="https://www.threema.ch" {{ site.class_button_external }}>Threema website</a></p>
+				<p><a href="/centralizedapps.html#threema" {{ site.class_button_internal }}>My Threema review</a></p>
+            </div>
 			<div class="w3-container">
 				<p><h3>TwinMe</h3></p>
 				<p>TwinMe is another option that can do instant messaging with individuals or in groups, but it can only do video and audio calls with one person.</p>
 				<ul>
+                    <li>Available for Android and iOS</li>
                     <li>End to end encryption</li>
                     <li>Chats and calls go directly from source device to target device.  The TwinMe servers are only used for devices to initially find each other.</li>
                     <li>No personal information needs to be provided to use the app</li>

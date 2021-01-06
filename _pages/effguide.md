@@ -106,7 +106,7 @@ Read EFF's <a href="https://www.eff.org/deeplinks/2018/03/thinking-about-what-yo
 <th style="display:none">Recomendation</th>
 
 {% for application in applications %}
-{% if application.recommendation == 1 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+{% if application.recommendation == 1 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img  src="images/checkmarkplus.gif">{% endcapture %}
 {% elsif application.recommendation == 2 %}{% capture htmlimage %}<div style="display:none;">recommended</div><img src="images/checkmark.gif">{% endcapture %}
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}

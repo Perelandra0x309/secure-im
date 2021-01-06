@@ -88,7 +88,7 @@ Features Matrix:
 
 {% for application in applications %}
 {% if application.recommendation == 1 %}
-  {% capture htmlimage %}<img  src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+  {% capture htmlimage %}<img  src="images/checkmarkplus.gif">{% endcapture %}
   {% capture recdiv %}<div style="display:none;">recommended</div>{% endcapture %}
 {% elsif application.recommendation == 2 %}
   {% capture htmlimage %}<img src="images/checkmark.gif">{% endcapture %}

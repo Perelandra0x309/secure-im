@@ -23,7 +23,7 @@ This is an alphabetical index of all the {{ total_count }} apps reviewed on this
 <br>
 Recommendation key:<br>
 <ul>
-  <li><img src="images/checkmark.gif"><img src="images/checkmark.gif">- Highly recommended</li>
+  <li><img src="images/checkmarkplus.gif">- Highly recommended</li>
   <li><img src="images/checkmark.gif">- Worth a try</li>
   <li><img src="images/x.gif">- Stay away!</li>
 </ul>
@@ -51,7 +51,7 @@ Recommendation key:<br>
 {% elsif application.category == 12 %}{% capture htmllink %}<a id="{{ current_letter }}{{ letterindex }}" href="{{ site.baseurl }}{% link protocols.md %}#{{ application.name }}">{{ application.display_name }}</a> (Messaging Protocol){% endcapture %}
 {% else %}{% capture htmllink %}{{ application.display_name }}{% endcapture %}
 {% endif %}
-{% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">{% endcapture %}
+{% if application.recommendation == 1 %}{% capture htmlimage %}<img src="images/checkmarkplus.gif">{% endcapture %}
 {% elsif application.recommendation == 2 %}{% capture htmlimage %}<img src="images/checkmark.gif">{% endcapture %}
 {% else %}{% capture htmlimage %}<img src="images/x.gif">{% endcapture %}
 {% endif %}

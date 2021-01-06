@@ -1,4 +1,4 @@
-Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/checkmark.gif" />&quot;Highly Recommended&quot; first, then <img src="images/checkmark.gif" />&quot;Worth a Try&quot;, then <img src="images/x.gif" />&quot;Not Recommended&quot; last.  Apps within the same recommendation level are ordered alphabetically.<br>
+Apps are listed in order of <img src="images/checkmarkplus.gif" />&quot;Highly Recommended&quot; first, then <img src="images/checkmark.gif" />&quot;Worth a Try&quot;, then <img src="images/x.gif" />&quot;Not Recommended&quot; last.  Apps within the same recommendation level are ordered alphabetically.<br>
 
 
 {% assign recgroups = site.data.applications | where_exp: "item","item.category == page.which_category" | group_by: 'recommendation' %}
@@ -7,7 +7,7 @@ Apps are listed in order of <img src="images/checkmark.gif" /><img src="images/c
 {% for application in applications %}
 <div id="{{ application.name }}" class="w3-dark-grey">
     <h3>
-    {% if application.recommendation == 1 %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">
+    {% if application.recommendation == 1 %}<img src="images/checkmarkplus.gif">
     {% elsif application.recommendation == 2 %}<img src="images/checkmark.gif">
     {% else %}<img src="images/x.gif">{% endif %}
     <a href="{{ application.url }}">{{ application.display_name }}</a></h3>

@@ -56,7 +56,7 @@ There are various international intelligence sharing agreements, the most well k
 </div>
 <div class="w3-row-padding">
   {% include favorites_card.html app_name="threema" %}
-  {% include favorites_card.html app_name="wickrme" %}
+  {% include favorites_card.html app_name="wire" %}
 </div>
 
 <br>
@@ -327,7 +327,8 @@ There are various international intelligence sharing agreements, the most well k
 <h2>Some other apps that are worth considering:</h2>
 Notes within [brackets] are potential negative attributes
   <ul>
-    <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, no ephemeral messages, PFS or contact verification, 2 trackers]</li>
+    <li>{% include generate_app_link.html app_name="bbme" %}- [Based in Canada, 3 trackers]</li>
+    <li>{% include generate_app_link.html app_name="wickrme" %}- [Based in USA, 3 trackers]</li>
     <li>{% include generate_app_link.html app_name="babelnet" %}- Very nice syncing between multiple devices, based outside of the 14 eyes [User interface needs clarified wording, trouble connecting with LineageOS, 1 tracker]</li>
     <li>{% include generate_app_link.html app_name="pixart" %}- A fork of Conversations that has a simpler interface</li>
     <li>{% include generate_app_link.html app_name="quicksy" %}- A fork of Conversations that makes it easy to signup, your phone number is used as your ID.</li>

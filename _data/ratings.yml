@@ -91,9 +91,9 @@
   i_good_country: "&#10004;"
   i_good_business: "&#10004;"
   i_key_changes: "N/A"
-  resistance_score: 1
+  resistance_score: 2
   r_p2p_dec: 
-  r_opensource: "crypto lib, API"
+  r_opensource: "Client"
   r_selfhost: 
   r_platforms: 2
   install_url: /install_threema.html
@@ -129,6 +129,68 @@
   r_platforms: 5
   install_url: /install_wickrme.html
   notes_file: wickrme_card.html
+  last_update: 
+
+- name: BBMe
+  level: 2
+  display_name: BBMe
+  tagline: "Alternative:"
+  privacy_message_score: 3
+  country_origin: Canada
+  pm_ephemeral: 
+  pm_foolproof: "&#10004;"
+  pm_no_leaks: "&#10004;"
+  pm_not_recoverable: 
+  pm_pfs: "&#10004;"
+  privacy_id_score: 2
+  pi_no_info: "&#10004;"
+  pi_no_ph_em: 
+  pi_no_trackers: 
+  integrity_score: 3
+  i_audits: 
+  i_cont_ver: "&#10004;"
+  i_strong_ciphers: "&#10004;"
+  i_good_country: 
+  i_good_business: "&#10004;"
+  i_key_changes: "&#10004;"
+  resistance_score: 1
+  r_p2p_dec: 
+  r_opensource: 
+  r_selfhost: 
+  r_platforms: 4
+  install_url: 
+  notes_file: wickrme_card.html
+  last_update: 
+
+- name: wire
+  level: 2
+  display_name: Wire
+  tagline: "Alternative:"
+  privacy_message_score: 3
+  country_origin: Switzerland
+  pm_ephemeral: "&#10004;"
+  pm_foolproof: "&#10004;"
+  pm_no_leaks: "&#10004;"
+  pm_not_recoverable: 
+  pm_pfs: "&#10004;"
+  privacy_id_score: 2
+  pi_no_info: "&#10004;"
+  pi_no_ph_em: 
+  pi_no_trackers: 
+  integrity_score: 4
+  i_audits: "&#10004;"
+  i_cont_ver: "&#10004;"
+  i_strong_ciphers: "&#10004;"
+  i_good_country: "&#10004;"
+  i_good_business: "&#10004;"
+  i_key_changes: "N/A"
+  resistance_score: 2
+  r_p2p_dec: 
+  r_opensource: "Client"
+  r_selfhost: 
+  r_platforms: 6
+  install_url: https://wire.com/en/download/
+  notes_file: wire_card.html
   last_update: 
 
 - name: twinme
@@ -239,8 +301,8 @@
   pi_no_info: "&#10004;"
   pi_no_ph_em: "&#10004;"
   pi_no_trackers: "&#10004;"
-  integrity_score: 3
-  i_audits: 
+  integrity_score: 4
+  i_audits: "&#10004;"
   i_cont_ver: "&#10004;"
   i_strong_ciphers: "&#10004;"
   i_good_country: "&#10004;"

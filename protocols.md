@@ -14,7 +14,7 @@ Some protocols are used by many applications, so all the applications that use t
 {% for application in applications %}
 <tr id="{{ application.name }}" >
   <td>
-    {% if application.recommendation == 1 %}<img src="images/checkmark.gif"><img src="images/checkmark.gif">
+    {% if application.recommendation == 1 %}<img src="images/checkmarkplus.gif">
     {% elsif application.recommendation == 2 %}<img src="images/checkmark.gif">
     {% else %}<img src="images/x.gif">{% endif %}
     <a href="{{ application.url }}">{{ application.display_name }}</a>

@@ -636,112 +636,6 @@
 
 # Category 2- Centralized
 
-- name: bbme
-  category: 2
-  display_name: Blackberry Messenger Enterprise
-  url: https://www.blackberry.com/us/en/products/messaging/bbm-enterprise/bbme
-  recommendation: 1
-  platforms: Android, iOS, MacOS, Windows, BlackBerry
-  source_type: closed
-  business_model: Subscriptions
-  communication_types: Text, group chat, audio and video chat, photos, audio clips, files, location, contacts, screen sharing
-  encryption_protocol: <a href="https://www.certicom.com/content/certicom/en/products-and-services/security-libraries.html">BlackBerry Certicom</a>
-  shared_secret_exchange: ECDH P521
-  message_encryption_cipher: AES-256
-  country_origin: Canada
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: No
-  message_stored_on_server: Yes
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google Firebase Analytics, MixPanel
-  websites: <a href="https://docs.blackberry.com/content/dam/docs-blackberry-com/release-pdfs/en/bbm-enterprise/BBM_Enterprise_Security_Note.pdf">BBM Enterprise Security Note</a>
-  notes_file: bbme_notes.html
-  version_tested: 1.7.0.11 (Android), 1.7.0.13 (iOS), 1.6.0.15 (MacOS)
-  last_update: 5/3/2019
-
-- name: keybase
-  category: 2
-  display_name: Keybase
-  url: https://www.keybase.io
-  recommendation: 2
-  platforms: Android, iOS, MacOS, Windows, Linux (many)
-  source_type: partialopen
-  business_model: <a href="https://keybase.io/jobs">Investors?</a>
-  communication_types: Text, group chat, file sharing
-  encryption_protocol: <a href="https://keybase.io/docs/crypto/overview">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: XSalsa20
-  country_origin: USA
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Only for &quot;exploding&quot; messages
-  message_stored_on_server: 
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: 
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
-  websites: <a href="https://github.com/keybase">Source code</a>
-  notes_file: keybase_notes.html
-  version_tested: 2.2.1
-  last_update: 8/9/2020
-
-- name: safeswiss
-  category: 2
-  display_name: SafeSwiss
-  url: https://safeswiss.com
-  recommendation: 2
-  platforms: Android, iOS, Windows
-  source_type: closed
-  business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
-  communication_types: Text, group chat, voice, pictures, video, location
-  encryption_protocol: <a href="https://safeswiss.com/faq">NaCl</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: XSalsa20
-  country_origin: Switzerland
-  country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Never
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages saved only on device
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on both sending and receiving devices
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics, HockeyApp
-  websites: <a href="https://safeswiss.com/encryption">Encryption</a>
-  notes_file: safeswiss_notes.html
-  version_tested: 1.4.20
-  last_update: 12/5/2019
-
 - name: signal
   category: 2
   display_name: Signal
@@ -784,7 +678,7 @@
   display_name: Threema
   url: https://threema.ch
   recommendation: 1
-  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Windows Phone, Web
+  platforms: Android (<a href="https://shop.threema.ch/">Threema Shop</a>), iOS, Web
   source_type: partialopen
   business_model: One time app purchase fee
   communication_types: Text, group chat, voice, files, voice chat
@@ -815,45 +709,11 @@
   version_tested: 3.55
   last_update: 11/24/2018
 
-- name: wickrme
-  category: 2
-  display_name: WickrMe
-  url: https://wickr.com/products/personal/
-  recommendation: 1
-  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux (Ubuntu 16.04)</a>
-  source_type: partialopen
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, videos, files, audio message, voice calls
-  encryption_protocol: <a href="https://github.com/WickrInc/wickr-crypto-c/wiki">Wickr Messaging Protocol</a>
-  shared_secret_exchange: ECDH P521
-  message_encryption_cipher: AES-256
-  country_origin: USA
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
-  hammer_test: Not Recoverable
-  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Bugsnag, Countly, Google Firebase Analytics
-  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
-  notes_file: wickrme_notes.html
-  version_tested: 4.62.0
-  last_update: 10/30/2018
 
 - name: bat
   category: 2
   display_name: Bat Messenger
-  url: https://www.batmessenger.com
+  url: https://www.bat.me
   recommendation: 2
   platforms: Android, iOS
   source_type: closed
@@ -886,6 +746,41 @@
   version_tested: 3.4.0
   last_update: 12/28/2019
 
+- name: bbme
+  category: 2
+  display_name: Blackberry Messenger Enterprise
+  url: https://www.blackberry.com/us/en/products/messaging/bbm-enterprise/bbme
+  recommendation: 2
+  platforms: Android, iOS, MacOS, Windows
+  source_type: closed
+  business_model: Subscriptions
+  communication_types: Text, group chat, audio and video chat, photos, audio clips, files, location, contacts, screen sharing
+  encryption_protocol: <a href="https://www.certicom.com/content/certicom/en/products-and-services/security-libraries.html">BlackBerry Certicom</a>
+  shared_secret_exchange: ECDH P521
+  message_encryption_cipher: AES-256
+  country_origin: Canada
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Glympse, Google Firebase Analytics, MixPanel
+  websites: <a href="https://docs.blackberry.com/content/dam/docs-blackberry-com/release-pdfs/en/bbm-enterprise/BBM_Enterprise_Security_Note.pdf">BBM Enterprise Security Note</a>
+  notes_file: bbme_notes.html
+  version_tested: 1.11.1.13 (Android), 1.7.0.13 (iOS), 1.6.0.15 (MacOS)
+  last_update: 1/5/2021
+
 - name: brosix
   category: 2
   display_name: Brosix
@@ -897,7 +792,7 @@
   communication_types: Text, group chat, files, voice, video, location
   encryption_protocol: "?"
   shared_secret_exchange: "?"
-  message_encryption_cipher: "?"
+  message_encryption_cipher: AES-256
   country_origin: Bulgaria
   requires_phone_number: No
   requires_email: Yes
@@ -922,11 +817,117 @@
   version_tested: 4.0.94
   last_update: 12/19/2018
 
+- name: keybase
+  category: 2
+  display_name: Keybase
+  url: https://www.keybase.io
+  recommendation: 3
+  platforms: Android, iOS, MacOS, Windows, Linux (many)
+  source_type: partialopen
+  business_model: <a href="https://keybase.io/jobs">Investors?</a>
+  communication_types: Text, group chat, file sharing
+  encryption_protocol: <a href="https://keybase.io/docs/crypto/overview">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Only for &quot;exploding&quot; messages
+  message_stored_on_server: 
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: 
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://github.com/keybase">Source code</a>
+  notes_file: keybase_notes.html
+  version_tested: 5.5.0
+  last_update: 12/31/2020
+
+- name: safeswiss
+  category: 2
+  display_name: SafeSwiss
+  url: https://safeswiss.com
+  recommendation: 2
+  platforms: Android, iOS, Windows
+  source_type: closed
+  business_model: <a href="https://safeswiss.com/about-us">Digital communication security solutions</a>
+  communication_types: Text, group chat, voice, pictures, video, location
+  encryption_protocol: <a href="https://safeswiss.com/faq">NaCl</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
+  country_origin: Switzerland
+  country_origin_source: https://lu.chregister.ch/cr-portal/auszug/auszug.xhtml;?uid=CHE-141.225.695
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Never
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics, HockeyApp
+  websites: <a href="https://safeswiss.com/encryption">Encryption</a>
+  notes_file: safeswiss_notes.html
+  version_tested: 1.4.20
+  last_update: 12/5/2019
+
+- name: wickrme
+  category: 2
+  display_name: WickrMe
+  url: https://wickr.com/products/me/
+  recommendation: 2
+  platforms: <a href="https://me-download.wickr.com/#/version/me">Android, iOS, MacOS, Windows, Linux (Snap)</a>
+  source_type: partialopen
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, videos, files, audio message, voice calls
+  encryption_protocol: <a href="https://github.com/WickrInc/wickr-crypto-c/wiki">Wickr Messaging Protocol</a>
+  shared_secret_exchange: ECDH P521
+  message_encryption_cipher: AES-256
+  country_origin: USA
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device. Contacts are recovered.
+  hammer_test: Not Recoverable
+  hammer_test_note: Every message is ephemeral, chats can be manually deleted.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Bugsnag, Countly, Google Firebase Analytics
+  websites: <a href="https://github.com/WickrInc/wickr-crypto-c">Secure Messaging Protocol source</a>
+  notes_file: wickrme_notes.html
+  version_tested: 4.62.0
+  last_update: 10/30/2018
+
 - name: kedr
   category: 2
   display_name: Kedr
   url: https://kedr.io/
-  recommendation: 2
+  recommendation: 3
   platforms: Android, iOS
   source_type: closed
   business_model: "?"
@@ -955,14 +956,14 @@
   websites: 
   notes_file: kedr_notes.html
   version_tested: Android 1.8.2, iOS 2.13
-  last_update: 8/3/2019
+  last_update: 1/1/2021
 
 - name: mysudo
   category: 2
   display_name: MySudo
   url: https://mysudo.com
   recommendation: 2
-  platforms: iOS
+  platforms: Android, iOS
   source_type: closed
   business_model: Monthly subscription fee
   communication_types: text, voice call, photos, contacts, location
@@ -996,7 +997,7 @@
   category: 2
   display_name: SafeText
   url: https://safe-text.com
-  recommendation: 2
+  recommendation: 3
   platforms: Android, iOS, Web
   source_type: closed
   business_model: "?"
@@ -1025,7 +1026,7 @@
   websites: <a href="https://safe-text.com/privacy/">Privacy Policy</a>, <a href ="https://safe-text.com/terms-of-service/">Terms of Service</a>
   notes_file: safetext_notes.html
   version_tested: "Android: 1.1.79, iOS: 1.0.118"
-  last_update: 10/27/2018
+  last_update: 1/1/2021
 
 - name: tungsten
   category: 2
@@ -1063,40 +1064,6 @@
   version_tested: 1.4.1
   last_update: 4/10/2019
 
-- name: whispeer
-  category: 2
-  display_name: Whispeer
-  url: https://whispeer.de
-  recommendation: 2
-  platforms: Android, iOS, Web
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, photos, files, audio recordings
-  encryption_protocol: "?"
-  shared_secret_exchange: "?"
-  message_encryption_cipher: "?"
-  country_origin: Germany
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: "?"
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server.
-  hammer_test: Recoverable
-  hammer_test_note: There does not seem to be any way to delete messages or your account.
-  has_contact_verification: Yes
-  leaks_files: No
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
-  websites: 
-  notes_file: whispeer_notes.html
-  version_tested: 0.3.11
-  last_update: 2/3/2018
 
 - name: cashew
   category: 2
@@ -2026,8 +1993,8 @@
 - name: wire
   category: 2
   display_name: Wire
-  url: https://wire.com
-  recommendation: 3
+  url: https://wire.com/en/products/personal-secure-messenger/
+  recommendation: 2
   platforms: Android (<a href="https://wire.com/en/download/">Direct APK</a>), iOS, MacOS, Windows, Linux (Ubuntu, Debian, AppImage), Web
   source_type: open
   business_model: Enterprise version of the platform
@@ -2053,15 +2020,50 @@
   hammer_test_note: Wire has an option to delete messages from all participant's devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Countly
   websites: <a href="https://github.com/wireapp/">Source code</a>, <a href="https://wire-docs.wire.com/download/Wire+Audit+Report.pdf">Wire Audit</a>, <a href="https://wire-docs.wire.com/download/Wire+Security+Whitepaper.pdf">Security White Paper</a>, <a href="https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf">Privacy White Paper</a>
   notes_file: wire_notes.html
-  version_tested: 3.41.848
-  last_update: 11/14/2019
+  version_tested: 3.61.965
+  last_update: 1/1/2021
 
 
 # Category 3- Decentralized
+
+- name: conversations
+  category: 3
+  display_name: Conversations (XMPP)
+  url: https://conversations.im
+  recommendation: 1
+  platforms: Android
+  source_type: open
+  business_model: Funded through one time purchase of app and subscriptions to the conversations.im xmpp server
+  communication_types: Text, group chat, video, files, images
+  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
+  notes_file: conversations_notes.html
+  version_tested: 2.3.5
+  last_update: 11/11/2018
 
 - name: session
   category: 3
@@ -2168,41 +2170,6 @@
   version_tested: 7.6.1 (Android), 3.7.0 (MacOS)
   last_update: 8/12/2018
 
-- name: conversations
-  category: 3
-  display_name: Conversations (XMPP)
-  url: https://conversations.im
-  recommendation: 2
-  platforms: Android
-  source_type: open
-  business_model: Funded through one time purchase of app and subscriptions to the conversations.im xmpp server
-  communication_types: Text, group chat, video, files, images
-  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-128
-  country_origin: Germany
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Yes
-  has_ephemeral_messages: No
-  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
-  puddle_test: Recoverable
-  puddle_test_note: Messages are saved on the server
-  hammer_test: Recoverable
-  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
-  has_contact_verification: Yes
-  leaks_files: Android
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
-  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
-  notes_file: conversations_notes.html
-  version_tested: 2.3.5
-  last_update: 11/11/2018
-
 - name: pixart
   category: 3
   display_name: Pix-Art (XMPP)
@@ -2276,8 +2243,8 @@
 - name: retroshare
   category: 3
   display_name: RetroShare
-  url: http://retroshare.net
-  recommendation: 2
+  url: https://retroshare.cc
+  recommendation: 3
   platforms: <a href="http://retroshare.net/downloads.html">Windows, MacOS, Linux (many), FreeBSD</a>
   source_type: open
   business_model: Free open source project
@@ -2290,7 +2257,7 @@
   requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: N/A
-  is_locally_encrypted: "?"
+  is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   perfect_forward_secrecy_source: https://retroshareteam.wordpress.com/2012/12/28/cryptography-and-security-in-retroshare/
   message_stored_on_server: Yes
@@ -2783,6 +2750,42 @@
   version_tested: 1.0
   last_update: 7/11/2018
   notes_text: January 2019- Website is offline, cannot log into app
+  
+- name: whispeer
+  category: 11
+  display_name: Whispeer
+  url: https://whispeer.de
+  recommendation: 3
+  platforms: Android, iOS, Web
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, photos, files, audio recordings
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: Germany
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server.
+  hammer_test: Recoverable
+  hammer_test_note: There does not seem to be any way to delete messages or your account.
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: 
+  notes_file: whispeer_notes.html
+  version_tested: 0.3.11
+  last_update: 12/30/2020
+  notes_text: App appears dead- no updates to it since 2018 and I cannot log into the app with my account.
 
 - name: cypher
   category: 11
