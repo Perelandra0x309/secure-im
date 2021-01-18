@@ -82,6 +82,7 @@ There are various international intelligence sharing agreements, the most well k
 	<h2><strong>Level 5: Experimental (know what you're doing)</strong></h2>
 </div>
 <div class="w3-row-padding">
+  {% include favorites_card.html app_name="session" %}
   {% include favorites_card.html app_name="cabal" %}
 </div>
 
