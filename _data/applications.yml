@@ -2074,16 +2074,16 @@
   source_type: open
   business_model: <a href="https://docs.loki.network/LokiServices/LokiServicesOverview/">Loki Services</a>
   communication_types: Text, group chat, photos, files
-  encryption_protocol: Signal
-  shared_secret_exchange: X3DH
-  message_encryption_cipher: AES-256
+  encryption_protocol: <a href="https://getsession.org/session-protocol-technical-information/">Session Protocol</a> (using libsodium)
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: XSalsa20
   country_origin: Australia
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
   android_requires_google_play: No
   is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy: No
   message_stored_on_server: Temporarily
   has_ephemeral_messages: Yes
   encypted_by_default: Yes

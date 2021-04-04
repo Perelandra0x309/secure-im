@@ -321,13 +321,13 @@
   level: 5
   display_name: Session
   tagline: "Decentralized private network:"
-  privacy_message_score: 4
+  privacy_message_score: 3
   country_origin: None (Lokinet peer to peer network)
   pm_ephemeral: "&#10004;"
   pm_foolproof: "&#10004;"
   pm_no_leaks: "&#10004;"
   pm_not_recoverable: "&#10004;"
-  pm_pfs: "&#10004;"
+  pm_pfs: 
   privacy_id_score: 4
   pi_no_info: "&#10004;"
   pi_no_ph_em: "&#10004;"
