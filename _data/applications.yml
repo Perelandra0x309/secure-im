@@ -2170,14 +2170,14 @@
   version_tested: 7.6.1 (Android), 3.7.0 (MacOS)
   last_update: 8/12/2018
 
-- name: pixart
+- name: blabber.im
   category: 3
-  display_name: Pix-Art (XMPP)
-  url: https://jabber.pix-art.de
+  display_name: Blabber.im
+  url: https://blabber.im/en/
   recommendation: 2
   platforms: Android
   source_type: open
-  business_model: <a href="https://jabber.pix-art.de/privacy/">This service is privately financed</a>
+  business_model: "blabber.im is 100% self-contained, independent and a self-financed German community based in NRW. The servers are located in Germany."
   communication_types: Text, group chat, video, files, images
   encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
   shared_secret_exchange: ECDH25519
@@ -2186,7 +2186,7 @@
   requires_phone_number: No
   requires_email: No
   id_contains_contact_info: No
-  android_requires_google_play: No
+  android_requires_google_play: Yes
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
@@ -2200,10 +2200,10 @@
   leaks_files: Android
   exodus_privacy_trackers_count: 0
   exodus_privacy_trackers_description: None
-  websites: <a href="https://jabber.pix-art.de/privacy/">Privacy Policy</a>, <a href="https://github.com/kriztan/Pix-Art-Messenger">source code</a>
-  notes_file: pix-art_notes.html
-  version_tested: 2.1.4
-  last_update: 11/23/2018
+  websites: <a href="https://blabber.im/en/datenschutz/">Privacy Policy</a>, <a href="https://codeberg.org/kriztan/blabber.im">source code</a>, <a href="https://blabber.im/en/quick-start/migration-pixart-blabber/">Migrate from Pix-Art</a>
+  notes_file: blabber_notes.html
+  version_tested: 3.0.4
+  last_update: 4/4/2021
 
 - name: quicksy
   category: 3
@@ -2343,6 +2343,41 @@
   notes_file: adamant_notes.html
   version_tested: 
   last_update: 2/26/2019
+
+- name: conion
+  category: 3
+  display_name: Conion (XMPP)
+  url: https://conion.im
+  recommendation: 3
+  platforms: Android
+  source_type: open
+  business_model: 
+  communication_types: Text, group chat, video, files, images
+  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: 
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: 
+  notes_file: conion_notes.html
+  version_tested: 
+  last_update: 4/4/2021
 
 - name: cwtch
   category: 3

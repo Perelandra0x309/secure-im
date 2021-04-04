@@ -289,7 +289,7 @@
 - name: briar
   level: 4
   display_name: Briar Project
-  tagline: "Android Only over Tor:"
+  tagline: "Android or Linux over Tor:"
   privacy_message_score: 3
   country_origin: None (Tor peer to peer network)
   pm_ephemeral: 
