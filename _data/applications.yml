@@ -642,7 +642,7 @@
   url: https://www.signal.org
   recommendation: 1
   platforms: Android (<a href="https://signal.org/android/apk/">Direct APK download</a>), iOS, MacOS, Windows, Linux (Debian)
-  source_type: open
+  source_type: partialopen
   business_model: Free open source project supported by grants and donations
   communication_types: Text, voice, video, files, images
   encryption_protocol: <a href="https://www.signal.org/docs/">Signal</a>
@@ -668,10 +668,10 @@
   leaks_files: No
   exodus_privacy_trackers_count: 0
   exodus_privacy_trackers_description: None
-  websites: <a href="https://github.com/WhisperSystems">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
+  websites: <a href="https://github.com/signalapp">Source Code</a>, <a href="https://www.signal.org/docs/">Technical docs</a>
   notes_file: signal_notes.html
-  version_tested: 4.37.2
-  last_update: 4/10/2019
+  version_tested: 5.5.5
+  last_update: 4/4/2021
 
 - name: threema
   category: 2
@@ -704,10 +704,10 @@
   leaks_files: No
   exodus_privacy_trackers_count: 1
   exodus_privacy_trackers_description: Mapbox
-  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>, <a href="https://threema.ch/en/blog/posts/audit19en">Threema Audit</a>
+  websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>, <a href="https://threema.ch/en/blog/posts/audit19en">Audit (2019)</a>, <a href="https://threema.ch/en/blog/posts/audit-2020-en">Audit (2020)</a>, <a href="https://threema.ch/en/open-source">Open source info</a>
   notes_file: threema_notes.html
-  version_tested: 3.55
-  last_update: 11/24/2018
+  version_tested: 4.52
+  last_update: 4/4/2021
 
 
 - name: bat

@@ -61,7 +61,7 @@
   i_key_changes: "&#10004;"
   resistance_score: 2
   r_p2p_dec: 
-  r_opensource: "&#10004;"
+  r_opensource: "Client"
   r_selfhost: 
   r_platforms: 2
   install_url: /guide_signal.html
