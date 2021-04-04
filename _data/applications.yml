@@ -702,8 +702,8 @@
   hammer_test_note: When messages are deleted on all devices.
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 0
-  exodus_privacy_trackers_description: None
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Mapbox
   websites: <a href="https://threema.ch/press-files/cryptography_whitepaper.pdf">Cryptography Whitepaper</a>, <a href="https://threema.ch/en/blog/posts/audit19en">Threema Audit</a>
   notes_file: threema_notes.html
   version_tested: 3.55
@@ -750,7 +750,7 @@
   category: 2
   display_name: Blackberry Messenger Enterprise
   url: https://www.blackberry.com/us/en/products/messaging/bbm-enterprise/bbme
-  recommendation: 2
+  recommendation: 1
   platforms: Android, iOS, MacOS, Windows
   source_type: closed
   business_model: Subscriptions
@@ -774,12 +774,12 @@
   hammer_test_note: When messages are deleted on both sending and receiving devices
   has_contact_verification: Yes
   leaks_files: No
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Glympse, Google Firebase Analytics, MixPanel
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Glympse, MixPanel
   websites: <a href="https://docs.blackberry.com/content/dam/docs-blackberry-com/release-pdfs/en/bbm-enterprise/BBM_Enterprise_Security_Note.pdf">BBM Enterprise Security Note</a>
   notes_file: bbme_notes.html
-  version_tested: 1.11.1.13 (Android), 1.7.0.13 (iOS), 1.6.0.15 (MacOS)
-  last_update: 1/5/2021
+  version_tested: 1.12.1.13 (Android), 1.7.0.13 (iOS), 1.12.0.14 (MacOS)
+  last_update: 4/3/2021
 
 - name: brosix
   category: 2

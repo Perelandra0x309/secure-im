@@ -131,7 +131,7 @@
   notes_file: wickrme_card.html
   last_update: 
 
-- name: BBMe
+- name: bbme
   level: 2
   display_name: BBMe
   tagline: "Alternative:"
@@ -158,8 +158,8 @@
   r_opensource: 
   r_selfhost: 
   r_platforms: 4
-  install_url: 
-  notes_file: wickrme_card.html
+  install_url: https://www.blackberry.com/us/en/products/bbm-enterprise-bbme
+  notes_file: bbme_card.html
   last_update: 
 
 - name: wire
