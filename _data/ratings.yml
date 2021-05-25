@@ -332,8 +332,8 @@
   pi_no_info: "&#10004;"
   pi_no_ph_em: "&#10004;"
   pi_no_trackers: "&#10004;"
-  integrity_score: 3
-  i_audits: 
+  integrity_score: 4
+  i_audits: "&#10004;"
   i_cont_ver: "&#10004;"
   i_strong_ciphers: "&#10004;"
   i_good_country: "&#10004;"
