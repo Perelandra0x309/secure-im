@@ -1206,77 +1206,6 @@
   version_tested: Android- 1.2.3, iOS- 1.9.5
   last_update: 12/22/2018
 
-- name: eleet
-  category: 2
-  display_name: Eleet
-  url: https://eleet.im
-  recommendation: 3
-  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, photos, videos, audio files
-  encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-256
-  country_origin: UK
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: No
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: Yes
-  message_stored_on_server: Temporarily
-  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
-  hammer_test: Not Recoverable
-  hammer_test_note:  When messages are deleted on all devices
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
-  websites: 
-  notes_file: eleet_notes.html
-  version_tested: 2.0.29
-  last_update: 1/28/2018
-
-- name: foilchat
-  category: 2
-  display_name: foilChat
-  url: https://www.foilchat.com
-  recommendation: 3
-  platforms: Android, iOS, Web
-  source_type: closed
-  business_model: Enterprise version of the platform
-  communication_types: Text, group chat, photos, video, audio messages
-  encryption_protocol: "?"
-  shared_secret_exchange: <a href="https://www.foilchat.com/privacy/">RSA 4096 PKI</a>
-  message_encryption_cipher: AES-256
-  country_origin: Finland
-  requires_phone_number: No
-  requires_email: Yes
-  id_contains_contact_info: Email
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: No
-  message_stored_on_server: Yes
-  has_ephemeral_messages: Yes
-  encypted_by_default: Yes
-  puddle_test: Recoverable
-  puddle_test_note: Messages are stored on the server.
-  hammer_test: Recoverable
-  hammer_test_note: Android app leaks files.
-  has_contact_verification: No
-  leaks_files: Android
-  exodus_privacy_trackers_count: 2
-  exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp
-  websites: <a href="https://www.foilchat.com/privacy/">Security</a>
-  notes_file: foilchat_notes.html
-  version_tested: 1.4.39
-  last_update: 1/25/2018
-
 - name: fortknoxster
   category: 2
   display_name: FortKnoxster
@@ -1491,76 +1420,6 @@
   version_tested: 4.1.5
   last_update: 6/22/2018
 
-- name: kryptochat
-  category: 2
-  display_name: KryptoChat
-  url: https://www.kryptochat.com
-  recommendation: 3
-  platforms: Android, iOS
-  source_type: closed
-  business_model: $9.99 one time purchase
-  communication_types: Text, group chat, voice, audio conferencing, files, location
-  encryption_protocol: OTR
-  shared_secret_exchange: RSA 8192 PKI
-  message_encryption_cipher: AES-256
-  country_origin: United Arab Emirates
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: "?"
-  message_stored_on_server: "?"
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Account is unique to each device
-  hammer_test: Recoverable
-  hammer_test_note: Android client leaks files
-  has_contact_verification: No
-  leaks_files: Android
-  exodus_privacy_trackers_count: 1
-  exodus_privacy_trackers_description: Google Firebase Analytics
-  websites: <a href="https://www.kryptochat.com/encryption/">Encryption</a>
-  notes_file: kryptochat_notes.html
-  version_tested: "Android: 3.4, iOS: 4.0"
-  last_update: 2/27/2019
-
-- name: ravn
-  category: 2
-  display_name: Ravn
-  url: https://ravnapp.com
-  recommendation: 3
-  platforms: Android, iOS
-  source_type: closed
-  business_model: Selling decoy apps (icons) that hide the real app, crypto currency transaction fees
-  communication_types: Text, photos, video, voice notes, files, location
-  encryption_protocol: "?"
-  shared_secret_exchange: ECDH25519
-  message_encryption_cipher: AES-256
-  country_origin: Dominican Republic
-  requires_phone_number: No
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: Yes
-  perfect_forward_secrecy: "?"
-  message_stored_on_server: Temporarily
-  has_ephemeral_messages: No
-  encypted_by_default: Yes
-  puddle_test: Not Recoverable
-  puddle_test_note: Messages are saved on the device only.
-  hammer_test: Not Recoverable
-  hammer_test_note: When messages are deleted on all devices.
-  has_contact_verification: No
-  leaks_files: No
-  exodus_privacy_trackers_count: 6
-  exodus_privacy_trackers_description: Google Ads, Google Analytics, Google CrashLytics, DoubleClick, Google Firebase Analytics, MixPanel
-  websites: <a href="https://ravnapp.com/wp-content/uploads/2018/10/RAVN-KORRAX-WHITE-PAPER.pdf">Whitepaper</a>
-  notes_file: ravn_notes.html
-  version_tested: "Android: 3.4.22, iOS: 1.0.4"
-  last_update: 3/9/2019
-
 - name: secems
   category: 2
   display_name: SecEMS
@@ -1741,41 +1600,6 @@
   notes_file: telegram_notes.html
   version_tested: 4.9.1
   last_update: 1/5/2019
-
-- name: together
-  category: 2
-  display_name: Together
-  url: https://squirrel.yahoo.com
-  recommendation: 3
-  platforms: Android, iOS
-  source_type: closed
-  business_model: It's Yahoo!
-  communication_types: text, photos, group chat, files
-  encryption_protocol: "?"
-  shared_secret_exchange: "?"
-  message_encryption_cipher: "?"
-  country_origin: USA
-  requires_phone_number: Yes
-  requires_email: No
-  id_contains_contact_info: No
-  android_requires_google_play: Yes
-  is_locally_encrypted: "?"
-  perfect_forward_secrecy: "?"
-  message_stored_on_server: "?"
-  has_ephemeral_messages: No
-  encypted_by_default: No
-  puddle_test: "?"
-  puddle_test_note: 
-  hammer_test: "?"
-  hammer_test_note: 
-  has_contact_verification: No
-  leaks_files: "? Needs more testing"
-  exodus_privacy_trackers_count: 3
-  exodus_privacy_trackers_description: Flurry, Google Ads, Google DoubleClick
-  websites: 
-  notes_file: together_notes.html
-  version_tested: 1.5.1
-  last_update: 10/21/2018
 
 - name: twicie
   category: 2
@@ -2569,6 +2393,79 @@
   recommendation: 3
   notes_text: "<blockquote>Note from Nadim Kobeissi:<br>Cryptocat began in 2011 as an experiment in making secure messaging more accessible. In the eight ensuing years, Cryptocat served hundreds of thousands of users and developed a great story to tell.<br>Now, I have moved on in my life to other things and no longer have time to maintain this project.<br>Cryptocat users deserve a maintained secure messenger, which is why I recommend Wire.<br>The Cryptocat <a href=\"https://github.com/cryptocat\">source code</a> is still published on GitHub under the GPL version 3 license.</blockquote>"
 
+- name: eleet
+  category: 11
+  display_name: Eleet
+  url: 
+  recommendation: 3
+  platforms: Android (<a href="https://eleet.im/downl/Apk">direct APK download</a>), iOS, MacOS, Windows, Linux (AppImage), Web
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, photos, videos, audio files
+  encryption_protocol: <a href="https://eleet.im/support/#1462229688021-f8283d00-1275">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: UK
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Temporarily
+  message_stored_on_server_source: https://eleet.im/support/#1462229688021-f8283d00-1275
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages not saved on the server, only on each device.  You do not get historical messages when installing on a new device.
+  hammer_test: Not Recoverable
+  hammer_test_note:  When messages are deleted on all devices
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google CrashLytics, Google Firebase Analytics
+  websites: 
+  notes_file: eleet_notes.html
+  notes_text: "Eleet/CorpChat hasn't been updated since Apr 19 2019 and the websites are no longer available."
+  version_tested: 2.0.29
+  last_update: 1/28/2018
+
+- name: foilchat
+  category: 11
+  display_name: foilChat
+  url: https://www.foilchat.com
+  recommendation: 3
+  platforms: Android, iOS, Web
+  source_type: closed
+  business_model: Enterprise version of the platform
+  communication_types: Text, group chat, photos, video, audio messages
+  encryption_protocol: "?"
+  shared_secret_exchange: <a href="https://www.foilchat.com/privacy/">RSA 4096 PKI</a>
+  message_encryption_cipher: AES-256
+  country_origin: Finland
+  requires_phone_number: No
+  requires_email: Yes
+  id_contains_contact_info: Email
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: No
+  message_stored_on_server: Yes
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Recoverable
+  puddle_test_note: Messages are stored on the server.
+  hammer_test: Recoverable
+  hammer_test_note: Android app leaks files.
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 2
+  exodus_privacy_trackers_description: Google Firebase Analytics, HockeyApp
+  websites: <a href="https://www.foilchat.com/privacy/">Security</a>
+  notes_file: foilchat_notes.html
+  notes_text: "The foilchat website is no longer available."
+  version_tested: 1.4.39
+  last_update: 1/25/2018
+
 - name: freemessage
   category: 11
   display_name: FreeMessage
@@ -2601,6 +2498,42 @@
   last_update: 11/24/2018
   notes_text: FreeMessage has now been integrated into the GMX mail app, however now if you send a message to a non-FreeMessage user it gets converted into a regular SMS message.
 
+- name: kryptochat
+  category: 11
+  display_name: KryptoChat
+  url: https://www.kryptotel.net/en/kryptochat/
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: $9.99 one time purchase
+  communication_types: Text, group chat, voice, audio conferencing, files, location
+  encryption_protocol: OTR
+  shared_secret_exchange: RSA 8192 PKI
+  message_encryption_cipher: AES-256
+  country_origin: United Arab Emirates
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Account is unique to each device
+  hammer_test: Recoverable
+  hammer_test_note: Android client leaks files
+  has_contact_verification: No
+  leaks_files: Android
+  exodus_privacy_trackers_count: 1
+  exodus_privacy_trackers_description: Google Firebase Analytics
+  websites: <a href="https://www.kryptochat.com/encryption/">Encryption</a>
+  notes_file: kryptochat_notes.html
+  notes_text: "The app has been removed from the Google Play store and the website redirects to a secure phone product."
+  version_tested: "Android: 3.4, iOS: 4.0"
+  last_update: 2/27/2019
+
 - name: mega
   category: 11
   display_name: MEGA
@@ -2630,6 +2563,78 @@
   display_name: PulseSMS
   recommendation: 3
   notes_text: (messenger.klinkerapps.com)- This app doesn't offer E2EE, what it does offer is using SMS on multiple devices using your phone by connecting each device to an encrypted cloud server.  Which is very cool!  But once your message leaves your phone it is sent over standard open SMS channels unencrypted.
+
+- name: ravn
+  category: 11
+  display_name: Ravn
+  url: https://ravnapp.com
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: Selling decoy apps (icons) that hide the real app, crypto currency transaction fees
+  communication_types: Text, photos, video, voice notes, files, location
+  encryption_protocol: "?"
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-256
+  country_origin: Dominican Republic
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: No
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages are saved on the device only.
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on all devices.
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 6
+  exodus_privacy_trackers_description: Google Ads, Google Analytics, Google CrashLytics, DoubleClick, Google Firebase Analytics, MixPanel
+  websites: <a href="https://ravnapp.com/wp-content/uploads/2018/10/RAVN-KORRAX-WHITE-PAPER.pdf">Whitepaper</a>
+  notes_file: ravn_notes.html
+  notes_text: "The website is not available and there have been no updates since Oct 26 2019 in the app store."
+  version_tested: "Android: 3.4.22, iOS: 1.0.4"
+  last_update: 3/9/2019
+
+- name: together
+  category: 11
+  display_name: Together
+  url: https://squirrel.yahoo.com
+  recommendation: 3
+  platforms: Android, iOS
+  source_type: closed
+  business_model: It's Yahoo!
+  communication_types: text, photos, group chat, files
+  encryption_protocol: "?"
+  shared_secret_exchange: "?"
+  message_encryption_cipher: "?"
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: Yes
+  is_locally_encrypted: "?"
+  perfect_forward_secrecy: "?"
+  message_stored_on_server: "?"
+  has_ephemeral_messages: No
+  encypted_by_default: No
+  puddle_test: "?"
+  puddle_test_note: 
+  hammer_test: "?"
+  hammer_test_note: 
+  has_contact_verification: No
+  leaks_files: "? Needs more testing"
+  exodus_privacy_trackers_count: 3
+  exodus_privacy_trackers_description: Flurry, Google Ads, Google DoubleClick
+  websites: 
+  notes_file: together_notes.html
+  notes_text: "Yahoo shut down this service in 2019."
+  version_tested: 1.5.1
+  last_update: 10/21/2018
 
 - name: tormessenger
   category: 11
