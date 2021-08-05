@@ -57,7 +57,7 @@
   is_locally_encrypted: Yes
   perfect_forward_secrecy: Yes
   message_stored_on_server: Never
-  has_ephemeral_messages: No
+  has_ephemeral_messages: Yes
   encypted_by_default: Yes
   puddle_test: Not Recoverable
   puddle_test_note: Messages saved only on device
@@ -69,8 +69,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://code.briarproject.org/akwizgran/briar/tree/master">Source Code</a>
   notes_file: briar_notes.html
-  version_tested: 1.2.3
-  last_update: 7/7/2019
+  version_tested: 1.3.6
+  last_update: 8/4/2021
 
 - name: silence
   category: 1
@@ -710,6 +710,41 @@
   notes_file: keybase_notes.html
   version_tested: 5.5.0
   last_update: 12/31/2020
+
+- name: onionshare
+  category: 2
+  display_name: OnionShare
+  url: https://onionshare.org#download
+  recommendation: 2
+  platforms: Linux, MacOS, Windows, Android
+  source_type: open
+  business_model: Free open source project
+  communication_types: Text
+  encryption_protocol: <a href="https://docs.onionshare.org/2.3.2/en/tor.html">Tor hidden services/TLS</a>
+  shared_secret_exchange: <a href="https://gitweb.torproject.org/torspec.git/tree/tor-spec.txt">ECDH25519</a>
+  message_encryption_cipher: AES-128 or better
+  country_origin: None
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: No
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  puddle_test: Not Recoverable
+  puddle_test_note: 
+  hammer_test: Not Recoverable
+  hammer_test_note: 
+  has_contact_verification: No
+  leaks_files: No
+  exodus_privacy_trackers_count: 
+  exodus_privacy_trackers_description: N/A
+  websites: <a href="https://github.com/micahflee/onionshare">Source</a>
+  notes_file: onionshare_notes.html
+  version_tested: 2.3.2
+  last_update: 8/5/2021
 
 - name: safeswiss
   category: 2
