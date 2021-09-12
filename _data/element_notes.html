@@ -1,35 +1,37 @@
-Riot <a href="https://about.riot.im/features#security">Security</a><br>
-The web app can be used over Tor (thanks lwinch2006)<br>
+<strong>Update Sept 2021:</strong><br>
+Over the last 4 years I have watched Riot/Element/Matrix mature and grow.  What I once saw as a promising platform for security and privacy now I see as an ever growing beast with a huge surface area for abuse and misuse.  What I mean by that is:<br>
+<ul>
+<li>Abuse: The larger your code base, feature set and number of systems that you integrate with, the more likely that there are vulnerabilities that can be exploited to compromise security.</li>
+<li>Misuse: Matrix may have end to end encryption in its own rooms, but that is not the case throughout the entire system.  The more integrations that are made with other systems which are not encrypted the more likely someone is going to make a mistake and say something they thought would be private but really is not.</li>
+</ul>
+<br>
+Matrix <strong>wants</strong> to connect with other non secure messaging systems via bridges.  Just take a look at <a href="https://matrix.org/bridges/">all the bridges that are available</a>. As of the time of writing this the bridges are for: IRC, Slack, RSS, SMS, Skype, Email, LinkedIn Messaging, Discord, Facebook Messenger, Mattermost, iMessage, Mumble, WeChat, libpurple, Keybase, Google Hangouts, GroupMe, LINE, RocketChat, Instagram, Telegram, WhatsApp, Twitter, Signal, Tencent QQ, Tox, Mastodon and Gitter.<br>
+<br>
+The Matrix org is also not going to be in control of all the interoperability of these bridges to other unsecure sysstems.  Rooms that you join in Matrix could be connected and streaming data to bridges written by pretty much anyone without any standard of ensuring the code is secure.  From <a href="https://matrix.org/faq/#what-do-you-mean-by-open%3F">https://matrix.org/faq/#what-do-you-mean-by-open%3F</a><br>
+<br>
+<q><i>Matrix is an open standard, meaning that we have freely published the details for how to communicate interoperably using the Matrix set of HTTP APIs. We encourage anyone and everyone to use the APIs and build their own projects which implement them and so benefit from interoperability with the rest of the Matrix ecosystem. We also ensure the standard is not encumbered by any known patent licensing requirements.</i></q><br>
+<br>
+What does Matrix say its mission is?<br>
+<br>
+<q><i><a href="https://matrix.org/faq/#what-is-matrix's-mission%3F">Matrix’s initial goal is to fix the problem of fragmented IP communications: letting users message and call each other without having to care what app the other user is on - making it as easy as sending an email.</a></i></q><br>
+<br>
+And we know how secure email is, right?<br>
 <br>
 Encryption:<br>
 <br>
-Riot uses <a href="https://matrix.org/git/olm/about/docs/olm.rst">Olm</a> for one on one chats and <a href="https://matrix.org/git/olm/about/docs/megolm.rst">Megolm</a> for group chats. It implements a double ratchet key algorithm similar to Signal but is a distinct product.<br>
+Element uses <a href="https://matrix.org/git/olm/about/docs/olm.rst">Olm</a> for one on one chats and <a href="https://matrix.org/git/olm/about/docs/megolm.rst">Megolm</a> for group chats within Matrix. It implements a double ratchet key algorithm similar to Signal but is a distinct product.<br>
 <ul>
 <li>The setup takes four Curve25519 inputs: Identity keys for Alice and Bob, IA and IB, and one-time keys for Alice and Bob, EA and EB.</li>
 <li>A shared secret, S, is generated using Triple Diffie-Hellman.</li>
 <li>The initial 256 bit root key, R0, and 256 bit chain key, C0, 0, are derived from the shared secret using an HMAC-based Key Derivation Function using SHA-256 as the hash function (HKDF-SHA-256) with default salt and "OLM_ROOT" as the info.</li>
 </ul>
 <br>
-<a href="https://github.com/Perelandra0x309/secure-im/issues/64">Muppeth from Github notes</a>:<br>
-<blockquote>
-<ul>
-<li>All files can be obtained if you know URL. No need to be part of the room. Also no files by default are encrypted.</li>
-<li>All contact are stored on the server in plain text</li>
-<li>Server keeps track of every time you login/logout/open client without any retention time indefinatelly since the moment you created an account (that data consists of timestamp, user agent, your ip and your token</li>
-<li>Server keeps track of your activity in each room indefinatelly. Each server is aware of all room participants since the inception of the room. Even if the room was not originally created on the server (as soon as user of another server joins in, the state of the room such as member list, joins and leaves etc is synced to that server)</li>
-<li>Server keeps indefinatelly even things like which line/post you have read last time.</li>
-<li>Server keeps indefinatelly every IP address you have used since you created account</li>
-</ul>
-</blockquote>
-<br>
-My verdict: Great social platform, I have concerns about meta data and UK privacy laws<br>
-<br>
-Element/Matrix is a great way to meet new people, and with E2EE for individual and group chats it offers a way to go dark for private conversations.  Be careful though because E2EE is not on by default, it must be enabled.<br>
+Element/Matrix is a great way to meet new people, and with E2EE for individual and group chats (in Matrix only) it offers a way to go dark for private conversations.  Be careful though because any bridge to another system exposes all data to that platform which will have completly different security and privacy features.<br>
 <br>
 While Matrix is designed as a decentralized system where anyone can choose their own server there currently aren't very many choices.  Most people choose the default Matrix home server, so there is not a lot of decentralization going on yet.  Even if you do choose a different server, conversations are synced to all the servers of all the room participants.  So that means that pretty much all rooms will be synced to the Matrix home server since there is most likely to be at least one person in each room from the Matrix server.<br>
 <br>
 Validating other user's devices is still not completely smooth, the new system does not always work.  Sometimes it is necessary to go back to the old manual verification method.<br>
 <br>
-My verdict: Not decentralized enough yet, and not encrypted<br>
+My verdict: Maybe a good social platform, but connects with all types of other non-private messaging systems<br>
 <br>
-Most people still use the default matrix.org server, so almost 100% of the messages on this system are being replicated back to this central server.  Also this is not encrypted by default.
+Most people still use the default matrix.org server, so almost 100% of the messages on this system are being replicated back to this central server.

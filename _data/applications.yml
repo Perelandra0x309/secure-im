@@ -1642,7 +1642,7 @@
   display_name: Session Messenger
   url: https://getsession.org
   recommendation: 2
-  platforms: Android, iOS, MacOS, Windows, Linux (Debian)
+  platforms: Android, iOS, MacOS, Windows, Linux
   source_type: open
   business_model: <a href="https://docs.loki.network/LokiServices/LokiServicesOverview/">Loki Services</a>
   communication_types: Text, group chat, photos, files
@@ -1669,14 +1669,14 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://getsession.org/faq/">FAQ</a>, <a href="https://getsession.org/whitepaper">Whitepaper</a>, <a href="https://github.com/Loki-project">Source</a>
   notes_file: session_notes.html
-  version_tested: "Android: 1.6.1, MacOS: v1.4.0, iOS: 1.2.0"
-  last_update: 10/24/2020
+  version_tested: "Android: 1.11.6, MacOS: v1.4.0, iOS: 1.2.0, Linux v1.7.0"
+  last_update: 9/12/2021
 
 - name: element
   category: 3
-  display_name: Element
+  display_name: Element (Matrix)
   url: https://element.io
-  recommendation: 2
+  recommendation: 3
   platforms: Android (<a href="https://f-droid.org/repository/browse/?fdid=im.vector.app">on F-Droid</a>), iOS, MacOS, Windows, Linux (Debian, Ubuntu), Web
   source_type: open
   business_model: Open source, Matrix.org funded through <a href="https://matrix.org/blog/home/">donations</a> and investors
@@ -1693,7 +1693,7 @@
   perfect_forward_secrecy: Yes
   message_stored_on_server: Yes
   has_ephemeral_messages: No
-  encypted_by_default: Yes
+  encypted_by_default: No
   puddle_test: Not Recoverable
   puddle_test_note: Messages are saved on the server, however if the session keys are lost then they cannot be decrypted.
   hammer_test: Not Recoverable
@@ -1704,8 +1704,8 @@
   exodus_privacy_trackers_description: None
   websites: <a href="https://github.com/vector-im">Source code</a>
   notes_file: element_notes.html
-  version_tested: 1.7.9
-  last_update: 10/15/2020
+  version_tested: 1.8.2
+  last_update: 9/12/2021
 
 - name: babelnet
   category: 3
