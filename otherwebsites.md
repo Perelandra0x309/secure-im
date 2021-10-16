@@ -28,7 +28,7 @@ Here are some other resources that contain information about online privacy:<br>
 
 <h2>Websites</h2>
 <br>
-<a href="https://www.privacytools.io/#im" target="_blank">privacytools.io</a><br>
+<a href="https://privacyguides.org/software/real-time-communication/#im" target="_blank">privacyguides.org</a><br>
 <a href="https://prism-break.org" target="_blank">Prism Break</a><br>
 <a href="https://ssd.eff.org/en/module/communicating-others" target="_blank">EFF- Communication with Others</a> (Also <a href="https://www.eff.org/secure-messaging-scorecard" target="_blank">EFF messaging scorecard</a> is out of date but still useful)<br>
 <a href="https://ssd.eff.org" target="_blank">EFF Surveillence Self-Defense</a><br>
