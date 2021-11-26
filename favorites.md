@@ -65,7 +65,7 @@ There are various international intelligence sharing agreements, the most well k
 </div>
 <div class="w3-row-padding">
   {% include favorites_card.html app_name="twinme" %}
-  {% include favorites_card.html app_name="conversations" %}
+  {% include favorites_card.html app_name="snikket" %}
 </div>
 
 <br>

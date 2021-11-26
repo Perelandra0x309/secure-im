@@ -1,0 +1,35 @@
+<p>Snikket is a little different than most apps listed on this website in that it is actually a suite of different applications. Currently the suite consists of an XMPP server based on Prosody, an Android client based on Conversations and an iOS client based on Siskin.  So there are really 2 clients and one server, however I am grouping them together because the intent of the Snikket project is to create a more unified XMPP chat experience.  Currently most XMPP clients are only available on one or two platforms, between Android, iOS, Windows, Mac and Linux.  So using XMPP on different platforms is often a very different experience with the client user interfaces and features available.  Snikket is trying to fix this by providing more consistant experience across all platforms and feature sets available by default.  There are plans to add desktop and web based clients as well.</p>
+<br />
+<p>The Snikket server is designed to be very easy to setup and provides a large set of features enabled by default.  The server design makes it easier for anyone with basic Linux skills to setup their own server so that they can have control over all their XMPP data.  Using any of the Snikket clients with a Snikket server will ensure that features work out of the box without special configurations.</p>
+<br />
+<p>I am very pleased with the way Snikket is approaching the XMPP problem of inconsitancy of experience across platforms.  I have setup my own Snikket server and it took only 30 minutes on an existing VPS server I had running.  That time included installing the docker and docker-compose packages, configuring new DNS rules for the server domain, downloading the Snikket server files and starting the 4 docker images, and configuring the firewall rules on the server.  It was another 5 minutes to create my first invitation on the server and signup from an Android device using that invitation to signup for a new XMPP account.  This process eliminates many barriers for both self-hosting your own XMPP server and makes the signup process for a new user account much easier.</p>
+<br>
+Here is some good reading on the issues with OMEMO encryption and contact trust and verification.  These are not easy concepts for the normal person to grasp: <a href="https://gultsch.de/trust.html">Blind Trust Before Verification</a>. OMEMO encryption only works in private (members only) conferences and individual chats, so it will not work in open group chats.<br>
+<br>
+Here are some settings to make Conversations more secure:<br>
+<br>
+Settings->OMEMO Encryption: Set to &quot;Always&quot;<br>
+<img src="/images/conv_omemo_encryption.png"><br>
+<br>
+Settings->Expert Settings->Blind Trust Before Verification: Disable<br>
+<img src="/images/conv_blind_trust.png"><br>
+<br>
+Manage Accounts->Click on account->Top right corner hamburger->Archiving preferences: either &quot;Contacts&quot; or &quot;Never&quot;<br>
+<img src="/images/conv_server_side_archiving.png"><br>
+<br>
+
+
+<p>XMPP by design does save some information in unencrypted format so it is important that you trust the administrator of your server.  By self hosting you are in control of all the information on your own server, however if you communicate with XMPP users on others servers there still is some unencrypted information that those users will have saved on their server.  This data may include:</p>
+<ul>
+<li>Archiving of messages on the server is a concern.  Even if the messages are OMEMO encrypted it is only the message contents that are encrypted.  Other meta data with the message is not encrypted.  Some goes for the files which are uploaded encrypted.</li>
+<li>All your contacts are stored unencrypted.</li>
+<li>Avatar</li>
+<li>Bookmarks</li>
+</ul>
+When XMPP was first developed there was no encryption implemented in the design.  OMEMO adds encryption to the message contents, but the underlying system of XMPP remains unencrypted.  It is just the nature of this system that confidentiality is only available for message contents.  In many ways it is very similar to PGP which only added encryption to the message contents of emails.<br>
+<br>
+Another aspect of security is that on Android photos are automatically saved to your phone's photo gallery where they are saved unencrypted.  And if you have any backup or cloud syncing setup for your photos then these photos from Snikket wil also show up in your online storage. You can turn off storage access for the app, thus preventing any photos or files from being able to be saved to the device, but that also prevents them from being downloaded and viewed in the app as well, essentially making Snikket a text only messenger.  Photos are saved in Local Storage/Device Storage/Snikket/Media.<br>
+<br>
+My Verdict: The best XMPP suite and data protection with self hosting.<br>
+<br>
+I fully support the direction this project is going to achieve wider adoption of XMPP for both users and those who wish to host their own server.  Creating applications that are designed to work with the server out of the box and a server that is easy to administrate is a different tactic than all the other XMPP software out there.<br>

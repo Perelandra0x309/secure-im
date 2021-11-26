@@ -1602,6 +1602,41 @@
 
 # Category 3- Decentralized
 
+- name: snikket
+  category: 3
+  display_name: Snikket (XMPP)
+  url: https://snikket.org
+  recommendation: 1
+  platforms: Android, iOS
+  source_type: open
+  business_model: <a href="https://snikket.org/donate/">Donations</a>, planned paid Snikket server hosting
+  communication_types: Text, group chat, video, files, images
+  encryption_protocol: <a href="https://conversations.im/omemo/xep-omemo.html#intro">Signal</a>
+  shared_secret_exchange: ECDH25519
+  message_encryption_cipher: AES-128
+  country_origin: 
+  requires_phone_number: No
+  requires_email: No
+  id_contains_contact_info: No
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  message_stored_on_server: Yes
+  has_ephemeral_messages: No
+  encypted_by_default: No (Unless OMEMO Encyption is set to Always)
+  puddle_test: Recoverable
+  puddle_test_note: Messages are saved on the server
+  hammer_test: Recoverable
+  hammer_test_note: You can leave a conversation but this does not delete it.  Android client also leaks files.
+  has_contact_verification: Yes
+  leaks_files: Android
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://xmpp.org/getting-started/">Getting Started</a>
+  notes_file: snikket_notes.html
+  version_tested: "Android: 2.10.2, Server: test 35-fbc5a"
+  last_update: 11/26/2021
+
 - name: conversations
   category: 3
   display_name: Conversations (XMPP)

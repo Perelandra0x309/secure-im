@@ -224,6 +224,37 @@
   notes_file: twinme_card.html
   last_update: 
   
+- name: snikket
+  level: 3
+  display_name: Snikket (XMPP)
+  tagline: "For advanced users that self-host:"
+  privacy_message_score: 2
+  country_origin: Depends on your server location
+  pm_ephemeral: 
+  pm_foolproof: 
+  pm_no_leaks: 
+  pm_not_recoverable: 
+  pm_pfs: "&#10004;"
+  privacy_id_score: 4
+  pi_no_info: "&#10004;"
+  pi_no_ph_em: "&#10004;"
+  pi_no_trackers: "&#10004;"
+  integrity_score: 3
+  i_audits: 
+  i_cont_ver: "&#10004;"
+  i_strong_ciphers: "&#10004;"
+  i_good_country: "&#10004;"
+  i_good_business: "&#10004;"
+  i_key_changes: 
+  resistance_score: 4
+  r_p2p_dec: "&#10004;"
+  r_opensource: "&#10004;"
+  r_selfhost: "&#10004;"
+  r_platforms: "All"
+  install_url: /install_conversations.html
+  notes_file: conversations_card.html
+  last_update: 
+
 - name: conversations
   level: 3
   display_name: Conversations
