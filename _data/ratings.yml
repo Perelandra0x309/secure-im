@@ -251,7 +251,7 @@
   r_opensource: "&#10004;"
   r_selfhost: "&#10004;"
   r_platforms: "All"
-  install_url: /install_conversations.html
+  install_url: https://snikket.org/app/features/
   notes_file: conversations_card.html
   last_update: 
 
