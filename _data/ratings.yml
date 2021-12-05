@@ -284,7 +284,7 @@
   r_selfhost: "&#10004;"
   r_platforms: "All"
   install_url: https://snikket.org/app/features/
-  notes_file: conversations_card.html
+  notes_file: snikket_card.html
   last_update: 
 
 - name: conversations
