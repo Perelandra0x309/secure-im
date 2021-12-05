@@ -532,6 +532,43 @@
   version_tested: 5.5.5
   last_update: 4/4/2021
 
+- name: molly
+  category: 2
+  display_name: Molly
+  url: https://www.molly.im
+  recommendation: 1
+  platforms: Android
+  source_type: partialopen
+  business_model: Free open source project supported by donations
+  communication_types: Text, voice, video, files, images
+  encryption_protocol: <a href="https://www.signal.org/docs/">Signal</a>
+  shared_secret_exchange: X3DH Curve25519 or Curve448
+  message_encryption_cipher: AES-256
+  country_origin: USA
+  requires_phone_number: Yes
+  requires_email: No
+  id_contains_contact_info: Phone
+  android_requires_google_play: No
+  is_locally_encrypted: Yes
+  perfect_forward_secrecy: Yes
+  perfect_forward_secrecy_source: https://www.signal.org/docs/specifications/doubleratchet/#introduction
+  message_stored_on_server: Temporarily
+  has_ephemeral_messages: Yes
+  encypted_by_default: Yes
+  encypted_by_default_source: 
+  puddle_test: Not Recoverable
+  puddle_test_note: Messages saved only on device
+  hammer_test: Not Recoverable
+  hammer_test_note: When messages are deleted on both sending and receiving devices
+  has_contact_verification: Yes
+  leaks_files: No
+  exodus_privacy_trackers_count: 0
+  exodus_privacy_trackers_description: None
+  websites: <a href="https://github.com/mollyim/mollyim-android/tree/master">Source Code</a>
+  notes_file: molly_notes.html
+  version_tested: "5.26.11-1-FOSS"
+  last_update: 12/5/2021
+
 - name: threema
   category: 2
   display_name: Threema

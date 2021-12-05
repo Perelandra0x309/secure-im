@@ -39,7 +39,7 @@
 - name: signal
   level: 1
   display_name: Signal
-  tagline: 
+  tagline: "Easy and secure"
   privacy_message_score: 3
   country_origin: USA
   pm_ephemeral: "&#10004;"
@@ -67,6 +67,38 @@
   install_url: /guide_signal.html
   notes_file: signal_card.html
   last_update: 
+
+- name: molly
+  level: 1
+  display_name: Molly
+  tagline: "Google free Signal fork for Android"
+  privacy_message_score: 4
+  country_origin: USA
+  pm_ephemeral: "&#10004;"
+  pm_foolproof: "&#10004;"
+  pm_no_leaks: "&#10004;"
+  pm_not_recoverable: "&#10004;"
+  pm_pfs: "&#10004;"
+  privacy_id_score: 2
+  pi_no_info: 
+  pi_no_ph_em: 
+  pi_no_trackers: "&#10004;"
+  integrity_score: 3
+  i_audits: "&#10004;"
+  i_audits_url: "https://eprint.iacr.org/2016/1013.pdf"
+  i_cont_ver: "&#10004;"
+  i_strong_ciphers: "&#10004;"
+  i_good_country: 
+  i_good_business: "&#10004;"
+  i_key_changes: "&#10004;"
+  resistance_score: 2
+  r_p2p_dec: 
+  r_opensource: "Client"
+  r_selfhost: 
+  r_platforms: 1
+  install_url: /guide_signal.html
+  notes_file: molly_card.html
+  last_update:
 
 - name: threema
   level: 2

@@ -48,6 +48,7 @@ There are various international intelligence sharing agreements, the most well k
 </div>
 <div class="w3-row-padding">
   {% include favorites_card.html app_name="signal" %}
+  {% include favorites_card.html app_name="molly" %}
 </div>
 
 <br>
