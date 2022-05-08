@@ -1920,16 +1920,16 @@
 
 - name: zom
   category: 3
-  display_name: Zom
+  display_name: Zom (Matrix)
   url: https://zom.im/
-  recommendation: 2
+  recommendation: 3
   platforms: Android, iOS
   source_type: open
   business_model: "?"
   communication_types: Text, group chat, photos, stickers, audio
-  encryption_protocol: OTR, BouncyCastle
-  shared_secret_exchange: <a href="https://github.com/otr4j/otr4j">ECDH448</a>
-  message_encryption_cipher: XSalsa20
+  encryption_protocol: Matrix Olm
+  shared_secret_exchange: X3DH Curve25519
+  message_encryption_cipher: AES-256
   country_origin: USA
   requires_phone_number: No
   requires_email: No
@@ -1948,10 +1948,10 @@
   leaks_files: No
   exodus_privacy_trackers_count: 0
   exodus_privacy_trackers_description: None
-  websites: <a href="https://github.com/zom">Source code</a>, <a href="https://chatsecure.org/blog/chatsecure-conversations-zom/">Fork announcement</a>
+  websites: <a href="https://github.com/zom/zom-android>Source code</a>
   notes_file: zom_notes.html
-  version_tested: 15.8.0-RC-2 (Android), 1.0.24 (iOS)
-  last_update: 4/23/2019
+  version_tested: 3.0.6-RC-4 (Android)
+  last_update: 5/8/2022
 
 - name: adamant
   category: 3
