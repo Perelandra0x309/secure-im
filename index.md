@@ -4,7 +4,7 @@ title: Welcome!
 ---
 
 <center><h1>Welcome!</h1></center>
-<p>This site began as a project to document my research into secure instant messaging applications which started in 2018.  I hope you find these reviews and notes useful if you are also searching.</p>
+<p>This site began as a project to document my research into secure instant messaging applications which started in 2018.  For almost 3 years I tried over 100 different messaging apps and documented my findings and opinions abut the security, privacy and usability of these apps.  I am no longer actively testing these apps but I have left this website up for anyone interested in seeing information about these apps at the time they were reviewed.  As time progresses information here may become inaccurate regarding the current state of these apps so only use the information here as a starting point and be sure to verify if anything has changed with the current versions of these apps.</p>
 <center>
 <div><h2><a href="/favorites.html" {{ site.class_button_internal }}>Instant messaging apps I recommend</a></h2></div>
 <p><h2><a href="{% link videochat.md %}" {{ site.class_button_internal }}>Video chat options in these times of social distancing</a></h2></p>
